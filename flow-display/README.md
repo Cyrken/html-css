@@ -1,5 +1,3 @@
-/*
-
 # Flow & display
 
 When a browser renders your website it reads the HTML from the top to the bottom.
@@ -12,9 +10,7 @@ Elements may bump to the next line when:
 - CSS causes it,
 - or a `<br>` tag.
 
- */
-
-/*
+## Inline
 
 `<span>` elements by default are `inline` level
 
@@ -24,14 +20,7 @@ Inline level:
 - Takes up only as much width as needed
 - `width`, `margin`, `padding` don't really work
 
- */
-span {
-	background-color: #f00;
-	padding: 1em;
-	width: 15em;
-}
-
-/*
+## Block
 
 `<div>` elements are specified as `block` in the browser's default CSS
 
@@ -41,14 +30,7 @@ Block level:
 - Takes up the whole width of its parent element
 - `width`, `margin`, `padding` work as expected
 
- */
-div {
-	background-color: #0f0;
-	padding: 1em;
-	width: 15em;
-}
-
-/*
+## Inline-block
 
 `display: inline-block` is a hybrid of `inline` and `block`
 
@@ -58,10 +40,8 @@ Inline-block:
 - Takes up only as much space as needed
 - `width`, `margin`, `padding` work as expected
 
- */
-strong {
-	background-color: #ff0;
-	padding: 1em;
-	width: 10em;
-	display: inline-block;
-}
+---
+
+## Videos
+
+-

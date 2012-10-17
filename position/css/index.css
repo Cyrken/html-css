@@ -8,10 +8,10 @@ Position allows us to move elements around on the screen and bypass the browsers
 
 Position has a few values:
 
-- static (what all elements are by default)
-- relative
-- absolute
-- fixed
+- `static` (what all elements are by default)
+- `relative`
+- `absolute`
+- `fixed`
 
  */
 
