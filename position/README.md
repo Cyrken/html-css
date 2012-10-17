@@ -35,4 +35,6 @@ Positions against the window and does not move when the user scrolls.
 
 ## Videos
 
--
+1. [Position: introduction](http://www.youtube.com/watch?v=y9-yq3gR3JE)
+2. [Position: polariod](http://www.youtube.com/watch?v=RQhsjpf3RIc)
+3. [Posiiton: planet list](http://www.youtube.com/watch?v=z9AcCN_d734)

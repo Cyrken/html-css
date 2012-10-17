@@ -44,4 +44,6 @@ Inline-block:
 
 ## Videos
 
--
+1. [Flow & display: introduction](http://www.youtube.com/watch?v=T6OvN7ZXe-I)
+2. [Flow & display: details list](http://www.youtube.com/watch?v=NBhNkFPQ06E)
+3. [Flow & display: horizontal navigation](http://www.youtube.com/watch?v=2jte1RlAjcQ)

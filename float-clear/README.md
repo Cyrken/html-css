@@ -16,4 +16,13 @@ Clearing allows us to tell specific elements on the page to be displayed below f
 
 ## Videos
 
--
+1. [Float & clear: introduction](http://www.youtube.com/watch?v=TpZAdfXdOnc)
+2. [Float & clear: wrapped image](http://www.youtube.com/watch?v=BU5KTTuT7vA)
+3. [Float & clear: definition list](http://www.youtube.com/watch?v=EjL4eHFkefk)
+4. [Float & clear: columns](http://www.youtube.com/watch?v=UUi5nhc8-Xc)
+
+---
+
+## Links
+
+- http://colinaarts.com/articles/the-magic-of-overflow-hidden/
