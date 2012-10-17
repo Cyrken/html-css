@@ -1,0 +1,21 @@
+html {
+	margin: 0;
+	padding: 0;
+
+	font: normal 100%/1.5 sans-serif;
+}
+
+div {
+	background-color: #b29f7a;
+	padding: 1em;
+}
+
+img {
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+}
+
+p {
+	margin-top: 0;
+}

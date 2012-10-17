@@ -1,0 +1,36 @@
+html {
+  margin: 0;
+  padding: 0;
+  background-color: #999;
+  font: normal 100%/1.5 Georgia,sans-serif;
+}
+
+figure {
+  margin: 0;
+  padding: 1.5em;
+  background-color: #fff;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+  position: absolute;
+  top: 200px;
+  left: 100px;
+  -webkit-transform: rotate(8deg);
+  -moz-transform: rotate(8deg);
+  -o-transform: rotate(8deg);
+  -ms-transform: rotate(8deg);
+  transform: rotate(8deg);
+}
+
+figcaption {
+  position: absolute;
+  bottom: 2.5em;
+  left: 2.5em;
+  right: 2.5em;
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 7px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 0 #000;
+}
