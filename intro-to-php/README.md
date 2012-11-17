@@ -10,8 +10,8 @@ The HTML markup and PHP code are compiled into a single HTML page and sent to th
 
 ## Videos
 
-1. [Intro to PHP]()
-2. [PHP variables]()
+1. [Intro to PHP](http://www.youtube.com/watch?v=MiIGNh4n6tw)
+2. [PHP variables](http://www.youtube.com/watch?v=0gO_nZskPBE)
 
 ---
 

@@ -6,6 +6,6 @@ PHP includes allow us to share common elements on our pages. We can have all the
 
 ## Videos
 
-1. [Intro to PHP includes]()
-2. [Includes & variables]()
-3. [Highlighting navigation]()
+1. [Intro to PHP includes](http://www.youtube.com/watch?v=jv7kzqTYJS0)
+2. [Includes & variables](http://www.youtube.com/watch?v=hBg9BSJsoQs)
+3. [Highlighting navigation](http://www.youtube.com/watch?v=vgualu_vGNA)
