@@ -16,10 +16,10 @@ Clearing allows us to tell specific elements on the page to be displayed below f
 
 ## Videos
 
-1. [Float & clear: introduction](http://www.youtube.com/watch?v=TpZAdfXdOnc)
-2. [Float & clear: wrapped image](http://www.youtube.com/watch?v=BU5KTTuT7vA)
-3. [Float & clear: definition list](http://www.youtube.com/watch?v=EjL4eHFkefk)
-4. [Float & clear: columns](http://www.youtube.com/watch?v=UUi5nhc8-Xc)
+1. [Float & clear: introduction](http://www.youtube.com/watch?v=fXbxt09eHj8&list=PLWjCJDeWfDdd0KA55h2H466wmas8X2kF0&index=1)
+2. [Float & clear: wrapped image](http://www.youtube.com/watch?v=6YqFoNHdOPM&list=PLWjCJDeWfDdd0KA55h2H466wmas8X2kF0&index=2)
+3. [Float & clear: definition list](http://www.youtube.com/watch?v=FTlb4PzwvH8&list=PLWjCJDeWfDdd0KA55h2H466wmas8X2kF0&index=3)
+4. [Float & clear: columns](http://www.youtube.com/watch?v=ZbWpuW9wXK0&list=PLWjCJDeWfDdd0KA55h2H466wmas8X2kF0&index=4)
 
 ---
 
