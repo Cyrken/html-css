@@ -1,4 +1,4 @@
-MAD9013
+Web Design
 =======
 
-Code examples from MAD9013 Cross Platform Web Development
+Code samples for web design classes including HTML, CSS &amp; Javascript
