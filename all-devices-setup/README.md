@@ -1,8 +1,8 @@
 # All devices setup
 
-Since we are making websites designed for all devices we want to setup our HTML and CSS to show it.
+Since we are making websites designed for all devices, we want to setup our HTML and CSS to show it.
 
-There are a couple `<meta>` tags and a little bit of CSS to write to make all devices recognized your website supports the device.
+There are a couple `<meta>` tags and a little bit of CSS to make all devices recognize your website supports the device, whatever it is.
 
 ## HTML
 
