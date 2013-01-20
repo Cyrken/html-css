@@ -12,7 +12,9 @@ There are a couple `<meta>` tags and a little bit of CSS to write to make all de
 		<meta name="handheldfriendly" content="true">
 		<meta name="mobileoptimized" content="240">
 		<meta name="viewport" content="width=device-width,initial-scale=1,target-densitydpi=device-dpi">
+		⋮
 	</head>
+	⋮
 
 - **handheldfriendly** & **mobileoptimized** are for older devices
 	- The `240` states that our website is formatted for a minimum width of 240 pixels
@@ -28,8 +30,11 @@ There are a couple `<meta>` tags and a little bit of CSS to write to make all de
 	@-o-viewport { width: device-width; scale: 1; }
 	@-webkit-viewport { width: device-width; scale: 1; }
 	@viewport { width: device-width; scale: 1; }
+	⋮
 
-The `@viewport` rule is a replacement for the viewport meta tag but is new and only supported by a few browsers. Since we’re future thinking designers we want to put it in.
+The `@viewport` rule is a replacement for the viewport meta tag but is new and only supported by a few browsers.
+Since we’re future thinking designers we want to put it in.
+**It’s probably best to put this at the very top of your CSS file.**
 
 ---
 
