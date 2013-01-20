@@ -25,12 +25,12 @@ $age = 15; // number; no quotes
 		echo '<strong>Dinosaurs rock!</strong>';
 	?>
 
-	<strong><?= 'Hello' ?></strong>
+	<strong><?php echo 'Hello' ?></strong>
 
-	<p><?= date('Y-m-d h:i:s'); ?></p>
+	<p><?php echo date('Y-m-d h:i:s'); ?></p>
 
-	<p><?= $name; ?> is awesome!</p>
-	<strong><?= $name; ?> is going to be <?= $age + 5; ?> in 5 years.</strong>
+	<p><?php echo $name; ?> is awesome!</p>
+	<strong><?php echo $name; ?> is going to be <?php echo $age + 5; ?> in 5 years.</strong>
 
 </body>
 </html>
