@@ -3,7 +3,7 @@
 <head>
   <meta charset=utf-8>
   <title>Galilean Moons</title>
-  <link href="css/general.css" rel="stylesheet">
+  <link href="css/footer-toggle-hybrid.css" rel="stylesheet">
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
   <meta name="viewport" content="width=device-width,initial-scale=1,target-densitydpi=device-dpi">
@@ -12,8 +12,16 @@
   <header class="masthead">
     <div class="masthead-top">
       <h1 class="logo-wrapper"><a href="index.html" class="logo">Galilean Moons</a></h1>
-      <a href="#nav" class="nav-btn">Navigate</a>
+      <a href="#nav" class="nav-btn" data-state="inactive">Navigate</a>
     </div>
+    <nav class="nav nav-top" data-state="collapsed">
+      <ul>
+        <li><a href="#">Callisto</a></li>
+        <li><a href="#">Europa</a></li>
+        <li><a href="#">Ganymede</a></li>
+        <li><a href="#">Io</a></li>
+      </ul>
+    </nav>
   </header>
 
   <ul class="moon-list">
@@ -60,5 +68,6 @@
     </ul>
   </nav>
 
+  <script src="js/footer-toggle-hybrid.js"></script>
 </body>
 </html>
