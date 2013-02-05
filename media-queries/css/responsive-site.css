@@ -17,6 +17,22 @@ html {
 	font: normal 100%/1.5 sans-serif;
 }
 
+@media only screen and (min-width: 100em) {
+
+	html {
+		font-size: 1.5rem;
+	}
+
+}
+
+@media only screen and (min-width: 120em) {
+
+	html {
+		font-size: 1.75rem;
+	}
+
+}
+
 body {
 	margin: 0;
 	padding: 0 10px;
@@ -36,6 +52,14 @@ h2 {
 	margin: 1.5rem 0;
 	font-size: 1.5rem;
 	font-weight: normal;
+}
+
+@media only screen and (min-width: 80em) {
+
+	h2 {
+		font-weight: bold;
+	}
+
 }
 
 p {
@@ -107,7 +131,25 @@ a:active {
 @media only screen and (min-width: 45em) {
 
 	.lede {
+		max-width: 40em;
+
 		font-size: 1.125rem;
+	}
+
+}
+
+@media only screen and (min-width: 65em) {
+
+	.lede {
+		font-size: 1.5rem;
+	}
+
+}
+
+@media only screen and (min-width: 80em) {
+
+	.lede {
+		margin-top: 70px;
 	}
 
 }
@@ -239,6 +281,37 @@ a:active {
 
 }
 
+@media only screen and (min-width: 80em) {
+
+	.masthead {
+		float: left;
+		width: 20%;
+	}
+
+	.main-content {
+		float: right;
+		width: 75%;
+	}
+
+	.masthead-top {
+		float: none;
+	}
+
+	.nav-top {
+		float: none;
+		margin-top: 0.7rem;
+		max-height: 50rem;
+
+		text-align: left;
+	}
+
+	.nav-top li {
+		display: block;
+		margin: 0;
+	}
+
+}
+
 .moon-list {
 	margin: 0 -10px;
 	padding: 0;
@@ -365,6 +438,20 @@ a:active {
 
 	.stats-table {
 		display: table;
+	}
+
+}
+
+@media only screen and (min-width: 140em) {
+
+	.moons {
+		float: left;
+		width: 45%;
+	}
+
+	.moon-stats {
+		float: right;
+		width: 45%;
 	}
 
 }
