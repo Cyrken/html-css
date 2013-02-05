@@ -15,6 +15,11 @@ It helps us to not think in device specific widths and concentrate more on our c
 3. Divide them: 500 px screen width ÷ 16 = 31.25
 4. I usually round that number to something nice like 30 em
 
+## Larger screens
+
+On larger screens we want to capitalize on the greater horizontal real estate by making multi-column layouts.
+And it’s always beneficial to bump up our font sizes.
+
 ---
 
 ## Videos
@@ -24,6 +29,7 @@ It helps us to not think in device specific widths and concentrate more on our c
 3. [Media queries: text and images](http://www.youtube.com/watch?v=t8rVXUb_IEA)
 4. [Media queries: statistics](http://www.youtube.com/watch?v=JTjFCQVdUaw)
 5. [Media queries: footer](http://www.youtube.com/watch?v=666RguQaq2k)
+5. [Media queries: larger screens](http://www.youtube.com/watch?v=Q-XS4dmQrK4)
 
 ---
 
@@ -33,3 +39,8 @@ It helps us to not think in device specific widths and concentrate more on our c
 - http://bradfrost.github.com/this-is-responsive/
 - http://www.lukew.com/ff/entry.asp?1514
 - http://www.lukew.com/ff/entry.asp?1569
+- http://webdesign.tutsplus.com/articles/general/life-beyond-960px-designing-for-large-screens/
+- http://www.flickr.com/photos/bruce-lawson/6714342003/
+- http://dev.opera.com/articles/view/creating-web-content-for-tv/
+- https://developers.google.com/tv/web/docs/design_for_tv
+- https://speakerdeck.com/grigs/the-immobile-web
