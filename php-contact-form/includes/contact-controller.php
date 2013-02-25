@@ -3,11 +3,13 @@
 $errors = array();
 $display_thanks = false;
 
+// Filter out any nasty bits submitted in the user data
 $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_STRING);
 $email = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
 $message = filter_input(INPUT_POST,'message', FILTER_SANITIZE_STRING);
 
 // Check to see if the form has been submitted before validating
+// If the form hasn't been submitted the code will not execute
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 	// Check to make sure all the fields were filled out
 	if (empty($name)) {
@@ -22,8 +24,9 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$errors['message'] = true;
 	}
 
-	// If the $errors array is empty, all the user submitted content is valid
-	// If there is anything inside $errors, something isn't valid
+	// If the $errors array is empty, all the user submitted content is valid, so continue
+	// If there is something inside $errors, some user data isn't valid, therefore do nothing
+	//   The contact form view will display error messages if there's invalid data
 	if (empty($errors)) {
 		$display_thanks = true;
 		$subject = 'Message from your website!';
@@ -33,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 		$email_message .= 'Email: ' . $email . "\r\n";
 		$email_message .= "Message:\r\n" . $message;
 
-		// Set the e-mail from to the name and e-mail of the person who sent the message
+		// Set the e-mail from field to the name and e-mail of the person who sent the message
 		$headers = 'From: ' . $name . ' <' . $email . '>' . "\r\n";
 
 		// Send the e-mail message to your e-mail address
