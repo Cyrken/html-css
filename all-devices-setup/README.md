@@ -11,7 +11,7 @@ There are a couple `<meta>` tags and a little bit of CSS to make all devices rec
 		⋮
 		<meta name="handheldfriendly" content="true">
 		<meta name="mobileoptimized" content="240">
-		<meta name="viewport" content="width=device-width,initial-scale=1,target-densitydpi=device-dpi">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
 		⋮
 	</head>
 	⋮
@@ -21,7 +21,6 @@ There are a couple `<meta>` tags and a little bit of CSS to make all devices rec
 - **viewport** is for newer smartphones. There are three arguments to specify:
 	- `width=device-width`—our website is formatted for the prime width of the device
 	- `initial-scale=1`—our website shouldn’t be zoomed in or out by default
-	- `target-densitydpi=device-dpi`—our website supports whatever resolution the device is
 
 ## CSS
 

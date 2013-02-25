@@ -5,7 +5,7 @@
   <title>Uniforms—not every colour survives</title>
   <meta name="handheldfriendly" content="true">
   <meta name="mobileoptimized" content="240">
-  <meta name="viewport" content="width=device-width,initial-scale=1,target-densitydpi=device-dpi">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/general.css" rel="stylesheet">
   <link href="http://fonts.googleapis.com/css?family=Coda" rel="stylesheet">
 </head>
