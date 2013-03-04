@@ -29,11 +29,21 @@ There are a couple `<meta>` tags and a little bit of CSS to make all devices rec
 	@-o-viewport { width: device-width; scale: 1; }
 	@-webkit-viewport { width: device-width; scale: 1; }
 	@viewport { width: device-width; scale: 1; }
+
+	html {
+	  -moz-text-size-adjust: 100%;
+	  -ms-text-size-adjust: 100%;
+	  -webkit-text-size-adjust: 100%;
+	  text-size-adjust: 100%;
+	}
 	⋮
 
 The `@viewport` rule is a replacement for the viewport meta tag but is new and only supported by a few browsers.
 Since we’re future thinking designers we want to put it in.
 **It’s probably best to put this at the very top of your CSS file.**
+
+Since we are optimizing our sites for small screens, we want to stop small-screen browsers from inflating our font-size in an attempt to make our sites more readable.
+That’s what the `text-size-adjust` property does.
 
 ---
 
