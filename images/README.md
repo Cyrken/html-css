@@ -124,7 +124,7 @@ Combine your images into a single file in Photoshop and using `background-positi
 
 #### Videos
 
--
+- http://www.youtube.com/watch?v=nm8D1tTs5bY
 
 ### Image smushing
 
@@ -133,7 +133,7 @@ Smushing will reduce the size of images without reducing their quality
 
 #### Videos
 
--
+- http://www.youtube.com/watch?v=3nYcq3CPSe8
 
 #### Links
 
