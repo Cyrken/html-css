@@ -5,5 +5,9 @@ while (!letter) {
 }
 
 for (var i = 0; i < 10; i++) {
-	document.write(letter + '<br>');
+	for (var j = 0; j <= i; j++) {
+		document.write(letter);
+	}
+
+	document.write('<br>');
 }

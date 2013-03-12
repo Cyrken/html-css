@@ -25,7 +25,7 @@ if (answer == 'a') {
 			+ ' pulled out a treasure map and set off to find the “x”. '
 			+ 'Coming to a rickety, rope bridge, '
 			+ name
-			+ ' needed to decide to go…\n'
+			+ ' had to decide to go…\n'
 			+ '\nA. over the bridge.'
 			+ '\nB. under the bridge.'
 			+ '\nC. back home.'
