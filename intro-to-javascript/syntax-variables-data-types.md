@@ -67,7 +67,7 @@ var galaxy = 'Milky Way'
 
 ### Arrays
 
-Arrays contain a collection of items in a specific order. Each item in an array is referenced using an integer.
+Arrays contain a collection of items in a specific order. Each item in an array is referenced using an integer. If you’re familiar with HTML you could compare arrays to ordered lists `<ol>`.
 
 ```js
 // New empty array
@@ -87,7 +87,14 @@ planets[3] = 'Venus';
 // Add a new item to the end of an array
 planets.push('Mercury');
 
-// Remove an item from an array
+// Remove the last item from our array
+var lastLast = planets.pop();
+// Add a new item to the start of an array
+planets.unshift('The Sun');
+// Remove an item from the start of an array
+var firstPlanet = planets.shift();
+
+// Delete an item from an array
 delete planets[2];
 
 // Count how many items are in the array
@@ -96,7 +103,7 @@ planets.length; // 4
 
 ### Objects
 
-Objects are a way to create a group of variables. Objects are a collection with properties and values.
+Objects are a way to create a group of variables. Objects are a collection with properties and values. If you’re familiar with HTML, objects are comparable to the description list `<dl> <dt> <dd>`.
 
 ```js
 // Create a new empty object
@@ -140,8 +147,8 @@ The operators in Javascript are fairly consistent with many other languages.
 ```js
 // Addition: with +
 var add = 1 + 2
-  , number += 2
-; // Add to what’s already in number
+  , number += 2 // Add to what’s already in number
+;
 number++; // Increment: add 1 to what’s already in number
 
 // Subtraction: with -
