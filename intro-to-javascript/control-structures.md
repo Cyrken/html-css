@@ -17,7 +17,7 @@ if (planet == 'Venus') {
 }
 ```
 
-- The double equals (==) means compare. It’s best to not use a single equals in an if statement. [Read more about equals](#equals).
+- The double equals (==) means compare. It’s best to not use a single equals in an if statement. [Read more about equals](#single-equals-vs-double-equals-vs-triple-equalsequals).
 - If statements are always looking for a truthy scenario. The if statement is looking to see if the comparison between the opening and closing parenthesis is true. If the comparison is truthy the if statement is executed.
 
 ```js
@@ -29,17 +29,8 @@ var planet = 'Earth'
 if (hasMoon) {
   // Execute this code if the scenario is truthy
 } else {
-  // Execute this code if the scenario is not truthy
+  // Execute this code if the scenario is falsey
   // The else leaves us a catch all if the first scenario is falsey
-}
-
-// We can also provide alternative scenarios with else if statements
-if (planet == 'Jupiter') {
-  // When planet is equal to ‘Jupiter’
-} else if (planet == 'Earth') {
-  // Or, when planet is equal to ‘Earth’
-} else {
-  // Any other situation
 }
 ```
 
@@ -55,8 +46,7 @@ var planet = 'Venus'
 // And: one situation AND the other must be truthy
 // And is represented by two ampersands (&&)
 if (planet == 'Venus' && isSecond) {
-  // This will execute because planet is equal to ‘Venus’
-  //   and isSecond is also truthy
+  // This will execute because planet is equal to ‘Venus’ and isSecond is also truthy
 }
 
 if (planet == 'Venus' && hasMoons) {
@@ -93,8 +83,7 @@ var planet = 'Venus'
 
 // Not equals is represented by an exclamation point and equals (!=)
 if (planet != 'Mercury') {
-  // This will execute because it is true
-  //   that planet is not equal to ‘Mercury’
+  // This will execute because it is true that planet is not equal to ‘Mercury’
 }
 
 if (planet != 'Venus') {
@@ -102,11 +91,9 @@ if (planet != 'Venus') {
 }
 
 // Not is represented by an exclamation point (!)
-// The below could be read as ‘has moons is not equal to true‘
-//   or ‘not has moons’
+// The below could be read as ‘has moons is not equal to true’ or ‘not has moons’
 if (!hasMoons) {
-  // This will execute because this scenario is truthy,
-  //   hasMoons is not equal to true
+  // This will execute because this scenario is truthy, hasMoons is not equal to true
 }
 
 if (!isSecond) {
@@ -118,7 +105,7 @@ if (!hasMoons && planet == 'Venus') {
 }
 ```
 
-### Single equals vs. double equals vs. triple equals[equals]
+### Single equals vs. double equals vs. triple equals
 
 Equals can be used in a series of up to three in Javascript, each meaning slightly different things and acting differently.
 
@@ -134,11 +121,9 @@ Equals can be used in a series of up to three in Javascript, each meaning slight
 
 3. triple equals means ‘compare exactly’
 	```js
-	// Will compare the value of planet to see if it equals ‘Mars’
-	//   and that the value is a string
+	// Will compare the value of planet to see if it equals ‘Mars’ and that the value is a string
 	if (planet === 'Mars') {
-	  // This will be executed because planet is a string
-	  //   and it’s equal to ‘Mars’
+	  // This will be executed because planet is a string and it’s equal to ‘Mars’
 	}
 
 	// Will compare to see if the value of planet is truthy
@@ -147,16 +132,15 @@ Equals can be used in a series of up to three in Javascript, each meaning slight
 	  // Check out type coercion for more details
 	}
 
-	// Will compare the value of planet to see if it’s true
-	//   and to see if it is a boolean
+	// Will compare the value of planet to see if it’s true and to see if it is a boolean
 	if (planet === true) {
 	  // This will not execute because planet is not exactly ‘true’
 	}
-	``
+	```
 
 ### Type coercion
 
-Type coercion occurs inside the if statement when trying to get a truthy value. Since Javascript is a dynamically interpreted language certain, values become are coerced to boolean, becoming true or false.
+Type coercion occurs inside the if statement when trying to get a truthy value. Since Javascript is a dynamically interpreted language certain, values are coerced to boolean, becoming true or false.
 
 <table>
   <thead>
@@ -198,13 +182,12 @@ if (0.0) {} // False
 
 ## Switch
 
-Javascript has another control structure that has a similar purpose to the if statement.
+Javascript has another control structure that has a similar purpose to the if statement but allows multiple scenarios.
 
 ```js
 var planet = 'Venus';
 
-// You would use the switch statement instead
-//   of many else if statements
+// The switch statement is used when there are many different paths for your code
 switch (planet) {
   case 'Mercury' :
     // If planet is ‘Mercury’ this code will be executed
@@ -235,14 +218,12 @@ switch (planet) {
     break;
 
   default :
-    // If none of the above conditions are met
-    //   this code will be executed
+    // If none of the above conditions are met this code will be executed
     // Default must always be last, like else
     break;
 }
 
-// We can also group pieces of code together
-//   for when multiple situations are satisfied by the same code
+// We can also group pieces of code together for when multiple situations are satisfied by the same code, like an ‘or’
 // The break keyword stops the case from grouping with the one below
 switch (planet) {
   case 'Mercury' :
@@ -265,7 +246,7 @@ switch (planet) {
 
 ## Loops
 
-Programming languages provide mechanisms for repeating a section of code: loops. There are a bunch of different loop types in Javascript—the for loop is the most popular.
+Programming languages provide mechanisms for repeating a section of code: loops. There are a bunch of different loop types in Javascript—the for loop is popular.
 
 ### For loop
 
@@ -282,36 +263,32 @@ for (var i = 0; i < 5; i++) {
 //   for (expression 1; expression 2; expression 3)
 
 // Expression 1: executed once before the loop starts
-for (var i = 0; i < 5; i++) {}
-// We are creating a variable named i,
-//   that tracks what iteration we are currently on
+for (var i = 0; …; …) {}
+// We are creating a variable named i, that tracks what iteration we are currently on
 
 // Expression 2: executed at each iteration,
 //   if true the loop continues
-for (var i = 0; i < 5; i++) {}
-// We are checking to see if i is less than 5,
-//   if so, we continue the loop
+for (…; i < 5; …) {}
+// We are checking to see if i is less than 5, if so, we continue the loop
 
 // Expression 3: executed after each iteration
-for (var i = 0; i < 5; i++) {}
+for (…; …; i++) {}
 // Increment i by 1 each pass through the loop
 ```
 
-A very common use for loops is running through all the items in a collection like an array.
+A very common use for loops is running through all the items in a collection, like an array.
 
 ```js
 var planets = ['Mercury', 'Venus', 'Earth', 'Mars'];
 
 // The first question we should ask ourselves is:
 //   How many times do we have to perform the loop?
-// Using the above array, the answer is 4,
-//   but it’s often best to get Javascript to count for us
+// Using the above array, the answer is 4, but it’s often best to get Javascript to count for us
 // Use Javascript’s .length property to get the total items in the array
 for (var i = 0; i < planets.length; i++) {
   // The code in here will be executed once for each array item
 
-  // Since our array has integers as keys,
-  //   we can use i to directly access each item
+  // Since our array has integers as keys, we can use i to directly access each item
   console.log(planets[i]);
 }
 ```
@@ -333,8 +310,7 @@ While loops are for when you don’t know exactly how many times you have to loo
 ```js
 var favPlanet;
 
-// This loop will keep prompting the user until they
-//   type something into the prompt field
+// This loop will keep prompting the user until they type something into the prompt field
 // As long as favPlanet coerces to a falsey value the loop will continue
 while (!favPlanet) {
   favPlanet = prompt("What's your favourite planet?");
