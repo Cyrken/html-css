@@ -23,7 +23,7 @@ var contacts = [
 		, tel: '+05551234'
 	}
 	, {
-		name: 'Venus ’venturer'
+		name: 'Venus ’Venturer'
 		, email: 'venus@theadventurer.com'
 		, tel: '+15551234'
 	}
