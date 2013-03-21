@@ -1,3 +1,5 @@
 # Intro to Javascript
 
-Some simple intro activity solutions to complement in-class material.
+Some notes and introduction to Javascript including some sample activities.
+
+- [Syntax, variables & data types](syntax-variables-data-types.md)
