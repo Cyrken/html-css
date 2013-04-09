@@ -36,7 +36,7 @@ var createTodoLi = function (todo, todoName) {
 	delBtn.innerHTML = '✘';
 	newLi.innerHTML = todo.text;
 	newLi.appendChild(delBtn);
-	newLi.setAttribute('data-id', todoName);
+	newLi.setAttribute('data-name', todoName);
 	newLi.setAttribute('data-state', todo.state);
 
 	return newLi;
@@ -67,7 +67,7 @@ var addTodo = function () {
  * @return void
  */
 var toggleTodoComplete = function (todoLi) {
-	var ref = db.child(todoLi.getAttribute('data-id'));
+	var ref = db.child(todoLi.getAttribute('data-name'));
 
 	if (todoLi.getAttribute('data-state') == 'done') {
 		todoLi.setAttribute('data-state', '');
@@ -84,7 +84,7 @@ var toggleTodoComplete = function (todoLi) {
  * @return void
  */
 var deleteTodo = function (todoLi) {
-	var ref = db.child(todoLi.getAttribute('data-id'));
+	var ref = db.child(todoLi.getAttribute('data-name'));
 	ref.remove();
 
 	todoLi.parentNode.removeChild(todoLi);
