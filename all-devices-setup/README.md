@@ -53,7 +53,7 @@ That’s what the `text-size-adjust` property does.
 
 ## Videos
 
-1. [All devices setup](http://www.youtube.com/watch?v=wiuJemsZm6k)
+1. [All devices setup](http://www.youtube.com/watch?v=nbqnFZFQxd0)
 
 ---
 
