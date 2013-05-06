@@ -55,7 +55,7 @@ You can also create a `screenshot.png` for your theme that will be displayed in 
 
 All file paths in WordPress theme PHP files must be referenced using the `bloginfo('')` function so they don’t depend on the installation directory of WordPress.
 
-```php
+```html+php
 <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
 
 <script src="<?php bloginfo('stylesheet_directory'); ?>/js/modernizr.js"></script>
@@ -77,7 +77,7 @@ function sd () {
 
 Then, inside `header.php` you could write:
 
-```php
+```html+php
 <script src="<?php sd(); ?>/js/modernizr.js"></script>
 ```
 

@@ -48,7 +48,7 @@ The `$files` variable is an array containing all the information about each file
 
 ### Display a Single Media Element
 
-```php
+```html+php
 <figure>
 	<img src="<?php echo wp_get_attachment_url($files[0]->ID); ?>" alt="">
 	<figcaption><?php echo $files[0]->post_title; ?></figcaption>
@@ -65,7 +65,7 @@ Every single file object has a few properties mapped to fields in WP-Admin. Ever
 
 You can also loop over the media elements to display them. As an example, a file download list:
 
-```php
+```html+php
 <ul class="files">
 	<?php foreach ($files as $file) : ?>
 	<li>

@@ -34,7 +34,7 @@ After you’ve registered your menu in the `functions.php` file you can go to WP
 
 Add the code wherever you want the menu to show up. WordPress writes out a `<ul>` and bunch of `<li>` elements for you. You should likely still wrap it in a `<nav>` element.
 
-```php
+```html+php
 <nav>
 <?php
 	wp_nav_menu(

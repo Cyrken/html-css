@@ -14,7 +14,7 @@ Creating a `page.php` file will allow you to have a different view for static pa
 
 An example `page.php`:
 
-```php
+```html+php
 <?php
 	get_header();
 	the_post();
@@ -70,7 +70,7 @@ Your theme’s `index.php` file will always show the blog posts, even if blog po
 
 The following code can be used on the `index.php` file to write out blog posts:
 
-```php
+```html+php
 <?php
 if (have_posts()) :
 	while (have_posts()) :
@@ -110,7 +110,7 @@ To design a unique view for the permalink page create a file named `single.php`.
 
 An example `single.php`:
 
-```php
+```html+php
 <?php get_header(); the_post(); ?>
 
 <article>
@@ -144,7 +144,7 @@ An example `single.php`:
 
 Blog posts can also be displayed on static pages by using more WordPress built-in functions. Using WordPress’ `get_posts()` function we can pull out any posts (and filter them) and display them on a page.
 
-```
+```html+php
 <ol>
 	<?php
 
@@ -172,7 +172,7 @@ Blog posts, and even pages, can have comments associated with them. Since WordPr
 
 A sample `comments.php` file:
 
-```php
+```html+php
 <aside>
 	<h2><?php comments_number(); ?></h2>
 
