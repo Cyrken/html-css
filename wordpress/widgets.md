@@ -9,12 +9,14 @@ With widgets we can create little modules that our clients to move and place in 
 
 For us to use and create widgets we must first register a sidebar. Open up your `functions.php` file and add some code.
 
-	register_sidebars(1, array(
-		'id' => 'basicbar'
-		, 'name' => 'Basic Sidebar'
-		, 'before_widget' => ''
-		, 'after_widget' => ''
-	));
+```php
+register_sidebars(1, array(
+	'id' => 'basicbar'
+	, 'name' => 'Basic Sidebar'
+	, 'before_widget' => ''
+	, 'after_widget' => ''
+));
+```
 
 Even though the function above is called `register_sidebars()`, *plural*, due to limitations in WordPress we can only register one at a time if we want them to have unique names.
 
@@ -31,7 +33,9 @@ Go to `Appearance > Widgets` to manipulate the sidebar widgets. You’ll notice 
 
 To use a sidebar in your theme you just need to add a single line of code—wherever you want the sidebar to show up. *Just because its called a “sidebar” doesn’t mean it has to go on the side.
 
-	dynamic_sidebar('basicbar');
+```php
+dynamic_sidebar('basicbar');
+```
 
 - `basicbar`, above, is the ID we assigned our sidebar when we registered it.
 
@@ -60,25 +64,27 @@ It’s often best to split basic widgets into two files:
 
 A basic widget PHP class may look like this:
 
-	<?php
+```php
+<?php
 
-	// The class name of the widget, repeated two more times
-	class BasicWidget extends WP_Widget {
-		
-		// This function sets up our widget in WP Admin, same name as above
-		public function BasicWidget () {
-			// The name of your widget in WP Admin, what our users see
-			parent::WP_Widget(false, 'Basic Widget');
-		}
-		
-		// This function renders the widget on our page
-		public function widget () {
-			include 'basic-widget.html';
-		}
+// The class name of the widget, repeated two more times
+class BasicWidget extends WP_Widget {
+
+	// This function sets up our widget in WP Admin, same name as above
+	public function BasicWidget () {
+		// The name of your widget in WP Admin, what our users see
+		parent::WP_Widget(false, 'Basic Widget');
 	}
-	
-	// Pass the widget's class name, from the first line of code
-	register_widget('BasicWidget');
+
+	// This function renders the widget on our page
+	public function widget () {
+		include 'basic-widget.html';
+	}
+}
+
+// Pass the widget's class name, from the first line of code
+register_widget('BasicWidget');
+```
 
 There are primarily three pieces of information in the above code:
 

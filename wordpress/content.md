@@ -14,15 +14,17 @@ Creating a `page.php` file will allow you to have a different view for static pa
 
 An example `page.php`:
 
-	<?php
-		get_header();
-		the_post();
-	?>
-	
-	<h1><?php the_title(); ?></h1>
-	<?php the_content(); ?>
-	
-	<?php get_footer(); ?>
+```php
+<?php
+	get_header();
+	the_post();
+?>
+
+<h1><?php the_title(); ?></h1>
+<?php the_content(); ?>
+
+<?php get_footer(); ?>
+```
 
 In this most basic page example there are a few new functions to understand:
 
@@ -38,11 +40,13 @@ A common convention is to prepend template file names with the word `template`, 
 
 To mark a specific file as a template, add the following comment to the top:
 
-	<?php
-	/*
-	Template Name: Three Columns (Or Whatever You Want to Call It)
-	*/
-	?>
+```php
+<?php
+/*
+Template Name: Three Columns (Or Whatever You Want to Call It)
+*/
+?>
+```
 
 If a page template is selected in WP Admin, it will be used instead of `page.php`. **Refer to the [Template Hierarchy](http://codex.wordpress.org/Template_Hierarchy) to better understand what theme files WordPress uses for every situation.**
 
@@ -66,24 +70,26 @@ Your theme’s `index.php` file will always show the blog posts, even if blog po
 
 The following code can be used on the `index.php` file to write out blog posts:
 
-	<?php
-	if (have_posts()) :
-		while (have_posts()) :
-			the_post();
-	?>
-	
-		<article>
-			<header>
-				<h2><?php the_title(); ?></h2>
-			</header>
-			<?php the_excerpt(); ?>
-			<a href="<?php the_permalink(); ?>">Read More</a>
-		</article>
-	
-	<?php 
-		endwhile;
-	endif;
-	?>
+```php
+<?php
+if (have_posts()) :
+	while (have_posts()) :
+		the_post();
+?>
+
+	<article>
+		<header>
+			<h2><?php the_title(); ?></h2>
+		</header>
+		<?php the_excerpt(); ?>
+		<a href="<?php the_permalink(); ?>">Read More</a>
+	</article>
+
+<?php
+	endwhile;
+endif;
+?>
+```
 
 - `have_posts()`—a function we can use in if statements that returns a boolean: true if there are posts still to be displayed, false if there are no posts.
 - `while (have_posts()) : … endwhile;`—[The Loop](http://codex.wordpress.org/The_Loop) is used to iterate over all the available posts and write out their information.
@@ -104,26 +110,28 @@ To design a unique view for the permalink page create a file named `single.php`.
 
 An example `single.php`:
 
-	<?php get_header(); the_post(); ?>
-	
-	<article>
-		<header>
-			<h1><?php the_title(); ?></h1>
-		</header>
-		<footer>
-			<p>
-				Published <?php echo get_the_date('Y-m-d h:s A'); ?>
-				by <?php the_author(); ?>
-				&middot; <?php comments_number(); ?>
-			</p>
-		</footer>
-		<?php the_content(); ?>
-	</article>
-	
-	<?php previous_post_link(); ?> &middot; <?php next_post_link(); ?>
-	
-	<?php comments_template(); ?>
-	<?php get_footer(); ?>
+```php
+<?php get_header(); the_post(); ?>
+
+<article>
+	<header>
+		<h1><?php the_title(); ?></h1>
+	</header>
+	<footer>
+		<p>
+			Published <?php echo get_the_date('Y-m-d h:s A'); ?>
+			by <?php the_author(); ?>
+			&middot; <?php comments_number(); ?>
+		</p>
+	</footer>
+	<?php the_content(); ?>
+</article>
+
+<?php previous_post_link(); ?> &middot; <?php next_post_link(); ?>
+
+<?php comments_template(); ?>
+<?php get_footer(); ?>
+```
 
 - `get_the_date()`—uses the same syntax as PHP’s built-in `date()` function to write out the post’s published date.
 - `the_author()`—writes out the display name of the author of this post.
@@ -135,22 +143,24 @@ An example `single.php`:
 ## Blog Posts on Pages
 
 Blog posts can also be displayed on static pages by using more WordPress built-in functions. Using WordPress’ `get_posts()` function we can pull out any posts (and filter them) and display them on a page.
-	
-	<ol>	
-		<?php
-		
-		$posts = get_posts(array(
-			'numberposts' => 5
-		));
-		
-		foreach ($posts as $post) :
-			setup_postdata($post);
-		?>
-		
-		<li><?php the_title(); ?></li>
-		
-		<?php endforeach; ?.
-	</ol>
+
+```
+<ol>
+	<?php
+
+	$posts = get_posts(array(
+		'numberposts' => 5
+	));
+
+	foreach ($posts as $post) :
+		setup_postdata($post);
+	?>
+
+	<li><?php the_title(); ?></li>
+
+	<?php endforeach; ?.
+</ol>
+```
 
 - `get_posts(array())`—the array is a collection of options for filtering the posts, like the number of posts, a specific category, etc. [Codex: get_posts](http://codex.wordpress.org/Template_Tags/get_posts).
 
@@ -162,15 +172,17 @@ Blog posts, and even pages, can have comments associated with them. Since WordPr
 
 A sample `comments.php` file:
 
-	<aside>
-		<h2><?php comments_number(); ?></h2>
-		
-		<ol class="comments">
-			<?php wp_list_comments(); ?>
-		</ol>
-		
-		<?php comment_form(); ?>
-	</aside>
+```php
+<aside>
+	<h2><?php comments_number(); ?></h2>
+
+	<ol class="comments">
+		<?php wp_list_comments(); ?>
+	</ol>
+
+	<?php comment_form(); ?>
+</aside>
+```
 
 - `wp_list_comments()`—will write out a bunch of `<li>` elements, one for each comment. You can then inspect the HTML and style using the hooks provided by WordPress.
 - `comment_form()`—will write out WordPress’ built-in HTML for a comment form. Style as necessary.

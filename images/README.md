@@ -46,7 +46,9 @@ They also often show up when you bookmark sites.
 It’s suggested to put the favicon right into the root of your website, `http://domain.ca/favicon.ico`, because browsers will look for it there by default.
 If, for some reason, you can’t put it there you can use the `<link>` tag to include it.
 
-	<link rel="shortcut icon" href="img/favicon.ico">
+```html
+<link rel="shortcut icon" href="img/favicon.ico">
+```
 
 Some devices have their own favicon-like graphics, e.g. Apple Touch Icon, Opera Speed Dial Icon, Windows 8 Tile Icon
 

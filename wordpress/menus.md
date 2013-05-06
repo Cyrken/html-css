@@ -13,12 +13,14 @@ WordPress uses two distinct components to make up a single navigation item.
 
 The first step to setting up menus for your theme is registering a placeholder. Open up your `functions.php` file.
 
-	register_nav_menus(
-		array(
-			// ID => WP Admin String
-			'primary' => 'Primary Navigation'
-		)
-	);
+```php
+register_nav_menus(
+	array(
+		// ID => WP Admin String
+		'primary' => 'Primary Navigation'
+	)
+);
+```
 
 *If you want more than one menu on your side, add another entry into the `register_nav_menus()` function call separated by a comma.
 
@@ -32,26 +34,30 @@ After you’ve registered your menu in the `functions.php` file you can go to WP
 
 Add the code wherever you want the menu to show up. WordPress writes out a `<ul>` and bunch of `<li>` elements for you. You should likely still wrap it in a `<nav>` element.
 
-	<nav>
-	<?php
-		wp_nav_menu(
-			array(
-				'theme_location' => 'primary'
-			)
-		);
-	?>
-	</nav>
-
-The only option you have to specify is the `ID` of placeholder you want to display. WordPress likes to make a mess of the HTML, so there are a few other options we should specify to clean it up.
-
+```php
+<nav>
+<?php
 	wp_nav_menu(
 		array(
 			'theme_location' => 'primary'
-			, 'container' => false
-			, 'menu_class' => ''
 		)
 	);
-	
+?>
+</nav>
+```
+
+The only option you have to specify is the `ID` of placeholder you want to display. WordPress likes to make a mess of the HTML, so there are a few other options we should specify to clean it up.
+
+```php
+wp_nav_menu(
+	array(
+		'theme_location' => 'primary'
+		, 'container' => false
+		, 'menu_class' => ''
+	)
+);
+```
+
 - `container`—will get rid of the extra, useless `<div>`
 - `menu_class`—will get rid of the extra class on the `<ul>`
 
@@ -59,12 +65,14 @@ The only option you have to specify is the `ID` of placeholder you want to displ
 
 We always need to highlight the current page in our navigation. WordPress looks after adding some extra classes to the proper `<li>` element, you’ll really have to just look at the HTML WordPress generates to figure out what class to use. Often, WordPress will add a `current-menu-item` class that you can use.
 
-	.current-menu-item a,
-	.current-menu-item a:link,
-	.current-menu-item a:visited {
-		background-color: #666;
-		color: #fff;
-	}
+```css
+.current-menu-item a,
+.current-menu-item a:link,
+.current-menu-item a:visited {
+	background-color: #666;
+	color: #fff;
+}
+```
 
 ## Resources & Tutorials
 

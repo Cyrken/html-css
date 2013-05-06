@@ -19,32 +19,34 @@ A theme is just a folder in the `wp-content/themes` folder with the required fil
 
 At the top of `style.css` write a comment with specific pieces of information to be displayed in the WP Admin interface:
 
-	/*
-	Theme Name: Client's Name
-	Theme URI: http://clienturl.ca/
-	Description: Custom theme for your client.
-	Author: Thomas J Bradley
-	Author URI: http://thomasjbradley.ca
-	Version: 1.0
-	Tags: colours, style, theme, etc.
-	*/
+```css
+/*
+Theme Name: Client's Name
+Theme URI: http://clienturl.ca/
+Description: Custom theme for your client.
+Author: Thomas J Bradley
+Author URI: http://thomasjbradley.ca
+Version: 1.0
+Tags: colours, style, theme, etc.
+*/
+```
 
 You can also create a `screenshot.png` for your theme that will be displayed in WP Admin. *Make the image 300 × 225 pixels.*
 
 ## Other Common Theme Files
 
 - `header.php`
-	
+
 	An include for website elements common to the masthead.
-	
+
 	Important functions: `wp_title()`, `wp_head()`, `get_header()`, `bloginfo()`
 
 - `footer.php`
 
 	An include for website elements common to the footer.
-	
+
 	Important functions: `wp_footer()`, `get_footer()`
-	
+
 - `functions.php`
 
 	A file that will automatically be included by WordPress for your whole theme. It’s used for putting common code and functions that you want to share within your theme files.
@@ -53,11 +55,13 @@ You can also create a `screenshot.png` for your theme that will be displayed in 
 
 All file paths in WordPress theme PHP files must be referenced using the `bloginfo('')` function so they don’t depend on the installation directory of WordPress.
 
-	<link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
-	
-	<script src="<?php bloginfo('stylesheet_directory'); ?>/js/modernizr.js"></script>
-	
-	<img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.png" alt="">
+```php
+<link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
+
+<script src="<?php bloginfo('stylesheet_directory'); ?>/js/modernizr.js"></script>
+
+<img src="<?php bloginfo('stylesheet_directory'); ?>/images/logo.png" alt="">
+```
 
 ### The Less Typing the Better
 
@@ -65,13 +69,17 @@ Using the `functions.php` file we can shorten some of the `bloginfo()` code. As 
 
 Instead, put something like this in `functions.php`:
 
-	function sd () {
-		bloginfo('stylesheet_directory');
-	}
-	
+```php
+function sd () {
+	bloginfo('stylesheet_directory');
+}
+```
+
 Then, inside `header.php` you could write:
 
-	<script src="<?php sd(); ?>/js/modernizr.js"></script>
+```php
+<script src="<?php sd(); ?>/js/modernizr.js"></script>
+```
 
 ## Resources & Tutorials
 

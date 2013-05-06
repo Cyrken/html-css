@@ -34,22 +34,26 @@ WordPress doesn’t natively provide a way to detach a media element from a page
 
 WordPress considers everything a ‘post’: whether it’s a post, a page, a link, even an attachment. So, we can use the built-in `get_posts()` function for also displaying attachments.
 
-	the_post();
-	
-	$files = get_posts(array(
-		'post_type' => 'attachment'
-		, 'numberposts' => -1
-		, 'post_parent' => $post->ID
-	));
-		
+```php
+the_post();
+
+$files = get_posts(array(
+	'post_type' => 'attachment'
+	, 'numberposts' => -1
+	, 'post_parent' => $post->ID
+));
+```
+
 The `$files` variable is an array containing all the information about each file attached to the current post. You can loop over all them or display just one.
 
 ### Display a Single Media Element
 
-	<figure>
-		<img src="<?php echo wp_get_attachment_url($files[0]->ID); ?>" alt="">
-		<figcaption><?php echo $files[0]->post_title; ?></figcaption>
-	</figure>
+```php
+<figure>
+	<img src="<?php echo wp_get_attachment_url($files[0]->ID); ?>" alt="">
+	<figcaption><?php echo $files[0]->post_title; ?></figcaption>
+</figure>
+```
 
 Every single file object has a few properties mapped to fields in WP-Admin. Every media element can have a title, description, and caption.
 
@@ -61,15 +65,17 @@ Every single file object has a few properties mapped to fields in WP-Admin. Ever
 
 You can also loop over the media elements to display them. As an example, a file download list:
 
-	<ul class="files">
-		<?php foreach ($files as $file) : ?>
-		<li>
-			<a href="<?php echo wp_get_attachment_url($file->ID); ?>" rel="enclosure">
-				<?php echo $file->post_title; ?>
-			</a>
-		</li>
-		<?php endforeach; ?>
-	</ul>
+```php
+<ul class="files">
+	<?php foreach ($files as $file) : ?>
+	<li>
+		<a href="<?php echo wp_get_attachment_url($file->ID); ?>" rel="enclosure">
+			<?php echo $file->post_title; ?>
+		</a>
+	</li>
+	<?php endforeach; ?>
+</ul>
+```
 
 ## Resources & Tutorials
 
