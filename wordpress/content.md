@@ -158,7 +158,7 @@ Blog posts can also be displayed on static pages by using more WordPress built-i
 
 	<li><?php the_title(); ?></li>
 
-	<?php endforeach; ?.
+	<?php endforeach; ?>
 </ol>
 ```
 
