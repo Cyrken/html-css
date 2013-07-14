@@ -50,7 +50,23 @@ If, for some reason, you can’t put it there you can use the `<link>` tag to in
 <link rel="shortcut icon" href="img/favicon.ico">
 ```
 
-Some devices have their own favicon-like graphics, e.g. Apple Touch Icon, Opera Speed Dial Icon, Windows 8 Tile Icon
+Some devices have their own favicon-like graphics, e.g. Apple Touch Icon, Opera Speed Dial Icon, Windows 8 Tile Icon.
+
+#### Dimensions
+
+- *favicon.ico*—16×16, 32×32
+- *apple-touch-icon.png*—144×144
+- *opera-icon.png*—256×160
+- *msapplication-icon.png*—144×144 (transparent)
+
+#### Platform specific meta tags
+
+```html
+<link rel="icon" type="image/png" href="/opera-icon.png">
+<meta name="application-name" content="Your Site Name">
+<meta name="msapplication-TileImage" content="/msapplication-icon.png">
+<meta name="msapplication-TileColor" content="#ef0303">
+```
 
 #### Videos
 
