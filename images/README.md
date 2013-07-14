@@ -54,10 +54,10 @@ Some devices have their own favicon-like graphics, e.g. Apple Touch Icon, Opera 
 
 #### Dimensions
 
-- *favicon.ico*—16×16, 32×32
-- *apple-touch-icon.png*—144×144
-- *opera-icon.png*—256×160
-- *msapplication-icon.png*—144×144 (transparent)
+- **favicon.ico**—16×16, 32×32
+- **apple-touch-icon.png**—144×144
+- **opera-icon.png**—256×160
+- **msapplication-icon.png**—144×144 (transparent)
 
 #### Platform specific meta tags
 
