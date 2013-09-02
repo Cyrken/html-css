@@ -79,6 +79,7 @@ Some devices have their own favicon-like graphics, e.g. Apple Touch Icon, Opera 
 - Apple Touch Icons: http://mathiasbynens.be/notes/touch-icons
 - Windows 8 Tile Icons: http://hicksdesign.co.uk/journal/pinned-sites-in-windows-8
 - Opera Speed Dial Icons: http://dev.opera.com/articles/view/opera-speed-dial-enhancements/
+- https://github.com/audreyr/favicon-cheat-sheet
 
 ---
 
