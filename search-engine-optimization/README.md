@@ -6,7 +6,7 @@ The most important thing to remember about search engine optimization is to prov
 
 **Things that matter**
 
-- *Honest, naturally keyword rich text*: if there are two many keywords for natural content, search engines will think you’re targeting them and penalize your site
+- *Honest, naturally keyword rich text*: if there are too many keywords for natural content, search engines will think you’re targeting them and penalize your site
 - *More content than code markup*
 - *Clear information hierarchy*: good navigation, good structure, good headings, etc.
 - *First line of first paragraph*
