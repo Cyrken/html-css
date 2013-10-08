@@ -56,7 +56,7 @@ The most important thing to remember about search engine optimization is to prov
 - [Search Engine Land](http://searchengineland.com/)
 - [Matt Cutts](http://www.mattcutts.com/blog/) [@mattcutts](https://twitter.com/mattcutts)
 
-## 2. Sitemaps
+## Sitemaps
 
 [⬇ Download sample sitemap.xml](sitemap.xml)
 
@@ -66,7 +66,7 @@ The `sitemap.xml` file is specifically formatted and targeted at search engines.
 
 - [Sitemaps.org](http://www.sitemaps.org/)
 
-## 3. Robots & humans
+## Robots & humans
 
 [⬇ Download sample robots.txt](robots.txt) • [⬇ Download sample humans.txt](humans.txt)
 
