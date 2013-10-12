@@ -7,6 +7,8 @@ There are many considerations when adding images to your website.
 - Images for retina screens
 - Speed of images
 
+## [☛ Videos for images](https://www.youtube.com/playlist?list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph)
+
 ---
 
 ## Image types
@@ -32,12 +34,12 @@ You can open them up in your text editor—because they are just XML—and edit 
 
 #### Videos
 
-- http://www.youtube.com/watch?v=8O8thqm6GzM
+- <https://www.youtube.com/watch?v=TfgZpgQMBEg&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=1>
 
 #### Links
 
-- No SVG fallback to PNG for HTML <img> — https://gist.github.com/3855802
-- No SVG fallback to PNG for CSS background-image —https://gist.github.com/3856091
+- No SVG fallback to PNG for HTML `<img>` — <https://gist.github.com/3855802>
+- No SVG fallback to PNG for CSS background-image — <https://gist.github.com/3856091>
 
 ### ☛ Favicons
 
@@ -70,16 +72,50 @@ Some devices have their own favicon-like graphics, e.g. Apple Touch Icon, Opera 
 
 #### Videos
 
-- http://www.youtube.com/watch?v=G407yUWeU40
+- <https://www.youtube.com/watch?v=G407yUWeU40&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=2>
 
 #### Links
 
-- http://www.kodlian.com/apps/icon-slate
-- http://xiconeditor.com/
-- Apple Touch Icons: http://mathiasbynens.be/notes/touch-icons
-- Windows 8 Tile Icons: http://hicksdesign.co.uk/journal/pinned-sites-in-windows-8
-- Opera Speed Dial Icons: http://dev.opera.com/articles/view/opera-speed-dial-enhancements/
-- https://github.com/audreyr/favicon-cheat-sheet
+- <http://www.kodlian.com/apps/icon-slate>
+- <http://xiconeditor.com/>
+- Apple Touch Icons: <http://mathiasbynens.be/notes/touch-icons>
+- Windows 8 Tile Icons: <http://hicksdesign.co.uk/journal/pinned-sites-in-windows-8>
+- Opera Speed Dial Icons: <http://dev.opera.com/articles/view/opera-speed-dial-enhancements/>
+- <https://github.com/audreyr/favicon-cheat-sheet>
+
+---
+
+## Image replacement
+
+Image replacement is a technique to replace text on the page with an image in an accessible manner.
+The technique is useful when you cannot produce the text style you’d like in CSS.
+
+```html
+<h1 class="masthead ir">Rainbows</h1>
+```
+
+```css
+.ir {
+  /* The technique pushes the text off the side of the element and chops it off */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+}
+
+.masthead {
+  background: transparent url("rainbow.jpg") no-repeat left top;
+  /* Put a min-height on the element equal to the image’s height */
+  min-height: 100px;
+}
+```
+
+#### Videos
+
+- <https://www.youtube.com/watch?v=U7B9-UtEK7w&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=3>
+
+#### Links
+
+- <http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/>
 
 ---
 
@@ -102,12 +138,12 @@ Using two differently sized PNGs and a media query for detecting hi-res screens 
 
 #### Videos
 
-- http://www.youtube.com/watch?v=Q91vXeF0mpU
+- <https://www.youtube.com/watch?v=Q91vXeF0mpU&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=4>
 
 #### Links
 
-- Retina media queries: https://gist.github.com/3855791
-- http://timkadlec.com/2012/04/media-query-asset-downloading-results/
+- Retina media queries: <https://gist.github.com/3855791>
+- <http://timkadlec.com/2012/04/media-query-asset-downloading-results/>
 
 ### ☛ Compressive JPGs
 
@@ -119,12 +155,12 @@ The major downside of this technique is that the images can become very memory i
 
 #### Videos
 
-- http://www.youtube.com/watch?v=3SzWx4_mL7A
+- <https://www.youtube.com/watch?v=3SzWx4_mL7A&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=5>
 
 #### Links
 
-- http://blog.netvlies.nl/design-interactie/retina-revolution/
-- http://filamentgroup.com/lab/rwd_img_compression/
+- <http://blog.netvlies.nl/design-interactie/retina-revolution/>
+- <http://filamentgroup.com/lab/rwd_img_compression/>
 
 ---
 
@@ -143,7 +179,7 @@ Combine your images into a single file in Photoshop and using `background-positi
 
 #### Videos
 
-- http://www.youtube.com/watch?v=nm8D1tTs5bY
+- <https://www.youtube.com/watch?v=nm8D1tTs5bY&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=6>
 
 ### ☛ Image smushing
 
@@ -152,9 +188,9 @@ Smushing will reduce the size of images without reducing their quality
 
 #### Videos
 
-- http://www.youtube.com/watch?v=3nYcq3CPSe8
+- <https://www.youtube.com/watch?v=3nYcq3CPSe8&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=7>
 
 #### Links
 
-- http://imageoptim.com/
-- http://www.smushit.com/
+- <http://imageoptim.com/>
+- <http://www.smushit.com/>
