@@ -34,7 +34,7 @@ You can open them up in your text editor—because they are just XML—and edit 
 
 #### Videos
 
-- <https://www.youtube.com/watch?v=TfgZpgQMBEg&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=1>
+- [Images: SVG](https://www.youtube.com/watch?v=TfgZpgQMBEg&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=1)
 
 #### Links
 
@@ -72,16 +72,16 @@ Some devices have their own favicon-like graphics, e.g. Apple Touch Icon, Opera 
 
 #### Videos
 
-- <https://www.youtube.com/watch?v=G407yUWeU40&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=2>
+- [Images: favicons](https://www.youtube.com/watch?v=G407yUWeU40&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=2)
 
 #### Links
 
-- <http://www.kodlian.com/apps/icon-slate>
-- <http://xiconeditor.com/>
+- [Icon Slate](http://www.kodlian.com/apps/icon-slate)
+- [X Icon Editor](http://xiconeditor.com/)
 - Apple Touch Icons: <http://mathiasbynens.be/notes/touch-icons>
 - Windows 8 Tile Icons: <http://hicksdesign.co.uk/journal/pinned-sites-in-windows-8>
 - Opera Speed Dial Icons: <http://dev.opera.com/articles/view/opera-speed-dial-enhancements/>
-- <https://github.com/audreyr/favicon-cheat-sheet>
+- [Favicon Cheat Sheet](https://github.com/audreyr/favicon-cheat-sheet)
 
 ---
 
@@ -111,11 +111,11 @@ The technique is useful when you cannot produce the text style you’d like in C
 
 #### Videos
 
-- <https://www.youtube.com/watch?v=U7B9-UtEK7w&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=3>
+- [Images: image replacement](https://www.youtube.com/watch?v=U7B9-UtEK7w&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=3)
 
 #### Links
 
-- <http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/>
+- [Zeldman: New Image Replacement](http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/)
 
 ---
 
@@ -138,12 +138,12 @@ Using two differently sized PNGs and a media query for detecting hi-res screens 
 
 #### Videos
 
-- <https://www.youtube.com/watch?v=Q91vXeF0mpU&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=4>
+- [Images: multi-resolution PNGs](https://www.youtube.com/watch?v=Q91vXeF0mpU&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=4)
 
 #### Links
 
 - Retina media queries: <https://gist.github.com/3855791>
-- <http://timkadlec.com/2012/04/media-query-asset-downloading-results/>
+- [Media Query Asset Downloading Results](http://timkadlec.com/2012/04/media-query-asset-downloading-results/)
 
 ### ☛ Compressive JPGs
 
@@ -155,12 +155,12 @@ The major downside of this technique is that the images can become very memory i
 
 #### Videos
 
-- <https://www.youtube.com/watch?v=3SzWx4_mL7A&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=5>
+- [Images: compressive JPEGs](https://www.youtube.com/watch?v=3SzWx4_mL7A&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=5)
 
 #### Links
 
-- <http://blog.netvlies.nl/design-interactie/retina-revolution/>
-- <http://filamentgroup.com/lab/rwd_img_compression/>
+- [Retina Revolution Compressive JPEGs](http://blog.netvlies.nl/design-interactie/retina-revolution/)
+- [RWD Image Compression](http://filamentgroup.com/lab/rwd_img_compression/)
 
 ---
 
@@ -179,7 +179,7 @@ Combine your images into a single file in Photoshop and using `background-positi
 
 #### Videos
 
-- <https://www.youtube.com/watch?v=nm8D1tTs5bY&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=6>
+- [Images: CSS sprites](https://www.youtube.com/watch?v=nm8D1tTs5bY&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=6)
 
 ### ☛ Image smushing
 
@@ -188,9 +188,9 @@ Smushing will reduce the size of images without reducing their quality
 
 #### Videos
 
-- <https://www.youtube.com/watch?v=3nYcq3CPSe8&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=7>
+- [Images: smushing](https://www.youtube.com/watch?v=3nYcq3CPSe8&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=7)
 
 #### Links
 
-- <http://imageoptim.com/>
-- <http://www.smushit.com/>
+- [ImageOptim](http://imageoptim.com/)
+- [Smush.it](http://www.smushit.com/)

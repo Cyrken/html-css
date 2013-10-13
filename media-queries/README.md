@@ -10,7 +10,7 @@ We can change our layouts based on width, height, DPI, orientation, and lots mor
 When creating our media queries it’s always best to use em-based media queries.
 It helps us to not think in device specific widths and concentrate more on our content.
 
-- http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw/
+- [The Ems Have It: Proportional Media Queries](http://blog.cloudfour.com/the-ems-have-it-proportional-media-queries-ftw/)
 
 ## Calculating em-based media queries
 
@@ -28,23 +28,23 @@ And it’s always beneficial to bump up our font sizes.
 
 ## Videos
 
-1. [Media queries: introduction](http://www.youtube.com/watch?v=X8sUiRemgqU)
-2. [Media queries: navigation](http://www.youtube.com/watch?v=h3NDW1K2MzE)
-3. [Media queries: text and images](http://www.youtube.com/watch?v=t8rVXUb_IEA)
-4. [Media queries: statistics](http://www.youtube.com/watch?v=JTjFCQVdUaw)
-5. [Media queries: footer](http://www.youtube.com/watch?v=666RguQaq2k)
-5. [Media queries: larger screens](http://www.youtube.com/watch?v=Q-XS4dmQrK4)
+1. [Media queries: introduction](https://www.youtube.com/watch?v=X8sUiRemgqU&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=1)
+2. [Media queries: navigation](https://www.youtube.com/watch?v=h3NDW1K2MzE&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=2)
+3. [Media queries: text and images](https://www.youtube.com/watch?v=t8rVXUb_IEA&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=3)
+4. [Media queries: statistics](https://www.youtube.com/watch?v=JTjFCQVdUaw&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=4)
+5. [Media queries: footer](https://www.youtube.com/watch?v=666RguQaq2k&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=5)
+5. [Media queries: larger screens](https://www.youtube.com/watch?v=Q-XS4dmQrK4&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=6)
 
 ---
 
 ## Links
 
-- http://www.alistapart.com/articles/responsive-web-design/
-- http://bradfrost.github.com/this-is-responsive/
-- http://www.lukew.com/ff/entry.asp?1514
-- http://www.lukew.com/ff/entry.asp?1569
-- http://webdesign.tutsplus.com/articles/general/life-beyond-960px-designing-for-large-screens/
-- http://www.flickr.com/photos/bruce-lawson/6714342003/
-- http://dev.opera.com/articles/view/creating-web-content-for-tv/
-- https://developers.google.com/tv/web/docs/design_for_tv
-- https://speakerdeck.com/grigs/the-immobile-web
+- [A List Apart: Responsive Web Design](http://www.alistapart.com/articles/responsive-web-design/)
+- [Brad Frost: This is Responsive](http://bradfrost.github.com/this-is-responsive/)
+- [Luke W: Multi-Device Layout Patterns](http://www.lukew.com/ff/entry.asp?1514)
+- [Luke W: Off Canvas Multi-Device Layouts](http://www.lukew.com/ff/entry.asp?1569)
+- [Webdesign.Tuts+: Life Beyond 960px: Designing for Large Screens](http://webdesign.tutsplus.com/articles/general/life-beyond-960px-designing-for-large-screens/)
+- [Smart Phone vs. TV Size Comparison](http://www.flickr.com/photos/bruce-lawson/6714342003/)
+- [Opera Dev: Creating Web Content for TV](http://dev.opera.com/articles/view/creating-web-content-for-tv/)
+- [Google: Design for TV](https://developers.google.com/tv/web/docs/design_for_tv)
+- [The Immoble Web](https://speakerdeck.com/grigs/the-immobile-web)

@@ -10,4 +10,5 @@ Code samples for HTML & CSS classes in the [Algonquin College Graphic Design](ht
 6. [Navigation](navigation)
 7. [Media queries](media-queries)
 8. [Grids](grids)
-9. [Search engine optimization](search-engine-optimization)
+9. [Modules](modules)
+10. [Search engine optimization](search-engine-optimization)

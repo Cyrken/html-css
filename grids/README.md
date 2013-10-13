@@ -83,7 +83,7 @@ We can also create a column in our grid that takes up ⅔ of the available space
 
 ### Videos
 
-- <https://www.youtube.com/watch?v=csNyuON4G-s&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=1>
+- [Grids: flexible grids](https://www.youtube.com/watch?v=csNyuON4G-s&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=1)
 
 ---
 
@@ -141,7 +141,7 @@ In our CSS we would then create these classes and style them within different me
 
 ### Videos
 
-- <https://www.youtube.com/watch?v=bZCMtSDdkcI&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=2>
+- [Grids: responsive grids](https://www.youtube.com/watch?v=bZCMtSDdkcI&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=2)
 
 ---
 
@@ -164,11 +164,11 @@ Bootstrap is a prototyping CSS framework that comes setup with a theme, grids, a
 
 *Helpful links*
 
-- <http://net.tutsplus.com/tutorials/html-css-techniques/mobile-first-with-bootstrap-3/>
-- <http://www.sitepoint.com/understanding-twitter-bootstrap-3/>
+- [Net.Tuts+: Mobile First with Bootstrap 3](http://net.tutsplus.com/tutorials/html-css-techniques/mobile-first-with-bootstrap-3/)
+- [SitePoint: Understanding Twitter Bootstrap 3](http://www.sitepoint.com/understanding-twitter-bootstrap-3/)
 
 *Other frontend grid systems & libraries*
 
-- <http://foundation.zurb.com/>
-- <http://purecss.io/>
-- <https://gridsetapp.com/>
+- [Foundation by Zurb](http://foundation.zurb.com/)
+- [Pure by Yahoo](http://purecss.io/)
+- [Gridset](https://gridsetapp.com/)

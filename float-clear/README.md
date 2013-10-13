@@ -32,4 +32,4 @@ Clearing allows us to tell specific elements on the page to be displayed below f
 
 ## Links
 
-- http://colinaarts.com/articles/the-magic-of-overflow-hidden/
+- [The Magic of Overflow Hidden](http://colinaarts.com/articles/the-magic-of-overflow-hidden/)

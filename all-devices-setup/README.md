@@ -71,7 +71,7 @@ That’s what the `text-size-adjust` property does.
 
 ## Links
 
-- <https://developer.mozilla.org/en/Mobile/Viewport_meta_tag/>
-- <http://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/>
-- <http://learnthemobileweb.com/blog/2009/07/mobile-meta-tags/>
+- [Mozilla Docs: Meta Viewport Tag](https://developer.mozilla.org/en/Mobile/Viewport_meta_tag/)
+- [Opera Dev: An Introduction to Meta Viewport and CSS Viewport](http://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/)
+- [Learn the Mobile Web: Mobile Meta Tags](http://learnthemobileweb.com/blog/2009/07/mobile-meta-tags/)
 

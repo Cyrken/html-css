@@ -8,7 +8,7 @@ Search engine optimization is important for all websites so that they’ll show 
 
 The most important thing to remember about search engine optimization is to provide **real, valuable content for humans**. If it’s useful, people will link to it, tweet it, and talk about it and it will show up in search results.
 
-**Things that matter**
+### Things that matter
 
 - *Honest, naturally keyword rich text*: if there are too many keywords for natural content, search engines will think you’re targeting them and penalize your site
 - *More content than code markup*
@@ -22,7 +22,7 @@ The most important thing to remember about search engine optimization is to prov
 - *Visible to search engines without barriers*: public, not behind a sign-in, not hidden by Javascript
 - *Metadata*: enhanced semantics, rich information, [Microformats](http://microformats.org/), [Microdata](http://schema.org/), [RDFa Lite](http://rdfa.info/)
 
-**Important Tags**
+### Important Tags
 
 - `<title>` — the most important for keywords, also visible as the link on search results
 - `<a>` — search engines look for keywords to apply to your site as well as the site you are linking to
@@ -31,7 +31,7 @@ The most important thing to remember about search engine optimization is to prov
 - `<meta name="description">` — sometimes used for keywords, other times not; also often used as the description in search results, but if the search engine deems it’s inappropriate something else will be used
 - `<img alt="">` — Alt attributes are how search engines classify images
 
-**Helpful resources**
+### Helpful resources
 
 - **[Web Developers SEO Cheat Sheet](http://moz.com/blog/the-web-developers-seo-cheat-sheet-2013-edition)**
 - [Common Sense SEO Checklist](http://css-tricks.com/common-sense-seo-checklist/)
@@ -43,7 +43,7 @@ The most important thing to remember about search engine optimization is to prov
 - [SEO Strategies for Designers](http://www.sitepoint.com/seo-strategies-designers-part-2/)
 - [Duplicate Content Penalty](http://www.webdesignfromscratch.com/seo/google-duplicate-content-penalty/)
 
-**Tools**
+### Tools
 
 - **[HTML5 Outliner](http://gsnedders.html5.org/outliner/)**
 - [HTML5 Outliner Chrome Extension](https://chrome.google.com/webstore/detail/afoibpobokebhgfnknfndkgemglggomo)
@@ -53,12 +53,14 @@ The most important thing to remember about search engine optimization is to prov
 - [Keyword Density Analyzer](http://tools.seobook.com/general/keyword-density/)
 - [Complete List of Best SEO-Tools by Smashing Magazine](http://www.smashingmagazine.com/2006/09/22/complete-list-of-best-seo-tools/)
 
-**Blogs, books & bodies**
+### Blogs, books & bodies
 
 - [Building Findable Websites](http://www.amazon.ca/dp/0321526287/) by Aarron Walter
 - [SEOmoz](http://www.seomoz.org/)
 - [Search Engine Land](http://searchengineland.com/)
 - [Matt Cutts](http://www.mattcutts.com/blog/) [@mattcutts](https://twitter.com/mattcutts)
+
+---
 
 ## Sitemaps
 
@@ -68,7 +70,18 @@ Providing a sitemap specifically for search engines is a great way to suggest wh
 
 The `sitemap.xml` file is specifically formatted and targeted at search engines.
 
+
+**The sitemap.xml file should be at the root of your domain:**
+
+```
+http://domain.com/sitemap.xml
+```
+
+### Links
+
 - [Sitemaps.org](http://www.sitemaps.org/)
+
+---
 
 ## Robots & humans
 
@@ -79,8 +92,15 @@ Two other files that are very useful are targeted at robots (search engines) and
 - `robots.txt` — used to block search engines from seeing parts of your site; includes a reference to the `sitemap.xml` file
 - `humans.txt` — a way to show who created the site, what tools where used, resources, and references
 
-*Helpful resources*
+**The robots.txt file and humans.txt file should be at the root of your domain:**
 
-- <http://robotstxt.org/>
-- <http://en.wikipedia.org/wiki/Robots_exclusion_standard>
-- <http://humanstxt.org/>
+```
+http://domain.com/robots.txt
+http://domain.com/humans.txt
+```
+
+### Links
+
+- [Robots.txt Spec](http://robotstxt.org/)
+- [Robots Exclusion Standard](http://en.wikipedia.org/wiki/Robots_exclusion_standard)
+- [Humans.txt Spec](http://humanstxt.org/)
