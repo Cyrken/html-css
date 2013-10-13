@@ -1,0 +1,45 @@
+.icon {
+	display: inline-block;
+
+	background: transparent none no-repeat center center;
+	background-size: contain;
+
+	vertical-align: middle;
+}
+
+.i-16 {
+	height: 16px;
+	width: 16px;
+}
+
+.i-32 {
+	height: 32px;
+	width: 32px;
+}
+
+.icon-link {
+	display: block;
+
+	color: #66f;
+	text-decoration: none;
+}
+
+.icon-label {
+	border-bottom: 1px solid rgba(102, 102, 255, 0.5);
+}
+
+.i-venus {
+	background-image: url("../img/i-venus.svg");
+}
+
+.i-mars {
+	background-image: url("../img/i-mars.svg");
+}
+
+.i-jupiter {
+	background-image: url("../img/i-jupiter.svg");
+}
+
+.i-saturn {
+	background-image: url("../img/i-saturn.svg");
+}
