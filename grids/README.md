@@ -12,9 +12,9 @@ Flexible grids in CSS are composed of nested `<div>` elements within a row.
 
 ```html
 <div class="grid">
-  <div class="unit">Grid Unit 1</div>
-  <div class="unit">Grid Unit 2</div>
-  <div class="unit">Grid Unit 3</div>
+	<div class="unit">Grid Unit 1</div>
+	<div class="unit">Grid Unit 2</div>
+	<div class="unit">Grid Unit 3</div>
 </div>
 ```
 
@@ -22,13 +22,13 @@ Within CSS, we can then float of each of the units to fit beside each other.
 
 ```css
 .grid {
-  overflow: hidden;
+	overflow: hidden;
 }
 
 .unit {
-  float: left;
-  /* The width is set to 33% because we want to fit three columns in our row. */
-  width: 33.3333%;
+	float: left;
+	/* The width is set to 33% because we want to fit three columns in our row. */
+	width: 33.3333%;
 }
 ```
 
@@ -39,16 +39,16 @@ To solve the problem in the most flexible manner, we can put another `<div>` ins
 ```html
 ⋮
 <div class="unit">
-  <div class="unit-spacer">
-    Grid 1
-  </div>
+	<div class="unit-spacer">
+		Grid 1
+	</div>
 </div>
 ⋮
 ```
 
 ```css
 .unit-spacer {
-  padding: 8px;
+	padding: 8px;
 }
 ```
 
@@ -58,7 +58,7 @@ So we could create grid units with full bleed images.
 ```html
 ⋮
 <div class="unit">
-  <img src="http://placehold.it/500x500" alt="">
+	<img src="http://placehold.it/500x500" alt="">
 </div>
 ⋮
 ```
@@ -68,16 +68,16 @@ We can also create a column in our grid that takes up ⅔ of the available space
 ```html
 ⋮
 <div class="unit unit-2-3">
-  <div class="unit-spacer">
-    Double Width 1
-  </div>
+	<div class="unit-spacer">
+		Double Width 1
+	</div>
 </div>
 ⋮
 ```
 
 ```css
 .unit-2-3 {
-  width: 66.6667%;
+	width: 66.6667%;
 }
 ```
 
@@ -93,9 +93,9 @@ We can extend our flexible grids to be responsive using a technique with multipl
 
 ```html
 <div class="grid">
-  <div class="unit unit-s-1 unit-m-1 unit-l-1-3">Grid Unit 1</div>
-  <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">Grid Unit 2</div>
-  <div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">Grid Unit 3</div>
+	<div class="unit unit-s-1 unit-m-1 unit-l-1-3">Grid Unit 1</div>
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">Grid Unit 2</div>
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">Grid Unit 3</div>
 </div>
 ```
 
@@ -110,30 +110,30 @@ In our CSS we would then create these classes and style them within different me
 
 ```css
 .unit {
-  float: left;
+	float: left;
 }
 
 .unit-s-1 {
-  width: 100%;
+	width: 100%;
 }
 
 @media only screen and (min-width: 38em) {
 
-  .unit-m-1 {
-    width: 100%;
-  }
+	.unit-m-1 {
+		width: 100%;
+	}
 
-  .unit-m-1-2 {
-    width: 50%;
-  }
+	.unit-m-1-2 {
+		width: 50%;
+	}
 
 }
 
 @media only screen and (min-width: 60em) {
 
-  .unit-l-1-3 {
-    width: 33.3333%;
-  }
+	.unit-l-1-3 {
+		width: 33.3333%;
+	}
 
 }
 
