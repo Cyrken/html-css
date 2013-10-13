@@ -2,7 +2,7 @@
 
 Browsers use a flow to display elements on the page—understanding flow and display are critical to laying out websites.
 
-## [☛ Videos for flow & display](https://www.youtube.com/playlist?list=PLWjCJDeWfDdc6YKkkrEdYuExcnY05rmwG)
+### [☛ Videos for flow & display](https://www.youtube.com/playlist?list=PLWjCJDeWfDdc6YKkkrEdYuExcnY05rmwG)
 
 ---
 

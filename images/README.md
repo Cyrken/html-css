@@ -7,7 +7,7 @@ There are many considerations when adding images to your website.
 - Images for retina screens
 - Speed of images
 
-## [☛ Videos for images](https://www.youtube.com/playlist?list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph)
+### [☛ Videos for images](https://www.youtube.com/playlist?list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph)
 
 ---
 
