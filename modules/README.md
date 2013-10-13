@@ -40,14 +40,14 @@ BEM takes naming a little further by using double underscores or double hyphens 
 - [Getting Your Head Around BEM Syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 
 ```html
-<div class="media media--stacked">
+<div class="media media--highlighted">
   <div class="media__img"></div>
   <div class="media__body"></div>
 </div>
 ```
 
 1. Name your component with a descriptive phrase, e.g. `media`
-2. Any classes that modify an original, base class, are separated with hyphens, e.g. `media--stacked`
+2. Any classes that modify an original, base class, are separated with hyphens, e.g. `media--highlighted`
 3. Any classes that represent pieces that are inside of the original class, or sub-components, are separated with underscores, e.g. `media__body`
 
 *I find it helpful to remember that when using **under**scores the element is **under** the original component.*
