@@ -1,5 +1,9 @@
 # Search engine optimization
 
+Search engine optimization is important for all websites so that they’ll show up in search results.
+
+---
+
 ## Create valuable content
 
 The most important thing to remember about search engine optimization is to provide **real, valuable content for humans**. If it’s useful, people will link to it, tweet it, and talk about it and it will show up in search results.

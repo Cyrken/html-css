@@ -4,6 +4,8 @@ There are many styles for small screen navigation.
 My personal favourite, for most sites, is the footer-toggle hybrid.
 It is a footer anchor navigation that progressively enhances to a toggle navigation.
 
+## [☛ Videos for navigation](https://www.youtube.com/playlist?list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
+
 ---
 
 ## Videos

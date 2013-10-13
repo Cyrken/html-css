@@ -1,5 +1,11 @@
 # Flow & display
 
+Browsers use a flow to display elements on the page—understanding flow and display are critical to laying out websites.
+
+## [☛ Videos for flow & display](https://www.youtube.com/playlist?list=PLWjCJDeWfDdc6YKkkrEdYuExcnY05rmwG)
+
+---
+
 When a browser renders your website it reads the HTML from the top to the bottom.
 The browser tries to place each box beside the previous box, unless something prevents it.
 Very similar to how words wrap in text editors like MS Word.

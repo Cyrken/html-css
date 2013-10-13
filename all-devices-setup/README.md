@@ -4,6 +4,10 @@ Since we are making websites designed for all devices, we want to setup our HTML
 
 There are a couple `<meta>` tags and a little bit of CSS to make all devices recognize your website supports the device, whatever it is.
 
+## [☛ Videos for all device setup](https://www.youtube.com/watch?v=nbqnFZFQxd0)
+
+---
+
 ## HTML
 
 ```html
