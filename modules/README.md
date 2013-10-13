@@ -2,7 +2,7 @@
 
 Thinking modularly in CSS allows us to create more reusable CSS.
 
-### [☛ Videos for modules]()
+### [☛ Videos for modules](https://www.youtube.com/playlist?list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa)
 
 ---
 
@@ -15,9 +15,14 @@ Thinking modularly in CSS allows us to create more reusable CSS.
 
 ### Videos
 
--
--
--
+- [Modules: list group](https://www.youtube.com/watch?v=Kcd1742iCVA&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=1)
+- [Modules: buttons](https://www.youtube.com/watch?v=u4yYGmI2-Qk&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=2)
+- [Modules: media object](https://www.youtube.com/watch?v=bE0VpK1SjUc&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=3)
+- [Modules: combining the media object and the list group](https://www.youtube.com/watch?v=V4QQFVa2Dok&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=4)
+- [Modules: media object alternatives](https://www.youtube.com/watch?v=TTTrGPlIBJ8&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=5)
+- [Modules: making modular icons](https://www.youtube.com/watch?v=s8198ThMOgA&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=6)
+- [Modules: combining the icons and the list group](https://www.youtube.com/watch?v=zfUErXraYCc&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=7)
+- [Modules: icon image replacement](https://www.youtube.com/watch?v=bv6OQ6X5xWY&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=8)
 
 ---
 
@@ -25,14 +30,14 @@ Thinking modularly in CSS allows us to create more reusable CSS.
 
 There are a couple major naming conventions for modular CSS that help clarify the intent of our classes and help us visualize the HTML by just looking at the CSS classes.
 
-- <http://bem.info/>
-- <http://smacss.com/>
+- [BEM](http://bem.info/)
+- [SMACSS](http://smacss.com/)
 
 Part of what we learned today comes directly from SMACSS: the icon naming conventions.
 
 BEM takes naming a little further by using double underscores or double hyphens to represent certain ideas.
 
-- **<http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/>**
+- [Getting Your Head Around BEM Syntax](http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/)
 
 ```html
 <div class="media media--stacked">
@@ -49,13 +54,13 @@ BEM takes naming a little further by using double underscores or double hyphens 
 
 ### Videos
 
--
+- [Modules: modified BEM naming convention](https://www.youtube.com/watch?v=TmxQ_jEcpk0&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=9)
 
 ---
 
 ## Links
 
-- <https://github.com/stubbornella/oocss/wiki>
-- <http://coding.smashingmagazine.com/2011/12/12/an-introduction-to-object-oriented-css-oocss/>
-- <http://csswizardry.com/2013/05/the-flag-object/>
-- <https://github.com/csswizardry/CSS-Guidelines>
+- [OOCSS](https://github.com/stubbornella/oocss/wiki)
+- [An Introduction to OOCSS](http://coding.smashingmagazine.com/2011/12/12/an-introduction-to-object-oriented-css-oocss/)
+- [The Flag Object](http://csswizardry.com/2013/05/the-flag-object/)
+- [CSS Wizardry: CSS Guidelines](https://github.com/csswizardry/CSS-Guidelines)
