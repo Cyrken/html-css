@@ -33,11 +33,17 @@ There are a couple `<meta>` tags and a little bit of CSS to make all devices rec
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 html {
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
 }
 ⋮
 ```
@@ -45,6 +51,8 @@ html {
 The `@viewport` rule is a replacement for the viewport meta tag but is new and only supported by a few browsers.
 Since we’re future thinking designers we want to put it in.
 **It’s probably best to put this at the very top of your CSS file.**
+
+The `box-sizing` section changes the box model in CSS so that padding is inside the width—for many people this newer box model is easier to understand and use.
 
 Since we are optimizing our sites for small screens, we want to stop small-screen browsers from inflating our font-size in an attempt to make our sites more readable.
 That’s what the `text-size-adjust` property does.
@@ -59,7 +67,7 @@ That’s what the `text-size-adjust` property does.
 
 ## Links
 
-- https://developer.mozilla.org/en/Mobile/Viewport_meta_tag/
-- http://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/
-- http://learnthemobileweb.com/blog/2009/07/mobile-meta-tags/
+- <https://developer.mozilla.org/en/Mobile/Viewport_meta_tag/>
+- <http://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/>
+- <http://learnthemobileweb.com/blog/2009/07/mobile-meta-tags/>
 
