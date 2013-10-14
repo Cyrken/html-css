@@ -81,7 +81,7 @@ We can also create a column in our grid that takes up ⅔ of the available space
 }
 ```
 
-### Videos
+**Videos**
 
 - [Grids: flexible grids](https://www.youtube.com/watch?v=csNyuON4G-s&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=1)
 
@@ -139,7 +139,7 @@ In our CSS we would then create these classes and style them within different me
 
 ```
 
-### Videos
+**Videos**
 
 - [Grids: responsive grids](https://www.youtube.com/watch?v=bZCMtSDdkcI&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=2)
 

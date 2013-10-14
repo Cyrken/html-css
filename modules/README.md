@@ -13,7 +13,7 @@ Thinking modularly in CSS allows us to create more reusable CSS.
 - [Media object](media-object.html): flexible image size, embeddable, with list group, stacked, reversed
 - [Icons](icons): different sizes, stacked, inline, image replacement
 
-### Videos
+**Videos**
 
 - [Modules: list group](https://www.youtube.com/watch?v=Kcd1742iCVA&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=1)
 - [Modules: buttons](https://www.youtube.com/watch?v=u4yYGmI2-Qk&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=2)
@@ -52,7 +52,7 @@ BEM takes naming a little further by using double underscores or double hyphens 
 
 *I find it helpful to remember that when using **under**scores the element is **under** the original component.*
 
-### Videos
+**Videos**
 
 - [Modules: modified BEM naming convention](https://www.youtube.com/watch?v=TmxQ_jEcpk0&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=9)
 
