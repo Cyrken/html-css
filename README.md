@@ -12,3 +12,4 @@ Code samples for HTML & CSS classes in the [Algonquin College Graphic Design](ht
 8. [Grids](grids)
 9. [Modules](modules)
 10. [Search engine optimization](search-engine-optimization)
+11. [Metadata & enhanced semantics](metadata-enhanced-semantics)

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>Microdata Person</title>
+</head>
+<body>
+
+<div itemscope itemtype="http://schema.org/Person">
+	<img src="http://upload.wikimedia.org/wikipedia/commons/3/37/Macdonald1872.jpg" itemprop="image" alt="Photo of Sir John A. Macdonald">
+	<h1 itemprop="name">Sir John A. Macdonald</h1>
+	<span itemprop="title">Prime Minister of Canada</span>
+	<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+		<span itemprop="streetAddress">24 Sussex Dr.</span>
+		<br>
+		<span itemprop="addressLocality">Ottawa</span>,
+		<span itemprop="addressRegion">ON</span>,
+		<span itemprop="addressCountry">Canada</span>
+		<br>
+		<span itemprop="postalCode">K1A 0A3</span>
+	</p>
+	<dl>
+		<dt>E-mail:</dt><dd><a href="mailto:primeminister@canada.ca" itemprop="email">primeminister@canada.ca</a></dd>
+		<dt>Tel:</dt><dd><a href="tel:+16139416900" itemprop="telephone">613-941-6900</a></dd>
+		<dt>Website:</dt><dd><a href="http://canada.ca/" itemprop="url">http://canada.ca/</a></dd>
+	</dl>
+	<dl>
+		<dt>Born:</dt><dd><time datetime="1815-01-11">January 11, 1815</time></dd>
+		<dt>Died:</dt><dd><time datetime="1891-06-06">June 6, 1891</time></dd>
+	</dl>
+</div>
+
+</body>
+</html>
