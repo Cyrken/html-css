@@ -2,7 +2,8 @@
 
 There are a bunch of standards to enhance the semantics of our websites. Search engines look for these semantics, infer information from them, and adapt their search results to them. Also, when people link to your website from social media sites you can provide defaults for the displayed content.
 
-- [Web 3.0](http://vimeo.com/11529540)
+- **[Web 3.0](http://vimeo.com/11529540)**
+- [Tim Berners-Lee: The Next Web](http://www.ted.com/talks/tim_berners_lee_on_the_next_web.html)
 
 ---
 
