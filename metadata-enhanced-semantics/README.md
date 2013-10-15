@@ -128,6 +128,7 @@ Four tags are required to support the Open Graph Protocol:
 <meta property="og:type" content="article">
 <meta property="og:title" content="Title of this page">
 <meta property="og:url" content="URL of this page">
+<!-- Image dimensions: minimum 200x200; recommended 1500x1500 -->
 <meta property="og:image" content="URL to an image representing this page">
 <!-- `og:site_name` is optional but highly recommended -->
 <meta property="og:site_name" content="Name of your website">
