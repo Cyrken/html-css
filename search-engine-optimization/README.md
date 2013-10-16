@@ -2,8 +2,7 @@
 
 Search engine optimization is important for all websites so that they’ll show up in search results.
 
-- [⬇ Sample index.html](index.html)
-- [⬇ Sample inside page](carnivores.html)
+[⬇ Sample index.html](index.html) · [⬇ Sample inside page](carnivores.html)
 
 ---
 

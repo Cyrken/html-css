@@ -172,3 +172,10 @@ Bootstrap is a prototyping CSS framework that comes setup with a theme, grids, a
 - [Foundation by Zurb](http://foundation.zurb.com/)
 - [Pure by Yahoo](http://purecss.io/)
 - [Gridset](https://gridsetapp.com/)
+
+---
+
+## Videos
+
+1. [Grids: flexible grids](https://www.youtube.com/watch?v=csNyuON4G-s&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=1)
+2. [Grids: responsive grids](https://www.youtube.com/watch?v=bZCMtSDdkcI&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=2)

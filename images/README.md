@@ -32,11 +32,11 @@ You can open them up in your text editor—because they are just XML—and edit 
 - In the dialogue that pops up, select “SVG 1.1”
 - Make sure to choose either “SVG Fonts” or “Outline Fonts”
 
-#### Videos
+**Videos**
 
 - [Images: SVG](https://www.youtube.com/watch?v=TfgZpgQMBEg&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=1)
 
-#### Links
+**Links**
 
 - No SVG fallback to PNG for HTML `<img>` — <https://gist.github.com/3855802>
 - No SVG fallback to PNG for CSS background-image — <https://gist.github.com/3856091>
@@ -70,11 +70,11 @@ Some devices have their own favicon-like graphics, e.g. Apple Touch Icon, Opera 
 <meta name="msapplication-TileColor" content="#ef0303">
 ```
 
-#### Videos
+**Videos**
 
 - [Images: favicons](https://www.youtube.com/watch?v=G407yUWeU40&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=2)
 
-#### Links
+**Links**
 
 - [Icon Slate](http://www.kodlian.com/apps/icon-slate)
 - [X Icon Editor](http://xiconeditor.com/)
@@ -109,11 +109,11 @@ The technique is useful when you cannot produce the text style you’d like in C
 }
 ```
 
-#### Videos
+**Videos**
 
 - [Images: image replacement](https://www.youtube.com/watch?v=U7B9-UtEK7w&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=3)
 
-#### Links
+**Links**
 
 - [Zeldman: New Image Replacement](http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/)
 
@@ -136,11 +136,11 @@ There are a few techniques we can use for hi-res screens:
 Sometimes SVG graphics don’t produce the result you want for icons yet you still want to provide crisp graphics for hi-res screens.
 Using two differently sized PNGs and a media query for detecting hi-res screens is another option.
 
-#### Videos
+**Videos**
 
 - [Images: multi-resolution PNGs](https://www.youtube.com/watch?v=Q91vXeF0mpU&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=4)
 
-#### Links
+**Links**
 
 - Retina media queries: <https://gist.github.com/3855791>
 - [Media Query Asset Downloading Results](http://timkadlec.com/2012/04/media-query-asset-downloading-results/)
@@ -153,11 +153,11 @@ The major downside of this technique is that the images can become very memory i
 - Using the original source file, make the image double its width on your website
 - Use `Save For Web` to compress the image to a JPG with a quality of somewhere around 25%–35%
 
-#### Videos
+**Videos**
 
 - [Images: compressive JPEGs](https://www.youtube.com/watch?v=3SzWx4_mL7A&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=5)
 
-#### Links
+**Links**
 
 - [Retina Revolution Compressive JPEGs](http://blog.netvlies.nl/design-interactie/retina-revolution/)
 - [RWD Image Compression](http://filamentgroup.com/lab/rwd_img_compression/)
@@ -177,7 +177,7 @@ There are a couple things you can do to your images to help speed up your websit
 
 Combine your images into a single file in Photoshop and using `background-position` show only a single part of the image at a time.
 
-#### Videos
+**Videos**
 
 - [Images: CSS sprites](https://www.youtube.com/watch?v=nm8D1tTs5bY&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=6)
 
@@ -186,11 +186,23 @@ Combine your images into a single file in Photoshop and using `background-positi
 Many images contain extra meta information in their files that can be stripped out without compromising the image.
 Smushing will reduce the size of images without reducing their quality
 
-#### Videos
+**Videos**
 
 - [Images: smushing](https://www.youtube.com/watch?v=3nYcq3CPSe8&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=7)
 
-#### Links
+**Links**
 
 - [ImageOptim](http://imageoptim.com/)
 - [Smush.it](http://www.smushit.com/)
+
+---
+
+## Videos
+
+1. [Images: SVG](https://www.youtube.com/watch?v=TfgZpgQMBEg&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=1)
+2. [Images: favicons](https://www.youtube.com/watch?v=G407yUWeU40&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=2)
+3. [Images: image replacement](https://www.youtube.com/watch?v=U7B9-UtEK7w&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=3)
+4. [Images: multi-resolution PNGs](https://www.youtube.com/watch?v=Q91vXeF0mpU&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=4)
+5. [Images: compressive JPEGs](https://www.youtube.com/watch?v=3SzWx4_mL7A&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=5)
+6. [Images: CSS sprites](https://www.youtube.com/watch?v=nm8D1tTs5bY&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=6)
+7. [Images: smushing](https://www.youtube.com/watch?v=3nYcq3CPSe8&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=7)
