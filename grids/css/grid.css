@@ -1,28 +1,31 @@
-.grid:before,
-.grid:after {
-  content: " ";
-  display: table;
-}
-.grid:after {
-  clear: both;
-}
+/* http://yui.github.io/gridbuilder/ */
 .grid {
-  *zoom: 1;
+  letter-spacing: -0.31em;
+  *letter-spacing: normal;
+  *word-spacing: -0.43em;
+  text-rendering: optimizespeed;
+}
+.opera-only :-o-prefocus,
+.grid {
+  word-spacing: -0.43em;
 }
 .unit {
-  float: left;
-  min-height: 1px;
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  letter-spacing: normal;
+  text-rendering: auto;
+  vertical-align: top;
+  word-spacing: normal;
 }
 .unit-spacer {
   padding: 8px;
 }
 .unit-s-hidden {
   display: none;
-  float: none;
   visibility: hidden;
 }
 .unit-s-1 {
-  float: none;
   display: block;
   width: 100%;
 }
@@ -31,8 +34,8 @@
 .unit-s-2-3,
 .unit-s-1-4,
 .unit-s-3-4 {
-  display: inline;
-  float: left;
+  display: inline-block;
+  *display: inline;
   visibility: visible;
   width: 100%;
 }
@@ -54,11 +57,9 @@
 @media only screen and (min-width: 38em) {
   .unit-m-hidden {
     display: none;
-    float: none;
     visibility: hidden;
   }
   .unit-m-1 {
-    float: none;
     display: block;
     width: 100%;
   }
@@ -67,8 +68,8 @@
   .unit-m-2-3,
   .unit-m-1-4,
   .unit-m-3-4 {
-    display: inline;
-    float: left;
+    display: inline-block;
+    *display: inline;
     visibility: visible;
     width: 100%;
   }
@@ -91,11 +92,9 @@
 @media only screen and (min-width: 60em) {
   .unit-l-hidden {
     display: none;
-    float: none;
     visibility: hidden;
   }
   .unit-l-1 {
-    float: none;
     display: block;
     width: 100%;
   }
@@ -104,8 +103,8 @@
   .unit-l-2-3,
   .unit-l-1-4,
   .unit-l-3-4 {
-    display: inline;
-    float: left;
+    display: inline-block;
+    *display: inline;
     visibility: visible;
     width: 100%;
   }
