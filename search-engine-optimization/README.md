@@ -65,6 +65,39 @@ The most important thing to remember about search engine optimization is to prov
 
 ---
 
+## Page title formula
+
+Page titles are the most important piece of content on your site. We always want to front-load the titles with the best keywords.
+
+Here’s a common formula for the `<title>` tag on your website.
+
+**Homepage**
+
+```html
+<title>Site/Company Name · Small keyword rich, catchy phrase · City, Country</title>
+```
+
+1. The website’s name or the company’s name
+2. A small keyword rich and catchy phrase or tagline; 4–7 words
+3. The city and country, if it’s appropriate to the website, like a small business
+
+**Inside pages**
+
+```html
+<title>Page Title · Site/Company Name</title>
+```
+
+1. The title of this page
+2. The website’s name or the company’s name
+
+By following this format we can be sure that the most important words are at the start of the title—and therefore will most likely be read.
+
+*Every single page should have a completely unique title tag.*
+
+The most accessible separator for title tags is the middle dot: [The Sound of the Accessible Title Text Separator](http://www.standards-schmandards.com/2004/title-text-separators/).
+
+---
+
 ## Sitemaps
 
 [⬇ Download sample sitemap.xml](sitemap.xml)
