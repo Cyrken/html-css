@@ -94,7 +94,7 @@ Relationships can be defined in HTML using the `rel` attribute. These relationsh
 -->
 <a href="/files/download.pdf" download="Download.pdf" rel="enclosure">Download Now!</a>
 <!-- Linking to the `license` for this document -->
-<link href="https://github.com/algonquin-design/html-css/blob/master/LICENSE" rel="license">
+<a href="https://github.com/algonquin-design/html-css/blob/master/LICENSE" rel="license">License</a>
 ```
 
 **Links**
@@ -109,7 +109,11 @@ Relationships can be defined in HTML using the `rel` attribute. These relationsh
 In Google you can define whom the author of a website is by connecting your Google+ profile.
 
 ```html
-<link href="https://plus.google.com/{{YOUR PERSONAL GOOGLE+ PROFILE HERE}}" rel="author">
+<head>
+	⋮
+	<link href="https://plus.google.com/{{YOUR PERSONAL GOOGLE+ PROFILE HERE}}" rel="author">
+	⋮
+</head>
 ```
 
 **Links**
@@ -122,18 +126,26 @@ In Google you can define whom the author of a website is by connecting your Goog
 
 Facebook uses the Open Graph Protocol to extract information from your website when a user links to it.
 
+![](facebook-open-graph.jpg)
+
+*You can control the information in the share preview box using the Facebook meta tags.*
+
 Four tags are required to support the Open Graph Protocol:
 
 ```html
-<meta property="og:type" content="article">
-<meta property="og:title" content="Title of this page">
-<meta property="og:url" content="URL of this page">
-<!-- Image dimensions: minimum 200x200; recommended 1500x1500 -->
-<meta property="og:image" content="URL to an image representing this page">
-<!-- `og:site_name` is optional but highly recommended -->
-<meta property="og:site_name" content="Name of your website">
-<!-- `og:description` is also optional, but could easily be filled with the meta description -->
-<meta property="og:description" content="Description of this page">
+<head>
+	⋮
+	<meta property="og:type" content="article">
+	<meta property="og:title" content="Title of this page, same as title tag">
+	<meta property="og:url" content="http://fullurl.com/to-this/page/">
+	<!-- Image dimensions: minimum 200x200; recommended 1500x1500 -->
+	<meta property="og:image" content="http://fullurl.com/to-this/image.jpg">
+	<!-- `og:site_name` is optional but highly recommended -->
+	<meta property="og:site_name" content="Name of your website">
+	<!-- `og:description` is also optional, but could easily be filled with the meta description -->
+	<meta property="og:description" content="Description of this page, same as meta description">
+	⋮
+</head>
 ```
 
 There are plenty of optional tags for descriptions, author info—and more specific forms of content like: [music](http://ogp.me/#type_music), [video](http://ogp.me/#type_video), [books](http://ogp.me/#type_book), etc.
@@ -151,15 +163,23 @@ There are plenty of optional tags for descriptions, author info—and more speci
 
 Twitter Cards allow designers to attach supplemental information to tweets when people link to your website.
 
+![](twitter-cards.jpg)
+
+*You can control the information in the Twitter Card box using the Twitter meta tags.*
+
 The default card is the “summary” card; it requires four tags:
 
 ```html
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Title of this page">
-<meta name="twitter:url" content="URL of this page">
-<meta name="twitter:description" content="Description of this page">
-<!-- The image should be 120x120 pixels in dimension -->
-<meta name="twitter:image" content="URL to an image representing this page">
+<head>
+	⋮
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Title of this page, same as title tag">
+	<meta name="twitter:url" content="http://fullurl.com/to-this/page/">
+	<meta name="twitter:description" content="Description of this page, same as meta description">
+	<!-- The image should be 120x120 pixels in dimension -->
+	<meta name="twitter:image" content="http://fullurl.com/to-this/image.jpg">
+	⋮
+</head>
 ```
 
 There are many optional tags for larger images and different types of content like: [photos](https://dev.twitter.com/docs/cards/types/photo-card), [galleries](https://dev.twitter.com/docs/cards/types/gallery-card), [apps](https://dev.twitter.com/docs/cards/types/app-card), [media](https://dev.twitter.com/docs/cards/types/player-card), and [products](https://dev.twitter.com/docs/cards/types/product-card).
