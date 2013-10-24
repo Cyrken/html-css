@@ -1,6 +1,6 @@
 # HTML & CSS
 
-Code samples for HTML & CSS classes in the [Algonquin College Graphic Design](http://goalgonquin.com/graphicdesign) program.
+Code samples, documentation, tutorials, & videos for the [Algonquin College Graphic Design](http://algonquindesign.ca) program.
 
 1. [Flow & display](flow-display)
 2. [Float & clear](float-clear)
@@ -13,3 +13,11 @@ Code samples for HTML & CSS classes in the [Algonquin College Graphic Design](ht
 9. [Modules](modules)
 10. [Search engine optimization](search-engine-optimization)
 11. [Metadata & enhanced semantics](metadata-enhanced-semantics)
+
+---
+
+## License & Copyright
+
+© Algonquin College Graphic Design Program — <http://algonquindesign.ca>.
+All code licensed under the [BSD-3 License](LICENSE).
+All text, imagery, documentation, tutorials, & videos licensed under the [CC BY-SA License](http://creativecommons.org/licenses/by-sa/2.5/ca/deed.en_US).
