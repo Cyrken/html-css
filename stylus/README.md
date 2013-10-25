@@ -2,7 +2,7 @@
 
 Using the Stylus preprocessor in your website to write more efficient CSS.
 
-### [☛ Videos for Stylus]()
+### [☛ Videos for Stylus](https://www.youtube.com/playlist?feature=edit_ok&list=PLWjCJDeWfDddW7jbwiz2c4D40fzyoXzUd)
 
 ---
 
