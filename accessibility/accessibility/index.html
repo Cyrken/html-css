@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>Accessibility</title>
+	<link href="css/accessibility.css" rel="stylesheet">
+</head>
+<body>
+
+<!--
+	Skip Links allow users to jump to specific places on our site
+	So they can make the screen reader skip reading duplicate content, like primary navigation
+-->
+<ul class="skiplinks">
+	<li><a href="#main">Skip to main content</a></li>
+	<li><a href="#sidebar">Skip to secondary content</a></li>
+	<li><a href="#primenav">Skip to primary navigation</a></li>
+</ul>
+
+<!-- The role of banner defines the element as the site's masthead -->
+<header role="banner" id="top">
+	<strong>Accessibility</strong>
+
+	<!-- The role of navigation defines the element as being the primary navigation for the site -->
+	<nav role="navigation" id="primenav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+
+<!-- The role of main defines the element as being the primary content -->
+<main role="main" id="main">
+	<h1>Accessibility</h1>
+	<p>Main content goes here.</p>
+</main>
+
+<!-- The role of complementary defines and element as content related to the primary content -->
+<aside role="complementary" id="sidebar">
+	<h2>Secondary Content</h2>
+</aside>
+
+<!--
+	@role of contentinfo defines the element as information about the content:
+	e.g. copyright, terms, privacy policy
+-->
+<footer role="contentinfo">
+	<p>© Accessibility · <a href="#top">Top</a></p>
+</footer>
+
+</body>
+</html>
