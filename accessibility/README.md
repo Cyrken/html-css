@@ -15,7 +15,7 @@
 - **[WebAim: Web Accessibility for Designers](http://webaim.org/resources/designers/)**
 - **[Images in Context: Appropriate Alt Attributes](http://simplyaccessible.com/article/images-in-context/)**
 - **[Design and Development: The Yin and Yang of Web Accessibility](http://simplyaccessible.com/article/both/)**
-- **[The Sound of the Accessible Title Text Separator](http://www.standards-schmandards.com/2004/title-text-separators/)
+- **[The Sound of the Accessible Title Text Separator](http://www.standards-schmandards.com/2004/title-text-separators/)**
 - [W3: Techniques for providing useful text alternatives](http://dev.w3.org/html5/alt-techniques/)
 - [Designing For Disabilities: Section 508 and International Accessibility Compliance For Beginners](http://www.sitepoint.com/designing-disabilities-section-508-international-accessibility-compliance-beginners/)
 - [Top Mistakes in Web Accessibility](http://www.slideshare.net/wojciechzajac/top-mistakes-in-web-accessibility)
@@ -43,12 +43,13 @@
 
 ## Tools
 
-- **[HTML5 Outliner](http://gsnedders.html5.org/outliner/)**
+- **[Web Developer Toolbar](http://chrispederick.com/work/web-developer/)**
+- **[Wave by WebAim](http://wave.webaim.org/)**
+- **[Total Validator](http://www.totalvalidator.com/index.html)**
+- **[Color Oracle](http://colororacle.org/)**
+- [HTML5 Outliner](http://gsnedders.html5.org/outliner/)
 - [HTML5 Outliner Chrome Extension](https://chrome.google.com/webstore/detail/afoibpobokebhgfnknfndkgemglggomo)
-- **[Lynx Viewer](http://www.clickability.co.uk/lynx-viewer.php)** (Also good for checking accessibility)
-- [Wave by WebAim](http://wave.webaim.org/)
-- [Total Validator](http://www.totalvalidator.com/index.html)
-- [Web Developer Toolbar](http://chrispederick.com/work/web-developer/)
+- [Lynx Viewer](http://www.clickability.co.uk/lynx-viewer.php)
 
 ## Standards
 
