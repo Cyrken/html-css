@@ -16,6 +16,7 @@
 - **[Images in Context: Appropriate Alt Attributes](http://simplyaccessible.com/article/images-in-context/)**
 - **[Design and Development: The Yin and Yang of Web Accessibility](http://simplyaccessible.com/article/both/)**
 - **[The Sound of the Accessible Title Text Separator](http://www.standards-schmandards.com/2004/title-text-separators/)**
+- [The HTML5 Document Outline is a Dangerous Fiction](http://blog.paciellogroup.com/2013/10/html5-document-outline/)
 - [W3: Techniques for providing useful text alternatives](http://dev.w3.org/html5/alt-techniques/)
 - [Designing For Disabilities: Section 508 and International Accessibility Compliance For Beginners](http://www.sitepoint.com/designing-disabilities-section-508-international-accessibility-compliance-beginners/)
 - [Top Mistakes in Web Accessibility](http://www.slideshare.net/wojciechzajac/top-mistakes-in-web-accessibility)
