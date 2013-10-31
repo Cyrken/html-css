@@ -1,6 +1,6 @@
 # Accessibility
 
-Form into 8 groups; each group will be assigned an accessibility topic.
+Form into pairs; each group will be assigned an accessibility topic.
 
 ## Topics
 
@@ -65,3 +65,17 @@ Form into 8 groups; each group will be assigned an accessibility topic.
 - What is the role of these regulations?
 - Are there any past court cases in Canada related to these government website regulations?
 - Are there any tools to help us follow with these regulations?
+
+### 9. JAWS, VoiceOver, NVDA
+
+- What are the following tools: JAWS, VoiceOver, NVDA?
+- Why are they helpful for some impairments?
+- Give a quick idea of how they are used.
+- Explain how they interface with and understand websites.
+
+### 10. Image alt attributes
+
+- Why are alt attributes on images so important?
+- When should the alt attribute be left empty? When should it have content?
+- Is there a way to provide a longer description of images?
+- What content should be inside alt attributes?
