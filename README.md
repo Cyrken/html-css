@@ -13,8 +13,9 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 9. [Modules](modules)
 10. [Search engine optimization](search-engine-optimization)
 11. [Metadata & enhanced semantics](metadata-enhanced-semantics)
-10. [Accessibility](accessibility)
-12. [Stylus](stylus)
+12. [Accessibility](accessibility)
+13. [Performance](performance.md)
+14. [Stylus](stylus)
 
 ---
 
