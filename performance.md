@@ -35,7 +35,7 @@ Some tools to help you diagnose performance problems on your website:
 - [Pingdom Website Speed Test](http://tools.pingdom.com/fpt/)
 - [Web Page Test](http://www.webpagetest.org/)
 
-## Tools
+## Automation tools
 
 Some tools to automate the smushing/minification process:
 
