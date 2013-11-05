@@ -24,6 +24,7 @@ Making your website fast is extremely important for usability and probably one o
 - Minify HTML, CSS, and JS
 - Sends resources GZipped, by setting up your server
 - Send proper caching headers using your server
+- Use a content delivery network (CDN) to serve your images
 
 ## Checking performance
 
@@ -45,6 +46,12 @@ Some tools to automate the smushing/minification process:
 - [Smaller](http://smallerapp.com/)
 - [ProCSSor](http://procssorapp.com/)
 - **[Grunt.js](http://gruntjs.com/)** — an extremely powerful command line automation tool
+
+## CDNs
+
+- **[CloudFlare](https://www.cloudflare.com/)** — also provides security, minification, caching headers
+- [Coral CDN](http://www.coralcdn.org/)
+- [Amazon CloudFront](http://aws.amazon.com/cloudfront/)
 
 ## Links
 
