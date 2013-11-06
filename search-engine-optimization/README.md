@@ -36,6 +36,7 @@ The most important thing to remember about search engine optimization is to prov
 ### Helpful resources
 
 - **[Web Developers SEO Cheat Sheet](http://moz.com/blog/the-web-developers-seo-cheat-sheet-2013-edition)**
+- [Google: Search Engine Optimization Starter Guide](https://static.googleusercontent.com/external_content/untrusted_dlcp/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
 - [Common Sense SEO Checklist](http://css-tricks.com/common-sense-seo-checklist/)
 - [SEO Fundamentals for Web Designers](http://webdesign.tutsplus.com/sessions/seo-fundamentals-for-web-designers/)
 - [Designers SEO Checklist](http://webdesign.tutsplus.com/articles/seo-articles/seo-checklist/)
