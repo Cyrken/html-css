@@ -52,6 +52,7 @@ Some tools to automate the smushing/minification process:
 - **[CloudFlare](https://www.cloudflare.com/)** — also provides security, minification, caching headers
 - [Coral CDN](http://www.coralcdn.org/)
 - [Amazon CloudFront](http://aws.amazon.com/cloudfront/)
+- [MaxCDN](http://www.maxcdn.com/)
 
 ## Links
 
