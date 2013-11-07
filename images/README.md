@@ -38,9 +38,9 @@ There are a few other options to watch out for in the “Save for Web” dialogu
 
 - Check “Progressive”
 - Un-check “Embed Color Profile”
+- Check “Convert to sRGB”
 - Set “Preview” to “Internet Standard RGB (No Color Management)”
 - Set “Metadata” to “None”
-- Check “Convert to sRGB”
 
 **[Don’t forget to smush your JPGs afterwards.](#-image-smushing)**
 
@@ -50,7 +50,7 @@ PNG graphics should be used for logos, icons, and text. In many situations SVGs 
 
 When preparing PNGs to use on your website save them from Photoshop with the “Save for Web” tool. This allows you to control the quality and monitor the filesize.
 
-*You almost always want to use `PNG-24` because Photoshop’s implementation of PNG-8 is incorrect.
+*You almost always want to use `PNG-24` because Photoshop’s implementation of PNG-8 is incorrect.*
 
 ![](images-png.jpg)
 
@@ -58,9 +58,9 @@ There are a few other options to watch out for in the “Save for Web” dialogu
 
 - Check “Interlaced”
 - Un-check “Embed Color Profile”
+- Check “Convert to sRGB”
 - Set “Preview” to “Internet Standard RGB (No Color Management)”
 - Set “Metadata” to “None”
-- Check “Convert to sRGB”
 
 **[Don’t forget to smush your PNGs afterwards.](#-image-smushing)**
 
@@ -72,7 +72,7 @@ You can open them up in your text editor—because they are just XML—and edit 
 
 - Create your graphic in Illustrator then go to `File > Save a Copy`
 - Choose `SVG` as the type
-- In the dialogue that pops up, select “SVG 1.1”
+- In the dialogue that pops up, select `SVG 1.1`
 - Under the “Fonts” section choose `Convert to Outline` for the “Type”
 - Un-check “Preserve Illustrator Editing Capabilities”
 - Press the `More Options` button and fill in a couple more options
@@ -100,7 +100,8 @@ It’s suggested to put the favicon right into the root of your website, `http:/
 If, for some reason, you can’t put it there you can use the `<link>` tag to include it.
 
 ```html
-<link rel="shortcut icon" href="img/favicon.ico">
+<!-- This is optional; it’s better to put the icon at the root of your domain. -->
+<link href="img/favicon.ico" rel="shortcut icon">
 ```
 
 Some devices have their own favicon-like graphics, e.g. Apple Touch Icon, Opera Speed Dial Icon, Windows 8 Tile Icon.
@@ -115,7 +116,7 @@ Some devices have their own favicon-like graphics, e.g. Apple Touch Icon, Opera 
 #### Platform specific meta tags
 
 ```html
-<link rel="icon" type="image/png" href="/opera-icon.png">
+<link href="/opera-icon.png" rel="icon" type="image/png">
 <meta name="application-name" content="Your Site Name">
 <meta name="msapplication-TileImage" content="/msapplication-icon.png">
 <meta name="msapplication-TileColor" content="#ef0303">
@@ -127,7 +128,7 @@ Some devices have their own favicon-like graphics, e.g. Apple Touch Icon, Opera 
 
 **Links**
 
-- [Icon Slate](http://www.kodlian.com/apps/icon-slate)
+- **[Icon Slate](http://www.kodlian.com/apps/icon-slate)**
 - [X Icon Editor](http://xiconeditor.com/)
 - Apple Touch Icons: <http://mathiasbynens.be/notes/touch-icons>
 - Windows 8 Tile Icons: <http://hicksdesign.co.uk/journal/pinned-sites-in-windows-8>
@@ -179,7 +180,7 @@ There are a few techniques we can use for hi-res screens:
 1. **CSS:** can it be done purely with CSS (and it’s practical)? Do it that way.
 2. **SVG:** is it a logo, or an icon, or a simple vector-like graphic? Use SVG.
 3. **Two PNGs:** is the SVG not producing the desired output? Use a low-res and a hi-res PNGs.
-4. **Compressive JPGs:** For photos, use a double-size JPG, with lower quality.
+4. **Compressive JPGs:** For photos, use a double-dimension JPG, with lower quality, usually around 25%–35%.
 	This may not work in every situation, so use your discretion.
 
 ### ☛ Two PNGs
@@ -201,8 +202,9 @@ Using two differently sized PNGs and a media query for detecting hi-res screens 
 Compressive JPGs are a technique for supplying hi-resolution photos while reducing the download size.
 The major downside of this technique is that the images can become very memory intensive.
 
-- Using the original source file, make the image double its width on your website
-- Use `Save For Web` to compress the image to a JPG with a quality of somewhere around 25%–35%
+1. Go to your website and determine the maximum width your image will be displayed at
+2. Open the original source file in Photoshop make its width double the size you determined for your website
+3. Use `Save For Web` to compress the image to a JPG with a quality of somewhere around 25%–35%
 
 **Videos**
 
