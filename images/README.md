@@ -141,12 +141,12 @@ Some devices have their own favicon-like graphics, e.g. Apple Touch Icon, Opera 
 
 There are two ways to insert images into a website, each with a specific purpose:
 
-1. As a foreground, content-based image using the HTML `<img>` tag
-2. As a background, decorative-based image using the CSS property `background-image`
+1. As a foreground content-based image using the HTML `<img>` tag
+2. As a background decorative-based image using the CSS property `background-image`
 
 The HTML `<img>` tag is for inserting images that are part of the content. The information inside the image is relevant and important for understanding the content of the page.
 
-Background images are for decorative purposes. If the image is purely there for decoration, to make your site pretty, then it should be a background image using CSS.
+Background images are for decorative purposes. If the image is purely there for decoration—to make your site pretty—then it should be a background image using CSS.
 
 ### Alt attributes
 
@@ -173,6 +173,21 @@ When describing the image you should think about what content is most helpful fo
 
 - [Simply Accessible: Images in Context](http://simplyaccessible.com/article/images-in-context/)
 - [W3: Techniques for providing useful text alternatives](http://dev.w3.org/html5/alt-techniques/)
+
+### Figures & captions
+
+Often you’ll need to provide a caption for your image, that’s where the `<figure>` element comes in handy.
+
+```html
+<figure>
+	<img src="pluto.jpg" alt="">
+	<figcaption>Photo of Pluto taken with the Hubble Telescope</figcaption>
+</figure>
+```
+
+Using the `<figure>` and `<figcaption>` elements we can associate a caption with an image.
+
+You’ll notice that the alt attribute is empty in this situation. Often it’s not needed because the content of the caption would be no different than the alt attribute so we don’t want the information repeated.
 
 ### Image replacement
 
