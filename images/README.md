@@ -79,6 +79,8 @@ You can open them up in your text editor—because they are just XML—and edit 
 	- “CSS Properties” — `Style Elements`
 	- “Decimal Places” — 2 (or usually 1 works)
 
+![](images-svg.jpg)
+
 **[Don’t forget to smush your SVGs afterwards.](#imagesmushing)**
 
 **Videos**
