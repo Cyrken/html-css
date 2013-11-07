@@ -3,7 +3,7 @@
 There are many considerations when adding images to your website.
 
 - [Image types](#image-types)
-- [When to use an img tag over a background image]()
+- [When to use an img tag over a background image](#foreground-vs-background-images)
 - [Images for retina screens](#images-for-retina)
 - [Speed of images](#speed-of-images)
 
@@ -137,7 +137,44 @@ Some devices have their own favicon-like graphics, e.g. Apple Touch Icon, Opera 
 
 ---
 
-## Image replacement
+## Foreground vs. background images
+
+There are two ways to insert images into a website, each with a specific purpose:
+
+1. As a foreground, content-based image using the HTML `<img>` tag
+2. As a background, decorative-based image using the CSS property `background-image`
+
+The HTML `<img>` tag is for inserting images that are part of the content. The information inside the image is relevant and important for understanding the content of the page.
+
+Background images are for decorative purposes. If the image is purely there for decoration, to make your site pretty, then it should be a background image using CSS.
+
+### Alt attributes
+
+All images inserted with the `<img>` tag must have an alt attribute:
+
+```html
+<img src="pluto.jpg" alt="Photo of Pluto">
+```
+
+The alt attribute has two purposes:
+
+1. To describe the photo if it doesn’t download in the browser
+2. To describe the photo to someone who cannot see the image, someone using a screen reader
+
+When describing the image you should think about what content is most helpful for a user who cannot see the image. Describe what is important about the image.
+
+- Is the image fancy text? Then just write the word.
+- Is it a photo of a planet taken by a telescope? Write something like “Photo of Pluto taken with Hubble”
+- Is the photo meant to highlight a point? Write just the point, e.g. “Classic painting showing the triangle composition”
+- Is the graphic a chart? Describe the purpose of the chart, e.g. “A bar graph representing the orbital periods of planets in the Solar System”
+- Does the graphic not add any relevant information? Then is should be in your CSS. If that’s not possible, leave the alt empty, `<img alt="">`
+
+**Links**
+
+- [Simply Accessible: Images in Context](http://simplyaccessible.com/article/images-in-context/)
+- [W3: Techniques for providing useful text alternatives](http://dev.w3.org/html5/alt-techniques/)
+
+### Image replacement
 
 Image replacement is a technique to replace text on the page with an image in an accessible manner.
 The technique is useful when you cannot produce the text style you’d like in CSS.
