@@ -184,7 +184,13 @@ Combine your images into a single file in Photoshop and using `background-positi
 ### ☛ Image smushing
 
 Many images contain extra meta information in their files that can be stripped out without compromising the image.
-Smushing will reduce the size of images without reducing their quality
+Smushing will reduce the size of images without reducing their quality.
+
+*All images be exported from Photoshop with “Save for Web”, then run through smusher.*
+
+- `PNGs` — should be run through ImageOptim and ImageAlpha
+- `JPGs` — should be run through ImageOptim and JPEGmini
+- `SVGs` — should be run through SVGO
 
 **Videos**
 
@@ -192,7 +198,10 @@ Smushing will reduce the size of images without reducing their quality
 
 **Links**
 
-- [ImageOptim](http://imageoptim.com/)
+- **[ImageOptim](http://imageoptim.com/)**
+- **[ImageAlpha](http://pngmini.com/)**
+- **[JPEGmini](http://www.jpegmini.com/)**
+- **[SVGO-GUI](https://github.com/svg/svgo-gui)**
 - [Smush.it](http://www.smushit.com/)
 
 ---
