@@ -2,10 +2,10 @@
 
 There are many considerations when adding images to your website.
 
-- Image types
-- When to use a `<img>` over a `background-image`
-- Images for retina screens
-- Speed of images
+- [Image types](#imagetypes)
+- [When to use an img tag over a background image]()
+- [Images for retina screens](#imagesforretina)
+- [Speed of images](#speedofimages)
 
 ### [☛ Videos for images](https://www.youtube.com/playlist?list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph)
 
@@ -15,11 +15,54 @@ There are many considerations when adding images to your website.
 
 There are a few types of images used on the web:
 
-2. **PNGs:** a raster format for logos and simple graphics
-1. **SVGs:** a vector format for logos and simple graphics
-3. **JPGs:** a raster format for photos and complex images
-4. **GIFs:** an older raster format for logos and simple graphics; generally used just for simple animations
-5. **ICOs:** used only for favicons
+3. **[JPGs](#jpgs):** a raster format for photos and complex images
+2. **[PNGs](#pngs):** a raster format for logos and simple graphics
+1. **[SVGs](#svgs):** a vector format for logos and simple graphics
+4. **[ICOs](#favicons):** used only for favicons
+5. **GIFs:** an older raster format for logos and simple graphics; generally used just for simple animations
+
+### ☛ JPGs
+
+JPG images should be used for photos and other complex graphics. They don’t work particularly well for text.
+
+When preparing JPGs to use on your website save them from Photoshop with the “Save for Web” tool. This allows you to control the quality and monitor the filesize.
+
+Our goal when using “Save for Web” is to increase the compression as much as possible while still retaining a good level of image quality.
+By playing with the quality setting and watching the image for artifacts or blurring while also watching the size we can create a balance between filesize and quality.
+
+*For standard photos I usually start around 65% quality and go up or down from there.*
+
+![](images-jpg.jpg)
+
+There are a few other options to watch out for in the “Save for Web” dialogue:
+
+- Check “Progressive”
+- Un-check “Embed Color Profile”
+- Set “Preview” to “Internet Standard RGB (No Color Management)”
+- Set “Metadata” to “None”
+- Check “Convert to sRGB”
+
+**[Don’t forget to smush your JPGs afterwards.](#imagesmushing)**
+
+### ☛ PNGs
+
+PNG graphics should be used for logos, icons, and text. In many situations SVGs are better suited, but SVGs can’t create quite as many effects.
+
+When preparing PNGs to use on your website save them from Photoshop with the “Save for Web” tool. This allows you to control the quality and monitor the filesize.
+
+*You almost always want to use `PNG-24` because Photoshop’s implementation of PNG-8 is incorrect.
+
+![](images-png.jpg)
+
+There are a few other options to watch out for in the “Save for Web” dialogue:
+
+- Check “Interlaced”
+- Un-check “Embed Color Profile”
+- Set “Preview” to “Internet Standard RGB (No Color Management)”
+- Set “Metadata” to “None”
+- Check “Convert to sRGB”
+
+**[Don’t forget to smush your PNGs afterwards.](#imagesmushing)**
 
 ### ☛ SVGs
 
@@ -30,7 +73,13 @@ You can open them up in your text editor—because they are just XML—and edit 
 - Create your graphic in Illustrator then go to `File > Save a Copy`
 - Choose `SVG` as the type
 - In the dialogue that pops up, select “SVG 1.1”
-- Make sure to choose either “SVG Fonts” or “Outline Fonts”
+- Under the “Fonts” section choose `Convert to Outline` for the “Type”
+- Un-check “Preserve Illustrator Editing Capabilities”
+- Press the `More Options` button and fill in a couple more options
+	- “CSS Properties” — `Style Elements`
+	- “Decimal Places” — 2 (or usually 1 works)
+
+**[Don’t forget to smush your SVGs afterwards.](#imagesmushing)**
 
 **Videos**
 
@@ -57,7 +106,7 @@ Some devices have their own favicon-like graphics, e.g. Apple Touch Icon, Opera 
 #### Dimensions
 
 - **favicon.ico**—16×16, 32×32
-- **apple-touch-icon.png**—144×144
+- **apple-touch-icon.png**—256×256
 - **opera-icon.png**—256×160
 - **msapplication-icon.png**—144×144 (transparent)
 
@@ -186,7 +235,7 @@ Combine your images into a single file in Photoshop and using `background-positi
 Many images contain extra meta information in their files that can be stripped out without compromising the image.
 Smushing will reduce the size of images without reducing their quality.
 
-*All images be exported from Photoshop with “Save for Web”, then run through smusher.*
+*All images should be exported from Photoshop with “Save for Web”, then run through a smusher.*
 
 - `PNGs` — should be run through ImageOptim and ImageAlpha
 - `JPGs` — should be run through ImageOptim and JPEGmini
