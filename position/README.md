@@ -15,13 +15,13 @@ Position has a few values:
 
 ---
 
-## Position: RELATIVE
+## Relative
 
 Allows the box to be moved from the flow while still maintaining the original space.
 
 Relative creates a new positioning context that absolutely positioned children can move against.
 
-## Position: ABSOLUTE
+## Absolute
 
 Completely removes the box from the flow; all other boxes fill the space.
 
@@ -29,7 +29,7 @@ Movement is against the parent context, which by default is the `<body>`.
 
 When something is positioned, it becomes a new positioning context.
 
-## Position: FIXED
+## Fixed
 
 Completely removes the box from the flow; all other boxes fill the space.
 
