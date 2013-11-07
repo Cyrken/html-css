@@ -87,6 +87,10 @@ You can open them up in your text editor—because they are just XML—and edit 
 
 - [Images: SVG](https://www.youtube.com/watch?v=TfgZpgQMBEg&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=1)
 
+**Code samples**
+
+- [SVG](svg.html)
+
 **Links**
 
 - No SVG fallback to PNG for HTML `<img>` — <https://gist.github.com/3855802>
@@ -125,6 +129,10 @@ Some devices have their own favicon-like graphics, e.g. Apple Touch Icon, Opera 
 **Videos**
 
 - [Images: favicons](https://www.youtube.com/watch?v=G407yUWeU40&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=2)
+
+**Code samples**
+
+- [Favicons](favicons.html)
 
 **Links**
 
@@ -217,6 +225,10 @@ The technique is useful when you cannot produce the text style you’d like in C
 
 - [Images: image replacement](https://www.youtube.com/watch?v=U7B9-UtEK7w&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=3)
 
+**Code samples**
+
+- [Image replacement](image-replacement.html)
+
 **Links**
 
 - [Zeldman: New Image Replacement](http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/)
@@ -244,6 +256,10 @@ Using two differently sized PNGs and a media query for detecting hi-res screens 
 
 - [Images: multi-resolution PNGs](https://www.youtube.com/watch?v=Q91vXeF0mpU&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=4)
 
+**Code samples**
+
+- [Multi-resolution PNGs](multi-resolution-pngs.html)
+
 **Links**
 
 - Retina media queries: <https://gist.github.com/3855791>
@@ -261,6 +277,10 @@ The major downside of this technique is that the images can become very memory i
 **Videos**
 
 - [Images: compressive JPEGs](https://www.youtube.com/watch?v=3SzWx4_mL7A&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=5)
+
+**Code samples**
+
+- [Compressive JPGs](compressive-jpgs.html)
 
 **Links**
 
@@ -285,6 +305,10 @@ Combine your images into a single file in Photoshop and using `background-positi
 **Videos**
 
 - [Images: CSS sprites](https://www.youtube.com/watch?v=nm8D1tTs5bY&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=6)
+
+**Code samples**
+
+- [SVG](svg.html)
 
 ### ☛ Image smushing
 
