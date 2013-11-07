@@ -42,7 +42,7 @@ There are a few other options to watch out for in the “Save for Web” dialogu
 - Set “Metadata” to “None”
 - Check “Convert to sRGB”
 
-**[Don’t forget to smush your JPGs afterwards.](#image-smushing)**
+**[Don’t forget to smush your JPGs afterwards.](#-image-smushing)**
 
 ### ☛ PNGs
 
@@ -81,7 +81,7 @@ You can open them up in your text editor—because they are just XML—and edit 
 
 ![](images-svg.jpg)
 
-**[Don’t forget to smush your SVGs afterwards.](#image-smushing)**
+**[Don’t forget to smush your SVGs afterwards.](#-image-smushing)**
 
 **Videos**
 
