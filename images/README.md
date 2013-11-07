@@ -2,10 +2,10 @@
 
 There are many considerations when adding images to your website.
 
-- [Image types](#imagetypes)
+- [Image types](#image-types)
 - [When to use an img tag over a background image]()
 - [Images for retina screens](#imagesforretina)
-- [Speed of images](#speedofimages)
+- [Speed of images](#speed-of-images)
 
 ### [☛ Videos for images](https://www.youtube.com/playlist?list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph)
 
@@ -15,10 +15,10 @@ There are many considerations when adding images to your website.
 
 There are a few types of images used on the web:
 
-3. **[JPGs](#jpgs):** a raster format for photos and complex images
-2. **[PNGs](#pngs):** a raster format for logos and simple graphics
-1. **[SVGs](#svgs):** a vector format for logos and simple graphics
-4. **[ICOs](#favicons):** used only for favicons
+3. **[JPGs](#-jpgs):** a raster format for photos and complex images
+2. **[PNGs](#-pngs):** a raster format for logos and simple graphics
+1. **[SVGs](#-svgs):** a vector format for logos and simple graphics
+4. **[ICOs](#-favicons):** used only for favicons
 5. **GIFs:** an older raster format for logos and simple graphics; generally used just for simple animations
 
 ### ☛ JPGs
@@ -42,7 +42,7 @@ There are a few other options to watch out for in the “Save for Web” dialogu
 - Set “Metadata” to “None”
 - Check “Convert to sRGB”
 
-**[Don’t forget to smush your JPGs afterwards.](#imagesmushing)**
+**[Don’t forget to smush your JPGs afterwards.](#image-smushing)**
 
 ### ☛ PNGs
 
@@ -62,7 +62,7 @@ There are a few other options to watch out for in the “Save for Web” dialogu
 - Set “Metadata” to “None”
 - Check “Convert to sRGB”
 
-**[Don’t forget to smush your PNGs afterwards.](#imagesmushing)**
+**[Don’t forget to smush your PNGs afterwards.](#-image-smushing)**
 
 ### ☛ SVGs
 
@@ -81,7 +81,7 @@ You can open them up in your text editor—because they are just XML—and edit 
 
 ![](images-svg.jpg)
 
-**[Don’t forget to smush your SVGs afterwards.](#imagesmushing)**
+**[Don’t forget to smush your SVGs afterwards.](#image-smushing)**
 
 **Videos**
 
