@@ -11,7 +11,7 @@ Thinking modularly in CSS allows us to create more reusable CSS.
 - [List group](list-group-html): vertical & horizontal
 - [Buttons](buttons.html): small, medium, large, alternative
 - [Media object](media-object.html): flexible image size, embeddable, with list group, stacked, reversed
-- [Icons](icons): different sizes, stacked, inline, image replacement
+- [Icons](icons.html): different sizes, stacked, inline, image replacement
 
 **Videos**
 
