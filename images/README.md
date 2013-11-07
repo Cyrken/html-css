@@ -4,7 +4,7 @@ There are many considerations when adding images to your website.
 
 - [Image types](#image-types)
 - [When to use an img tag over a background image]()
-- [Images for retina screens](#imagesforretina)
+- [Images for retina screens](#images-for-retina)
 - [Speed of images](#speed-of-images)
 
 ### [☛ Videos for images](https://www.youtube.com/playlist?list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph)
