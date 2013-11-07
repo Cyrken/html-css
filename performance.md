@@ -7,17 +7,9 @@ Making your website fast is extremely important for usability and probably one o
 ## Basic performance checklist
 
 - Use as few resources as possible (images, CSS files, JS files, etc.)
-- Make sure to properly `Save for Web` from Photoshop
-	1. Choose the most appropriate format: PNG-24, PNG,-8 JPG
-	2. Un-check “Embed Color Profile”
-	3. Set “Metadata” to “None”
-	4. If JPEG, check “Progressive”
-- Smush all images after saving them using these tools:
-	- [ImageOptim](http://imageoptim.com/)
-	- [ImageAlpha](http://pngmini.com/)
-	- [JPEGMini](http://www.jpegmini.com/)
-	- [SVGO-GUI](https://github.com/svg/svgo-gui)
-- Use CSS sprites or DataURIs where appropriate
+- [Make sure to properly `Save for Web` from Photoshop](https://github.com/algonquindesign/html-css/tree/master/images#-jpgs)
+- [Smush all images after saving them](https://github.com/algonquindesign/html-css/tree/master/images#-image-smushing)
+- [Use CSS sprites or DataURIs where appropriate](https://github.com/algonquindesign/html-css/tree/master/images#-css-sprites)
 - Put CSS file `<link>` tags at the top
 - Put JS file `<script>` tags at the bottom
 - Remove any unused or duplicate CSS and JS
