@@ -15,7 +15,8 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 11. [Metadata & enhanced semantics](metadata-enhanced-semantics)
 12. [Accessibility](accessibility)
 13. [Performance](performance.md)
-14. [Stylus](stylus)
+14. [404 pages](404)
+15. [Stylus](stylus)
 
 ---
 
