@@ -16,7 +16,9 @@ The server will display a 404 error and page whenever a document cannot be found
 
 Here’s some examples of how that may happen:
 
-- A mis-typed URL, or an out-of-date bookmark- A search-engine link that’s out-of-date- An internal broken link that hasn’t been fixed
+- A mis-typed URL, or an out-of-date bookmark
+- A search-engine link that’s out-of-date
+- An internal broken link that hasn’t been fixed
 
 **Other common error codes**
 
@@ -81,3 +83,4 @@ Each web server has a different way to set up 404 pages. The best way to start s
 - <http://www.getfinch.com/404>
 - <http://www.alistapart.com/404>
 - <http://jasonsantamaria.com/404>
+- <http://gamespot.com/404>
