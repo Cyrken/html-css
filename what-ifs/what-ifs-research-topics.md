@@ -10,11 +10,11 @@ Form into pairs; each group will be assigned a progressive enhancement topic.
 
 ### 1. What if the images don’t download or aren’t visible?
 
-Disable images in your browser using the [Developer Toolbar](http://chrispederick.com/work/web-developer/) and come up with solutions for your website.
+Disable images in your browser using the [Developer Toolbar](http://chrispederick.com/work/web-developer/) and come up with solutions for your website. *Consider both foreground and background images.*
 
 ### 2. What if the font-size is significantly larger?
 
-Use Safari’s “Zoom Text Only” option and bump *up* the font-size a couple time.
+Use Safari’s “Zoom Text Only” option and bump *up* the font-size a couple times. This simulates the user changing their preferences to a larger font size.
 
 ### 3. What if there is double the amount of content on the page?
 
