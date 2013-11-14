@@ -65,7 +65,7 @@ Each web server has a different way to set up 404 pages. The best way to start s
 
 ## Examples
 
-- Design gallery: <http://fab404.com/>
+- **Design gallery: <http://fab404.com/>**
 - <https://github.com/404> · <https://github.com/500>
 - <https://www.mint.com/404>
 - <http://www.bluefountainmedia.com/404/>
