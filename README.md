@@ -16,7 +16,7 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 12. [Accessibility](accessibility)
 13. [Performance](performance.md)
 14. [What ifs: progressive enhancement & graceful degradation](what-ifs)
-15. [404 pages](404)
+15. [404 pages](404-pages)
 16. [Stylus](stylus)
 
 ---
