@@ -107,9 +107,9 @@ Search engines will determine whether the content of the meta description or the
 
 ```html
 <head>
-⋮
+	⋮
 	<meta name="description" content="A short sentence describing the purpose and content of this individual page.">
-⋮
+	⋮
 </head>
 ```
 
