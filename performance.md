@@ -45,6 +45,7 @@ Some tools to automate the smushing/minification process:
 - [Coral CDN](http://www.coralcdn.org/)
 - [Amazon CloudFront](http://aws.amazon.com/cloudfront/)
 - [MaxCDN](http://www.maxcdn.com/)
+- [cdnjs](http://cdnjs.com/)
 
 ## Links
 
