@@ -99,6 +99,26 @@ The most accessible separator for title tags is the middle dot (Option + Shift +
 
 ---
 
+## Meta descriptions
+
+The meta description tag may be used by search engines as the description underneath the link on the results page.
+
+Search engines will determine whether the content of the meta description or the first `<p>` tag on the page is the most appropriate content for humans.
+
+```html
+<head>
+⋮
+	<meta name="description" content="A short sentence describing the purpose and content of this individual page.">
+⋮
+</head>
+```
+
+**Maximum length of 150 characters.**
+
+*Every single page should have a completely unique meta description.*
+
+---
+
 ## Sitemaps
 
 [⬇ Download sample sitemap.xml](sitemap.xml)
