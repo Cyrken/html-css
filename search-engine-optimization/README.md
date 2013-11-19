@@ -95,7 +95,7 @@ By following this format we can be sure that the most important words are at the
 
 *Every single page should have a completely unique title tag.*
 
-The most accessible separator for title tags is the middle dot: [The Sound of the Accessible Title Text Separator](http://www.standards-schmandards.com/2004/title-text-separators/).
+The most accessible separator for title tags is the middle dot (Option + Shift + 9): [The Sound of the Accessible Title Text Separator](http://www.standards-schmandards.com/2004/title-text-separators/).
 
 ---
 
