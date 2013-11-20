@@ -22,6 +22,7 @@
 - [Top Mistakes in Web Accessibility](http://www.slideshare.net/wojciechzajac/top-mistakes-in-web-accessibility)
 - [Quick Tip Testing Web Content for Screen Readers](http://www.iheni.com/quick-tip-testing-web-content-for-screen-readers-without-a-screen-reader/)
 - [User Testing for Web Accessibility](http://sixrevisions.com/usabilityaccessibility/user-testing-web-accessibility/)
+- [Web writer’s accessibility checklist](http://www.4syllables.com.au/resources/templates-checklists/accessibility-checklist/)
 - [WCAG: Quick Reference](http://www.w3.org/WAI/WCAG20/quickref/)
 - [Extending Semantics & Accessibility](http://learn.shayhowe.com/advanced-html-css/semantics-accessibility)
 - [Longdesc Links, History, Future](http://www.webaxe.org/longdesc-links-history-future/)
