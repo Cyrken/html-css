@@ -14,6 +14,7 @@
 
 - **[WebAim: Web Accessibility for Designers](http://webaim.org/resources/designers/)**
 - **[Images in Context: Appropriate Alt Attributes](http://simplyaccessible.com/article/images-in-context/)**
+- **[Simply Accessible: Descriptive Alt Attributes](http://simplyaccessible.com/bpow/descriptive-alt-attributes/)**
 - **[Design and Development: The Yin and Yang of Web Accessibility](http://simplyaccessible.com/article/both/)**
 - **[The Sound of the Accessible Title Text Separator](http://www.standards-schmandards.com/2004/title-text-separators/)**
 - [The HTML5 Document Outline is a Dangerous Fiction](http://blog.paciellogroup.com/2013/10/html5-document-outline/)
