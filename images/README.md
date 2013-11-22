@@ -180,6 +180,7 @@ When describing the image you should think about what content is most helpful fo
 **Links**
 
 - [Simply Accessible: Images in Context](http://simplyaccessible.com/article/images-in-context/)
+- [Simply Accessible: Descriptive Alt Attributes](http://simplyaccessible.com/bpow/descriptive-alt-attributes/)
 - [W3: Techniques for providing useful text alternatives](http://dev.w3.org/html5/alt-techniques/)
 
 ### Figures & captions
