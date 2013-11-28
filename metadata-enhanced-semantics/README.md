@@ -22,7 +22,7 @@ Here’s an example [person/contact](http://schema.org/Person) marked up with Mi
 ```html
 <div itemscope itemtype="http://schema.org/Person">
 	<h1 itemprop="name">Sir John A. Macdonald</h1>
-	<span itemprop="title">Prime Minister of Canada</span>
+	<span itemprop="jobTitle">Prime Minister of Canada</span>
 	<p itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
 		<span itemprop="streetAddress">24 Sussex Dr.</span>
 		<br>
