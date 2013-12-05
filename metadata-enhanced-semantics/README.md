@@ -118,6 +118,7 @@ In Google you can define whom the author of a website is by connecting your Goog
 
 **Links**
 
+- **[Setting Up Google Authorship for Your Website](http://blog.teamtreehouse.com/setting-google-authorship-website)**
 - [Google Profile Authorship](https://support.google.com/webmasters/answer/2539557?hl=en)
 
 ### Facebook Open Graph
