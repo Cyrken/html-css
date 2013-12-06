@@ -55,6 +55,7 @@ You’ll notice a few things are missing in the Stylus version:
 
 ## Links
 
+- **[Getting Started with Stylus](http://blog.teamtreehouse.com/getting-started-stylus)**
 - [Stylus](http://learnboost.github.io/stylus/)
 - [Nib](http://visionmedia.github.io/nib/)
 - [LiveReload](http://livereload.com/)
