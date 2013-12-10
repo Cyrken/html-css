@@ -12,6 +12,7 @@
 
 ## Articles
 
+- **[Why Bothr with Accessibility](http://24ways.org/2013/why-bother-with-accessibility/)**
 - **[WebAim: Web Accessibility for Designers](http://webaim.org/resources/designers/)**
 - **[Images in Context: Appropriate Alt Attributes](http://simplyaccessible.com/article/images-in-context/)**
 - **[Simply Accessible: Descriptive Alt Attributes](http://simplyaccessible.com/bpow/descriptive-alt-attributes/)**
