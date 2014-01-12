@@ -62,6 +62,11 @@ There are a few attributes to understand:
 - [Structure Data Linter](http://validator.w3.org/nu/)
 - [W3 Semantic Extractor](http://www.w3.org/2003/12/semantic-extractor)
 
+**Examples**
+
+- [Pinterest: salad recipe](http://www.pinterest.com/pin/59532026297979167/)
+- [Pinterest: sweet potato recipe](http://www.pinterest.com/pin/153192824796589716/)
+
 ---
 
 ## Social semantics
