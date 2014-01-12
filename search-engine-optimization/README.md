@@ -161,3 +161,9 @@ http://domain.com/humans.txt
 - [Robots.txt Spec](http://robotstxt.org/)
 - [Robots Exclusion Standard](http://en.wikipedia.org/wiki/Robots_exclusion_standard)
 - [Humans.txt Spec](http://humanstxt.org/)
+
+### Example humans.txt
+
+- [Disqus](http://disqus.com/humans.txt)
+- [Google](http://www.google.com/humans.txt)
+- [GitHub](https://github.com/humans.txt)
