@@ -28,7 +28,7 @@ Thinking modularly in CSS allows us to create more reusable CSS.
 
 ## Naming conventions
 
-There are a couple major naming conventions for modular CSS that help clarify the intent of our classes and help us visualize the HTML by just looking at the CSS classes.
+There are a couple major naming conventions for modular CSS that help clarify the intent of our classes and help us visualize the HTML by ust looking at the CSS classes.
 
 - [BEM](http://bem.info/)
 - [SMACSS](http://smacss.com/)
@@ -50,11 +50,11 @@ BEM takes naming a little further by using double underscores or double hyphens 
 2. Any classes that modify an original, base class, are separated with hyphens, e.g. `media--highlighted`
 3. Any classes that represent pieces that are inside of the original class, or sub-components, are separated with underscores, e.g. `media__body`
 
-*I find it helpful to remember that when using **under**scores the element is **under** the original component.*
+I find it helpful to remember that when using **under**scores the element is **under** the original component.
 
 **Videos**
 
-- [Modules: modified BEM naming convention](https://www.youtube.com/watch?v=TmxQ_jEcpk0&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=9)
+- [Modules: modified BEM naming convention](https://www.youtube.com/watch?v=TmxQ_Ecpk0&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=9)
 
 ---
 
