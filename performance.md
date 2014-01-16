@@ -51,5 +51,6 @@ Some tools to automate the smushing/minification process:
 
 - **[Ten Quick Fixes to Reduce Page Weight](http://www.sitepoint.com/ten-quick-fixes-reduce-page-weight/)**
 - **[How to Lose Weight in the Browser](http://browserdiet.com/)**
+- [Advanced Image Optimization](http://sixrevisions.com/web-development/advanced-image-optimization/)
 - [Front-end performance for web designers and front-end developers](http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/)
 - [Know When to CDN](http://www.kendoui.com/blogs/teamblog/posts/13-11-07/know-when-to-cdn.aspx)
