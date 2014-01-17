@@ -77,11 +77,6 @@ With a font-size system set to a scale we will want to use those font-sizes outs
 
 Some designers like to use the Greek alphabet for their font-sizes, some like to use the Metric prefixes. I personally prefer the Metric prefixes because they make sense to me and I don’t know whether alpha is my biggest or smallest font-size.
 
-**Links**
-
-- [Wikipedia: Metric Prefixes](http://en.wikipedia.org/wiki/Metric_prefix)
-- [Pragmatic, Practical Font Sizing in CSS](http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/)
-
 So, we would then assign classes to all the significant font-sizes:
 
 ```css
@@ -117,6 +112,11 @@ small, .milli {
 	font-size: 0.7901rem;
 }
 ```
+
+**Links**
+
+- [Wikipedia: Metric Prefixes](http://en.wikipedia.org/wiki/Metric_prefix)
+- [Pragmatic, Practical Font Sizing in CSS](http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/)
 
 ### Vertical rhythm
 
