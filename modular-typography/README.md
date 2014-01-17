@@ -155,3 +155,25 @@ h1, .exa {
 **Links**
 
 - [Single Direction Margin Declaration](http://csswizardry.com/2012/06/single-direction-margin-declarations/)
+
+### Adding branding
+
+Often we want a different typeface and colours for the headings, it’s best to separate that into another series of classes for reuse.
+
+```css
+h1, h2, h3, h4, h5, h6,
+.brand {
+  font-family: Helvetica,sans-serif;
+  color: #393;
+}
+
+.brand-family {
+  font-family: Helvetica,sans-serif;
+}
+
+.brand-colour {
+  color: #393;
+}
+```
+
+Now we can apply these classes to any element to assign them the brand colour or typeface or both.
