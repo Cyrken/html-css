@@ -13,6 +13,8 @@ Thinking modularly in CSS allows us to create more reusable CSS.
 - [Media object](media-object.html): flexible image size, embeddable, with list group, stacked, reversed
 - [Icons](icons.html): different sizes, stacked, inline, image replacement
 
+**The `common.css` file used in the examples and videos could be replaced by your modular typography `typography.css` file for better results.**
+
 **Videos**
 
 1. [Modules: list group](https://www.youtube.com/watch?v=Kcd1742iCVA&list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa&index=1)
