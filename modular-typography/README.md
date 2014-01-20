@@ -156,6 +156,37 @@ h1, .exa {
 
 - [Single Direction Margin Declaration](http://csswizardry.com/2012/06/single-direction-margin-declarations/)
 
+#### Re-usable spacers
+
+To keep things consistent throughout our design we want to use a series of consistent bottom margins, usually multiples of the line-height.
+
+So, we can create a series of classes to add consistent margins:
+
+```css
+h1, h2, h3, h4, h5, h6,
+p, ul, ol, dl,
+blockquote, table, hr,
+/* Normal, line-height size space */
+.space {
+	margin: 0 0 1.5rem;
+}
+
+/* Half normal space */
+.space-half {
+	margin: 0 0 0.75rem;
+}
+
+/* Double normal space */
+.space-double {
+	margin: 0 0 3rem;
+}
+
+/* No space */
+.space-none {
+	margin: 0;
+}
+```
+
 ### Adding branding
 
 Often we want a different typeface and colours for the headings, it’s best to separate that into another series of classes for reuse.
