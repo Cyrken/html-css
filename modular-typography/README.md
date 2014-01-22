@@ -30,7 +30,7 @@ Creating a modular typography system in CSS creates an extremely reusable font-s
 
 - <http://type-scale.com/>
 - <http://modularscale.com/>
-- **[Modular Type CSS Generator](http://thomasjbradley.github.io/modular-type-css-generator/)** — A tool I created for myself to generate the default CSS code
+- **[☛ Typografier](http://tjb.io/type)** — A tool I created for myself to generate the default CSS code
 
 ---
 
@@ -126,9 +126,11 @@ We start by applying a consistent margin to all the typography related elements:
 
 ```css
 h1, h2, h3, h4, h5, h6,
-p, ul, ol, dl,
-blockquote, table, hr {
+p, ul, ol, dl, dd, figure
+blockquote, details, hr,
+fieldset, pre, table {
 	margin: 0 0 1.5rem;
+}
 }
 ```
 
@@ -164,16 +166,17 @@ So, we can create a series of classes to add consistent margins:
 
 ```css
 h1, h2, h3, h4, h5, h6,
-p, ul, ol, dl,
-blockquote, table, hr,
+p, ul, ol, dl, dd, figure
+blockquote, details, hr,
+fieldset, pre, table,
 /* Normal, line-height size space */
 .space {
 	margin: 0 0 1.5rem;
 }
 
-/* Half normal space */
-.space-half {
-	margin: 0 0 0.75rem;
+/* No space */
+.space-none {
+	margin: 0;
 }
 
 /* Double normal space */
@@ -181,9 +184,9 @@ blockquote, table, hr,
 	margin: 0 0 3rem;
 }
 
-/* No space */
-.space-none {
-	margin: 0;
+/* Half normal space */
+.space-half {
+	margin: 0 0 0.75rem;
 }
 ```
 

@@ -3,22 +3,23 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6,
-p, ul, ol, dl,
-blockquote, table, hr,
+p, ul, ol, dl, dd, figure
+blockquote, details, hr,
+fieldset, pre, table,
 .space {
 	margin: 0 0 1.5rem;
 }
 
-.space-half {
-	margin: 0 0 0.75rem;
+.space-none {
+	margin: 0;
 }
 
 .space-double {
 	margin: 0 0 3rem;
 }
 
-.space-none {
-	margin: 0;
+.space-half {
+	margin: 0 0 0.75rem;
 }
 
 .yotta {

@@ -150,9 +150,8 @@ In our CSS we would then create these classes and style them within different me
 A complete grid system would be composed of rows that can have thirds, quarters, fifths, etc.
 As many columns as you’d like.
 
-Here’s a complete grid system that’s allows up to 4 columns per row.
-
-[☛ grid.css](css/grid.css)
+- **[☛ Gridifier](http://tjb.io/grids)** — A tool I created for myself to generate the default CSS code
+- [Grid Builder for Stylus](https://gist.github.com/thomasjbradley/7186573)
 
 ---
 
@@ -172,6 +171,7 @@ Bootstrap is a prototyping CSS framework that comes setup with a theme, grids, a
 - [Foundation by Zurb](http://foundation.zurb.com/)
 - [Pure by Yahoo](http://purecss.io/)
 - [Gridset](https://gridsetapp.com/)
+- **[☛ Gridifier](http://tjb.io/grids)** — A tool I created for myself to generate the default CSS code
 
 ---
 
