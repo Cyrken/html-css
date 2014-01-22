@@ -4,8 +4,6 @@ Making flexible and responsive grids using HTML & CSS.
 
 ### [☛ Videos for grids](https://www.youtube.com/playlist?list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60)
 
-<iframe width="1280" height="720" src="//www.youtube-nocookie.com/embed/csNyuON4G-s?list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60" frameborder="0" allowfullscreen></iframe>
-
 ---
 
 ## Flexible grids
