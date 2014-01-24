@@ -12,7 +12,7 @@ Thinking modularly in CSS allows us to create more reusable CSS.
 - [Buttons](buttons.html): small, medium, large, alternative
 - [Icons](icons.html): different sizes, stacked, inline, image replacement
 - [Media object](media-object.html): flexible image size, embeddable, with list group, stacked, reversed
-- [Embed containers](embed.html): for flexible images and videos, with specific aspect ratios—to prevent layout thrashing after the image loads
+- [Embed containers](embed.html): for flexible images and videos, with specific aspect ratios—to prevent layout reflow after the image loads
 
 *The `common.css` file used in the examples and videos could be replaced by your modular typography `typography.css` file for better results.*
 
@@ -67,3 +67,4 @@ I find it helpful to remember that when using **under**scores the element is **u
 - [An Introduction to OOCSS](http://coding.smashingmagazine.com/2011/12/12/an-introduction-to-object-oriented-css-oocss/)
 - [The Flag Object](http://csswizardry.com/2013/05/the-flag-object/)
 - [CSS Wizardry: CSS Guidelines](https://github.com/csswizardry/CSS-Guidelines)
+- [Responsive Images: How to Prevent Reflow](http://andmag.se/2012/10/responsive-images-how-to-prevent-reflow/)
