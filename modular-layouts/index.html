@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>Mars—The Fourth Planet</title>
+	<meta name="handheldfriendly" content="true">
+	<meta name="mobileoptimized" content="240">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<!--
+		It isn't good practice to have this many CSS
+		files at the top of your HTML.
+
+		Refer to later videos & tutorials on performance
+		to see why and how to solve it.
+	-->
+	<link href="css/common.css" rel="stylesheet">
+	<link href="css/typography.css" rel="stylesheet">
+	<link href="css/list-group.css" rel="stylesheet">
+	<link href="css/buttons.css" rel="stylesheet">
+	<link href="css/media-object.css" rel="stylesheet">
+	<link href="css/embed.css" rel="stylesheet">
+	<link href="css/grid.css" rel="stylesheet">
+	<link href="css/theme.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="masthead island push-0">
+	<div class="grid grid--bottom">
+		<div class="unit unit-s-1 unit-m-1 unit-l-1-4">
+			<h1 class="push-0"><img class="img-flex logo" src="img/mars-logo.svg" alt="Mars"></h1>
+		</div>
+		<nav class="unit unit-s-1 unit-m-1 unit-l-3-4">
+			<ul class="list-group giga push-0 brand-family nav">
+				<li class="list-group__item list-group__item--inline">
+					<a href="#overview">Overview</a>
+				</li>
+				<li class="list-group__item list-group__item--inline">
+					<a href="#moons">Moons</a>
+				</li>
+				<li class="list-group__item list-group__item--inline">
+					<a href="#news">News</a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+<div class="embed embed--4by1 push">
+	<img class="embed__item" src="img/mars-pano.jpg" alt="A panoramic view of the Martian landscape.">
+</div>
+
+<main>
+
+	<section>
+		<div class="grid">
+			<div class="unit unit-s-1 unit-m-1-3 unit-l-1-3 gutter-1-2">
+				<figure>
+					<div class="embed embed--1by1 push-1-2">
+						<img class="embed__item" src="img/mars.jpg" alt="">
+					</div>
+					<figcaption class="micro">Computer-generated view based on a Mars Global Surveyor image mosaic (1999–2004)</figcaption>
+				</figure>
+			</div>
+			<div class="unit unit-s-1 unit-m-2-3 unit-l-2-3 gutter-1-2">
+				<h2 id="overview">Overview</h2>
+				<p class="giga">Mars is the fourth planet from the Sun and the second smallest planet in the Solar System, after Mercury. Named after the Roman god of war, it is often described as the “Red Planet” because the iron oxide prevalent on its surface gives it a reddish appearance.</p>
+				<p class="giga">Mars is a terrestrial planet with a thin atmosphere, having surface features reminiscent both of the impact craters of the Moon and the volcanoes, valleys, deserts, and polar ice caps of Earth.</p>
+			</div>
+		</div>
+	</section>
+
+	<section class="moons pad-top">
+		<h2 class="moons__title" id="moons">Moons</h2>
+		<div class="grid">
+			<div class="unit unit-s-1 unit-m-1 unit-l-1-2 gutter-1-2">
+				<div class="media push">
+					<img class="media__img" src="img/phobos.jpg" width="100" alt="">
+					<div class="media__body">
+						<h3 class="push-0">Phobos</h3>
+						<p>Phobos is the larger and closer of the two natural satellites of Mars, with a mean radius of 11.27 km.</p>
+					</div>
+				</div>
+			</div>
+			<div class="unit unit-s-1 unit-m-1 unit-l-1-2 gutter-1-2">
+				<div class="media push">
+					<img class="media__img" src="img/deimos.jpg" width="100" alt="">
+					<div class="media__body">
+						<h3 class="push-0">Deimos</h3>
+						<p>Deimos is the smaller and outermore of the two natural satellites of the planet Mars with a mean radius of 6.2 km.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="news pad-t pad-b">
+		<div class="grid">
+			<div class="unit unit-s-1 unit-m-1 unit-l-1-2 gutter-1-2">
+				<h2 id="news">News</h2>
+				<h3>Opportunity: 10 Years on Mars</h3>
+				<p>A celebration commemorating a decade of Mars exploration by NASA's twin Mars Exploration rovers, Spirit and Opportunity.</p>
+				<a class="btn push" href="#">More on Opportunity</a>
+			</div>
+			<div class="unit unit-s-1 unit-m-1 unit-l-1-2 gutter-1-2">
+				<div class="embed embed--16by9">
+					<iframe class="embed__item" src="http://www.youtube.com/embed/yaJ_xZ1kjiA" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+	</section>
+
+</main>
+
+<footer class="footer island-1-2">
+	<div class="grid">
+		<div class="unit unit-s-1 unit-m-1 unit-l-1-3 gutter-1-2">
+			<p class="push-0 footer__copyright"><small>© Wikipedia</small></p>
+		</div>
+		<div class="unit unit-s-1 unit-m-1 unit-l-2-3 gutter-1-2">
+			<ul class="list-group milli push-0 footer__links">
+				<li class="list-group__item list-group__item--inline">
+					<a href="http://en.wikipedia.org/wiki/Mars">Wikipedia</a>
+				</li>
+				<li class="list-group__item list-group__item--inline">
+					<a href="http://www.nasa.gov/">NASA</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.grid {
+	margin: 0 auto;
+	max-width: 70em;
+}
+
+.masthead {
+	background-color: #eae8e1;
+}
+
+.logo {
+	margin: 0 auto;
+	max-width: 260px;
+}
+
+.nav {
+	margin-top: 1.5rem;
+
+	text-align: center;
+}
+
+.nav a {
+	display: inline-block;
+	margin: 0 0.4em;
+}
+
+@media only screen and (min-width: 38em) {
+
+	.nav {
+		margin-top: 0;
+
+		text-align: right;
+	}
+
+}
+
+.moons {
+	background-color: #f2f1ed;
+}
+
+.moons__title {
+	text-align: center;
+}
+
+.news {
+	background-color: #eae8e1;
+}
+
+.footer__copyright {
+	text-align: center;
+}
+
+.footer__links {
+	text-align: center;
+}
+
+@media only screen and (min-width: 38em) {
+
+	.footer__copyright {
+		text-align: left;
+	}
+
+	.footer__links {
+		text-align: right;
+	}
+
+}
