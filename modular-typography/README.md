@@ -164,30 +164,28 @@ To keep things consistent throughout our design we want to use a series of consi
 So, we can create a series of classes to add consistent margins:
 
 ```css
-h1, h2, h3, h4, h5, h6,
-p, ul, ol, dl, dd, figure
-blockquote, details, hr,
-fieldset, pre, table,
 /* Normal, line-height size space */
-.space {
-	margin: 0 0 1.5rem;
+.push {
+	margin-bottom: 1.5rem;
 }
 
 /* No space */
-.space-none {
-	margin: 0;
+.push-none {
+	margin-bottom: 0;
 }
 
 /* Double normal space */
-.space-double {
-	margin: 0 0 3rem;
+.push-double {
+	margin-bottom: 3rem;
 }
 
 /* Half normal space */
-.space-half {
-	margin: 0 0 0.75rem;
+.push-half {
+	margin-bottom: 0.75rem;
 }
 ```
+
+*We might even want to add a series of consistent paddings for closed in boxes so they can conform to our baseline grid.*
 
 ### Adding branding
 
