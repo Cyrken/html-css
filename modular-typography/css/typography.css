@@ -1,25 +1,12 @@
 html {
-	font: normal 100%/1.5 Georgia,serif; /* 16px/24px */
+	font: normal 100%/1.5 Georgia,serif;
 }
 
 h1, h2, h3, h4, h5, h6,
-p, ul, ol, dl, dd, figure
+p, ul, ol, dl, dd, figure,
 blockquote, details, hr,
-fieldset, pre, table,
-.space {
+fieldset, pre, table {
 	margin: 0 0 1.5rem;
-}
-
-.space-none {
-	margin: 0;
-}
-
-.space-double {
-	margin: 0 0 3rem;
-}
-
-.space-half {
-	margin: 0 0 0.75rem;
 }
 
 .yotta {
@@ -72,16 +59,56 @@ small, .milli {
 	line-height: 1.8984;
 }
 
+.push {
+	margin-bottom: 1.5rem;
+}
+
+.push-none, .push-0 {
+	margin-bottom: 0;
+}
+
+.push-double, .push-2 {
+	margin-bottom: 3.0000rem;
+}
+
+.push-half, .push-1-2 {
+	margin-bottom: 0.7500rem;
+}
+
+.pad-top, .pad-t {
+	padding-top: 1.5rem;
+}
+
+.pad-bottom, .pad-b {
+	padding-bottom: 1.5rem;
+}
+
+.pad-top-double, .pad-t-2 {
+	padding-top: 3.0000rem;
+}
+
+.pad-bottom-double, .pad-b-2 {
+	padding-bottom: 3.0000rem;
+}
+
+.pad-top-half, .pad-t-1-2 {
+	padding-top: 0.7500rem;
+}
+
+.pad-bottom-half, .pad-b-1-2 {
+	padding-bottom: 0.7500rem;
+}
+
 h1, h2, h3, h4, h5, h6,
 .brand {
 	font-family: Helvetica,sans-serif;
-	color: #393;
+	color: red;
 }
 
 .brand-family {
 	font-family: Helvetica,sans-serif;
 }
 
-.brand-colour {
-	color: #393;
+.brand-color {
+	color: red;
 }
