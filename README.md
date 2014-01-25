@@ -12,14 +12,15 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 8. [Modular typography](modular-typography)
 9. [Modules](modules)
 10. [Grids](grids)
-11. [Search engine optimization](search-engine-optimization)
-12. [Metadata & enhanced semantics](metadata-enhanced-semantics)
-13. [Accessibility](accessibility)
-14. [Performance](performance.md)
-15. [What ifs: progressive enhancement & graceful degradation](what-ifs)
-16. [404 pages](404-pages)
-17. [Analytics](analytics.md)
-18. [Stylus](stylus)
+11. [Modular layouts](modular-layouts)
+12. [Search engine optimization](search-engine-optimization)
+13. [Metadata & enhanced semantics](metadata-enhanced-semantics)
+14. [Accessibility](accessibility)
+15. [Performance](performance.md)
+16. [What ifs: progressive enhancement & graceful degradation](what-ifs)
+17. [404 pages](404-pages)
+18. [Analytics](analytics.md)
+19. [Stylus](stylus)
 
 ---
 
