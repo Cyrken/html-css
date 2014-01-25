@@ -131,7 +131,6 @@ blockquote, details, hr,
 fieldset, pre, table {
 	margin: 0 0 1.5rem;
 }
-}
 ```
 
 *The margin-bottom is the same size as our line-height.*
