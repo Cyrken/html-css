@@ -16,5 +16,5 @@
 /* In case custom bullets are used */
 .list-group-item::before,
 .list-group-item::after {
-	content: "";
+	content: none;
 }

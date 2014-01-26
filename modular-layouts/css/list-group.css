@@ -11,7 +11,7 @@
 
 /* In case custom bullets are used */
 .list-group__item::before {
-	content: "";
+	content: none;
 }
 
 .list-group__item--inline {
