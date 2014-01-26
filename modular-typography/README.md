@@ -1,4 +1,4 @@
-# Modular Typography
+# Modular typography
 
 Creating a modular typography system in CSS creates an extremely reusable font-size system with a harmonious vertical rhythm.
 
