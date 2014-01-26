@@ -2,6 +2,8 @@
 
 Creating a modular typography system in CSS creates an extremely reusable font-size system with a harmonious vertical rhythm.
 
+### [☛ Videos for modular typography](https://www.youtube.com/playlist?list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l)
+
 ---
 
 ## Steps to creating a type system
@@ -185,7 +187,7 @@ So, we can create a series of classes to add consistent margins:
 }
 ```
 
-*We might even want to add a series of consistent paddings for closed in boxes so they can conform to our baseline grid.*
+*We might even want to add a series of classes for consistent paddings for closed in boxes so they can conform to our baseline grid. [Check out the CSS file for a complete series of these classes.](css/typography.css)*
 
 ### Adding branding
 
@@ -202,9 +204,20 @@ h1, h2, h3, h4, h5, h6,
   font-family: Helvetica,sans-serif;
 }
 
-.brand-colour {
+.brand-color {
   color: #393;
 }
 ```
 
 Now we can apply these classes to any element to assign them the brand colour or typeface or both.
+
+---
+
+## Videos
+
+1. [Modular typography: creating a type scale](https://www.youtube.com/watch?v=dYp7WM8x4uI&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l&index=1)
+2. [Modular typography: creating reusable classes](https://www.youtube.com/watch?v=AJLPiTIOgAk&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l&index=2)
+3. [Modular typography: vertical rhythm](https://www.youtube.com/watch?v=sZWLyQwDw7Q&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l&index=3)
+4. [Modular typography: classes for consistent spacing](https://www.youtube.com/watch?v=FNxwjMcCcBI&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l&index=4)
+5. [Modular typography: brand fonts and colours](https://www.youtube.com/watch?v=8IZLqReXREY&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l&index=5)
+6. [Modular typography: examples of use](https://www.youtube.com/watch?v=ZJQi5_te2-I&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l&index=6)
