@@ -213,6 +213,20 @@ Now we can apply these classes to any element to assign them the brand colour or
 
 ---
 
+## Typography style guide
+
+When starting a new website it’s best to first consider the typography. I generally like to style all the typography related elements to create a mini styleguide.
+
+[⬇ Type styleguide](type-styleguide.html)
+
+**Sample styleguides**
+
+- <http://paulrobertlloyd.com/about/styleguide/>
+- <http://barebones.paulrobertlloyd.com/_styleguide.php>
+- <http://clearleft.com/styleguide/>
+
+---
+
 ## Videos
 
 1. [Modular typography: creating a type scale](https://www.youtube.com/watch?v=dYp7WM8x4uI&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l&index=1)
