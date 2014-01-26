@@ -5,15 +5,15 @@
 	list-style-type: none;
 }
 
-.list-group-item {
+.list-group__item {
 	display: block;
 }
 
-.list-group-item-inline {
+.list-group__item--inline {
 	display: inline-block;
 }
 
 /* In case custom bullets are used */
-.list-group-item::before {
+.list-group__item::before {
 	content: none;
 }
