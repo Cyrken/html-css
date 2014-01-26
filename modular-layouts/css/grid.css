@@ -9,7 +9,7 @@
 	-ms-flex-flow: row wrap;
 }
 
-.grid--bottom {
+.grid-bottom {
 	-webkit-align-items: flex-end;
 	-ms-align-items: flex-end;
 }
@@ -27,7 +27,7 @@
 	visibility: visible;
 }
 
-.grid--bottom .unit {
+.grid-bottom .unit {
 	vertical-align: bottom;
 }
 
