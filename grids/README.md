@@ -83,7 +83,7 @@ We can also create a column in our grid that takes up ⅔ of the available space
 
 **Videos**
 
-- [Grids: flexible grids](https://www.youtube.com/watch?v=csNyuON4G-s&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=1)
+- [Grids: flexible grids](https://www.youtube.com/watch?v=KN-KIG3mcxE&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=1)
 
 ---
 
@@ -177,5 +177,5 @@ Bootstrap is a prototyping CSS framework that comes setup with a theme, grids, a
 
 ## Videos
 
-1. [Grids: flexible grids](https://www.youtube.com/watch?v=csNyuON4G-s&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=1)
+1. [Grids: flexible grids](https://www.youtube.com/watch?v=KN-KIG3mcxE&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=1)
 2. [Grids: responsive grids](https://www.youtube.com/watch?v=bZCMtSDdkcI&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=2)
