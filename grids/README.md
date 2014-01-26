@@ -34,25 +34,24 @@ Within CSS, we can then float of each of the units to fit beside each other.
 
 This will create a grid row with three columns inside that flex with the width of the browser.
 The major problem is that there is no space, or gutter, between each column.
-To solve the problem in the most flexible manner, we can put another `<div>` inside to add padding.
+To solve the problem in the most flexible manner, we can put another class on the unit to add the gutter’s padding.
 
 ```html
 ⋮
-<div class="unit">
-	<div class="unit-spacer">
-		Grid 1
-	</div>
+<div class="unit gutter">
+	Grid 1
 </div>
 ⋮
 ```
 
 ```css
-.unit-spacer {
-	padding: 8px;
+.gutter {
+	padding-left: 1em;
+	padding-right: 1em;
 }
 ```
 
-Using a `.unit-spacer` gives us the flexibility to choose whether we want padding or not.
+Using a `.gutter` gives us the flexibility to choose whether we want padding or not.
 So we could create grid units with full bleed images.
 
 ```html
@@ -63,14 +62,14 @@ So we could create grid units with full bleed images.
 ⋮
 ```
 
+*If you combine the grid system with the modular typography system you’ll see that the type system comes with a series of gutter classes relative to your type size.*
+
 We can also create a column in our grid that takes up ⅔ of the available space—a column that is double width.
 
 ```html
 ⋮
 <div class="unit unit-2-3">
-	<div class="unit-spacer">
-		Double Width 1
-	</div>
+	Double Width 1
 </div>
 ⋮
 ```
@@ -141,7 +140,7 @@ In our CSS we would then create these classes and style them within different me
 
 **Videos**
 
-- [Grids: responsive grids](https://www.youtube.com/watch?v=bZCMtSDdkcI&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=2)
+- [Grids: responsive grids](https://www.youtube.com/watch?v=3Gm785OgJ4E&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=2)
 
 ---
 
@@ -178,4 +177,4 @@ Bootstrap is a prototyping CSS framework that comes setup with a theme, grids, a
 ## Videos
 
 1. [Grids: flexible grids](https://www.youtube.com/watch?v=KN-KIG3mcxE&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=1)
-2. [Grids: responsive grids](https://www.youtube.com/watch?v=bZCMtSDdkcI&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=2)
+2. [Grids: responsive grids](https://www.youtube.com/watch?v=3Gm785OgJ4E&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=2)

@@ -1,37 +1,19 @@
-html {
-	margin: 0;
-	padding: 0;
-	background-color: #e2e2e2;
-	font: normal 100%/1.4 Georgia,serif;
-}
-
-body {
-	margin: 0;
-	padding: 0;
-}
-
-.flex-img {
-	display: block;
-	width: 100%;
-}
-
 .grid {
-	overflow: hidden;
-
 	border: 1px solid red;
+	overflow: hidden;
 }
 
 .unit {
 	float: left;
 	width: 33.3333%;
-
-	background-color: #fff;
+	background-color: #fff
 }
 
 .unit-2-3 {
 	width: 66.6667%;
 }
 
-.unit-spacer {
-	padding: 1em;
+.gutter {
+	padding-left: 1em;
+	padding-right: 1em;
 }
