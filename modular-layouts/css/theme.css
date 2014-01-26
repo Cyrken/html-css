@@ -31,7 +31,15 @@ body {
 
 .logo {
 	margin: 0 auto;
-	max-width: 260px;
+	max-width: 256px;
+}
+
+@media only screen and (min-width: 50em) {
+
+	.logo {
+		margin: 0;
+	}
+
 }
 
 .nav {
@@ -65,10 +73,7 @@ body {
 	background-color: #eae8e1;
 }
 
-.footer__copyright {
-	text-align: center;
-}
-
+.footer__copyright,
 .footer__links {
 	text-align: center;
 }
