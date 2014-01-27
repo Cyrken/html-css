@@ -4,6 +4,8 @@ Combining all of the modular web design lessons together to create a complete la
 
 ### [☛ Videos for modular layouts](https://www.youtube.com/playlist?list=PLWjCJDeWfDdf2mx4t-HMV6L5ojOqBNany)
 
+### [☛ See the final layout](http://algonquindesign.ca/html-css/modular-layouts/)
+
 ---
 
 ## Modular & responsive web design
