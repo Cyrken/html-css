@@ -99,7 +99,7 @@ Relationships can be defined in HTML using the `rel` attribute. These relationsh
 -->
 <a href="/files/download.pdf" download="Download.pdf" rel="enclosure">Download Now!</a>
 <!-- Linking to the `license` for this document -->
-<a href="https://github.com/algonquin-design/html-css/blob/master/LICENSE" rel="license">License</a>
+<a href="https://github.com/algonquin-design/html-css/tree/gh-pages/LICENSE" rel="license">License</a>
 ```
 
 **Links**
