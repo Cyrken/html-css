@@ -82,7 +82,7 @@ We can also create a column in our grid that takes up ⅔ of the available space
 
 **Videos**
 
-- [Grids: flexible grids](https://www.youtube.com/watch?v=KN-KIG3mcxE&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=1)
+1. [Grids: flexible grids](https://www.youtube.com/watch?v=KN-KIG3mcxE&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=1)
 
 ---
 
@@ -140,14 +140,27 @@ In our CSS we would then create these classes and style them within different me
 
 **Videos**
 
-- [Grids: responsive grids](https://www.youtube.com/watch?v=3Gm785OgJ4E&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=2)
+1. [Grids: responsive grids](https://www.youtube.com/watch?v=3Gm785OgJ4E&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=2)
 
 ---
 
 ## Complete grid system
 
-A complete grid system would be composed of rows that can have thirds, quarters, fifths, etc.
-As many columns as you’d like.
+A complete grid system would be composed of rows that can have thirds, quarters, fifths, etc. As many columns as you’d like.
+
+Grid systems also have a series of other capabilities:
+
+1. `hidden` classes provide the ability to hide & show units in specific screen sizes
+2. `offset` classes provide the ability to push units way from the edge of the screen and other units
+
+**Videos**
+
+1. [Grids: hiding units on different screen sizes](https://www.youtube.com/watch?v=9Y8IyXFqbNU&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=3)
+2. [Grids: simplifying fractions for unit sizes](https://www.youtube.com/watch?v=BNFKLqYl8rU&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=4)
+3. [Grids: pushing units aside using offsets](https://www.youtube.com/watch?v=kVMdNbrHgbQ&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=5)
+4. [Grids: grids inside grids](https://www.youtube.com/watch?v=hpwjNC4Eo-U&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=6)
+
+**Tools**
 
 - **[☛ Gridifier](http://tjb.io/grids)** — A tool I created for myself to generate the default CSS code
 - [Grid Builder for Stylus](https://gist.github.com/thomasjbradley/7186573)
@@ -178,3 +191,7 @@ Bootstrap is a prototyping CSS framework that comes setup with a theme, grids, a
 
 1. [Grids: flexible grids](https://www.youtube.com/watch?v=KN-KIG3mcxE&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=1)
 2. [Grids: responsive grids](https://www.youtube.com/watch?v=3Gm785OgJ4E&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=2)
+3. [Grids: hiding units on different screen sizes](https://www.youtube.com/watch?v=9Y8IyXFqbNU&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=3)
+4. [Grids: simplifying fractions for unit sizes](https://www.youtube.com/watch?v=BNFKLqYl8rU&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=4)
+5. [Grids: pushing units aside using offsets](https://www.youtube.com/watch?v=kVMdNbrHgbQ&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=5)
+6. [Grids: grids inside grids](https://www.youtube.com/watch?v=hpwjNC4Eo-U&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=6)
