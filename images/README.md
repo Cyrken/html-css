@@ -77,7 +77,7 @@ You can open them up in your text editor—because they are just XML—and edit 
 - Un-check “Preserve Illustrator Editing Capabilities”
 - Press the `More Options` button and fill in a couple more options
 	- “CSS Properties” — `Style Elements`
-	- “Decimal Places” — 2 (or usually 1 works)
+	- “Decimal Places” — 1
 
 ![](images-svg.jpg)
 
