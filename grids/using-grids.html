@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>Using Responsive Grids</title>
+	<meta name="handheldfriendly" content="true">
+	<meta name="mobileoptimized" content="240">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="css/common.css" rel="stylesheet">
+	<link href="css/grid.css" rel="stylesheet">
+	<!--
+		Don't leave this here!
+		It's only here to keep the CSS file clean
+			and break the grids to make the demonstration clearer.
+	-->
+	<style>
+		body > .grid { padding: 10px 0; }
+	</style>
+</head>
+<body>
+
+<div class="grid">
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-4">
+		<img class="img-flex" src="http://placehold.it/640x480&amp;text=1" alt="">
+	</div>
+	<div class="unit unit-s-1-2 unit-m-1-2 unit-l-1-4">
+		<img class="img-flex" src="http://placehold.it/640x480&amp;text=2" alt="">
+	</div>
+	<div class="unit unit-s-1-2 unit-m-1-2 unit-l-1-4">
+		<img class="img-flex" src="http://placehold.it/640x480&amp;text=3" alt="">
+	</div>
+	<div class="unit unit-s-hidden unit-m-1-2 unit-l-1-4">
+		<img class="img-flex" src="http://placehold.it/640x480&amp;text=4" alt="">
+	</div>
+</div>
+
+<div class="grid">
+	<div class="unit unit-s-1-3 unit-m-1-4 unit-l-1-3">
+		<img class="img-flex" src="http://placehold.it/256x256&amp;text=a" alt="">
+	</div>
+	<div class="unit unit-s-1-3 unit-m-1-4 unit-l-1-6">
+		<img class="img-flex" src="http://placehold.it/256x256&amp;text=b" alt="">
+	</div>
+	<div class="unit unit-s-1-3 unit-m-1-4 unit-l-1-6">
+		<img class="img-flex" src="http://placehold.it/256x256&amp;text=c" alt="">
+	</div>
+	<div class="unit unit-s-1-3 unit-m-1-4 unit-l-1-6">
+		<img class="img-flex" src="http://placehold.it/256x256&amp;text=d" alt="">
+	</div>
+	<div class="unit unit-s-1-3 unit-m-hidden unit-l-1-6">
+		<img class="img-flex" src="http://placehold.it/256x256&amp;text=e" alt="">
+	</div>
+	<div class="unit unit-s-1-3 unit-m-hidden unit-l-hidden">
+		<img class="img-flex" src="http://placehold.it/256x256&amp;text=f" alt="">
+	</div>
+</div>
+
+<div class="grid">
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-4 unit-offset-l-1-4">
+		<img class="img-flex" src="http://placehold.it/640x480&amp;text=i" alt="">
+	</div>
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-4">
+		<img class="img-flex" src="http://placehold.it/640x480&amp;text=ii" alt="">
+	</div>
+	<div class="unit unit-s-1 unit-m-1-2 unit-offset-m-1-4 unit-l-1-4 unit-offset-l-0">
+		<img class="img-flex" src="http://placehold.it/640x480&amp;text=iii" alt="">
+	</div>
+</div>
+
+<div class="grid">
+
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+		<img class="img-flex" src="http://placehold.it/500x500&amp;text=A" alt="">
+	</div>
+
+	<div class="unit unit-s-1 unit-m-1-2 unit-l-1-3">
+
+		<div class="grid">
+			<div class="unit unit-s-1-2">
+				<img class="img-flex" src="http://placehold.it/256x256/999999/cccccc/&amp;text=B" alt="">
+			</div>
+			<div class="unit unit-s-1-2">
+				<img class="img-flex" src="http://placehold.it/256x256/999999/cccccc/&amp;text=C" alt="">
+			</div>
+			<div class="unit unit-s-1-2">
+				<img class="img-flex" src="http://placehold.it/256x256/999999/cccccc/&amp;text=D" alt="">
+			</div>
+			<div class="unit unit-s-1-2">
+				<img class="img-flex" src="http://placehold.it/256x256/999999/cccccc/&amp;text=E" alt="">
+			</div>
+		</div>
+
+	</div>
+
+	<div class="unit unit-s-1 unit-m-1 unit-l-1-3">
+		<img class="img-flex" src="http://placehold.it/1000x1000&amp;text=F" alt="">
+	</div>
+
+</div>
+
+</body>
+</html>

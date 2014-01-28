@@ -7,6 +7,10 @@
 	background-color: #fff
 }
 
+/*
+	Instead of including this class in your grids.css
+	Use the one included in your modular typography.css
+*/
 .gutter {
 	padding-left: 1em;
 	padding-right: 1em;
@@ -14,14 +18,6 @@
 
 .unit-s-1 {
 	width: 100%;
-}
-
-.unit-s-1-2 {
-
-}
-
-.unit-s-1-3 {
-
 }
 
 @media only screen and (min-width: 30em) {
