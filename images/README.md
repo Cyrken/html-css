@@ -137,6 +137,7 @@ Some devices have their own favicon-like graphics, e.g. Apple Touch Icon, Opera 
 **Links**
 
 - **[Icon Slate](http://www.kodlian.com/apps/icon-slate)**
+- [Treehouse: How to Make a Favicon](http://blog.teamtreehouse.com/how-to-make-a-favicon)
 - [X Icon Editor](http://xiconeditor.com/)
 - Apple Touch Icons: <http://mathiasbynens.be/notes/touch-icons>
 - Windows 8 Tile Icons: <http://hicksdesign.co.uk/journal/pinned-sites-in-windows-8>
