@@ -35,7 +35,7 @@
 - **[How A Blind Person Uses A Computer](http://www.youtube.com/watch?v=UzffnbBex6c)**
 - **[How Blind People Use Twitter & You Tube on the iPhone 4S](http://www.youtube.com/watch?v=c0nvdiRdehw)**
 - [iPhone, iPad and Apple VoiceOver](http://www.youtube.com/watch?v=QEDzitE2w_0)
-- [Christopher Hills: One Switch. One Head. The world.](http://www.youtube.com/watch?v=cSSgndQ5mVs)
+- [Christopher Hills: One Switch. One Head. The World.](http://www.youtube.com/watch?v=cSSgndQ5mVs)
 - [WebAxe: Accessibility Videos](http://www.webaxe.org/accessibility-videos/)
 - [Videos of Screen Readers Using ARIA](http://zomigi.com/blog/videos-of-screen-readers-using-aria/)
 
@@ -65,7 +65,7 @@
 ## Checklists
 
 - [WebAim: Checklist](http://webaim.org/standards/wcag/checklist)
-- [W3: Checklis](http://www.w3.org/TR/2006/WD-WCAG20-20060427/appendixB.html)
+- [W3: Checklist](http://www.w3.org/TR/2006/WD-WCAG20-20060427/appendixB.html)
 
 ## People
 
