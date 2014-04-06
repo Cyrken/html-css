@@ -8,13 +8,13 @@ Making your website fast is extremely important for usability and probably one o
 
 - Use as few resources as possible (images, CSS files, JS files, etc.)
 - [Make sure to properly “Save for Web” from Photoshop](https://github.com/algonquindesign/html-css/tree/gh-pages/images#image-types)
-- [Smush all images after saving them](https://github.com/algonquindesign/html-css/tree/gh-page/images#-image-smushing)
-- [Use CSS sprites or DataURIs where appropriate](https://github.com/algonquindesign/html-css/tree/gh-page/images#-css-sprites)
+- [Smush all images after saving them](https://github.com/algonquindesign/html-css/tree/gh-pages/images#-image-smushing)
+- [Use CSS sprites or DataURIs where appropriate](https://github.com/algonquindesign/html-css/tree/gh-pages/images#-css-sprites)
 - Put CSS file `<link>` tags at the top
 - Put JS file `<script>` tags at the bottom
 - Remove any unused or duplicate CSS and JS
 - Minify HTML, CSS, and JS
-- Sends resources GZipped, by setting up your server
+- Send resources GZipped, by setting up your server
 - Send proper caching headers using your server
 - Use a content delivery network (CDN) to serve your images
 
