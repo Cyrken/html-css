@@ -62,7 +62,7 @@ The most important thing to remember about search engine optimization is to prov
 - [Building Findable Websites](http://www.amazon.ca/dp/0321526287/) by Aarron Walter
 - [SEOmoz](http://www.seomoz.org/)
 - [Search Engine Land](http://searchengineland.com/)
-- [Matt Cutts](http://www.mattcutts.com/blog/) [@mattcutts](https://twitter.com/mattcutts)
+- [Matt Cutts](http://www.mattcutts.com/blog/) · [@mattcutts](https://twitter.com/mattcutts) · [The Short Cutts: The Short Answers To Every Matt Cutts Video](http://www.theshortcutts.com/)
 
 ---
 
