@@ -14,8 +14,8 @@ This layout and series of videos combine together all these different lessons—
 
 1. [All devices setup](https://github.com/algonquindesign/html-css/tree/gh-pages/all-devices-setup)
 2. [Modular typography](https://github.com/algonquindesign/html-css/tree/gh-pages/modular-typography)
-3. [Modules](https://github.com/algonquindesign/html-css/tree/gh-pages/modules)
-4. [Grids](https://github.com/algonquindesign/html-css/tree/gh-pages/grids)
+3. [Grids](https://github.com/algonquindesign/html-css/tree/gh-pages/grids)
+4. [Modules](https://github.com/algonquindesign/html-css/tree/gh-pages/modules)
 
 ---
 
