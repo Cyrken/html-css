@@ -1,5 +1,15 @@
 html {
+	box-sizing: border-box;
+
 	font: normal 100%/1.5 sans-serif;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
 }
 
 header {

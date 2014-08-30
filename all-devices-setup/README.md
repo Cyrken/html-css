@@ -37,17 +37,17 @@ There are a couple `<meta>` tags and a little bit of CSS to make all devices rec
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-* {
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-}
-
 html {
+	box-sizing: border-box;
+
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
 }
 ⋮
 ```
