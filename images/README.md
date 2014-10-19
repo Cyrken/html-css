@@ -340,7 +340,7 @@ Smushing will reduce the size of images without reducing their quality.
 
 ## Videos
 
-1. [Images: SVG](https://www.youtube.com/watch?v=TfgZpgQMBEg&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=1)
+1. [Images: SVG](https://www.youtube.com/watch?v=q6lKXbeNokA&index=1&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph)
 2. [Images: favicons](https://www.youtube.com/watch?v=G407yUWeU40&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=2)
 3. [Images: image replacement](https://www.youtube.com/watch?v=U7B9-UtEK7w&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=3)
 4. [Images: multi-resolution PNGs](https://www.youtube.com/watch?v=Q91vXeF0mpU&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=4)
