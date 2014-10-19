@@ -50,11 +50,11 @@ So for the `h5`, it would be `1 × 1.125`.
 
 ```css
 h5 {
-	font-size: 1.125rem; /* (1 × 1.125) */
+  font-size: 1.125rem; /* (1 × 1.125) */
 }
 
 h6 {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 ```
 
@@ -68,8 +68,8 @@ Using the formula to calculate the `h1`:
 
 ```css
 h1 {
-	/* (1 × 1.125 ^ 5) - H1 is 5 steps away from the base font-size */
-	font-size: 1.8020rem; 
+  /* (1 × 1.125 ^ 5) - H1 is 5 steps away from the base font-size */
+  font-size: 1.8020rem; 
 }
 ```
 
@@ -83,13 +83,13 @@ So, we would then assign classes to all the significant font-sizes:
 
 ```css
 h1, .exa {
-	font-size: 1.8020rem;
+  font-size: 1.8020rem;
 }
 
 ⋮
 
 h6, .kilo {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 ```
 
@@ -97,21 +97,21 @@ Often we need larger font-sizes (for banners or hero graphics) and smaller font-
 
 ```css
 .yotta {
-	font-size: 2.2807rem;
+  font-size: 2.2807rem;
 }
 
 .zetta {
-	font-size: 2.0273rem;
+  font-size: 2.0273rem;
 }
 
 ⋮
 
 small, .milli {
-	font-size: 0.8889rem;
+  font-size: 0.8889rem;
 }
 
 .micro {
-	font-size: 0.7901rem;
+  font-size: 0.7901rem;
 }
 ```
 
@@ -131,7 +131,7 @@ h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure
 blockquote, details, hr,
 fieldset, pre, table {
-	margin: 0 0 1.5rem;
+  margin: 0 0 1.5rem;
 }
 ```
 
@@ -149,9 +149,9 @@ To calculate the `h1` it would look like this:
 
 ```css
 h1, .exa {
-	/* line-height: ceil(1.802 ÷ 1.5) × (1.5 ÷ 1.802) */
-	font-size: 1.8020rem;
-	line-height: 1.6648;
+  /* line-height: ceil(1.802 ÷ 1.5) × (1.5 ÷ 1.802) */
+  font-size: 1.8020rem;
+  line-height: 1.6648;
 }
 ```
 
@@ -168,22 +168,22 @@ So, we can create a series of classes to add consistent margins:
 ```css
 /* Normal, line-height size space */
 .push {
-	margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /* No space */
 .push-none {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 /* Double normal space */
 .push-double {
-	margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 /* Half normal space */
 .push-half {
-	margin-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 ```
 
@@ -211,6 +211,38 @@ h1, h2, h3, h4, h5, h6,
 
 Now we can apply these classes to any element to assign them the brand colour or typeface or both.
 
+### Bigger fonts on bigger screens
+
+With responsive sites it’s usually a good idea to increase the font-size on larger screens. This provides the benefit of having larger fonts on screen like televisions.
+
+With a few media queries at the top of our `typography.css` file we can increase sizes incrementally for larger screens.
+
+```css
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 110%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 120%;
+  }
+
+}
+
+@media only screen and (min-width: 120em) {
+
+  html {
+    font-size: 130%;
+  }
+
+}
+```
+
 ---
 
 ## Typography style guide
@@ -235,3 +267,4 @@ When starting a new website it’s best to first consider the typography. I gene
 4. [Modular typography: classes for consistent spacing](https://www.youtube.com/watch?v=FNxwjMcCcBI&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l&index=4)
 5. [Modular typography: brand fonts and colours](https://www.youtube.com/watch?v=8IZLqReXREY&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l&index=5)
 6. [Modular typography: examples of use](https://www.youtube.com/watch?v=ZJQi5_te2-I&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l&index=6)
+7. [Modular typography: bigger fonts on bigger screens](https://www.youtube.com/watch?v=xW7zJKUDl58&index=7&list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l)
