@@ -184,6 +184,7 @@ When describing the image you should think about what content is most helpful fo
 - [Simply Accessible: Descriptive Alt Attributes](http://simplyaccessible.com/bpow/descriptive-alt-attributes/)
 - [W3: Techniques for providing useful text alternatives](http://dev.w3.org/html5/alt-techniques/)
 - [When is an image ‘purely decorative’?](http://www.4syllables.com.au/2014/04/decorative-images/)
+- [Longdesc Links, History, Future](http://www.webaxe.org/longdesc-links-history-future/)
 
 ### Figures & captions
 
