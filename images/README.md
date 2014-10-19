@@ -178,6 +178,10 @@ When describing the image you should think about what content is most helpful fo
 - Is the graphic a chart? Describe the purpose of the chart, e.g. “A bar graph representing the orbital periods of planets in the Solar System”
 - Does the graphic not add any relevant information? Then is should be in your CSS. If that’s not possible, leave the alt empty, `<img alt="">`
 
+**Videos**
+
+- [Images: alt attributes](https://www.youtube.com/watch?v=xcWwcTRS79s&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=1)
+
 **Links**
 
 - [Simply Accessible: Images in Context](http://simplyaccessible.com/article/images-in-context/)
@@ -200,6 +204,10 @@ Often you’ll need to provide a caption for your image, that’s where the `<fi
 Using the `<figure>` and `<figcaption>` elements we can associate a caption with an image.
 
 You’ll notice that the alt attribute is empty in this situation. Often it’s not needed because the content of the caption would be no different than the alt attribute so we don’t want the information repeated.
+
+**Videos**
+
+- [Images: figures](https://www.youtube.com/watch?v=X-uIMl8V6kg&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=2)
 
 ### Image replacement
 
