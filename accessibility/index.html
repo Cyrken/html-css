@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+	<meta charset="utf-8">
+	<title>Accessibility</title>
+	<link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<!--
+	Skip Links allow users to jump to specific places on our site
+	So they can make the screen reader skip reading duplicate content, like primary navigation
+-->
+<ul class="skip-links">
+	<li><a href="#nav">Skip to navigation</a></li>
+	<li><a href="#main">Skip to the main content</a></li>
+</ul>
+
+<!-- The role of "banner" defines the element as the site's masthead -->
+<header role="banner" id="top">
+	<strong>Accessible Website</strong>
+
+	<!-- The role of "navigation" defines the element as being the primary navigation for the site -->
+	<nav role="navigation" id="nav">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		</ul>
+	</nav>
+</header>
+
+<!-- The role of "main" defines the element as being the primary content -->
+<main role="main" id="main">
+	<h1>Accessibility</h1>
+	<p>Websites should be usable and available to every human being—and dinosaur.</p>
+	<img src="img/dino.jpg" alt="An illlustration of stegosaurus roaming about">
+</main>
+
+<!-- The role of "complementary" defines and element as content related to the primary content -->
+<aside role="complementary">
+	<ul>
+		<li><a href="http://www.w3.org/TR/WCAG20/">WCAG 2.0</a></li>
+		<li><a href="http://www.w3.org/TR/wai-aria/">WAI-ARIA</a></li>
+	</ul>
+</aside>
+
+<!--
+	The role of "contentinfo" defines the element as information about the content:
+		e.g. copyright, terms, privacy policy
+-->
+<footer role="contentinfo">
+	<p>© Accessibility Website · <a href="#top">Top</a></p>
+</footer>
+
+</body>
+</html>
