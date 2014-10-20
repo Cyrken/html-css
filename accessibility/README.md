@@ -136,7 +136,7 @@ Most often designers like to hide them but they must be hidden in an accessible 
 
 - [Accessibility: skip links](https://www.youtube.com/watch?v=UnEItq289lU&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=3)
 
-### Tools
+## Tools
 
 There are a few things that you should check on every website—at least—to help with accessibility.
 
