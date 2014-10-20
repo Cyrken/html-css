@@ -6,6 +6,56 @@ Making websites work better for every human being.
 
 ---
 
+## Impairments
+
+There are lots of different impairments that can affect human beings—but the great thing about the web and computers is that they’re empowering to everybody. *It’s our job as designers to help people accomplish what they want.*
+
+**One important thing to remember is that these impairments can be temporary—as an example: a broken arm.**
+
+### Visual
+
+Visual impairments are issues that affect eyes, e.g. blindness, partial or full; colour blindness; cataracts; glaucoma; age; etc. 
+
+**Things we can do**
+
+- Allow text to be resized
+- Have good contrast in colours
+- Test for colour blindness related issues
+- Make sure the website works well with screen readers
+- Use proper alt attributes
+
+### Mobility and dexterity
+
+Mobility and dexterity impairments primarily affect people’s arms and hands, e.g. missing a hand, limited movement, difficulty with fine control, trouble holding a mouse, termors or shakes, etc.
+
+**Things we can do**
+
+- Recognize and prepare for the fact that not everybody will use a mouse
+- Make the website keyboard accessible
+- Increase hit areas of links and buttons
+
+### Auditory
+
+Impairments that affect a person’s ability to hear, e.g. deafness, partial deafness, etc.
+
+**Things we can do**
+
+- Provide text captions and subtitles
+
+### Cognitive
+
+Generally considered something that affects a person’s brain, e.g. dyslexia, memory issues, problem solving issues, attention deficits, hyperactivity, reading abilities, etc.
+
+**Things we can do**
+
+- Make it clear where in the website the user is
+- Organize your content correctly & use proper headings
+- Make the text easily scannable
+- Clearly mark links
+- Use lots of images and graphics
+
+---
+
 ## WAI-ARIA roles
 
 Adding ARIA roles to your website is a great way to provide navigational landmarks for people using accessibility tools like screen readers.
