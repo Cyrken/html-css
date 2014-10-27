@@ -269,3 +269,8 @@ Inside the `<td>` and `<th>` elements you can put practically any HTML you want,
 4. [Tables: headers, body, footers](https://www.youtube.com/watch?v=e7R3ljHNG8M&list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR&index=4)
 5. [Tables: styling](https://www.youtube.com/watch?v=I-UhJyQ7oR4&list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR&index=5)
 6. [Tables: other elements in cells](https://www.youtube.com/watch?v=4w-XTc93r8c&list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR&index=6)
+
+## Links
+
+- [Table Generator](http://www.tablesgenerator.com/html_tables)
+- [MDN: Tables](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table)
