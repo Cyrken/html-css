@@ -195,3 +195,12 @@ There are many optional tags for larger images and different types of content li
 - [Twitter Card Documentation](https://dev.twitter.com/docs/cards)
 - [Markup Reference](https://dev.twitter.com/docs/cards/markup-reference)
 - [Twitter Card Validator](https://dev.twitter.com/docs/cards/validation/validator)
+
+### Pinterest Rich Pins
+
+Pinterest uses a combination of different tags to allow you to adjust the data of content pinned from your website.
+
+**Pinterest uses Facebook’s Open Graph tags as well as Schema.org attributes to extract relevant information.**
+
+- [Pinterest Rich Pins](https://developers.pinterest.com/rich_pins_overview/)
+- [Pinterest Rich Pins Validator](https://developers.pinterest.com/rich_pins/validator/)
