@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Tables</title>
+  <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<!--
+  You can use the `border="1"` attribute for testing.
+  But ALWAYS remove it when you're done debugging the table layout.
+-->
+<table>
+
+  <caption>Information on three awesome dinosaurs.</caption>
+
+  <col class="col-name">
+  <col class="col-period">
+  <col class="col-discovery">
+  <colgroup class="col-size">
+    <col>
+    <col>
+  </colgroup>
+
+  <thead>
+    <tr>
+      <th scope="col" rowspan="2">Name</th>
+      <th scope="col" rowspan="2">Period</th>
+      <th scope="col" rowspan="2">Discovery</th>
+      <th class="size-heading" scope="col" colspan="2">Size</th>
+    </tr>
+    <tr>
+      <th scope="col">Length</th>
+      <th scope="col">Mass</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr>
+      <th scope="row">Stegosaurus</th>
+      <td>Late Jurassic</td>
+      <td>
+        <time datetime="1877">1877</time>
+      </td>
+      <td>
+        <data value="9">9 m</data>
+      </td>
+      <td>4.5 t</td>
+    </tr>
+    <tr>
+      <th scope="row">Apatosaurus</th>
+      <td>Jurassic Period</td>
+      <td>1877</td>
+      <td>23 m</td>
+      <td>35 t</td>
+    </tr>
+    <tr>
+      <th scope="row">Tyrannosaurus</th>
+      <td>Late Cretaceous</td>
+      <td>1905</td>
+      <td>12.3 m</td>
+      <td>6.8 t</td>
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <th scope="row">Total</th>
+      <td colspan="4">
+        <p>3 dinosaurs</p>
+      </td>
+    </tr>
+  </tfoot>
+
+</table>
+
+</body>
+</html>
