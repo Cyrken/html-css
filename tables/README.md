@@ -12,8 +12,6 @@ Tables, like spreadsheets in Excel or Numbers, are made up of rows. Each row is 
 
 <table>
 
-  <caption>Information on three awesome dinosaurs.</caption>
-
   <thead>
     <tr>
       <th scope="col" rowspan="2">Name</th>
@@ -198,6 +196,68 @@ th {
 *Videos*
 
 - [Tables: styling](https://www.youtube.com/watch?v=I-UhJyQ7oR4&list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR&index=5)
+
+---
+
+## Captioning a table
+
+It’s usually a good idea to add a summary of the table’s contents—especially for accessibility reasons.
+
+The summary is added using the `<caption>` element:
+
+```html
+<table>
+  <caption>Information on three awesome dinosaurs.</caption>
+  ⋮
+</table>
+```
+
+---
+
+## Elements inside cells
+
+Inside the `<td>` and `<th>` elements you can put practically any HTML you want, including another table.
+
+```html
+<table>
+  <tr>
+    <td>
+      <div>A div!</div>
+      <ul>
+        <li>A</li>
+        <li>Super</li>
+        <li>List</li>
+      </ul>
+    </td>
+    <td>
+      <p>A paragraph</p>
+      <time datetime="2233-03-22">Time element</time>
+    </td>
+  </tr>
+</table>
+```
+
+### Table in a table
+
+```html
+<table>
+  <tr>
+    <td>
+
+      <table>
+        <tr>
+          <td>Table-ception</td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+```
+
+*Videos*
+
+- [Tables: other elements in cells](https://www.youtube.com/watch?v=4w-XTc93r8c&list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR&index=6)
 
 ---
 
