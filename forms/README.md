@@ -40,6 +40,10 @@ The input element needs an ID on it, then the label points to the ID using it’
 - [Forms: introduction](https://www.youtube.com/watch?v=UoSh5xoz6fg&index=1&list=PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY)
 - [Forms: contact form](https://www.youtube.com/watch?v=GCeKgnALJGs&index=2&list=PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY)
 
+*Links*
+
+- [Floated Labels Still Suck](http://www.webaxe.org/floated-labels-still-suck/)
+
 ---
 
 ## Input types
