@@ -14,11 +14,11 @@ Creating a modular typography system in CSS creates an extremely reusable font-s
 4. Choose a type scale, often based on a musical or other natural scale
 5. Set up the CSS font-sizes, line-heights, and margins to fit the scale
 
-**Example type sizes**
+**Example type choices**
 
 - *font-family*: Georgia
-- *font-size*: 16px
-- *line-height*: 24px
+- *font-size*: 16px (100%)
+- *line-height*: 24px (1.5)
 - *type-scale*: 1.125 (major second)
 
 **How to choose a type scale**
@@ -82,13 +82,15 @@ Some designers like to use the Greek alphabet for their font-sizes, some like to
 So, we would then assign classes to all the significant font-sizes:
 
 ```css
-h1, .exa {
+h1,
+.exa {
   font-size: 1.8020rem;
 }
 
 ⋮
 
-h6, .kilo {
+h6,
+.kilo {
   font-size: 1rem;
 }
 ```
@@ -137,7 +139,7 @@ fieldset, pre, table {
 
 *The margin-bottom is the same size as our line-height.*
 
-Next, we assign a line-height to every font-size in our type-scale that aligns with our base line-height.
+Next, we assign a line-height to every font-size in our type-scale that aligns with our base line-height. The idea behind this alignment is create harmony between the text, especially when two columns of text are beside each other—we want the lines of text to align.
 
 Here’s the formula to calculate the appropriate line-height:
 
@@ -158,6 +160,7 @@ h1, .exa {
 **Links**
 
 - [Single Direction Margin Declaration](http://csswizardry.com/2012/06/single-direction-margin-declarations/)
+- [Mark Boulton: Incremental leading](http://www.markboulton.co.uk/journal/incremental-leading)
 
 #### Re-usable spacers
 
@@ -213,7 +216,7 @@ Now we can apply these classes to any element to assign them the brand colour or
 
 ### Bigger fonts on bigger screens
 
-With responsive sites it’s usually a good idea to increase the font-size on larger screens. This provides the benefit of having larger fonts on screen like televisions.
+With responsive sites it’s usually a good idea to increase the font-size on larger screens. This provides the benefit of having larger fonts on screens like televisions.
 
 With a few media queries at the top of our `typography.css` file we can increase sizes incrementally for larger screens.
 
