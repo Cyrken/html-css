@@ -139,7 +139,7 @@ fieldset, pre, table {
 
 *The margin-bottom is the same size as our line-height.*
 
-Next, we assign a line-height to every font-size in our type-scale that aligns with our base line-height. The idea behind this alignment is create harmony between the text, especially when two columns of text are beside each other—we want the lines of text to align.
+Next, we assign a line-height to every font-size in our type-scale that aligns with our base line-height. The idea behind this alignment is create harmony between the text, especially when two columns of text are beside each other—we want the lines of text to align. [Illustrations and explanation here.](http://www.markboulton.co.uk/journal/incremental-leading)
 
 Here’s the formula to calculate the appropriate line-height:
 
