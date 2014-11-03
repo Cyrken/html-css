@@ -195,3 +195,7 @@ Bootstrap is a prototyping CSS framework that comes setup with a theme, grids, a
 4. [Grids: simplifying fractions for unit sizes](https://www.youtube.com/watch?v=BNFKLqYl8rU&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=4)
 5. [Grids: pushing units aside using offsets](https://www.youtube.com/watch?v=kVMdNbrHgbQ&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=5)
 6. [Grids: grids inside grids](https://www.youtube.com/watch?v=hpwjNC4Eo-U&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=6)
+
+## Links
+
+1. [A List Apart: Content-out Layout](http://alistapart.com/article/content-out-layout)
