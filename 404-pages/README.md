@@ -34,7 +34,7 @@ Each web server has a different way to set up 404 pages. The best way to start s
 ### GitHub
 
 1. Create an HTML file named `404.html`
-2. Put it into your Git repo an push it to GitHub
+2. Put it into your GitHub repo and commit and sync it
 
 *404 pages will only work on GitHub if you’re using a custom domain.*
 
