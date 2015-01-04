@@ -85,7 +85,7 @@ You can open them up in your text editor—because they are just XML—and edit 
 
 **Videos**
 
-- [Images: SVG](https://www.youtube.com/watch?v=TfgZpgQMBEg&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=1)
+- [Images: SVG](https://www.youtube.com/watch?v=Q_saQXuejQc&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=3)
 
 **Code samples**
 
@@ -128,7 +128,7 @@ Some devices have their own favicon-like graphics, e.g. Apple Touch Icon, Opera 
 
 **Videos**
 
-- [Images: favicons](https://www.youtube.com/watch?v=G407yUWeU40&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=2)
+- [Images: favicons](https://www.youtube.com/watch?v=G407yUWeU40&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=4)
 
 **Code samples**
 
@@ -235,7 +235,7 @@ The technique is useful when you cannot produce the text style you’d like in C
 
 **Videos**
 
-- [Images: image replacement](https://www.youtube.com/watch?v=U7B9-UtEK7w&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=3)
+- [Images: image replacement](https://www.youtube.com/watch?v=U7B9-UtEK7w&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=5)
 
 **Code samples**
 
@@ -266,7 +266,7 @@ Using two differently sized PNGs and a media query for detecting hi-res screens 
 
 **Videos**
 
-- [Images: multi-resolution PNGs](https://www.youtube.com/watch?v=Q91vXeF0mpU&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=4)
+- [Images: multi-resolution PNGs](https://www.youtube.com/watch?v=Q91vXeF0mpU&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=6)
 
 **Code samples**
 
@@ -288,7 +288,7 @@ The major downside of this technique is that the images can become very memory i
 
 **Videos**
 
-- [Images: compressive JPEGs](https://www.youtube.com/watch?v=3SzWx4_mL7A&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=5)
+- [Images: compressive JPEGs](https://www.youtube.com/watch?v=3SzWx4_mL7A&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=7)
 
 **Code samples**
 
@@ -316,7 +316,7 @@ Combine your images into a single file in Photoshop and using `background-positi
 
 **Videos**
 
-- [Images: CSS sprites](https://www.youtube.com/watch?v=nm8D1tTs5bY&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=6)
+- [Images: CSS sprites](https://www.youtube.com/watch?v=nm8D1tTs5bY&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=8)
 
 **Code samples**
 
@@ -335,7 +335,7 @@ Smushing will reduce the size of images without reducing their quality.
 
 **Videos**
 
-- [Images: smushing](https://www.youtube.com/watch?v=3nYcq3CPSe8&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=7)
+- [Images: smushing](https://www.youtube.com/watch?v=3nYcq3CPSe8&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=9)
 
 **Links**
 
@@ -351,10 +351,10 @@ Smushing will reduce the size of images without reducing their quality.
 
 1. [Images: alt attributes](https://www.youtube.com/watch?v=xcWwcTRS79s&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=1)
 1. [Images: figures](https://www.youtube.com/watch?v=X-uIMl8V6kg&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=2)
-1. [Images: SVG](https://www.youtube.com/watch?v=q6lKXbeNokA&index=3&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph)
+1. [Images: SVG](https://www.youtube.com/watch?v=Q_saQXuejQc&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=3)
 2. [Images: favicons](https://www.youtube.com/watch?v=G407yUWeU40&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=4)
 3. [Images: image replacement](https://www.youtube.com/watch?v=U7B9-UtEK7w&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=5)
-4. [Images: multi-resolution PNGs](https://www.youtube.com/watch?v=Q91vXeF0mpU&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=5)
+4. [Images: multi-resolution PNGs](https://www.youtube.com/watch?v=Q91vXeF0mpU&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=6)
 5. [Images: compressive JPEGs](https://www.youtube.com/watch?v=3SzWx4_mL7A&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=7)
 6. [Images: CSS sprites](https://www.youtube.com/watch?v=nm8D1tTs5bY&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=8)
 7. [Images: smushing](https://www.youtube.com/watch?v=3nYcq3CPSe8&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=9)
