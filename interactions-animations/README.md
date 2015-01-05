@@ -6,11 +6,11 @@ Different interaction methods for websites (without Javascript) and triggering a
 
 ---
 
-- [Transitions]()
-	- [A basic example]()
-	- [Syntax]()
-		- [Multiple different transitions]()
-	- [Resources]()
+- [Transitions](#transitions)
+	- [A basic example](#a-basic-example)
+	- [Syntax](#syntax)
+		- [Multiple different transitions](#multiple-different-transitions)
+	- [Resources](#resources)
 - [Target pseudo class]()
 - [Transforms]()
 	- [Syntax]()
