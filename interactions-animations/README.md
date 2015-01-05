@@ -7,7 +7,7 @@ Different interaction methods for websites (without Javascript) and triggering a
 ---
 
 - [Transitions](#transitions)
-	- [A basic example](#a-basic-example)
+	- [A basic transition example](#a-basic-transition-example)
 	- [Transition syntax](#transition-syntax)
 		- [Multiple different transitions](#multiple-different-transitions)
 	- [Transition resources](#transition-resources)
@@ -27,7 +27,7 @@ Transitions are simple animations that have a start and an end style that the br
 - Just about any CSS number (font-size, width, height, top, colours, etc.) can be animated—with one major exception: linear-gradients.
 - The transition CSS should always be added to the default CSS state, or there will be weird flashing when it’s triggered.
 
-### A basic example
+### A basic transition example
 
 Here’s a simple example that creates an animation between two colours when a link is hovered:
 
@@ -44,7 +44,7 @@ a:hover {
 
 The animation will affect the “color” property and last for “1000ms”, using the “linear”̦ timing function.
 
-### Syntax
+### Transition syntax
 
 ```css
 transition: property length timing-function;
@@ -91,7 +91,7 @@ The syntax for multiple transitions is the same, just separate each new transiti
 }
 ```
 
-### Resources
+### Transition resources
 
 **Videos**
 
