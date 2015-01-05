@@ -8,13 +8,14 @@ Different interaction methods for websites (without Javascript) and triggering a
 
 - [Transitions](#transitions)
 	- [A basic example](#a-basic-example)
-	- [Syntax](#syntax)
+	- [Transition syntax](#transition-syntax)
 		- [Multiple different transitions](#multiple-different-transitions)
-	- [Resources](#resources)
-- [Target pseudo class]()
-- [Transforms]()
-	- [Syntax]()
-	- [Resources]()
+	- [Transition resources](#transition-resources)
+- [Target pseudo class](#target-pseudo-class)
+	- [Target resources]()
+- [Transforms](#transforms)
+	- [Transform syntax]()
+	- [Transform resources]()
 - [Videos](#videos)
 
 ---
@@ -106,6 +107,42 @@ The syntax for multiple transitions is the same, just separate each new transiti
 ---
 
 ## Target pseudo class
+
+The `:target` pseudo class in CSS allows you to style an element when it is targeted by internal linking and the URL.
+
+Say we have this URL:
+
+```
+https://domain.com/index.html#box
+```
+
+And this HTML:
+
+```html
+<div id="box" class="box">Box!</div>
+```
+
+Notice how the hash in the URL is the same as the ID on the `div`—this is the same technique as internal linking.
+
+But, we can now target that item in CSS like this:
+
+```css
+.box:target {
+  background-color: #ffc;
+}
+```
+
+Now box will be styled with a background colour whenever the URL matches it’s ID.
+
+**Videos**
+
+- [Interactions & animations: target](https://www.youtube.com/watch?v=Fnhw6hz7AUA&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=2)
+
+**Links**
+
+- [MDN: target](https://developer.mozilla.org/en-US/docs/Web/CSS/:target)
+- [CSS Tricks: target](http://css-tricks.com/on-target/)
+- [CSS :target](http://davidwalsh.name/css-target)
 
 ---
 
