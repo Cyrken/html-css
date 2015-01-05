@@ -12,13 +12,13 @@ Different interaction methods for websites (without Javascript) and triggering a
 		- [Multiple different transitions](#multiple-different-transitions)
 	- [Transition resources](#transition-resources)
 - [Target pseudo class](#target-pseudo-class)
-	- [Target resources]()
+	- [Target resources](#target-resources)
 - [Transforms](#transforms)
 	- [A basic transform example](#a-basic-transform-example)
-	- [Transform syntax]()
+	- [Transform syntax](#transform-syntax)
 		- [Multiple different transforms](#multiple-different-transforms)
 		- [Transform vendor prefixes](#transform-vendor-prefixes)
-	- [Transform resources]()
+	- [Transform resources](#transform-resources)
 - [Videos](#videos)
 
 ---
@@ -137,6 +137,8 @@ But, we can now target that item in CSS like this:
 ```
 
 Now box will be styled with a background colour whenever the URL matches it’s ID.
+
+### Target resources
 
 **Videos**
 
