@@ -14,7 +14,10 @@ Different interaction methods for websites (without Javascript) and triggering a
 - [Target pseudo class](#target-pseudo-class)
 	- [Target resources]()
 - [Transforms](#transforms)
+	- [A basic transform example](#a-basic-transform-example)
 	- [Transform syntax]()
+		- [Multiple different transforms](#multiple-different-transforms)
+		- [Transform vendor prefixes](#transform-vendor-prefixes)
 	- [Transform resources]()
 - [Videos](#videos)
 
@@ -101,6 +104,7 @@ The syntax for multiple transitions is the same, just separate each new transiti
 
 - [MDN: Transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
 - [MDN: Timing function](https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function)
+- [Can I Use: Transitions](http://caniuse.com/#feat=css-transitions)
 - [CSS Tricks: Transition](http://css-tricks.com/almanac/properties/t/transition/)
 - [All you need to know about CSS Transitions](http://blog.alexmaccaw.com/css-transitions)
 
@@ -141,12 +145,89 @@ Now box will be styled with a background colour whenever the URL matches it’s 
 **Links**
 
 - [MDN: target](https://developer.mozilla.org/en-US/docs/Web/CSS/:target)
+- [Can I Use: target](http://caniuse.com/#feat=css-sel3)
 - [CSS Tricks: target](http://css-tricks.com/on-target/)
 - [CSS :target](http://davidwalsh.name/css-target)
 
 ---
 
 ## Transforms
+
+Transforms allow us to apply different alterations to HTML elements that change them in a specific way, e.g. rotate, scale, skew, move (translate), etc.
+
+### A basic transform example
+
+```css
+.box {
+  transform: rotate(30deg);
+}
+```
+
+The above CSS would rotate that HTML element 30 degrees.
+
+### Transform syntax
+
+There’s a whole bunch of different functions to manipulate the elements:
+
+- `rotate(angle)` — rotates the element the specified angle; negative numbers can be used
+
+	```
+	transform: rotate(30deg)
+	transform: rotate(-15deg)
+	```
+
+- `translate(x, y)` — moves the element horizontally and vertically; negative numbers okay; also `translateX()`, `translateY()`
+
+	```
+	transform: translate(200px, 0) /* moves right 200px, doesn’t move down */
+	```
+
+- `scale(size)` — grow or shrink the element; negative numbers okay; also: `scaleX()`, `scaleY()`
+
+	```
+	transform: scale(1.5, 2) /* scale horizontal 1.5x and vertically 2x */
+	```
+
+- *refer to the links below for more transformation functions*
+
+#### Multiple different transforms
+
+Multiple transformations can be applied to a single element by separating each function with a space:
+
+```css
+.box {
+  /* Rotates and scales the element */
+  transform: rotate(30deg) scale(1.5);
+}
+```
+
+#### Transform vendor prefixes
+
+Since CSS transforms are so new they still need a few vendor prefixes, so you’d actually have to write your transforms like this:
+
+```css
+.box {
+  /* Opera and Firefox can be omitted because they've been prefix free for many versions */
+  -ms-transform: rotate(30deg);
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+```
+
+**It’s important that the non-prefixed version always comes last.**
+
+### Transform resources
+
+**Videos**
+
+- [Interactions & animations: transforms](https://www.youtube.com/watch?v=n7b1_-Av2Dc&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=3)
+
+**Links**
+
+- [MDN: Transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+- [Can I Use: Transform](http://caniuse.com/#feat=transforms2d)
+- [CSS Tricks: Transform](http://css-tricks.com/almanac/properties/t/transform/)
+- [Animation Using CSS Transforms](http://www.the-art-of-web.com/css/css-animation/)
 
 ---
 
