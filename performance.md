@@ -22,9 +22,9 @@ Making your website fast is extremely important for usability and probably one o
 
 Some tools to help you diagnose performance problems on your website:
 
+- Browser developer tools
 - **[Google PageSpeed](https://developers.google.com/speed/pagespeed/)**
 - [Yahoo YSlow](http://yslow.org/)
-- **[Slowy](http://slowyapp.com/)**
 - [Pingdom Website Speed Test](http://tools.pingdom.com/fpt/)
 - [Web Page Test](http://www.webpagetest.org/)
 
