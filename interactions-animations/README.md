@@ -36,12 +36,12 @@ Here’s a simple example that creates an animation between two colours when a l
 
 ```css
 a {
-  color: orange;
-  transition: color 1000ms linear;
+	color: orange;
+	transition: color 1000ms linear;
 }
 
 a:hover {
-  color: red;
+	color: red;
 }
 ```
 
@@ -78,19 +78,19 @@ The syntax for multiple transitions is the same, just separate each new transiti
 
 ```css
 .box {
-  background-color: green;
-  border-radius: 0;
+	background-color: green;
+	border-radius: 0;
 
-  /* It's easier to read if the different transitions are on individual lines */
-  transition:
-    background-color 250ms ease-out,
-    border-radius 1s ease-in-out
-  ;
+	/* It's easier to read if the different transitions are on individual lines */
+	transition:
+		background-color 250ms ease-out,
+		border-radius 1s ease-in-out
+	;
 }
 
 .box:hover {
-  background-color: pink;
-  border-radius: 40px;
+	background-color: pink;
+	border-radius: 40px;
 }
 ```
 
@@ -132,7 +132,7 @@ But, we can now target that item in CSS like this:
 
 ```css
 .box:target {
-  background-color: #ffc;
+	background-color: #ffc;
 }
 ```
 
@@ -161,7 +161,7 @@ Transforms allow us to apply different alterations to HTML elements that change 
 
 ```css
 .box {
-  transform: rotate(30deg);
+	transform: rotate(30deg);
 }
 ```
 
@@ -198,8 +198,8 @@ Multiple transformations can be applied to a single element by separating each f
 
 ```css
 .box {
-  /* Rotates and scales the element */
-  transform: rotate(30deg) scale(1.5);
+	/* Rotates and scales the element */
+	transform: rotate(30deg) scale(1.5);
 }
 ```
 
@@ -209,10 +209,10 @@ Since CSS transforms are so new they still need a few vendor prefixes, so you’
 
 ```css
 .box {
-  /* Opera and Firefox can be omitted because they've been prefix free for many versions */
-  -ms-transform: rotate(30deg);
-  -webkit-transform: rotate(30deg);
-  transform: rotate(30deg);
+	/* Opera and Firefox can be omitted because they've been prefix free for many versions */
+	-ms-transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+	transform: rotate(30deg);
 }
 ```
 

@@ -50,11 +50,11 @@ So for the `h5`, it would be `1 × 1.125`.
 
 ```css
 h5 {
-  font-size: 1.125rem; /* (1 × 1.125) */
+	font-size: 1.125rem; /* (1 × 1.125) */
 }
 
 h6 {
-  font-size: 1rem;
+	font-size: 1rem;
 }
 ```
 
@@ -68,8 +68,8 @@ Using the formula to calculate the `h1`:
 
 ```css
 h1 {
-  /* (1 × 1.125 ^ 5) - H1 is 5 steps away from the base font-size */
-  font-size: 1.8020rem; 
+	/* (1 × 1.125 ^ 5) - H1 is 5 steps away from the base font-size */
+	font-size: 1.8020rem; 
 }
 ```
 
@@ -84,14 +84,14 @@ So, we would then assign classes to all the significant font-sizes:
 ```css
 h1,
 .exa {
-  font-size: 1.8020rem;
+	font-size: 1.8020rem;
 }
 
 ⋮
 
 h6,
 .kilo {
-  font-size: 1rem;
+	font-size: 1rem;
 }
 ```
 
@@ -99,21 +99,21 @@ Often we need larger font-sizes (for banners or hero graphics) and smaller font-
 
 ```css
 .yotta {
-  font-size: 2.2807rem;
+	font-size: 2.2807rem;
 }
 
 .zetta {
-  font-size: 2.0273rem;
+	font-size: 2.0273rem;
 }
 
 ⋮
 
 small, .milli {
-  font-size: 0.8889rem;
+	font-size: 0.8889rem;
 }
 
 .micro {
-  font-size: 0.7901rem;
+	font-size: 0.7901rem;
 }
 ```
 
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6,
 p, ul, ol, dl, dd, figure
 blockquote, details, hr,
 fieldset, pre, table {
-  margin: 0 0 1.5rem;
+	margin: 0 0 1.5rem;
 }
 ```
 
@@ -151,9 +151,9 @@ To calculate the `h1` it would look like this:
 
 ```css
 h1, .exa {
-  /* line-height: ceil(1.802 ÷ 1.5) × (1.5 ÷ 1.802) */
-  font-size: 1.8020rem;
-  line-height: 1.6648;
+	/* line-height: ceil(1.802 ÷ 1.5) × (1.5 ÷ 1.802) */
+	font-size: 1.8020rem;
+	line-height: 1.6648;
 }
 ```
 
@@ -171,22 +171,22 @@ So, we can create a series of classes to add consistent margins:
 ```css
 /* Normal, line-height size space */
 .push {
-  margin-bottom: 1.5rem;
+	margin-bottom: 1.5rem;
 }
 
 /* No space */
 .push-none {
-  margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 /* Double normal space */
 .push-double {
-  margin-bottom: 3rem;
+	margin-bottom: 3rem;
 }
 
 /* Half normal space */
 .push-half {
-  margin-bottom: 0.75rem;
+	margin-bottom: 0.75rem;
 }
 ```
 
@@ -199,16 +199,16 @@ Often we want a different typeface and colours for the headings, it’s best to 
 ```css
 h1, h2, h3, h4, h5, h6,
 .brand {
-  font-family: Helvetica,sans-serif;
-  color: #393;
+	font-family: Helvetica,sans-serif;
+	color: #393;
 }
 
 .brand-family {
-  font-family: Helvetica,sans-serif;
+	font-family: Helvetica,sans-serif;
 }
 
 .brand-color {
-  color: #393;
+	color: #393;
 }
 ```
 
@@ -223,25 +223,25 @@ With a few media queries at the top of our `typography.css` file we can increase
 ```css
 @media only screen and (min-width: 60em) {
 
-  html {
-    font-size: 110%;
-  }
+	html {
+		font-size: 110%;
+	}
 
 }
 
 @media only screen and (min-width: 90em) {
 
-  html {
-    font-size: 120%;
-  }
+	html {
+		font-size: 120%;
+	}
 
 }
 
 @media only screen and (min-width: 120em) {
 
-  html {
-    font-size: 130%;
-  }
+	html {
+		font-size: 130%;
+	}
 
 }
 ```

@@ -220,16 +220,16 @@ The technique is useful when you cannot produce the text style you’d like in C
 
 ```css
 .ir {
-  /* The technique pushes the text off the side of the element and chops it off */
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
+	/* The technique pushes the text off the side of the element and chops it off */
+	overflow: hidden;
+	text-indent: 100%;
+	white-space: nowrap;
 }
 
 .masthead {
-  background: transparent url("rainbow.jpg") no-repeat left top;
-  /* Put a min-height on the element equal to the image’s height */
-  min-height: 100px;
+	background: transparent url("rainbow.jpg") no-repeat left top;
+	/* Put a min-height on the element equal to the image’s height */
+	min-height: 100px;
 }
 ```
 

@@ -12,7 +12,7 @@ There are a few important things to remember about form tags.
 
 ```html
 <form action="thanks.html" method="post">
-  ⋮
+	⋮
 </form>
 ```
 
@@ -29,9 +29,9 @@ The input element needs an ID on it, then the label points to the ID using it’
 
 ```html
 <form action="thanks.html" method="post">
-  <!-- Labels are associated with inputs using the for and id attributes -->
-  <label for="name">Name</label>
-  <input id="name">
+	<!-- Labels are associated with inputs using the for and id attributes -->
+	<label for="name">Name</label>
+	<input id="name">
 </form>
 ```
 
@@ -77,8 +77,8 @@ Some elements can have other attributes to control what content is allowed to be
 
 ```html
 <!--
-  Would allow any number between 0 and 1, in increments of 0.1
-  e.g. 0, 0.1, 0.2, 0.3 ... 0.9, 1.0
+	Would allow any number between 0 and 1, in increments of 0.1
+	e.g. 0, 0.1, 0.2, 0.3 ... 0.9, 1.0
 -->
 <input type="number" min="0" max="1" step="0.1">
 ```
@@ -117,9 +117,9 @@ Select boxes, aka dropdown boxes, allow a user to pick one option of many.
 ```html
 <label for="province">Province</label>
 <select id="province">
-  <option>Manitoba</option>
-  <option>Ontario</option>
-  <option>Quebec</option>
+	<option>Manitoba</option>
+	<option>Ontario</option>
+	<option>Quebec</option>
 </select>
 ```
 
@@ -140,16 +140,16 @@ Radio buttons allow users to select a single option out of many, similar to a se
 
 ```html
 <fieldset>
-  <legend>What’s your favourite colour?</legend>
+	<legend>What’s your favourite colour?</legend>
 
-  <input type="radio" id="green" name="fav-color">
-  <label for="green">Green</label>
+	<input type="radio" id="green" name="fav-color">
+	<label for="green">Green</label>
 
-  <input type="radio" id="light-green" name="fav-color">
-  <label for="light-green">Light Green</label>
+	<input type="radio" id="light-green" name="fav-color">
+	<label for="light-green">Light Green</label>
 
-  <input type="radio" id="dark-green" name="fav-color">
-  <label for="dark-green">Dark Green</label>
+	<input type="radio" id="dark-green" name="fav-color">
+	<label for="dark-green">Dark Green</label>
 </fieldset>
 ```
 
@@ -165,24 +165,24 @@ Here’s an example of grouping address inputs together:
 
 ```html
 <fieldset>
-  <legend>Mailing Address</legend>
+	<legend>Mailing Address</legend>
 
-  <div>
-    <label for="street-address">Street Address</label>
-    <input id="street-address">
-  </div>
-  <div>
-    <label for="city">City</label>
-    <input id="city">
-  </div>
-  <div>
-    <label for="country">Country</label>
-    <input id="country">
-  </div>
-  <div>
-    <label for="postal-code">Postal Code</label>
-    <input id="postal-code">
-  </div>
+	<div>
+		<label for="street-address">Street Address</label>
+		<input id="street-address">
+	</div>
+	<div>
+		<label for="city">City</label>
+		<input id="city">
+	</div>
+	<div>
+		<label for="country">Country</label>
+		<input id="country">
+	</div>
+	<div>
+		<label for="postal-code">Postal Code</label>
+		<input id="postal-code">
+	</div>
 </fieldset>
 ```
 
@@ -198,8 +198,8 @@ All forms need to have buttons otherwise the form’s information can’t be sen
 
 ```html
 <form>
-  ⋮
-  <button type="submit">Send</button>
+	⋮
+	<button type="submit">Send</button>
 </form>
 ```
 

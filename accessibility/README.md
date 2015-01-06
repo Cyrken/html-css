@@ -77,7 +77,7 @@ Here’s an example of adding the landmark role to the masthead:
 
 ```html
 <header role="banner">
-  <strong>Accessible Website</strong>
+	<strong>Accessible Website</strong>
 </header>
 ```
 
@@ -95,7 +95,7 @@ It’s important to not remove the keyboard focus rectangle from links, but it c
 
 ```css
 a:focus {
-  outline: 3px solid #000;
+	outline: 3px solid #000;
 }
 ```
 
@@ -123,12 +123,12 @@ Most often designers like to hide them but they must be hidden in an accessible 
 
 ```css
 .skip-links a {
-  position: absolute;
-  top: -3em;
+	position: absolute;
+	top: -3em;
 }
 
 .skip-links a:focus {
-  top: 0;
+	top: 0;
 }
 ```
 

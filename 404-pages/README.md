@@ -49,9 +49,9 @@ Each web server has a different way to set up 404 pages. The best way to start s
 3. Put this in your `.htaccess` file:
 
 ```
-	ErrorDocument 404 /404.html
-	# You can specify pages for other error codes too
-	ErrorDocument 500 /500.html
+ErrorDocument 404 /404.html
+# You can specify pages for other error codes too
+ErrorDocument 500 /500.html
 ```
 
 ---

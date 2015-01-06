@@ -46,9 +46,10 @@ html {
 	text-size-adjust: 100%;
 }
 
-*, *:before, *:after {
+*, *::before, *::after {
 	box-sizing: inherit;
 }
+
 ⋮
 ```
 

@@ -48,8 +48,8 @@ BEM takes naming a little further by using double underscores or double hyphens 
 
 ```html
 <div class="media media--highlighted">
-  <div class="media__img"></div>
-  <div class="media__body"></div>
+	<div class="media__img"></div>
+	<div class="media__body"></div>
 </div>
 ```
 
