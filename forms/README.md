@@ -2,7 +2,7 @@
 
 Making forms in HTML isn’t too complex but without a backend server language like PHP or Python (or maybe a little Javascript) we can’t actually do anything with the form itself.
 
-### [☛ Videos for forms](https://www.youtube.com/playlist?list=PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY)
+### [▶ Video playlist for forms](https://www.youtube.com/playlist?list=PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY)
 
 ---
 

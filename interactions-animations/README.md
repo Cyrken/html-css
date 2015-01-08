@@ -2,7 +2,7 @@
 
 Different interaction methods for websites (without Javascript) and triggering animations and transitions with those interactions.
 
-### [☛ Videos for organization](https://www.youtube.com/watch?v=mYW7PPO81gk&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
+### [▶ Video playlist for organization](https://www.youtube.com/watch?v=mYW7PPO81gk&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
 
 ---
 

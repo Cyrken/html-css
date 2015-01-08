@@ -3,7 +3,7 @@
 Media queries allow us to change our layouts and designs based on the browser.
 We can change our layouts based on width, height, DPI, orientation, and lots more.
 
-### [☛ Videos for media queries](https://www.youtube.com/playlist?list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7)
+### [▶ Video playlist for media queries](https://www.youtube.com/playlist?list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7)
 
 ---
 

@@ -2,7 +2,7 @@
 
 Making websites work better for every human being.
 
-### [☛ Videos for accessibility](https://www.youtube.com/playlist?list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7)
+### [▶ Video playlist for accessibility](https://www.youtube.com/playlist?list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7)
 
 ---
 

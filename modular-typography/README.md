@@ -2,7 +2,7 @@
 
 Creating a modular typography system in CSS creates an extremely reusable font-size system with a harmonious vertical rhythm.
 
-### [☛ Videos for modular typography](https://www.youtube.com/playlist?list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l)
+### [▶ Video playlist for modular typography](https://www.youtube.com/playlist?list=PLWjCJDeWfDde5lA0t6QGVvaqpkqRREe2l)
 
 ---
 

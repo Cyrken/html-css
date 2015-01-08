@@ -3,7 +3,7 @@
 Floats and clearing are used to allow text to wrap around an object.
 With more complex usage floats can be used to create complex layouts, including columns and grids.
 
-### [☛ Videos for float & clear](https://www.youtube.com/playlist?list=PLWjCJDeWfDdd0KA55h2H466wmas8X2kF0)
+### [▶ Video playlist for float & clear](https://www.youtube.com/playlist?list=PLWjCJDeWfDdd0KA55h2H466wmas8X2kF0)
 
 ---
 

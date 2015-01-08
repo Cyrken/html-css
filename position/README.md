@@ -11,7 +11,7 @@ Position has a few values:
 - `absolute`
 - `fixed`
 
-### [☛ Videos for position](https://www.youtube.com/playlist?list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP)
+### [▶ Video playlist for position](https://www.youtube.com/playlist?list=PLWjCJDeWfDdfWFmcHzFqGxGzzsx_8MPPP)
 
 ---
 

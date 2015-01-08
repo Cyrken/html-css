@@ -2,7 +2,7 @@
 
 Below is a way to organize your website & production files in a logical manner that’s appropriate for GitHub.
 
-### [☛ Videos for organization](https://www.youtube.com/watch?v=V3xDoXeq0ic&list=PLWjCJDeWfDdfJhlnFDLwCu4GZ_2lfuMMx)
+### [▶ Video playlist for organization](https://www.youtube.com/watch?v=V3xDoXeq0ic&list=PLWjCJDeWfDdfJhlnFDLwCu4GZ_2lfuMMx)
 
 ---
 

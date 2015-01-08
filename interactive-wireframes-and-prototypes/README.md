@@ -2,7 +2,7 @@
 
 The first step of coding a website is creating the interactive wireframes and prototypes. They are simple layouts to express the responsiveness using grids, modular type, modular spacing, and a few media queries.
 
-### [☛ Videos for prototypes](https://www.youtube.com/playlist?list=PLWjCJDeWfDdeeD7gMjX8VTj-y6EFRMlkA)
+### [▶ Video playlist for prototypes](https://www.youtube.com/playlist?list=PLWjCJDeWfDdeeD7gMjX8VTj-y6EFRMlkA)
 
 ### [☛ See the final prototype](http://algonquindesign.github.io/html-css/interactive-wireframes-and-prototypes/)
 

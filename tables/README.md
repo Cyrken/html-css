@@ -2,7 +2,7 @@
 
 Making data tables in HTML that are completely accessible
 
-### [☛ Videos for tables](https://www.youtube.com/playlist?list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR)
+### [▶ Video playlist for tables](https://www.youtube.com/playlist?list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR)
 
 ---
 

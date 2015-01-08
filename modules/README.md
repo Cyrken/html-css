@@ -2,7 +2,7 @@
 
 Thinking modularly in CSS allows us to create more reusable CSS.
 
-### [☛ Videos for modules](https://www.youtube.com/playlist?list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa)
+### [▶ Video playlist for modules](https://www.youtube.com/playlist?list=PLWjCJDeWfDddIWwftJxBqtHpw8CbFMXsa)
 
 ---
 
