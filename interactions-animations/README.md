@@ -19,6 +19,13 @@ Different interaction methods for websites (without Javascript) and triggering a
 		- [Multiple different transforms](#multiple-different-transforms)
 		- [Transform vendor prefixes](#transform-vendor-prefixes)
 	- [Transform resources](#transform-resources)
+- [Animations](#animations)
+	- [A basic animation example]()
+	- [Animation syntax]()
+	- [Keyframes]()
+	- [Sprite & step-based animations]()
+	- [Animation resources]()
+- [Vendor prefixes]()
 - [Videos](#videos)
 
 ---
@@ -230,6 +237,224 @@ Since CSS transforms are so new they still need a few vendor prefixes, so you’
 - [Can I Use: Transform](http://caniuse.com/#feat=transforms2d)
 - [CSS Tricks: Transform](http://css-tricks.com/almanac/properties/t/transform/)
 - [Animation Using CSS Transforms](http://www.the-art-of-web.com/css/css-animation/)
+
+---
+
+## Animations
+
+Animations can be more complicated than transitions. Where transitions can has a start and an end, animations can have many different stages, called keyframes.
+
+### A basic animation example
+
+Animations are written in two parts: the `animation` property and the `@keyframes` declaration.
+
+Say, in our HTML, we have a simple `div`, like this:
+
+```html
+<div class="box">This is a box.</div>
+```
+
+Maybe we want to spin the box around as soon as the website loads. We need to start by creating the keyframes for our animation.
+
+The `@keyframes` declaration is a little different from other CSS, in that you don’t have to select an element first, it stands by itself.
+
+After the word `@keyframes`, you need to choose a name for your animation so it can be referred later—it’s best to follow our naming conventions when naming your animation.
+
+```css
+@keyframes spin {
+	/* Add all the keyframes here */
+}
+```
+
+Inside the keyframes declaration we specify all the keyframes of our website—at the most basic we need two keyframes.
+
+```css
+@keyframes spin {
+	from {
+		/* Add all the CSS property start values here */
+	}
+	to {
+		/* Add all the CSS property end values here */
+	}
+}
+```
+
+So, for our spinning box, we’d need keyframes that look like this:
+
+```css
+@keyframes spin {
+	from {
+		/* We start the rotation at 0 degrees */
+		transform: rotate(0deg);
+	}
+	to {
+		/* And end the rotation at 360 degrees */
+		transform: rotate(360deg);
+	}
+}
+```
+
+After setting up the keyframes, we then need to assign the animation to the HTML element.
+
+```css
+.box {
+	animation: spin 1s linear;
+}
+```
+
+So, combining the two pieces (`@keyframes` & `animation`) together we get a complete animation.
+
+### Animation syntax
+
+The animation property allows you to assign the animation, control how long it lasts, and how it works.
+
+```css
+animation: animation-name length timing-function;
+```
+
+- `animation-name` — the name of the animation that should be executed
+- `length` — how long the animation should take in `ms` (milliseconds; where 1000 is 1 second) or `s` (seconds)
+- `timing-function` — how the animation should function
+	- `linear` — all steps of the animation are equal
+	- `ease-in` — the animation starts slowly and speeds up over time
+	- `ease-out` — the animation starts quickly and slows down over time
+	- `ease-in-out` — the animation starts slowly, speeds up, and slows down
+	- `steps()` — choose how many frames—[look below for using steps]()
+	- *refer to the links below for more timing functions*
+- *refer to the links below for all the other values*
+
+Optionally, at the end of the animatoiin a `iteration-count` can be added, this is how many times the browser will execute the animation.
+
+Here’s an example with where the animation happens more than once:
+
+```css
+/* Animation happens 5 times */
+animation: spin 1s linear 5;
+
+/* Animation will loop forever */
+animation: spin 1s linear infinite;
+```
+
+### Keyframes
+
+The `keyframes` declaration can provide as many keyframes as you’d like to specify.
+
+*Keyframes are chosen by percentages, the browser will take the length of time specified in the `animation` property and space out the percentages of that time.*
+
+Here’s an example where for the rotation does a small bounce, rotating further than a full rotation.
+
+```css
+@keyframes spin {
+	/* At 0% of the time */
+	0% {
+		transform: rotate(0deg);
+	}
+	/* At 90% of the time */
+	90% {
+		transform: rotate(380deg);
+	}
+	/* At 100% of the time */
+	100% {
+		transform: rotate(360deg);
+	}
+}
+```
+
+The percentages are used as a way to define the keyframes, we can’t use times because the time is specified in the `animation` property.
+
+### Step-based animations
+
+When the browser animates it usually chooses how many frames of animation are needed to accommodate the keyframes and animation time length. Sometimes though, we want to choose how many frames should be used, specifically when doing traditional, sprite-based animation.
+
+Here’s a simple box:
+
+```html
+<div class="box">This is a box</div>
+```
+
+Here’s a simple animation to animate the background colour:
+
+```css
+.box {
+	animation: fade 1s linear;
+}
+
+@keyframes fade {
+	0% { background-color: orange; }
+	100% { background-color: red; }
+}
+```
+
+The browser would interpret as many different steps between orange and red and calculate a bunch of different shades of colours.
+
+Maybe though we want the animation to only fade using 5 different shades of orange & red. To do that, instead of using `linear` as the `timing-function`, use `steps()`.
+
+```css
+.box {
+	/* With `steps()`, the browser will only calculate 5 different colour shades */
+	animation: fade 1s steps(5);
+}
+```
+
+**If you’d like to do a classic frame-based animation with different frames, check out the [24 Ways Tutorial](http://24ways.org/2012/flashless-animation/), or watch the [Sprite-Based Animations video](https://www.youtube.com/watch?v=oY3p-Rrl9Hg&index=6&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm).**
+
+### Animation resources
+
+**Videos**
+
+- [Interactions & animations: basic animations](https://www.youtube.com/watch?v=wK_UFBZgSMk&index=4&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
+- [Interactions & animations: keyframe-based animations](https://www.youtube.com/watch?v=nG8hOT1TL8I&index=5&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
+- [Interactions & animations: sprite-based animations](https://www.youtube.com/watch?v=oY3p-Rrl9Hg&index=6&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
+- [Interactions & animations: vendor prefixes](https://www.youtube.com/watch?v=C5eDPR3pANQ&index=7&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
+
+**Links**
+
+- [MDN: Animation](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_animations)
+- [MDN: Keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
+- [Can I Use: CSS Animations](http://caniuse.com/#feat=css-animation)
+- [CSS Tricks: Animation](http://css-tricks.com/almanac/properties/a/animation/)
+- [CSS Tricks: Animation Tricks](http://css-tricks.com/css-animation-tricks/)
+- [24 Ways: CSS Animations](http://24ways.org/2009/css-animations/)
+- [24 Ways: Flashless Animations](http://24ways.org/2012/flashless-animation/)
+- [Animate.css](https://daneden.github.io/animate.css/)
+
+---
+
+## Vendor prefixes
+
+For many of these CSS properties, since they’re so new, we need to write them multiple times, each targeting a different browser.
+
+*Some browsers are still beta testing these features so we need to write a different line for each property—these are called vendor prefixes.*
+
+For transforms, you may have to write them like this:
+
+```css
+-webkit-transform: rotate(35deg);
+transform: rotate(35deg);
+```
+
+Or for animations, they would need to be written like this:
+
+```css
+.box {
+	-webkit-animation: fade 1s linear;
+	animation: fade 1s linear;
+}
+
+@-webkit-keyframes fade {
+	0% { background-color: orange; }
+	100% { background-color: red; }
+}
+
+@keyframes fade {
+	0% { background-color: orange; }
+	100% { background-color: red; }
+}
+```
+
+**The property without the vendor prefix must always go last.**
+
+*To figure out what vendor prefixes you need use this website: **[Can I Use](http://caniuse.com/)**.*
 
 ---
 
