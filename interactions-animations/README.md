@@ -20,12 +20,12 @@ Different interaction methods for websites (without Javascript) and triggering a
 		- [Transform vendor prefixes](#transform-vendor-prefixes)
 	- [Transform resources](#transform-resources)
 - [Animations](#animations)
-	- [A basic animation example]()
-	- [Animation syntax]()
-	- [Keyframes]()
-	- [Sprite & step-based animations]()
-	- [Animation resources]()
-- [Vendor prefixes]()
+	- [A basic animation example](#a-basic-animation-example)
+	- [Animation syntax](#animation-syntax)
+	- [Keyframes](#keyframes)
+	- [Step-based animations](#step-based-animations)
+	- [Animation resources](#animation-resources)
+- [Vendor prefixes](#vendor-prefixes)
 - [Videos](#videos)
 
 ---
