@@ -238,3 +238,7 @@ Since CSS transforms are so new they still need a few vendor prefixes, so you’
 - [Interactions & animations: basic transitions](https://www.youtube.com/watch?v=mYW7PPO81gk&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=1)
 - [Interactions & animations: target](https://www.youtube.com/watch?v=Fnhw6hz7AUA&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=2)
 - [Interactions & animations: transforms](https://www.youtube.com/watch?v=n7b1_-Av2Dc&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=3)
+- [Interactions & animations: basic animations](https://www.youtube.com/watch?v=wK_UFBZgSMk&index=4&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
+- [Interactions & animations: keyframe-based animations](https://www.youtube.com/watch?v=nG8hOT1TL8I&index=5&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
+- [Interactions & animations: sprite-based animations](https://www.youtube.com/watch?v=oY3p-Rrl9Hg&index=6&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
+- [Interactions & animations: vendor prefixes](https://www.youtube.com/watch?v=C5eDPR3pANQ&index=7&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
