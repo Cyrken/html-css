@@ -4,6 +4,8 @@ HTML (Hypertext Markup Language) is the coding language used to describe the con
 
 HTML has no look—it’s only purpose is to describe the meaning, the semantics, of the content.
 
+### [▶ Video playlist for organization](https://www.youtube.com/playlist?list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1)
+
 ---
 
 - [HTML is plain text](#html-is-plain-text)
@@ -40,7 +42,7 @@ The only thing that turns a plain text HTML file into a website is the web brows
 
 When writing HTML, the tags used to define the purpose of the text follow a specific syntax.
 
-![]()
+![](html-tag-parts.png)
 
 - `element` — the combination of an open tag, the content, and a close tag
 - `open tag` — the part to an element that defines where this type of content starts
@@ -339,22 +341,22 @@ Some characters cannot be written in the text content of HTML because the charac
 
 ## Videos
 
-1. [HTML semantics: making an HTML file]()
-2. [HTML semantics: setting up valid HTML]()
-3. []()
-4. []()
-5. []()
-6. []()
-7. []()
-8. []()
-9. []()
-10. []()
-11. []()
-12. []()
-13. []()
-14. []()
-15. []()
-16. []()
+1. [HTML semantics: making an HTML file](https://www.youtube.com/watch?v=fcZ_dx1rf5U&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=1)
+2. [HTML semantics: setting up valid HTML](https://www.youtube.com/watch?v=8xQp6XOJeTQ&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=2)
+3. [HTML semantics: indentation](https://www.youtube.com/watch?v=-LwIVv0RRqo&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=3)
+4. [HTML semantics: headings and paragraphs](https://www.youtube.com/watch?v=Y1mnFpZuMg4&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=4)
+5. [HTML semantics: lists](https://www.youtube.com/watch?v=LeuTGCVTB_Q&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=5)
+6. [HTML semantics: quotes and citations](https://www.youtube.com/watch?v=NcEQZe8SrMk&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=6)
+7. [HTML semantics: phrasing elements](https://www.youtube.com/watch?v=pswUFIXgjuQ&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=7)
+8. [HTML semantics: links](https://www.youtube.com/watch?v=qmMtoBrg5gI&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=8)
+9. [HTML semantics: internal links](https://www.youtube.com/watch?v=KXBnn4_0twc&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=9)
+10. [HTML semantics: images & figures](https://www.youtube.com/watch?v=KuHkeyKAgAY&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=10)
+11. [HTML semantics: document elements](https://www.youtube.com/watch?v=QnRBrDgeOuw&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=11)
+12. [HTML semantics: sections & articles](https://www.youtube.com/watch?v=Eyndz5R-Vkg&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=12)
+13. [HTML semantics: meaningless elements](https://www.youtube.com/watch?v=F0_O33vZkHI&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=13)
+14. [HTML semantics: break](https://www.youtube.com/watch?v=rXr3vq-iGns&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=14)
+15. [HTML semantics: more specific elements](https://www.youtube.com/watch?v=cX99P2717j8&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=15)
+16. [HTML semantics: entities](https://www.youtube.com/watch?v=P69WuZOlY68&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=16)
 
 ## Links
 
