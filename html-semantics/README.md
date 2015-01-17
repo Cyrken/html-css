@@ -6,11 +6,27 @@ HTML has no look—it’s only purpose is to describe the meaning, the semantics
 
 ---
 
-- [HTML is plain text]()
-- [HTML syntax]()
-- [HTML document setup]()
-- [HTML elements]()
+- [HTML is plain text](#html-is-plain-text)
+- [HTML syntax](#html-syntax)
+- [HTML document setup](#html-document-setup)
+- [Indentation](#indentation)
+- [HTML elements](#html-elements)
+	- [Headings](#headings)
+	- [Lists](#lists)
+	- [Quotes, citations, sources](#quotes-citations-sources)
+	- [Phrasing elements](#phrasing-elements)
+	- [Links](#links)
+		- [Internal links](#internal-links)
+	- [Images & figures](#images-figures)
+		- [Images with captions](#images-with-captions)
+	- [Document elements](#document-elements)
+	- [Sections & articles](#sections-articles)
+	- [Meaningless elements](#meaningless-elements)
+	- [Break](#break)
+	- [More specific elements](#more-specific-elements)
+	- [Entities](#entities)
 - [Videos](#videos)
+- [Link](#links)
 
 ---
 
@@ -63,10 +79,261 @@ Here’s what an empty HTML document looks like:
 
 *All the HTML elements listed below go inside the `<body>`.*
 
+## Indentation
+
+When writing HTML it’s a really great idea to indent elements.
+
+The indentation isn’t for the browser, browser’s don’t care. The indentation is for us to help us understand our code.
+
+Whenever an element is unique and inside another element it should be indented:
+
+```html
+<body>
+	<header>
+		<h1>All About Apatosaurus</h1>
+	</header>
+</body>
+```
+
+- Because the `<h1>` is inside the `<header>` it gets indented.
+- Because the `<header>` is inside the `<body>` it gets indented, as well as all the elements inside it.
+
 ## HTML elements
 
 Each HTML elements as a very specific purpose, here’s a bunch of them.
 
+- `<p>` — paragraph, for defining a chunck of text.
+
+### Headings
+
+- `<h1>` — heading level 1, the most important piece of content on the page, every HTML file must have one
+- `<h2>` — heading level 2, a sub-heading of `<h1>`
+- `<h3>` — heading level 3, a sub-heading of `<h2>`
+- `<h4>` — heading level 4, a sub-heading of `<h3>`
+- `<h5>` — heading level 5, a sub-heading of `<h4>`
+- `<h6>` — heading level 6, a sub-heading of `<h5>`
+
+When picking headings, think of an outline, each heading level is a sub heading of the one before. You can’t have an `<h3>` without and `<h2>` and you can’t have an `<h2>` without and `<h1>`.
+
+An outline of your document with headings might look like this:
+
+```html
+<h1>Earth</h1>
+	<h2>North America</h2>
+		<h3>Canada</h3>
+			<h4>Ontario</h4>
+				<h5>Toronto</h5>
+				<h5>Ottawa</h5>
+					<h6>Nepean</h6>
+					<h6>Kanata</h6>
+		<h3>United States</h3>
+	<h2>Africa</h2>
+		<h3>Egypt</h3>
+			<h4>Cairo</h4>
+				<h5>Cairo</h5>
+```
+
+*The indentation above is to denote the headings are sub-headings of the one above.*
+
+### Lists
+
+- `<ul>` — unordered list, for when the items inside the list don’t have an order, or the order isn’t important.
+- `<ol>` — ordered list, for when the items inside the list have an order, or the order is important. Alphabetical, chronological, best to worst.
+- `<dl>` — description list, when the content of the list has a “term” and a “definition”, like a dictionary.
+
+When writing lists, we have to specifically tell the browser how many items are in the list.
+
+- `<li>` — list item, the tag used to specify a single item in the list
+
+```html
+<ul>
+	<li>T-Rex</li>
+	<li>Stegosaurus</li>
+	<li>Apatosaurus</li>
+</ul>
+```
+
+The description list is a little different because it needs a tag for the “term” and the “definition”.
+
+- `<dt>` — description term
+- `<dd>` — description… description
+
+```html
+<dl>
+	<dt>Length</dt>
+	<dd>12 metres</dd>
+
+	<dt>Mass</dt>
+	<dd>5.4 metric tons</dd>
+</dl>
+```
+
+### Quotes, citations, sources
+
+- `<q>` — quote, for marking up quotes embedded in other things like paragraphs. Often just using quote marks is good enough.
+- `<blockquote>` — for large, stand alone quotes
+- `<cite>` — for marking the source of the quote
+
+When marking up blockquotes, the recommended syntax is this:
+
+```html
+<blockquote>
+	<p>Dinosaurs may be extinct from the face of the planet, but they are alive and well in our imaginations.</p>
+	<footer>— <cite>Steve Miller</cite></footer>
+</blockquote>
+```
+
+The `<footer>` is used to denote that the source of the quote is less important than the quote itself.
+
+### Phrasing elements
+
+- `<em>` — for emphasizing text, like is spoken word, to make some words more important
+- `<strong>` — for even more emphasis than `<em>`
+- `<i>` — for language elements: text in another language, ship names, sarcasm, irony, movie titles, TV show titles
+- `<b>` — for keywords; is the word important while searching for the website?
+
+**Links**
+
+- [HTML5 Doctor: The i, b, em, & strong elements](http://html5doctor.com/i-b-em-strong-element/)
+
+### Links
+
+- `<a>` — anchor, for hyperlinks, to link to another page
+
+When adding a link to your site you need to specify where to link to, that’s where we use an attribute.
+
+```html
+<!-- Linking to another page in your website that’s in the same folder as this HTML file -->
+<a href="other-page.html">Other page</a>
+<!-- Linking to another page in your website that’s contained in a folder -->
+<a href="dinosuars/trex.htm">T-Rex</a>
+<!-- Linking to another website, when linking to another website we need the `http` -->
+<a href="http://www.wikipedia.org/">Wikipedia</a>
+```
+
+#### Internal links
+
+To link to another location in the same page we use internal links. We start by adding an ID attribute to an element on the page—the ID is a unique name for that element.
+
+```html
+<h2 id="meat-eaters">
+```
+
+Then, in the `<a>` tag we link directly to the ID:
+
+```html
+<a href="#meat-eaters">Meat Eaters</a>
+```
+
+### Images & figures
+
+Images in websites are no embedded in the website, but linked to by the HTML document.
+
+- `<img>` — the image tag, to link to an image file so the browser could download it.
+
+Images need two attributes to specify extra details about the image: the location of the image and the alternative content.
+
+```html
+<img src="images/trex.jpg" alt="Photo of T-Rex skeleton.">
+```
+
+- `src` — is used to specify where to find the image
+- `alt` — is used to describe the image—[learn more about the alt attributes](images#alt-attributes)
+
+The attributes in HTML tags don’t have to be in a specific order. Reversing the order of the attributes makes no difference to the browser.
+
+```html
+<img alt="Photo of T-Rex skeleton." src="images/trex.jpg">
+```
+
+#### Images with captions
+
+If an image has a caption that describes the image you can surround the image tag with more elements.
+
+- `<figure>` — defining the image as having a caption
+- `<figcaption>` — marking up the caption itself
+
+```html
+<figure>
+	<img src="images/trex.jpg" alt="">
+	<figcaption>Photo of T-Rex skeleton in the Ottawa museum.</figcaption>
+</figure>
+```
+
+When you have a `<figcaption>`, the alt attribute can be left empty if the caption does a good job describing the image.
+
+**Links**
+
+- [HTML5 Doctor: The figure & figcaption elements](http://html5doctor.com/the-figure-figcaption-elements/)
+
+### Document elements
+
+- `<header>` — for the masthead of the website, where the name and logo and navigation are
+- `<nav>` — navigation, defining the navigation of the website
+- `<footer>` — for the footer of the website, usually includes the copyright statement, social icons, etc.
+- `<main>` — for defining the primary content
+- `<aside>` — for secondary information, stuff that’s not required to understand the primary content, like sidebars, pull quotes, etc.
+
+### Sections & articles
+
+- `<section>` — for grouping content together that has a heading—there’s no point using a section if it doesn’t have a unique heading
+- `<article>` — for independent content, stuff that can be removed from this website and would still be understandable, like blog posts & products
+
+**Links**
+
+- [HTML5 Doctor: header](http://html5doctor.com/the-header-element/)
+- [HTML5 Doctor: footer](http://html5doctor.com/the-footer-element-update/)
+- [HTML5 Doctor: article](http://html5doctor.com/the-article-element/)
+- [HTML5 Doctor: section](http://html5doctor.com/the-section-element/)
+- [HTML5 Doctor: aside](http://html5doctor.com/aside-revisited/)
+
+### Meaningless elements
+
+There are two elements in HTML that don’t add meaning to the content, but can be used as styling hooks, if need to group things together when creating your layout.
+
+- `<div>` — a meaningless group, has restrictions on what elements it can go inside
+- `<span>` — small runs of meaningless text
+
+### Break
+
+In HTML there’s an element to add a line break. It should never be used to make space in your website, that’s what CSS is for.
+
+*Only use a `<br>` tag if the line break is part of the content.*
+
+A good example is an address. In an address, the formatting of each line is important so a `<br>` tag is important.
+
+```html
+<p>
+	24 Sussex Drive<br>
+	Ottawa, ON<br>
+	K1A 0A3
+</p>
+```
+
+Another good example of when to use a `<br>` tag would be in poems: each stanza is a paragraph, and each line as a break after it.
+
+### More specific elements
+
+For defining certain types of data and document information.
+
+- `<time datetime="">` — Times, dates, durations; the `datetime` attribute is for the computer readable information—[ISO 8601](https://en.wikipedia.org/wiki/ISO_8601)
+- `<data value="">` — Numberical data: weight, length, mass, etc.; the `value` attribute is for the computer readable information
+- `<del>` — Deleted content
+- `<ins>` — Newly inserted content
+- `<dfn>` — The definition of word
+- `<abbr title="">` — Abbreviations and acronyms; the `title` attribute is used for the full version
+- `<mark>` — Highlight text, like in search results
+- `<sub>` — Subscript
+- `<sup>` — Superscript
+
+### Entities
+
+Some characters cannot be written in the text content of HTML because the characters are reserved for the HTML syntax.
+
+- `&gt;` — for making greater than symbols
+- `&lt;` — for making less than symbols
+- `&amp;` — for writing ampersands
+- `&nbsp;` — to put a space between words that will never break or word wrap
 
 ---
 
@@ -88,3 +355,8 @@ Each HTML elements as a very specific purpose, here’s a bunch of them.
 14. []()
 15. []()
 16. []()
+
+## Links
+
+- [MDN: HTML Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
+- [HTML5 Doctor: Element Index](http://html5doctor.com/element-index/)
