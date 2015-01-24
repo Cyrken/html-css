@@ -19,10 +19,10 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 15. [Search engine optimization](search-engine-optimization)
 16. [Metadata & enhanced semantics](metadata-enhanced-semantics)
 17. [Accessibility](accessibility)
-17. [Performance](performance.md)
+17. [Performance](performance)
 18. [What ifs: progressive enhancement & graceful degradation](what-ifs)
 19. [404 pages](404-pages)
-20. [Analytics](analytics.md)
+20. [Analytics](analytics)
 21. [Stylus](stylus)
 
 ---

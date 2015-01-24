@@ -23,7 +23,7 @@ Design and production files should not go inside the GitHub repository, but inst
 - Git & GitHub don’t support large binary files so we can’t put any Creative Suite files there
 - Putting the Creative Suite files into [Dropbox has lots of benefits](#benefits-of-dropbox)
 - The Creative Suite files should always be kept in-case they need to be changed at a later time
-- The files used in a website should be [compressed and smushed for the best performance](https://github.com/algonquindesign/html-css/blob/gh-pages/performance.md)—and therefore cannot be edited
+- The files used in a website should be [compressed and smushed for the best performance](https://github.com/algonquindesign/html-css/blob/gh-pages/performance)—and therefore cannot be edited
 
 ![](screenshots/folder-structure.png)
 
