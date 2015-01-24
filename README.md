@@ -37,6 +37,6 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 
 ## License & Copyright
 
-© 2014 Algonquin College Graphic Design Program — <http://algonquindesign.ca>.	
+© Algonquin College Graphic Design Program — <http://algonquindesign.ca>.	
 All code licensed under the [BSD-3 License](LICENSE).	
 All text, imagery, documentation, tutorials, & videos licensed under the [CC BY-SA License](http://creativecommons.org/licenses/by-sa/2.5/ca/deed.en_US).
