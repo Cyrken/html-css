@@ -1,0 +1,74 @@
+html {
+  /*
+    Font shorthand
+    font: font-style font-weight font-size/line-height font-family;
+   */
+  font: normal 1rem/1.5 Georgia,serif;
+}
+
+h1, h2, h3 {
+  /* font-family: preferred typeface, backup style; */
+  font-family: 'Denk One', sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+  font-weight: normal;
+  line-height: 1;
+  text-transform: uppercase;
+  text-decoration: line-through;
+  /* text-shadow: horizontal-offset vertical-offset blur-radius colour */
+  text-shadow: 2px -4px 6px red;
+  text-align: center;
+}
+
+h1 + p {
+  font-size: 2rem;
+}
+
+em {
+  font-weight: bold;
+  font-style: normal;
+}
+
+span {
+  font-style: italic;
+}
+
+ul {
+  /*font-size: 1.5em;*/
+}
+
+li {
+  /*font-size: 2em;*/
+}
+
+li:last-child {
+  /*font-size: 0.5rem;*/
+}
+
+a,
+a:link {
+  color: darkgreen;
+  /*text-decoration: none;*/
+}
+
+a:visited {
+  color: limegreen;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:focus {
+  color: blue;
+}
+
+a:active {
+  color: red;
+}
+
+ol {
+  list-style-type: none;
+}

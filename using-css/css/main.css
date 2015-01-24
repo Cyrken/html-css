@@ -1,0 +1,136 @@
+html {
+  /* Everything in here will design the HTML element */
+
+  background-color: limegreen;
+
+  /* Hex colours */
+  /* Hex: 0 1 2 3 4 5 6 7 8 9 a b c d e f */
+  background-color: #ffffff; /* Simplified: #fff */
+  background-color: #000000; /* #000 */
+  background-color: #0000ff; /* #00f */
+  background-color: #ff0000;
+  background-color: #ffff00;
+  background-color: #cccccc;
+  background-color: #333333;
+  background-color: #a65d03;
+  background-color: #d2c6b5;
+}
+
+/*
+  Select multiple elements
+  Target the <h1> tags, the <h2> tags, and the <h3> tags
+*/
+h1, h2, h3 {
+  color: white;
+}
+
+/*
+  Tag/element selector
+  Target just the <h2> tags
+*/
+h2 {
+  background-color: rgba(84, 91, 29, 0.5);
+  color: rgb(205, 222, 63);
+}
+
+p {
+  background-color: yellow;
+}
+
+/* Targeting a tag again will overwrite the CSS above */
+p {
+  background-color: orange;
+}
+
+/*
+  Descendant selectors
+  Target every <p> tag inside a <main> tag
+*/
+main p {
+  color: #ffffff;
+}
+
+header p {
+  background-color: yellow;
+}
+
+/*
+  Descendant selectors
+  Target every <p> tag, inside a <div> tag, that is inside a <header> tag
+*/
+header div p {
+  color: white;
+}
+
+/*
+  Direct descendant or child selector
+  Target a <p> tag that is directly inside a <header> tag
+*/
+header > p {
+  color: red;
+}
+
+/*
+  Adjacent selector
+  Target every <p> tag that is immediately beside an <h1>
+*/
+h1 + p {
+  background-color: red;
+  color: hsla(66, 50%, 100%, 0.7);
+}
+
+/*
+  Class (name) selector
+  Target every element that has the class "veloci"
+*/
+.veloci {
+  background-color: hotpink;
+}
+
+/*
+  First child selector
+  Target every <li> tag that is the first element inside a <ul>
+*/
+ul li:first-child {
+  background-color: purple;
+}
+
+/*
+  Last child selector
+  Target every <li> tag that is the last element inside a <ul>
+*/
+ul li:last-child {
+  background-color: blue;
+}
+
+/*
+  Numbered child, even selector
+  Target every even numbered <li> tag inside an element
+    that has the class of "not-dinos"
+*/
+.not-dinos li:nth-child(even) {
+  background-color: grey;
+}
+
+/*
+  Numbered child, odd selector
+  Target every odd numbered <li> tag inside an element
+    that has the class of "not-dinos"
+*/
+.not-dinos li:nth-child(odd) {
+  background-color: black;
+  color: white;
+}
+
+/*
+  Numbered child, single selector
+  Target the 4th <li> tag inside an element
+    that has the class of "not-dinos"
+*/
+.not-dinos li:nth-child(4) {
+  background-color: orange;
+}
+
+.dino {
+  color: blue;
+}

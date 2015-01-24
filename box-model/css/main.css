@@ -1,0 +1,60 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  background-color: orange;
+
+  padding: 10px;
+  /* padding: top right bottom left; */
+  padding: 50px 10px 25px 3px;
+  padding: 50px 10px 25px;
+  padding: 50px 10px;
+
+  margin: 25px;
+  margin: 20px 10px;
+
+  margin-bottom: 15px;
+
+  border: 5px solid #000;
+  box-shadow: 4px 6px 10px yellow;
+
+  border-radius: 10px 25px;
+}
+
+h1 + p {
+  background-color: pink;
+  padding: 1em;
+  margin-top: 5px;
+
+  border: 2px dotted #000;
+  border-radius: 10px;
+}
+
+.box-1 {
+  background-color: limegreen;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 0 50px;
+}
+
+.box-2 {
+  background-color: darkgreen;
+  margin-top: 10px;
+  width: 75%;
+  padding: 1em 0;
+}
+
+.box-wrap {
+  background-color: grey;
+  margin-top: 10px;
+  padding-top: 1px;
+  width: 50%;
+  padding: 5em 0;
+
+  border-radius: 50%;
+}
