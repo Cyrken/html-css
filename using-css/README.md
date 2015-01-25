@@ -373,13 +373,13 @@ h1 {
 
 ## Videos
 
-- [Using CSS: attaching a CSS file](https://www.youtube.com/watch?v=TCTOxnP-KTk&index=1&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
-- [Using CSS: targeting HTML elements](https://www.youtube.com/watch?v=tkhyrBugWfI&index=2&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
-- [Using CSS: targeting multiple elements at once](https://www.youtube.com/watch?v=bdtBivwSoqQ&index=3&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
-- [Using CSS: styling child elements](https://www.youtube.com/watch?v=QMUyscA0mYI&index=4&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
-- [Using CSS: naming and classes](https://www.youtube.com/watch?v=HQBBQzPSmlM&index=5&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
-- [Using CSS: styling an element by its number](https://www.youtube.com/watch?v=GRK70oscYIA&index=6&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
-- [Using CSS: specifying colours in CSS](https://www.youtube.com/watch?v=TbM-kMiC-vg&index=7&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
+1. [Using CSS: attaching a CSS file](https://www.youtube.com/watch?v=TCTOxnP-KTk&index=1&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
+2. [Using CSS: targeting HTML elements](https://www.youtube.com/watch?v=tkhyrBugWfI&index=2&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
+3. [Using CSS: targeting multiple elements at once](https://www.youtube.com/watch?v=bdtBivwSoqQ&index=3&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
+4. [Using CSS: styling child elements](https://www.youtube.com/watch?v=QMUyscA0mYI&index=4&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
+5. [Using CSS: naming and classes](https://www.youtube.com/watch?v=HQBBQzPSmlM&index=5&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
+6. [Using CSS: styling an element by its number](https://www.youtube.com/watch?v=GRK70oscYIA&index=6&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
+7. [Using CSS: specifying colours in CSS](https://www.youtube.com/watch?v=TbM-kMiC-vg&index=7&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
 
 ---
 
