@@ -53,6 +53,7 @@ Inline-block:
 1. [Flow & display: introduction](http://www.youtube.com/watch?v=FwQo2P7L9bw&list=PLWjCJDeWfDdc6YKkkrEdYuExcnY05rmwG&index=1)
 2. [Flow & display: details list](http://www.youtube.com/watch?v=-HeiRd22Tcg&list=PLWjCJDeWfDdc6YKkkrEdYuExcnY05rmwG&index=2)
 3. [Flow & display: horizontal navigation](http://www.youtube.com/watch?v=sxO32mTbfUo&list=PLWjCJDeWfDdc6YKkkrEdYuExcnY05rmwG&index=3)
+4. [Flow & display: centering elements](https://www.youtube.com/watch?v=QA5CiOm92Qg&list=PLWjCJDeWfDdc6YKkkrEdYuExcnY05rmwG&index=4)
 
 ---
 
