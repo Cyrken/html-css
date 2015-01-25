@@ -5,6 +5,7 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 1. [HTML semantics](html-semantics)
 2. [Using CSS](using-css)
 3. [Basic typography](basic-typography)
+	1. [Using Google Fonts](basic-typography/google-fonts)
 4. [The box model: everything is a box](box-model)
 5. [Flow & display](flow-display)
 6. [Float & clear](float-clear)
