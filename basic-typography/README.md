@@ -170,7 +170,7 @@ a {
 
 Links have a bunch of states that we can also style when a user interacts.
 
-```
+```css
 a,
 a:link {
   color: darkgreen;
