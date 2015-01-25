@@ -243,7 +243,7 @@ Beyond the core web fonts for font family we can use custom typefaces that get d
 
 There are lots of different services for Web Fonts—Google Fonts is a simple one to start with and uses open fonts that are licensed for any situation.
 
-#### [☛ Follow this tutorial to see how to use Google Web Fonts.](google-web-fonts)
+#### [☛ Follow this tutorial to see how to use Google Fonts.](google-fonts)
 
 **Links**
 
