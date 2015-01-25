@@ -26,7 +26,7 @@ HTML has no look—it’s only purpose is to describe the meaning, the semantics
 	- [Meaningless elements](#meaningless-elements)
 	- [Break](#break)
 	- [More specific elements](#more-specific-elements)
-	- [Entities](#entities)
+- [Entities](#entities)
 - [Videos](#videos)
 - [Link](#links)
 
@@ -81,6 +81,8 @@ Here’s what an empty HTML document looks like:
 
 *All the HTML elements listed below go inside the `<body>`.*
 
+---
+
 ## Indentation
 
 When writing HTML it’s a really great idea to indent elements.
@@ -99,6 +101,8 @@ Whenever an element is unique and inside another element it should be indented:
 
 - Because the `<h1>` is inside the `<header>` it gets indented.
 - Because the `<header>` is inside the `<body>` it gets indented, as well as all the elements inside it.
+
+---
 
 ## HTML elements
 
@@ -328,7 +332,9 @@ For defining certain types of data and document information.
 - `<sub>` — Subscript
 - `<sup>` — Superscript
 
-### Entities
+---
+
+## Entities
 
 Some characters cannot be written in the text content of HTML because the characters are reserved for the HTML syntax.
 
@@ -358,7 +364,10 @@ Some characters cannot be written in the text content of HTML because the charac
 15. [HTML semantics: more specific elements](https://www.youtube.com/watch?v=cX99P2717j8&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=15)
 16. [HTML semantics: entities](https://www.youtube.com/watch?v=P69WuZOlY68&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=16)
 
+---
+
 ## Links
 
 - [MDN: HTML Element Reference](https://developer.mozilla.org/en-US/docs/Web/HTML/Element)
 - [HTML5 Doctor: Element Index](http://html5doctor.com/element-index/)
+- [HTML Vocabulary](http://apps.workflower.fi/vocabs/html/en)
