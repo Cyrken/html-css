@@ -2,22 +2,22 @@
 
 CSS provides lots of control over typography on your website—here’s some of the basics.
 
-### [▶ Video playlist for basic typography]()
+### [▶ Video playlist for basic typography](https://www.youtube.com/playlist?list=PLWjCJDeWfDdcZadRkkeuz1NYSJ0phrstG)
 
 ---
 
-- [Styling the font]()
-	- [Font family]()
-	- [Font properties]()
-	- [Font shorthand]()
-	- [Text decorations]()
-	- [Font sizing units: rem vs. em vs. px]()
-		- [Rem vs. em]()
-- [Styling links]()
-- [Styling lists]()
-- [Web fonts and custom typefaces]()
-- [Videos]()
-- [Links]()
+- [Styling the font](#styling-the-font)
+	- [Font family](#font-family)
+	- [Font properties](#font-properties)
+	- [Font shorthand](#font-shorthand)
+	- [Text decorations](#text-decorations)
+	- [Font sizing units: rem vs. em vs. px](#font-sizing-units-rem-vs-em-vs-px)
+		- [Rem vs. em](#rem-vs-em)
+- [Styling links](#styling-links)
+- [Styling lists](#styling-lists)
+- [Web fonts and custom typefaces](#web-fonts-and-custom-typefaces)
+- [Videos](#videos)
+- [Links](#links)
 
 ---
 
@@ -243,7 +243,7 @@ Beyond the core web fonts for font family we can use custom typefaces that get d
 
 There are lots of different services for Web Fonts—Google Fonts is a simple one to start with and uses open fonts that are licensed for any situation.
 
-#### [☛ Follow this tutorial to see how to use Google Web Fonts.](google-web-fonts.md)
+#### [☛ Follow this tutorial to see how to use Google Web Fonts.](google-web-fonts)
 
 **Links**
 
