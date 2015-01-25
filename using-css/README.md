@@ -1,30 +1,30 @@
 # Using CSS
 
-Creating and attaching a Cascading Style Sheets to your HTML and basic targeting and styling of websites.
+Covering creating Cascading Style Sheets, attaching them to your HTML, and basic targeting and styling of websites.
 
-### [▶ Video playlist for using CSS]()
+### [▶ Video playlist for using CSS](https://www.youtube.com/playlist?list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
 
 ---
 
-- [Creating a CSS file]()
-	- [Attaching a CSS file]()
-- [Anatomy of CSS]()
-- [Targeting things in HTML]()
-	- [Targeting by HTML element]()
-	- [Targeting multiple elements at once]()
-	- [Targeting child elements]()
-	- [Naming and classes]()
-	- [Styling by number]()
-- [CSS colours]()
-	- [Keywords]()
-	- [Hex codes]()
-		- [Understanding hexadecimal]()
-	- [RGB]()
-		- [RGB semi-transparency]()
-	- [HSL]()
-		- [HSL semi-transparency]()
-- [Videos]()
-- [Links]()
+- [Creating a CSS file](#creating-a-css-file)
+	- [Attaching a CSS file](#attaching-a-css-file)
+- [Anatomy of CSS](#anatomy-of-css)
+- [Targeting things in HTML](#targeting-things-in-html)
+	- [Targeting by HTML element](#targeting-by-html-element)
+	- [Targeting multiple elements at once](#targeting-multiple-elements-at-once)
+	- [Targeting child elements](#targeting-child-elements)
+	- [Naming and classes](#naming-and-classes)
+	- [Styling by number](#styling-by-number)
+- [CSS colours](#css-colours)
+	- [Keywords](#keywords)
+	- [Hex codes](#hex-codes)
+		- [Understanding hexadecimal](#understanding-hexadecimal)
+	- [RGB](#rgb)
+		- [RGB semi-transparency](#rgb-semi-transparency)
+	- [HSL](#hsl)
+		- [HSL semi-transparency](#hsl-semi-transparency)
+- [Videos](#videos)
+- [Links](#links)
 
 ---
 
@@ -32,7 +32,7 @@ Creating and attaching a Cascading Style Sheets to your HTML and basic targeting
 
 A CSS file isn’t anything special, it’s just a basic plain-text file like HTML.
 
-In your code editor, just create a new file, and save it with the extension `.css`. Name the file whatever you want—following our naming conventions.
+In your code editor, just create a new file, and save it with the extension `.css`. Name the file whatever you want—following our [naming conventions](https://github.com/algonquindesign/resources/blob/master/naming-conventions.md).
 
 *It’s always a good idea to put your CSS into a `css` folder, for better organization.*
 
@@ -40,9 +40,9 @@ In your code editor, just create a new file, and save it with the extension `.cs
 
 ### Attaching a CSS file
 
-After creating and saving the CSS file, we just need to link the CSS and HTML files together so the browser can find them.
+After creating and saving the CSS file, we just need to link the CSS and HTML files together so the browser knows where to look for the CSS file.
 
-In the `head` of the HTML document, add the `link` line:
+In the `head` of the HTML document, add a `link` tag:
 
 ```html
 <head>
@@ -53,10 +53,9 @@ In the `head` of the HTML document, add the `link` line:
 
 The `link` element is used to associate different types of documents to your HTML, primarily CSS, but also blog feeds, help documents, licenses, etc.
 
-- `href` — this attribute is used to point to location of the CSS file
-- `rel` — this attribute is used to define this item as a `stylesheet`
-
-*The path to the CSS file must point into the correct folder.*
+- `href` — this attribute is used to point to the location of the CSS file.
+	*The path to the CSS file must point into the correct folder.*
+- `rel` — this attribute is used to define this item as a `stylesheet`.
 
 ## Anatomy of CSS
 
@@ -65,10 +64,10 @@ The parts of CSS are very simple, but allow complex designs.
 ![](css-parts.png)
 
 - `rule set` — a grouping of CSS styles that design a certain set of elements
-- `declaration` — a single line of CSS that adds a design element
+- `declaration` — a single line of CSS that adds some design
 - `selector` — the targeted item in your HTML document to design
-- `property` — the design item to style
-- `value` — the style to change the item
+- `property` — the type of design you want to add, like `color`, `border`
+- `value` — how to change the design property
 
 **Links**
 
@@ -82,7 +81,7 @@ To style something in CSS you first need to target the element then apply some n
 
 ### Targeting by HTML element
 
-Knowing the name of the HTML element you want to design you can simply target it directly—called an **element selector**.
+When you know the name of the HTML element you want to design, you can simply target it directly—called an **element selector**.
 
 ```css
 /* This would target the <html> element */
@@ -146,7 +145,7 @@ The child selector allows a little more precision, looking at the HTML above, sa
 
 Using the `>` symbol—**the child selector**—we select only direct children of another tag.
 
-```
+```css
 /* Target a <p> tags that is directly inside a <header> tag */
 header > p {
 
@@ -157,7 +156,7 @@ This wouldn’t select the other `p` tag because it’s also inside a `div`.
 
 If we only want to get the `p` tag immediately after the `h1` we can use the **adjacent selector**, a `+` symbol.
 
-```
+```css
 /* Target every <p> tag that is immediately beside an <h1> */
 h1 + p {
 
@@ -168,7 +167,7 @@ This CSS selector would only select the first `p` tag, but not the second `p` ta
 
 ### Naming and classes
 
-If we want to extremely specific about what element we select we can assign a name to the HTML tag—called a **class**.
+If we want to be extremely specific about what element we select we can assign a name to the HTML tag—called a **class**.
 
 ```html
 <ol>
@@ -178,7 +177,7 @@ If we want to extremely specific about what element we select we can assign a na
 </ol>
 ```
 
-We can add a new attribute to any HTML element we want, the `class` attribute and completely make up a name—following our [naming conventions](https://github.com/algonquindesign/resources/blob/master/naming-conventions.md).
+We can add a new attribute to any HTML element we want, the `class` attribute, and completely make up a name—following our [naming conventions](https://github.com/algonquindesign/resources/blob/master/naming-conventions.md).
 
 Now that we have given the element a class, we can target that class directly in our CSS:
 
@@ -203,11 +202,11 @@ But, an element can actually have more than one class on it:
 <h2 class="veloci dino">Brachisaurus</h2>
 ```
 
-Now the `h2` element has both the `veloci` class **and** the `dino` class.
+Now the `h2` element has both the `veloci` class **and** the `dino` class. *The reason we can’t have a space in our class names is because the space is used to separate multiple classes on the same element.*
 
 ### Styling by number
 
-Finally, we can style elements based on their location an number: whether they’re first, last, odd, even, etc.
+We can also style elements based on their location and number: whether they’re first, last, odd, even, etc.
 
 ```html
 <ul>
@@ -245,6 +244,7 @@ ul li:nth-child(4) {}
 
 **Links**
 
+- **[MDN: CSS selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)**
 - [CSS Tricks: How nth-child Works](http://css-tricks.com/how-nth-child-works/)
 - [SitePoint: Understanding :nth-child Pseudo-class Expressions](http://www.sitepoint.com/web-foundations/understanding-nth-child-pseudo-class-expressions/)
 - **[The CSS3 :nth-child Calculator](http://nth-calculator.com/)**
@@ -344,7 +344,7 @@ h1 {
 }
 ```
 
-- The first number is the hue degrees rotation from the colour wheel: 0 is red, going around the circle through the rainbow to 360.
+- The first number is the hue in degrees of rotation from the colour wheel: 0 is red, going around the circle through the rainbow to 360.
 - The second number is the saturation: the lower the number the more grey the colour is, the higher colour the more intense the colour is.
 - The third number is the lightness: the lower the number the darker the colour and higher numbers are lighter colours.
 
@@ -373,9 +373,17 @@ h1 {
 
 ## Videos
 
+- [Using CSS: attaching a CSS file](https://www.youtube.com/watch?v=TCTOxnP-KTk&index=1&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
+- [Using CSS: targeting HTML elements](https://www.youtube.com/watch?v=tkhyrBugWfI&index=2&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
+- [Using CSS: targeting multiple elements at once](https://www.youtube.com/watch?v=bdtBivwSoqQ&index=3&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
+- [Using CSS: styling child elements](https://www.youtube.com/watch?v=QMUyscA0mYI&index=4&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
+- [Using CSS: naming and classes](https://www.youtube.com/watch?v=HQBBQzPSmlM&index=5&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
+- [Using CSS: styling an element by its number](https://www.youtube.com/watch?v=GRK70oscYIA&index=6&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
+- [Using CSS: specifying colours in CSS](https://www.youtube.com/watch?v=TbM-kMiC-vg&index=7&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
+
 ---
 
-### Links
+## Links
 
 - [Wikipedia: Cascaing Style Sheets](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 - **[MDN: CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)**
