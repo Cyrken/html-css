@@ -23,6 +23,7 @@ HTML has no look—it’s only purpose is to describe the meaning, the semantics
 		- [Images with captions](#images-with-captions)
 	- [Document elements](#document-elements)
 	- [Sections & articles](#sections--articles)
+		- [Headers & footers in sections & articles](#headers-footers-in-sections-articles)
 	- [Meaningless elements](#meaningless-elements)
 	- [Break](#break)
 	- [More specific elements](#more-specific-elements)
@@ -274,9 +275,9 @@ When you have a `<figcaption>`, the alt attribute can be left empty if the capti
 
 ### Document elements
 
-- `<header>` — for the masthead of the website, where the name and logo and navigation are
+- `<header>` — for more important information, like the masthead of the website, where the name and logo and navigation are
 - `<nav>` — navigation, defining the navigation of the website
-- `<footer>` — for the footer of the website, usually includes the copyright statement, social icons, etc.
+- `<footer>` — for less important information, like the footer of the website, usually includes the copyright statement, social icons, etc.
 - `<main>` — for defining the primary content
 - `<aside>` — for secondary information, stuff that’s not required to understand the primary content, like sidebars, pull quotes, etc.
 
@@ -284,6 +285,43 @@ When you have a `<figcaption>`, the alt attribute can be left empty if the capti
 
 - `<section>` — for grouping content together that has a heading—there’s no point using a section if it doesn’t have a unique heading
 - `<article>` — for independent content, stuff that can be removed from this website and would still be understandable, like blog posts & products
+
+#### Headers & footers in sections & articles
+
+You can put `<header>` and `<footer>` and `<main>` elements inside `<article>` tags and `<section>` tags.
+
+*The elements can be used to denote the importance of the information inside the article.*
+
+```html
+<article>
+	<!-- Denotes more important information inside the article -->
+	<header>
+		<h2>Diplodocus stuffed toy</h2>
+		<p>Super awesome introduction to the toy.</p>
+	</header>
+
+	<!-- Denotes the main content of the article -->
+	<main>
+		<p>Lots…</p>
+		<p>Of…</p>
+		<p>Details…</p>
+	</main>
+
+	<!-- Denotes secondary, related information -->
+	<aside>
+		<h3>Other sauropods</h3>
+		<ul>
+			<li>Brachiosaurus</li>
+		</ul>
+	</aside>
+
+	<!-- Denotes less important information in the article -->
+	<footer>
+		<p>Written by a person.</p>
+		<time datetime="1982-10-28">Published: Today</time>
+	</footer>
+</article>
+```
 
 **Links**
 
