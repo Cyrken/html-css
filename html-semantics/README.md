@@ -12,6 +12,7 @@ HTML has no look—it’s only purpose is to describe the meaning, the semantics
 - [HTML syntax](#html-syntax)
 - [HTML document setup](#html-document-setup)
 - [Indentation](#indentation)
+- [Parent-child relationship](#parent-child-relationship)
 - [HTML elements](#html-elements)
 	- [Headings](#headings)
 	- [Lists](#lists)
@@ -102,6 +103,34 @@ Whenever an element is unique and inside another element it should be indented:
 
 - Because the `<h1>` is inside the `<header>` it gets indented.
 - Because the `<header>` is inside the `<body>` it gets indented, as well as all the elements inside it.
+
+---
+
+## Parent-child relationship
+
+When referring to elements in HTML we talk about them in a parent-child relationship style.
+
+- **parent** — the element that surrounds this element
+- **child** — the element inside this element, also called a **descendant**
+- **sibling** — the element beside this element
+
+```html
+<!-- <main> is the parent of <h1>, <p> and <dl> -->
+<!-- <h1>, <p> and <dl> are all descendants of <main> -->
+<main>
+	<!-- <h1> is a child of <main> -->
+	<h1>Allosaurus</h1>
+	<!-- <p> is a child of <main> and a sibling to <h1> -->
+	<p>A theropod dinosaur from the Late Jurassic period.</p>
+
+	<dl>
+		<!-- <dl> is the <dt> tag's parent -->
+		<dt>Length</dt>
+		<!-- <main> is the <dd> tag's grand-parent -->
+		<dd>9.7 meters</dd>
+	</dl>
+</main>
+```
 
 ---
 
