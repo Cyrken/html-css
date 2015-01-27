@@ -1,6 +1,6 @@
 # Flow & display
 
-Browsers use a flow to display elements on the page—understanding flow and display are critical to laying out websites.
+Browsers use “The Flow” to display elements on the page—understanding flow and display are critical to laying out websites.
 
 ### [▶ Video playlist for flow & display](https://www.youtube.com/playlist?list=PLWjCJDeWfDdc6YKkkrEdYuExcnY05rmwG)
 
@@ -30,7 +30,9 @@ Browsers use a flow to display elements on the page—understanding flow and dis
 
 When a browser renders your website it reads the HTML from the top to the bottom. The browser tries to place each box beside the previous box, unless something prevents it. Very similar to how words wrap in text editors like MS Word.
 
-![](browser-render.gif)
+<p style="text-align: center;">
+	<img src="https://github.com/algonquindesign/html-css/raw/gh-pages/flow-display/browser-render.gif" alt="">
+</p>
 
 Elements may bump to the next line when:
 
@@ -134,12 +136,12 @@ You can apply the display property to absolutely any element you want to make it
 
 ```css
 span {
-	/* Make span act exactly the same as a div */
+	/* Make span act exactly the same way as a div */
 	display: block;
 }
 
 div {
-	/* Make a div act exactly the same as a span */
+	/* Make div act exactly the same way as a span */
 	display: inline;
 }
 
@@ -166,7 +168,7 @@ Here’s the HTML I would use for navigation:
 </nav>
 ```
 
-Because of the browsers default CSS, the `li` tags stack, one on top of each other, making a vertical list.
+Because of the browser’s default CSS, the `li` tags stack, one on top of each other, making a vertical list.
 
 We want to make a horizontal list, so we need to change the display property of the `li` elements.
 
@@ -193,7 +195,7 @@ Adding `display: inline-block` to the `a` tags allows us to give them padding.
 
 ## Centering elements
 
-There are a couple different ways to centre elements in HTML and CSS, and it’s completely dependent on what their `display` property is set to and whether you add it to the element itself or to it’s parent element.
+There are a couple different ways to centre elements in HTML and CSS, and it’s completely dependent on what their `display` property is set to and whether you center the element itself or to it’s parent element.
 
 ### Centering dislay inline/inline-block & text
 
