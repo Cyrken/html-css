@@ -1,10 +1,13 @@
 # The box model: everything is a box
 
+Every single thing you target with CSS, every single HTML element, is a box. The boxes line up beside each other, above each other, and below each other.
+
+*Even though everything is a box and should be thought of as a box, that doesn’t mean it needs to look like a box—we can change the style of each box.*
+
 ### [▶ Video playlist for box model](https://www.youtube.com/playlist?list=PLWjCJDeWfDdeEM254gHVHz26yswh59Hih)
 
 ---
 
-- [Everything is a box](#everything-is-a-box)
 - [The box model](#the-box-model)
 	- [Margin & padding](#margin-padding)
 		- [Margin collapsing](#margin-collapsing)
@@ -20,14 +23,6 @@
 	- [Box shadow](#box-shadow)
 - [Videos](#videos)
 - [Links](#links)
-
----
-
-## Everything is a box
-
-Every single thing you target with CSS, every single HTML element, is a box. The boxes line up beside each other, above each other, and below each other.
-
-*Even though everything is a box and should be thought of as a box, that doesn’t mean it needs to look like a box—we can change the style of each box.*
 
 ---
 
