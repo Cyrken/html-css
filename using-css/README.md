@@ -23,6 +23,7 @@ Covering creating Cascading Style Sheets, attaching them to your HTML, and basic
 		- [RGB semi-transparency](#rgb-semi-transparency)
 	- [HSL](#hsl)
 		- [HSL semi-transparency](#hsl-semi-transparency)
+- [CSS units](#css-units)
 - [Videos](#videos)
 - [Links](#links)
 
@@ -368,6 +369,34 @@ h1 {
 - **[HSL Color Picker](http://hslpicker.com/)**
 - [Six Revisions: Introduction to CSS Colors](http://sixrevisions.com/css/css-colors/)
 - [Colors in CSS](http://hugogiraudel.com/2012/11/27/css-colors/)
+
+---
+
+## CSS units
+
+CSS provides a bunch of different units for sizes and lengths, e.g. `width: 100px;`
+
+- `px` — pixels
+	`100px` is exactly 100 pixels in all situations
+
+- `em` — based on the font-size of the parent (or current element)
+	`1em` is 1 × the parent element’s size
+	`0.5em` is 0.5 × the parent element’s size
+	[☛ Refer to CSS typography](basic-typography#font-sizing-units-rem-vs-em-vs-px)
+
+- `rem` — based on the font-size set in the `html` element
+	`1.5rem` is 1.5 × the `html` element’s font size
+	[☛ Refer to CSS typography](basic-typography#font-sizing-units-rem-vs-em-vs-px)
+
+- `%` — a percentage of the parent element
+	`100%` is to whole width of the parent element
+	If the parent element is `50%` wide, and this element is `50%` wide, then it only takes up `25%` of the original grand parent element
+
+- `vh` — like percentage, but based on the height of the window
+	`100vh` is the whole height of the window
+	`50vh` is half the height of the window
+
+- `vw` — like percentage, but based on the width of the window
 
 ---
 
