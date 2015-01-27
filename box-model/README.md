@@ -4,19 +4,20 @@
 
 ---
 
-- [Everything is a box](#)
-- [The box model](#)
-	- [Margin & padding](#)
-		- [Margin collapsing](#)
-	- [Width & height](#)
-		- [What units to use](#)
-		- [When to use height](#)
-	- [Adjusting layout math with border box](#)
-- [Box decorations](#)
-	- [Background colour](#)
-	- [Border](#)
-	- [Border radius](#)
-	- [Box shadow](#)
+- [Everything is a box](#everything-is-a-box)
+- [The box model](#the-box-model)
+	- [Margin & padding](#margin-padding)
+		- [Margin collapsing](#margin-collapsing)
+	- [Width & height](#width-height)
+		- [What units to use](#what-units-to-use)
+		- [Minimum & maximum values](#minimum-maximum-values)
+		- [When to use height](#when-to-use-height)
+	- [Adjusting layout math with border box](#adjusting-layout-math-with-border-box)
+- [Box decorations](#box-decorations)
+	- [Background colour](#background-color)
+	- [Border](#border)
+	- [Border radius](#border-radius)
+	- [Box shadow](#box-shadow)
 - [Videos](#videos)
 - [Links](#links)
 
@@ -43,15 +44,172 @@ The box model is the name of the layout system browsers use when rendering your 
 
 ### Margin & padding
 
+The `margin` and `padding` properties are used to put space around your box, either outside the box or inside the box.
+
+- `margin` — adds spacing outside of the box, pushing other boxes away
+- `padding` — adds spacing inside the box, pushing the content away from the border; the background colour is visible within the padding
+
+```css
+div {
+	/* Will push other boxes 10 pixels away on all 4 sides */
+	margin: 10px;
+	/* Will push the content away from the box edge on all 4 sides */
+	padding: 12px;
+}
+```
+
+Since boxes have four sides, there four different margins and paddings that can be changed.
+
+For margin, we have `margin-top`, `margin-right`, `margin-bottom`, `margin-left`. 
+For padding, we have `padding-top`, `padding-right`, `padding-bottom`, `padding-left`. 
+
+#### Margin & padding shorthand
+
+We can specify margin and padding using the properties listed above, but often it’s easier to use the shorthand version.
+
+**Everything below applies equally to the padding shorthand.**
+
+```css
+div {
+	/* margin: top right bottom left; */
+	margin: 10px 12px 8px 6px;
+}
+```
+
+Inside the shorthand `margin` declaration we can specify up to 4 values, each representing a side of the box.
+
+For the order, we start at the top of the box and make our way clockwise around the box.
+
+![](box-model-margin-order.png)
+
+We can then start leaving off numbers from the end of the value list and the browser will match the opposing side’s value for any missing numbers.
+
+```css
+div {
+	/*
+		Since the left margin is missing, the browser will use the right value
+		margin: top right/left bottom;
+	*/
+	margin: 10px 12px 8px;
+
+	/*
+		Since the bottom margin is missing, the browser will use the top value
+		margin: top/bottom right/left;
+	*/
+	margin: 10px 12px;
+}
+```
+
 #### Margin collapsing
+
+Margins have some weird behavior when it comes to their top and bottom values. The bottom value of one box can collapse into the top value of the next—the browser choosing only the highest of the two.
+
+```css
+.box-1 {
+	margin-bottom: 15px;
+}
+
+.box-2 {
+	margin-top: 25px;
+}
+```
+
+The distance between these boxes will *not* be `40px`—but instead the browser will pick the bigger of the two and choose it. So the margin between these boxes is `25px`.
+
+![](box-model-margin-collapse.png)
 
 ### Width & height
 
+Both `width` and `height` can be assigned to boxes. Usually we want widths set in some sort of relative measurement, like `%` or `em`.
+
+Try to avoid using height—using other methods, like padding, instead. It’s especially important to be careful with height when working with text. If you user changes the font size in their browser, the whole layout could bust apart if there is a fixed height.
+
+```css
+div {
+	/* Will be 30% the width of the parent element */
+	width: 30%;
+	/* Width based on the font-size */
+	width: 35em;
+}
+```
+
 #### What units to use
+
+You’ll grow an intuition as to when to use each unit, but here are a couple of ideas:
+
+- `%` — use percents for elements that should grow with the size of the browser, e.g columns, images
+- `em` — use ems for elements that should grow with the size of the text, e.g. line-lengths
+- `px` — use pixels for things that should never change size, e.g. logos, icons
+
+#### Minimum & maximum values
+
+For both width and height we can provide minimum and maximum values instead of fixed values.
+
+- `min-width` — force the box to be at least this wide, but can grow wider
+- `min-height` — force the box to be at least this tall, but can grow taller
+- `max-width` — force the box to never exceed this width, but can get narrower than it
+- `max-height` — force the box to never exceed this height, but can get shorter than it
+
+```css
+article {
+	/*
+		Force the box to be at least 10em high
+		If the text needs more space, the box can still grow
+		Much better than using `height`
+	*/
+	min-height: 10em;
+}
+```
+
+```css
+p {
+	/*
+		Force the paragraph to never exceed a width of 35em
+		It’s a good way to control line-length
+	*/
+	max-width: 35em;
+}
+```
 
 #### When to use height
 
+There aren’t too many reasons to use `height`, `min-height` I use often, but I can usually create a whole website without ever touching the `height` property.
+
+One example that is a good use of `height` is to make a box the same height as the browser window, for large banners and hero graphics.
+
+```css
+header {
+	/* Would make the head the same height as the browser window */
+	height: 100vh;
+}
+```
+
 ### Adjusting layout math with border box
+
+The default box model layout system in websites doesn’t work very well with responsive and flexible websites. It’s best to change to a newer layout system so everything works more smoothly.
+
+The newer layout system is called “Border Box” and changes the math used with calculating widths and heights of boxes.
+
+![](box-model-border-box.png)
+
+- With the default box model, the `padding` and `border` add onto the `width` of the box, making it wider
+- With border box, the `padding` and `border` are inside the `width` of the box, so the total width is the same as the value of `width`
+
+For responsive and flexible designs this is extremely helpful. If you want a column to be 30% wide, you don’t have to subtract with width of the padding to make it exactly that wide.
+
+So, to change your box model, add these lines of code to the very top of your website:
+
+```css
+html {
+	box-sizing: border-box;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+```
+
+**I add this code to the top of every single website I create.**
 
 ---
 
