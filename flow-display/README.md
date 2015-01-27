@@ -59,4 +59,5 @@ Inline-block:
 
 ## Links
 
+- [Learn Layout](http://learnlayout.com/)
 - [Gecko reflow visualization](http://www.youtube.com/watch?v=ZTnIxIA5KGw)
