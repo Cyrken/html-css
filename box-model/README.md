@@ -84,7 +84,7 @@ nav {
 
 Each of the inner values also have their own properties like: `border-style`, `border-color`, `border-bottom-color`, etc.
 
-```
+```css
 header {
 	/* Applies border to all 4 sides */
 	border: 3px solid #000;
