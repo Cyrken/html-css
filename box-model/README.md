@@ -24,9 +24,22 @@
 
 ## Everything is a box
 
+Every single thing you target with CSS, every single HTML element, is a box. The boxes line up beside each other, above each other, and below each other.
+
+*Even though everything is a box and should be thought of as a box, doesn’t mean it needs to look like a box—we can change the style of each box.*
+
 ---
 
 ## The box model
+
+The box model is the name of the layout system browsers use when rendering your website. It’s a system that describes how each of the properties of a box interact with each other and how they interact with other boxes.
+
+![](box-model.png)
+
+1. A box with no content isn’t visible, so content is the first layer
+2. Outside content is the `padding`, pushing the edge of the box away from the content
+3. Outside the padding is the `border`, the background colour stops here
+4. Outside the box is the `margin`, a transparent layer pushing other boxes away
 
 ### Margin & padding
 
