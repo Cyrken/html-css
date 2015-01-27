@@ -4,7 +4,7 @@ HTML (Hypertext Markup Language) is the coding language used to describe the con
 
 HTML has no look—it’s only purpose is to describe the meaning, the semantics, of the content.
 
-### [▶ Video playlist for organization](https://www.youtube.com/playlist?list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1)
+### [▶ Video playlist for HTML semantics](https://www.youtube.com/playlist?list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1)
 
 ---
 
