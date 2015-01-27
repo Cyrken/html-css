@@ -30,9 +30,7 @@ Browsers use “The Flow” to display elements on the page—understanding flow
 
 When a browser renders your website it reads the HTML from the top to the bottom. The browser tries to place each box beside the previous box, unless something prevents it. Very similar to how words wrap in text editors like MS Word.
 
-<p style="text-align: center;">
-	<img src="https://github.com/algonquindesign/html-css/raw/gh-pages/flow-display/browser-render.gif" alt="">
-</p>
+![](browser-render.gif)
 
 Elements may bump to the next line when:
 
