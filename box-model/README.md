@@ -27,13 +27,13 @@
 
 Every single thing you target with CSS, every single HTML element, is a box. The boxes line up beside each other, above each other, and below each other.
 
-*Even though everything is a box and should be thought of as a box, doesn’t mean it needs to look like a box—we can change the style of each box.*
+*Even though everything is a box and should be thought of as a box, that doesn’t mean it needs to look like a box—we can change the style of each box.*
 
 ---
 
 ## The box model
 
-The box model is the name of the layout system browsers use when rendering your website. It’s a system that describes how each of the properties of a box interact with each other and how they interact with other boxes.
+The box model is the name of part of the layout system browsers use when rendering your website. It’s a system that describes how each of the properties of a box interact with each other and how they interact with other boxes.
 
 ![](box-model.png)
 
@@ -58,16 +58,16 @@ div {
 }
 ```
 
-Since boxes have four sides, there four different margins and paddings that can be changed.
+Since boxes have four sides, there are four different margins and paddings that can be changed.
 
-For margin, we have `margin-top`, `margin-right`, `margin-bottom`, `margin-left`. 
-For padding, we have `padding-top`, `padding-right`, `padding-bottom`, `padding-left`. 
+- For margin, we have `margin-top`, `margin-right`, `margin-bottom`, `margin-left`. 
+- For padding, we have `padding-top`, `padding-right`, `padding-bottom`, `padding-left`. 
 
 #### Margin & padding shorthand
 
 We can specify margin and padding using the properties listed above, but often it’s easier to use the shorthand version.
 
-**Everything below applies equally to the padding shorthand.**
+*Everything below applies equally to the padding shorthand.*
 
 ```css
 div {
@@ -122,7 +122,7 @@ The distance between these boxes will *not* be `40px`—but instead the browser 
 
 Both `width` and `height` can be assigned to boxes. Usually we want widths set in some sort of relative measurement, like `%` or `em`.
 
-Try to avoid using height—using other methods, like padding, instead. It’s especially important to be careful with height when working with text. If you user changes the font size in their browser, the whole layout could bust apart if there is a fixed height.
+Try to avoid using height—use other methods, like padding, instead. It’s especially important to be careful with height when working with text. If you user changes the font size in their browser, the whole layout could bust apart if there is a fixed height.
 
 ```css
 div {
@@ -188,7 +188,7 @@ header {
 
 The default box model layout system in websites doesn’t work very well with responsive and flexible websites. It’s best to change to a newer layout system so everything works more smoothly.
 
-The newer layout system is called “Border Box” and changes the math used with calculating widths and heights of boxes.
+The newer layout system is called “Border Box” and changes the math used when calculating widths and heights of boxes.
 
 ![](box-model-border-box.png)
 
