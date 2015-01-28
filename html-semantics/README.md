@@ -24,13 +24,13 @@ HTML has no look—it’s only purpose is to describe the meaning, the semantics
 		- [Images with captions](#images-with-captions)
 	- [Document elements](#document-elements)
 	- [Sections & articles](#sections--articles)
-		- [Headers & footers in sections & articles](#headers-footers-in-sections-articles)
+		- [Headers & footers in sections & articles](#headers--footers-in-sections--articles)
 	- [Meaningless elements](#meaningless-elements)
 	- [Break](#break)
 	- [More specific elements](#more-specific-elements)
 - [Entities](#entities)
 - [Videos](#videos)
-- [Link](#links)
+- [Links](#links)
 
 ---
 
@@ -430,8 +430,6 @@ Some characters cannot be written in the text content of HTML because the charac
 14. [HTML semantics: break](https://www.youtube.com/watch?v=rXr3vq-iGns&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=14)
 15. [HTML semantics: more specific elements](https://www.youtube.com/watch?v=cX99P2717j8&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=15)
 16. [HTML semantics: entities](https://www.youtube.com/watch?v=P69WuZOlY68&list=PLWjCJDeWfDdc0Sp_DinOWnodw3KnWCwc1&index=16)
-
----
 
 ## Links
 

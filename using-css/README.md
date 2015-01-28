@@ -382,11 +382,11 @@ CSS provides a bunch of different units for sizes and lengths, e.g. `width: 100p
 - **em** — based on the font-size of the parent (or current element)<br>
 	`1em` is 1 × the parent element’s size<br>
 	`0.5em` is 0.5 × the parent element’s size<br>
-	[☛ Refer to CSS typography](basic-typography#font-sizing-units-rem-vs-em-vs-px)
+	[☛ Refer to CSS typography](/algonquindesign/html-css/tree/gh-pages/basic-typography#font-sizing-units-rem-vs-em-vs-px)
 
 - **rem** — based on the font-size set in the `html` element<br>
 	`1.5rem` is 1.5 × the `html` element’s font size<br>
-	[☛ Refer to CSS typography](basic-typography#font-sizing-units-rem-vs-em-vs-px)
+	[☛ Refer to CSS typography](/algonquindesign/html-css/tree/gh-pages/basic-typography#font-sizing-units-rem-vs-em-vs-px)
 
 - **%** — a percentage of the parent element<br>
 	`100%` is to whole width of the parent element<br>
@@ -409,8 +409,6 @@ CSS provides a bunch of different units for sizes and lengths, e.g. `width: 100p
 5. [Using CSS: naming and classes](https://www.youtube.com/watch?v=HQBBQzPSmlM&index=5&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
 6. [Using CSS: styling an element by its number](https://www.youtube.com/watch?v=GRK70oscYIA&index=6&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
 7. [Using CSS: specifying colours in CSS](https://www.youtube.com/watch?v=TbM-kMiC-vg&index=7&list=PLWjCJDeWfDdfth1HiYjyc_LCEEKUuqFvS)
-
----
 
 ## Links
 
