@@ -38,6 +38,10 @@ Elements may bump to the next line when:
 - CSS causes it, using the `display` property
 - or a `<br>` tag
 
+**Links**
+
+- [Gecko reflow visualization](http://www.youtube.com/watch?v=ZTnIxIA5KGw)
+
 ---
 
 ## The display property
@@ -267,4 +271,3 @@ With flexbox you can do lots of different centering and alignment like things. I
 ## Links
 
 - [Learn Layout](http://learnlayout.com/)
-- [Gecko reflow visualization](http://www.youtube.com/watch?v=ZTnIxIA5KGw)
