@@ -195,7 +195,7 @@ Adding `display: inline-block` to the `a` tags allows us to give them padding.
 
 There are a couple different ways to centre elements in HTML and CSS, and it’s completely dependent on what their `display` property is set to and whether you center the element itself or to it’s parent element.
 
-### Centering dislay inline/inline-block & text
+### Centering display inline/inline-block & text
 
 ![](centering-inline.png)
 
