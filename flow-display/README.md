@@ -18,7 +18,7 @@ Browsers use “The Flow” to display elements on the page—understanding flow
 	- [Using the display property](#using-the-display-property)
 		- [Making a horizontal navigation bar](#making-a-horizontal-navigation-bar)
 - [Centering elements](#centering-elements)
-	- [Centering display inline/inline-block & text](#centering-display-inline-inline-block-text)
+	- [Centering display inline/inline-block & text](#centering-display-inlineinline-block-text)
 	- [Centering display block](#centering-display-block)
 - [Flexbox](#flexbox)
 - [Videos](#videos)
@@ -102,7 +102,7 @@ Block level elements have the following properties:
 - `header`, `footer`, `nav`
 - `article`, `section`
 
-### Hybrid inline-block
+### Hybrid inline-block elements
 
 The inline-block elements are a hybrid of both block and inline, inheriting certain properties from each of them.
 
