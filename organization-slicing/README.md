@@ -23,7 +23,7 @@ Design and production files should not go inside the GitHub repository, but inst
 - Git & GitHub don’t support large binary files so we can’t put any Creative Suite files there
 - Putting the Creative Suite files into [Dropbox has lots of benefits](#benefits-of-dropbox)
 - The Creative Suite files should always be kept in-case they need to be changed at a later time
-- The files used in a website should be [compressed and smushed for the best performance](https://github.com/algonquindesign/html-css/blob/gh-pages/performance)—and therefore cannot be edited
+- The files used in a website should be [compressed and smushed for the best performance](../performance/)—and therefore cannot be edited
 
 ![](screenshots/folder-structure.png)
 
@@ -70,7 +70,7 @@ Storing your mockups, design files, and production files in Dropbox has a few be
 - If there are lots of images that are nearly identical, specifically dimension and theme-wise, put them in on PSD
 - SVGs should be saved as AI files; PNGs and JPGs as PSD files
 - Make border-image files as small as possible
-- [Don’t forget to compress and smush your images](https://github.com/algonquindesign/html-css/tree/gh-pages/images#image-smushing)
+- [Don’t forget to compress and smush your images](../image-formats/#image-smushing)
 
 ---
 

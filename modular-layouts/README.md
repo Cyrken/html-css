@@ -12,11 +12,11 @@ Combining all of the modular web design lessons together to create a complete la
 
 This layout and series of videos combine together all these different lessons—so they should be watched first:
 
-1. [All devices setup](https://github.com/algonquindesign/html-css/tree/gh-pages/all-devices-setup)
-2. [Media queries](https://github.com/algonquindesign/html-css/blob/gh-pages/media-queries)
-3. [Modular typography](https://github.com/algonquindesign/html-css/tree/gh-pages/modular-typography)
-4. [Grids](https://github.com/algonquindesign/html-css/tree/gh-pages/grids)
-5. [Modules](https://github.com/algonquindesign/html-css/tree/gh-pages/modules)
+1. [All devices setup](../all-devices-setup/)
+2. [Media queries](../media-queries/)
+3. [Modular typography](../modular-typography/)
+4. [Grids](../grids/)
+5. [Modules](../modules/)
 
 ---
 
