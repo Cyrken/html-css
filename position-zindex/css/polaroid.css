@@ -16,10 +16,6 @@ figure {
   position: absolute;
   top: 200px;
   left: 100px;
-  -webkit-transform: rotate(8deg);
-  -moz-transform: rotate(8deg);
-  -o-transform: rotate(8deg);
-  -ms-transform: rotate(8deg);
   transform: rotate(8deg);
 }
 

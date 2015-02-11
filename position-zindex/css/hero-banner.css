@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+	font: normal 100%/1.5 Georgia,serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.hero {
+	max-height: 75vh;
+	position: relative;
+	overflow: hidden;
+}
+
+.hero img {
+	width: 100%;
+}
+
+.hero-content {
+	padding: 0 1rem;
+	position: absolute;
+	width: 100%;
+	bottom: 15%;
+
+	color: #fff;
+	font-size: 2rem;
+	text-align: center;
+	text-shadow: -1px 1px 4px rgba(0,0,0,0.8), 1px 1px 4px rgba(0,0,0,0.8);
+}
+
+.hero-content h1,
+.hero-content p {
+	margin: 0;
+}
