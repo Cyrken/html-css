@@ -163,10 +163,14 @@ An outline of your document with headings might look like this:
 					<h6>Nepean</h6>
 					<h6>Kanata</h6>
 		<h3>United States</h3>
+			<h4>California</h4>
+			<h4>New York</h4>
 	<h2>Africa</h2>
 		<h3>Egypt</h3>
 			<h4>Cairo</h4>
 				<h5>Cairo</h5>
+		<h3>Nigeria</h3>
+		<h3>Keynya</h3>
 ```
 
 *The indentation above is to denote the headings are sub-headings of the one above.*
