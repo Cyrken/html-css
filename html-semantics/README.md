@@ -27,6 +27,7 @@ HTML has no look—it’s only purpose is to describe the meaning, the semantics
 		- [Headers & footers in sections & articles](#headers--footers-in-sections--articles)
 	- [Meaningless elements](#meaningless-elements)
 	- [Break](#break)
+	- [Horizontal rule](#horizontal-rule)
 	- [More specific elements](#more-specific-elements)
 - [Entities](#entities)
 - [Videos](#videos)
@@ -388,6 +389,14 @@ A good example is an address. In an address, the formatting of each line is impo
 ```
 
 Another good example of when to use a `<br>` tag would be in poems: each stanza is a paragraph, and each line as a break after it.
+
+### Horizontal rule
+
+HTML has a tag called the horizontal rule, the `<hr>` tag. It’s meant to be used as a thematic break in your content.
+
+A great example of a thematic break is from novels: when you’re reading a novel and there is a space between paragraphs, or a little decoration: that’s an `<hr>`, because it’s a scene break.
+
+The default CSS style, applied by browsers, to `<hr>` tags is to make it look like a line. **Do not use an `<hr>` to make lines, that’s not its purpose.** If you want to make a line, use CSS.
 
 ### More specific elements
 
