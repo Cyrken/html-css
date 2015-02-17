@@ -8,7 +8,12 @@ Combining all of the modular web design lessons together to create a complete la
 
 ---
 
-## Modular & responsive web design
+- [Referenced lessons](#referenced-lessons)
+- [Videos](#videos)
+
+---
+
+## Referenced lessons
 
 This layout and series of videos combine together all these different lessons—so they should be watched first:
 
