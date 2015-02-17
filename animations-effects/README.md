@@ -10,21 +10,21 @@ Different interaction methods for websites (without Javascript) and triggering a
 	- [A basic transition example](#a-basic-transition-example)
 	- [Transition syntax](#transition-syntax)
 		- [Multiple different transitions](#multiple-different-transitions)
-	- [Transition resources](#transition-resources)
+	- [Transition links](#transition-links)
 - [Target pseudo class](#target-pseudo-class)
-	- [Target resources](#target-resources)
+	- [Target links](#target-links)
 - [Transforms](#transforms)
 	- [A basic transform example](#a-basic-transform-example)
 	- [Transform syntax](#transform-syntax)
 		- [Multiple different transforms](#multiple-different-transforms)
 		- [Transform vendor prefixes](#transform-vendor-prefixes)
-	- [Transform resources](#transform-resources)
+	- [Transform links](#transform-links)
 - [Animations](#animations)
 	- [A basic animation example](#a-basic-animation-example)
 	- [Animation syntax](#animation-syntax)
 	- [Keyframes](#keyframes)
 	- [Step-based animations](#step-based-animations)
-	- [Animation resources](#animation-resources)
+	- [Animation links](#animation-links)
 - [Vendor prefixes](#vendor-prefixes)
 - [Videos](#videos)
 
@@ -101,13 +101,7 @@ The syntax for multiple transitions is the same, just separate each new transiti
 }
 ```
 
-### Transition resources
-
-**Videos**
-
-- [Interactions & animations: basic transitions](https://www.youtube.com/watch?v=mYW7PPO81gk&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=1)
-
-**Links**
+### Transition links
 
 - [MDN: Transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
 - [MDN: Timing function](https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function)
@@ -145,13 +139,7 @@ But, we can now target that item in CSS like this:
 
 Now box will be styled with a background colour whenever the URL matches it’s ID.
 
-### Target resources
-
-**Videos**
-
-- [Interactions & animations: target](https://www.youtube.com/watch?v=Fnhw6hz7AUA&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=2)
-
-**Links**
+### Target links
 
 - [MDN: target](https://developer.mozilla.org/en-US/docs/Web/CSS/:target)
 - [Can I Use: target](http://caniuse.com/#feat=css-sel3)
@@ -225,13 +213,7 @@ Since CSS transforms are so new they still need a few vendor prefixes, so you’
 
 **It’s important that the non-prefixed version always comes last.**
 
-### Transform resources
-
-**Videos**
-
-- [Interactions & animations: transforms](https://www.youtube.com/watch?v=n7b1_-Av2Dc&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=3)
-
-**Links**
+### Transform links
 
 - [MDN: Transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
 - [Can I Use: Transform](http://caniuse.com/#feat=transforms2d)
@@ -312,7 +294,7 @@ The animation property allows you to assign the animation, control how long it l
 animation: animation-name length timing-function;
 ```
 
-- `animation-name` — the name of the animation that should be executed
+- `name` — the name of the animation that should be executed
 - `length` — how long the animation should take in `ms` (milliseconds; where 1000 is 1 second) or `s` (seconds)
 - `timing-function` — how the animation should function
 	- `linear` — all steps of the animation are equal
@@ -321,6 +303,8 @@ animation: animation-name length timing-function;
 	- `ease-in-out` — the animation starts slowly, speeds up, and slows down
 	- `steps()` — choose how many frames—[look below for using steps]()
 	- *refer to the links below for more timing functions*
+- `fill-mode` — (optional) what the animation should do before or after executing: `forwards` will make the animation stay on its last keyframe
+- `direction` — (optional) direction order of the animation: `reverse` will go from “100%” back to “0%” keyframes, `alternate` will go forwards then reverse
 - *refer to the links below for all the other values*
 
 Optionally, at the end of the animatoiin a `iteration-count` can be added, this is how many times the browser will execute the animation.
@@ -398,16 +382,7 @@ Maybe though we want the animation to only fade using 5 different shades of oran
 
 **If you’d like to do a classic frame-based animation with different frames, check out the [24 Ways Tutorial](http://24ways.org/2012/flashless-animation/), or watch the [Sprite-Based Animations video](https://www.youtube.com/watch?v=oY3p-Rrl9Hg&index=6&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm).**
 
-### Animation resources
-
-**Videos**
-
-- [Interactions & animations: basic animations](https://www.youtube.com/watch?v=wK_UFBZgSMk&index=4&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
-- [Interactions & animations: keyframe-based animations](https://www.youtube.com/watch?v=nG8hOT1TL8I&index=5&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
-- [Interactions & animations: sprite-based animations](https://www.youtube.com/watch?v=oY3p-Rrl9Hg&index=6&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
-- [Interactions & animations: vendor prefixes](https://www.youtube.com/watch?v=C5eDPR3pANQ&index=7&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
-
-**Links**
+### Animation links
 
 - [MDN: Animation](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_animations)
 - [MDN: Keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
@@ -464,10 +439,13 @@ Or for animations, they would need to be written like this:
 
 ## Videos
 
-1. [Interactions & animations: basic transitions](https://www.youtube.com/watch?v=mYW7PPO81gk&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=1)
-2. [Interactions & animations: target](https://www.youtube.com/watch?v=Fnhw6hz7AUA&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=2)
-3. [Interactions & animations: transforms](https://www.youtube.com/watch?v=n7b1_-Av2Dc&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=3)
-4. [Interactions & animations: basic animations](https://www.youtube.com/watch?v=wK_UFBZgSMk&index=4&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
-5. [Interactions & animations: keyframe-based animations](https://www.youtube.com/watch?v=nG8hOT1TL8I&index=5&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
-6. [Interactions & animations: sprite-based animations](https://www.youtube.com/watch?v=oY3p-Rrl9Hg&index=6&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
-7. [Interactions & animations: vendor prefixes](https://www.youtube.com/watch?v=C5eDPR3pANQ&index=7&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
+1. [Animations & effects: basic transitions](https://www.youtube.com/watch?v=mYW7PPO81gk&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=1)
+2. [Animations & effects: target](https://www.youtube.com/watch?v=Fnhw6hz7AUA&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=2)
+3. [Animations & effects: transforms](https://www.youtube.com/watch?v=n7b1_-Av2Dc&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=3)
+4. [Animations & effects: sliding caption](https://www.youtube.com/watch?v=zKvLy9nehoI&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=4)
+5. [Animations & effects: hover box](https://www.youtube.com/watch?v=6LOoKJNbEZI&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=5)
+6. [Animations & effects: basic animations](https://www.youtube.com/watch?v=wK_UFBZgSMk&index=6&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
+7. [Animations & effects: keyframe-based animations](https://www.youtube.com/watch?v=nG8hOT1TL8I&index=7&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
+8. [Animations & effects: sprite-based animations](https://www.youtube.com/watch?v=oY3p-Rrl9Hg&index=8&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
+9. [Animations & effects: vendor prefixes](https://www.youtube.com/watch?v=C5eDPR3pANQ&index=9&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm)
+10. [Animations & effects: hero banner](https://www.youtube.com/watch?v=AgBCH0-K124&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm&index=10)
