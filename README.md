@@ -13,9 +13,9 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 8. [Basic website layout](basic-website)
 9. [Image formats for the web](image-formats)
 10. Using images
-11. [Organization & slicing](organization-slicing)
-12. Small screen layouts
-13. [Navigation](navigation)
+11. [Website file organization](organization-slicing)
+12. [Navigation](navigation)
+13. Small screen layout
 14. [All devices setup](all-devices-setup)
 15. [Media queries](media-queries)
 16. [Modular typography](modular-typography)
