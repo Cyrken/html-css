@@ -207,7 +207,7 @@ Since CSS transforms are so new they still need a few vendor prefixes, so you’
 }
 ```
 
-**It’s important that the non-prefixed version always comes last.**
+*It’s important that the non-prefixed version always comes last.*
 
 **Links**
 
@@ -376,7 +376,7 @@ Maybe though we want the animation to only fade using 5 different shades of oran
 }
 ```
 
-**If you’d like to do a classic frame-based animation with different frames, check out the [24 Ways Tutorial](http://24ways.org/2012/flashless-animation/), or watch the [Sprite-Based Animations video](https://www.youtube.com/watch?v=oY3p-Rrl9Hg&index=6&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm).**
+*If you’d like to do a classic frame-based animation with different frames, check out the [24 Ways Tutorial](http://24ways.org/2012/flashless-animation/), or watch the [Sprite-Based Animations video](https://www.youtube.com/watch?v=oY3p-Rrl9Hg&index=6&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm).*
 
 **Links**
 
@@ -423,7 +423,7 @@ Or for animations, they would need to be written like this:
 }
 ```
 
-**The property without the vendor prefix must always go last.**
+*The property without the vendor prefix must always go last.*
 
 *To figure out what vendor prefixes you need use this website:* **[Can I Use](http://caniuse.com/).**
 
