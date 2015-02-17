@@ -8,7 +8,13 @@ The first step of coding a website is creating the interactive wireframes and pr
 
 ---
 
-## Coding interactive wireframes
+- [Referenced lessons](#referenced-lessons)
+- [Videos](#videos)
+- [Links](#links)
+
+---
+
+## Referenced lessons
 
 This layout and series of videos combine together all these different lessons—so they should be watched first:
 
