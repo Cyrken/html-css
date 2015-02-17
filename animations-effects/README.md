@@ -10,21 +10,17 @@ Different interaction methods for websites (without Javascript) and triggering a
 	- [A basic transition example](#a-basic-transition-example)
 	- [Transition syntax](#transition-syntax)
 		- [Multiple different transitions](#multiple-different-transitions)
-	- [Transition links](#transition-links)
 - [Target pseudo class](#target-pseudo-class)
-	- [Target links](#target-links)
 - [Transforms](#transforms)
 	- [A basic transform example](#a-basic-transform-example)
 	- [Transform syntax](#transform-syntax)
 		- [Multiple different transforms](#multiple-different-transforms)
 		- [Transform vendor prefixes](#transform-vendor-prefixes)
-	- [Transform links](#transform-links)
 - [Animations](#animations)
 	- [A basic animation example](#a-basic-animation-example)
 	- [Animation syntax](#animation-syntax)
 	- [Keyframes](#keyframes)
 	- [Step-based animations](#step-based-animations)
-	- [Animation links](#animation-links)
 - [Vendor prefixes](#vendor-prefixes)
 - [Videos](#videos)
 
@@ -101,7 +97,7 @@ The syntax for multiple transitions is the same, just separate each new transiti
 }
 ```
 
-### Transition links
+**Links**
 
 - [MDN: Transition](https://developer.mozilla.org/en-US/docs/Web/CSS/transition)
 - [MDN: Timing function](https://developer.mozilla.org/en-US/docs/Web/CSS/timing-function)
@@ -139,7 +135,7 @@ But, we can now target that item in CSS like this:
 
 Now box will be styled with a background colour whenever the URL matches it’s ID.
 
-### Target links
+**Links**
 
 - [MDN: target](https://developer.mozilla.org/en-US/docs/Web/CSS/:target)
 - [Can I Use: target](http://caniuse.com/#feat=css-sel3)
@@ -213,7 +209,7 @@ Since CSS transforms are so new they still need a few vendor prefixes, so you’
 
 **It’s important that the non-prefixed version always comes last.**
 
-### Transform links
+**Links**
 
 - [MDN: Transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
 - [Can I Use: Transform](http://caniuse.com/#feat=transforms2d)
@@ -382,7 +378,7 @@ Maybe though we want the animation to only fade using 5 different shades of oran
 
 **If you’d like to do a classic frame-based animation with different frames, check out the [24 Ways Tutorial](http://24ways.org/2012/flashless-animation/), or watch the [Sprite-Based Animations video](https://www.youtube.com/watch?v=oY3p-Rrl9Hg&index=6&list=PLWjCJDeWfDdfLCjaTRgCMkl_KNl5cfGlm).**
 
-### Animation links
+**Links**
 
 - [MDN: Animation](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Using_CSS_animations)
 - [MDN: Keyframes](https://developer.mozilla.org/en-US/docs/Web/CSS/@keyframes)
