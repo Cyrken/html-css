@@ -25,7 +25,7 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 20. [Modular layouts](modular-layouts)
 21. [Tables](tables)
 22. [Forms](forms)
-23. [Interactions & animations](interactions-animations)
+23. [Animations & effects](animations-effects)
 24. [Search engine optimization](search-engine-optimization)
 25. [Metadata & enhanced semantics](metadata-enhanced-semantics)
 26. [Accessibility](accessibility)

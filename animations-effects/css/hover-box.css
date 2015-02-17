@@ -1,5 +1,10 @@
 html {
+	box-sizing: border-box;
 	font: normal 100%/1.5 Georgia,serif;
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
 }
 
 .unit {
@@ -28,12 +33,13 @@ html {
 	right: 10px;
 	left: 10px;
 	bottom: 10px;
+	margin: 0;
 
 	background-color: rgba(122,141,163,0.4);
 	border-radius: 50%;
 	opacity: 0;
 	transition: all 200ms ease-out;
-	transform: scale(0, 0);
+	transform: scale(0);
 
 	color: #fff;
 	font-size: 4rem;
@@ -54,5 +60,5 @@ html {
 
 .hoverbox:hover .hoverbox-caption {
 	opacity: 1;
-	transform: scale(1, 1);
+	transform: scale(1);
 }

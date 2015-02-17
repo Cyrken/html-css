@@ -1,10 +1,10 @@
 html {
-  box-sizing: border-box;
+	box-sizing: border-box;
 	font: normal 100%/1.5 Georgia,serif;
 }
 
 *, *::before, *::after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 body {
@@ -20,7 +20,10 @@ body {
 
 .hero img {
 	width: 100%;
-	transform: scale(1.1, 1.1);
+
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+	-webkit-animation: shrink 200ms ease-out forwards;
 	animation: shrink 200ms ease-out forwards;
 }
 
@@ -31,6 +34,7 @@ body {
 	bottom: 15%;
 	left: 100%;
 
+	-webkit-animation: slide-in 400ms 100ms cubic-bezier(.43,.22,.16,1.2) forwards;
 	animation: slide-in 400ms 100ms cubic-bezier(.43,.22,.16,1.2) forwards;
 
 	color: #fff;
@@ -44,6 +48,15 @@ body {
 	margin: 0;
 }
 
+@-webkit-keyframes slide-in {
+	0% {
+		left: 100%;
+	}
+	100% {
+		left: 0;
+	}
+}
+
 @keyframes slide-in {
 	0% {
 		left: 100%;
@@ -53,11 +66,24 @@ body {
 	}
 }
 
-@keyframes shrink {
+@-webkit-keyframes shrink {
 	0% {
-		transform: scale(1.1, 1.1);
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
 	}
 	100% {
-		transform: scale(1, 1);
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+}
+
+@keyframes shrink {
+	0% {
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+	100% {
+		-webkit-transform: scale(1);
+		transform: scale(1);
 	}
 }
