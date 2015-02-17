@@ -1,0 +1,220 @@
+html {
+  box-sizing: border-box;
+
+  background-color: #d8ccb4;
+
+  color: #1f0101;
+  font: normal 100%/1.5 Georgia,serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	color: #402e16;
+	font-family: "Denk One", sans-serif;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+header {
+	background-color: #80916e;
+	text-align: center;
+	padding: 1em 0;
+}
+
+h1 {
+	margin: 0 0 1.3rem;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 1.25rem;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	padding: 0.5em 0.75em;
+	background-color: #272d0d;
+	color: #fef7cd;
+	text-decoration: none;
+	border-radius: 8px;
+}
+
+nav a:hover {
+	background-color: #fef7cd;
+	color: #272d0d;
+}
+
+main {
+	padding: 0 1em;
+}
+
+.intro {
+	font-size: 1.125rem;
+}
+
+blockquote {
+	font-style: italic;
+	text-align: center;
+	color: #80916e;
+	margin: 0;
+	border-bottom: 3px solid #80916e;
+	border-top: 3px solid #80916e;
+	padding: 1em;
+}
+
+blockquote p {
+	margin: 0;
+	font-size: 1.25rem;
+}
+
+.databox {
+	margin: 0;
+	padding: 0;
+	background-color: #fef7cd;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.databox figcaption {
+	position: relative;
+}
+
+.databox h3 {
+	position: absolute;
+	background-color: rgba(254,247,205, 0.7);
+	border-radius: 8px 8px 0 0;
+	top: -3.6rem;
+	margin: 0;
+	padding: 1rem;
+	width: 100%;
+}
+
+.databox dl {
+	position: relative;
+	padding: 0;
+	margin: 0 1rem;
+}
+
+.databox dt {
+	position: absolute;
+	width: 33.333%;
+	text-transform: uppercase;
+	font-size: 0.875rem;
+	top: 0.4em;
+}
+
+.databox dt:nth-child(3) {
+	left: 33.333%;
+}
+
+.databox dt:nth-child(5) {
+	left: 66.666%;
+}
+
+.databox dd {
+	float: left;
+	margin: 0;
+	width: 33.333%;
+	padding: 1.5rem 0 0.4rem;
+	font-size: 1.125rem;
+}
+
+.row {
+	overflow: hidden;
+}
+
+.row figure {
+	margin: 0;
+	float: left;
+	width: 50%;
+	position: relative;
+}
+
+.row figcaption {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	background-color: rgba(128,145,110,0.8);
+	color: #fef7cd;
+}
+
+.row .prime {
+	width: 100%;
+}
+
+.section-pterosaurs {
+	border-top: 3px solid #80916e;
+	margin-top: 1.5rem;
+}
+
+.banner {
+	position: relative;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.banner-content {
+	position: absolute;
+	bottom: 1em;
+	width: 100%;
+	padding: 0 1em;
+}
+
+.banner-content h3,
+.banner-content p {
+	margin: 0;
+	color: #fef7cd;
+}
+
+.banner-content p {
+	font-style: italic;
+}
+
+.dino-list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.dino-list li {
+	overflow: hidden;
+	margin-bottom: 1.5rem;
+}
+
+.dino-list img {
+	float: left;
+	width: 100px;
+	margin-right: 1em;
+}
+
+.dino-list h4 {
+	margin: 0;
+}
+
+.footer {
+	padding: 0.5rem 1rem;
+	font-size: 0.75rem;
+	background-color: #80916e;
+	text-align: center;
+}
