@@ -247,7 +247,7 @@ When adding a link to your site you need to specify where to link to, that’s w
 <!-- Linking to another page in your website that’s in the same folder as this HTML file -->
 <a href="other-page.html">Other page</a>
 <!-- Linking to another page in your website that’s contained in a folder -->
-<a href="dinosuars/trex.htm">T-Rex</a>
+<a href="dinosuars/trex.html">T-Rex</a>
 <!-- Linking to another website, when linking to another website we need the `http` -->
 <a href="http://www.wikipedia.org/">Wikipedia</a>
 ```
