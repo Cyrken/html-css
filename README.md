@@ -2,6 +2,8 @@
 
 Code samples, documentation, tutorials, & videos for the [Algonquin College Graphic Design](http://algonquindesign.ca) program.
 
+**[☛ Before you start, checkout the tutorials on The Web, code editors, and setup.](https://github.com/algonquindesign/resources)**
+
 1. [HTML semantics](html-semantics)
 2. ★ Marking up a website
 3. [Using CSS](using-css)
@@ -32,7 +34,9 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 26. [Accessibility](accessibility)
 27. [Performance](performance)
 28. [Animations & effects](animations-effects)
+	[☛ After these tutorials, jump to **Javascript** to continue.](https://github.com/algonquindesign/javascript)
 29. ★ Responsive animated info graphic
+	*Uses a bunch of Javascript to complete.*
 29. [Search engine optimization](search-engine-optimization)
 30. [Metadata & enhanced semantics](metadata-enhanced-semantics)
 31. [What ifs: progressive enhancement & graceful degradation](what-ifs)
