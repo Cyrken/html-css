@@ -21,23 +21,24 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 13. ★ Small screen layout
 14. [All devices setup](all-devices-setup)
 15. [Media queries](media-queries)
-16. [Modular typography](modular-typography)
-17. [Grids](grids)
-18. [★ Interactive wireframes & prototypes](interactive-wireframes-and-prototypes)
-19. [Modules](modules)
-20. [★ Modular website layout](modular-layout)
-21. [Tables](tables)
-22. [Forms](forms)
-25. [Accessibility](accessibility)
-26. [Performance](performance)
-27. [Animations & effects](animations-effects)
-28. ★ Responsive animated info graphic
-28. [Search engine optimization](search-engine-optimization)
-29. [Metadata & enhanced semantics](metadata-enhanced-semantics)
-30. [What ifs: progressive enhancement & graceful degradation](what-ifs)
-31. [404 pages](404-pages)
-32. [Analytics & monitoring](analytics)
-33. [Stylus](stylus)
+16. ★ Media query layout
+17. [Modular typography](modular-typography)
+18. [Grids](grids)
+19. [★ Interactive wireframes & prototypes](interactive-wireframes-and-prototypes)
+20. [Modules](modules)
+21. [★ Modular website layout](modular-layout)
+22. [Tables](tables)
+23. [Forms](forms)
+26. [Accessibility](accessibility)
+27. [Performance](performance)
+28. [Animations & effects](animations-effects)
+29. ★ Responsive animated info graphic
+29. [Search engine optimization](search-engine-optimization)
+30. [Metadata & enhanced semantics](metadata-enhanced-semantics)
+31. [What ifs: progressive enhancement & graceful degradation](what-ifs)
+32. [404 pages](404-pages)
+33. [Analytics & monitoring](analytics)
+34. [Stylus](stylus)
 
 ---
 
