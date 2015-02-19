@@ -33,9 +33,9 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 23. [Forms](forms)
 26. [Accessibility](accessibility)
 27. [Performance](performance)
-28. [Animations & effects](animations-effects)
+28. [Animations & effects](animations-effects)<br>
 	[☛ After these tutorials, jump to **Javascript** to continue.](https://github.com/algonquindesign/javascript)
-29. ★ Responsive animated info graphic
+29. ★ Responsive animated info graphic<br>
 	*Uses a bunch of Javascript to complete.*
 29. [Search engine optimization](search-engine-optimization)
 30. [Metadata & enhanced semantics](metadata-enhanced-semantics)
