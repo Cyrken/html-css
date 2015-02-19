@@ -24,6 +24,7 @@ This basic website combines together all the knowledge and skill from the follow
 5. [Flow & display](../flow-display)
 6. [Float & clear](../float-clear)
 7. [Position & z-index](../position-zindex)
+8. [Navigation](../navigation)
 
 ---
 
