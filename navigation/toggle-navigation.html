@@ -2,14 +2,27 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Footer Anchor Navigation</title>
-  <link href="css/footer-anchor.css" rel="stylesheet">
+  <title>Toggle Navigation</title>
+  <link href="css/toggle-navigation.css" rel="stylesheet">
 </head>
 <body>
 
 <header>
-  <h1>Website Name</h1>
-  <a class="nav-btn" href="#nav"><img src="images/nav-icon.svg" alt="Navigate"></a>
+  <h1>Prehistoric Animals</h1>
+  <nav>
+    <input type="checkbox" class="nav-check" id="nav-check">
+    <label class="nav-label" for="nav-check">
+      <img class="nav-open" src="images/nav-icon.svg" alt="Open Navigation">
+      <img class="nav-close" src="images/nav-icon-close.svg" alt="Close Navigation">
+    </label>
+    <ul class="nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Dinosaurs</a></li>
+      <li><a href="#">Pterosaurs</a></li>
+      <li><a href="#">Plesiosaurs</a></li>
+      <li><a href="#">Mammals</a></li>
+    </ul>
+  </nav>
 </header>
 
 <main>
@@ -33,15 +46,6 @@
     <li>Aliquam tincidunt mauris eu risus.</li>
   </ul>
 </main>
-
-<nav id="nav">
-  <ul class="nav">
-    <li><a href="#">Home</a></li>
-    <li><a href="#">Products</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
-  </ul>
-</nav>
 
 </body>
 </html>

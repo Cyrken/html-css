@@ -1,21 +1,289 @@
 # Navigation for small screens
 
-There are many styles for small screen navigation.
-My personal favourite, for most sites, is the footer-toggle hybrid.
-It is a footer anchor navigation that progressively enhances to a toggle navigation.
+There are many styles for small screen navigation depending on the amount of items in the navigation.
 
-### [▶ Video playlist for navigation](https://www.youtube.com/playlist?list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
+### [▶ Video playlist for navigation](https://www.youtube.com/watch?v=OmfcLL8qGO8&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
+
+---
+
+- [Basic navigation](#basic-navigation)
+	- [Linking multiple pages](#linking-multiple-pages)
+		- [Path examples](#path-examples)
+		- [Path syntax](#path-syntax)
+	- [Highlighting the current page](#highlighting-the-current-page)
+- [Inline-list pattern](#inline-list-pattern)
+- [Footer-anchor pattern](#footer-anchor-pattern)
+- [Grid pattern](#grid-pattern)
+- [Toggle navigation](#toggle-navigation)
+
+---
+
+## Basic navigation
+
+The pattern for just about all navigations on the web follows this: a `ul` inside of a `nav`.
+
+```html
+<nav>
+	<ul class="nav">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Dinosaurs</a></li>
+		<li><a href="#">Pterosaurs</a></li>
+		<li><a href="#">Plesiosaurs</a></li>
+		<li><a href="#">Mammals</a></li>
+	</ul>
+</nav>
+```
+
+If the navigation is in the masthead of your website it should also be inside a `<header>`. If it’s in the footer of your website, putting it in the `<footer>` probably makes sense.
+
+### Linking multiple pages
+
+When we’re linking to multiple pages there’s a few rules to follow.
+
+![](readme-screenshots/link-paths.jpg)
+
+1. To link directly to another page, just type its filename, e.g. `mammals.html`
+2. To link to a page inside a folder, type the folder, a slash, and then the filename, e.g. `dinosaurs/apatosaurus.html`
+3. If that folder has an `index.html` inside it you can leave it off, e.g. `dinosaurs/`
+4. When inside a folder, to link to page outside a folder use `../`, e.g. `../plesiosaurs.html`
+
+Here’s what our links would look like with the above folder structure.
+
+**For `index.html`:**
+
+```html
+<nav>
+	<ul class="nav">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="dinosaurs/">Dinosaurs</a></li>
+		<li><a href="pterosaurs.html">Pterosaurs</a></li>
+		<li><a href="plesiosaurs.html">Plesiosaurs</a></li>
+		<li><a href="mammals.html">Mammals</a></li>
+	</ul>
+</nav>
+```
+
+The `index.html` file is always the default within a folder: for your website, `index.html` is the homepage because it’s the default within the website folder; inside folders we can also have `index.html` which will be the default file inside that folder.
+
+From the `dinosaurs/` folder, we would have to write the below navigation, using `../` to navigate out of the `dinosaurs/` folder.
+
+**For `dinosaurs/index.html`:**
+
+```html
+<nav>
+	<ul class="nav">
+		<li><a href="../index.html">Home</a></li>
+		<!-- This doesn't need the `../` because the `dinosaurs/` index is inside the folder our file is already in -->
+		<li><a href="index.html">Dinosaurs</a></li>
+		<li><a href="../pterosaurs.html">Pterosaurs</a></li>
+		<li><a href="../plesiosaurs.html">Plesiosaurs</a></li>
+		<li><a href="../mammals.html">Mammals</a></li>
+	</ul>
+</nav>
+```
+
+#### Path examples
+
+![](readme-screenshots/folder-images.jpg)
+
+Here are a bunch of examples of paths for the folder structure above.
+
+*From inside index.html*:
+
+- logo.svg — `images/logo.svg`
+- main.css — `css/main.css`
+- dinosaurs/index.html — `dinosaurs/`
+- apatosaurus.html — `dinosaurs/apatosaurus.html`
+- plesiosaurs.html — `plesiosaurs.html`
+
+*From inside dinosaurs/index.html*:
+
+- logo.svg — `../images/logo.svg`
+- main.css — `../css/main.css`
+- dinosaurs/index.html — `index.html`
+- apatosaurus.html — `apatosaurus.html`
+- plesiosaurs.html — `../plesiosaurs.html`
+
+#### Path syntax
+
+Here’s the different syntax you need to know for dealing with paths:
+
+- `./` — single dot + slash
+	Start in the same location as this file and work from there.
+	Implicit, if you reference a filename that doesn’t start with a slash, e.g. `index.html` is the same as `./index.html`
+- `../` — double dot + slash
+	Start in the same location as this file, go out a folder, and work from there.
+	Can be combined: `../../` — goes out two folders
+- `/` — slash at the beginning
+	Start at the root domain and work from there.
+- `//` — double slash at the beginning
+	Start immediately after the protocol, replacing all domains, and work from there.
+
+*Some examples:*
+
+Say the above website, in the image, is located on GitHub, at the following URL: `https://algonquindesign.gitub.io/prehistoric/`.
+
+- `/preshistoric` — links to `https://algonquindesign.github.io/prehistoric/index.html`
+- `/` — links to `https://algonquindesign.gitub.io/`
+- `//github.com` — links to `https://github.com/`
+- `../index.html` — from the homepage, links to `https://algonquindesign.gitub.io/index.html`
+
+### Highlighting the current page
+
+It’s important to highlight the current page in your navigation—lots of us humans have memory issues and need to be reminded what page we’re on.
+
+Highlighting the navigation is as simple as applying a class to the navigation item you want to highlight:
+
+**On the `plesiosaurs.html` page:**
+
+```html
+<nav>
+	<ul class="nav">
+		⋮
+		<li><a class="current" href="plesiosaurs.html">Plesiosaurs</a></li>
+		⋮
+	</ul>
+</nav>
+```
+
+Notice the class of `.current` on the link. It’s only on the `<a>` tag that matches the HTML file we’re currently on.
+
+All we need now is a little CSS:
+
+```css
+.current {
+	background-color: red;
+}
+```
+
+*On each page we’d just move the class to a different `<a>` tag to highlight that specific navigation item in the menu.*
+
+---
+
+## Inline-list pattern
+
+![](readme-screenshots/inline-list.png)
+
+The inline-list pattern is good when you only have a few navigation items and they can easily fit across one line.
+
+The inline-list pattern uses `display: inline-block` on the list items to put the navigation items next to each other.
+
+```css
+.nav li {
+	display: inline-block;
+}
+```
+
+---
+
+## Footer-anchor pattern
+
+![](readme-screenshots/footer-anchor.png)
+
+The footer-anchor pattern for navigation puts the navigation at the bottom, then just uses an internal link to jump the user down the page.
+
+```html
+<header>
+	⋮
+	<a href="#nav">Navigate</a>
+</header>
+
+⋮
+
+<nav id="nav">
+	⋮
+</nav>
+```
+
+---
+
+## Grid pattern
+
+![](readme-screenshots/grid.png)
+
+The grid pattern is a way to use up less space at the top of the page for your navigation. All we do is float the list items beside each other to form a grid.
+
+```css
+.nav li {
+	float: left;
+	width: 50%;
+}
+```
+
+---
+
+## Toggle navigation
+
+![](readme-screenshots/toggle.png)
+
+The toggle navigation hides the complete navigation behind a button. Pressing the navigation button opens up a panel to display the navigation.
+
+There are lots of different ways to make a toggle navigation. The simplest way to do it is using CSS only. The technique hinges on a few things: checkboxes and siblings.
+
+*When the checkbox has been checked the navigation is displayed, otherwise the navigation is hidden.*
+
+Here’s the HTML setup we’d use:
+
+```html
+<header>
+	<input type="checkbox" class="nav-check" id="nav-check">
+	<!-- This is the button we’d click to open/close the navigation -->
+	<label class="nav-label" for="nav-check">Navigate</label>
+	<nav class="nav">
+		⋮
+	</nav>
+</header>
+```
+
+*The only way this will work is if the `<input>` and the `.nav` are siblings, meaning they have the same parent element.*
+
+By default we want the navigation to be hidden, using `display: none` will work:
+
+```css
+.nav {
+	display: none;
+}
+```
+
+Then we can style the navigation only when the checkbox has been checked.
+
+```css
+/* This selected targets the `.nav` only when the checkbox is checked */
+.nav-check:checked ~ .nav {
+	display: block;
+}
+```
+
+We probably don’t want the checkbox to be visible, so we can hide it using `position: absolute` to put it off the top of the screen:
+
+```css
+.nav-check {
+	/* Put the checkbox off the top of the screen */
+	position: absolute;
+	top: -3em;
+}
+```
+
+The final thing we need to do is highlight the navigate button when the navigation is open:
+
+```css
+.nav-check:checked ~ .nav-label {
+	background-color: grey;
+}
+```
+
+We probably want to style the navigate button a little more with images, etc. Check out the sample code and videos to see how I accomplish that.
 
 ---
 
 ## Videos
 
-1. [Footer anchor navigation](https://www.youtube.com/watch?v=n3MgyKYcG8M&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr&index=1)
-2. [Footer-toggle hybrid](https://www.youtube.com/watch?v=DVgk_JQ_zA8&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr&index=2)
-3. [Animation for toggle navigation](https://www.youtube.com/watch?v=QgtygXfX9ao&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr&index=3)
-4. [Toggle button active state](https://www.youtube.com/watch?v=p-MQKCvSD4o&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr&index=4)
-
----
+1. [Navigation: inline list](https://www.youtube.com/watch?v=OmfcLL8qGO8&index=1&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
+2. [Navigation: linking multiple pages](https://www.youtube.com/watch?v=ZeMMvgCR7aU&index=2&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
+3. [Navigation: highlighting the current page](https://www.youtube.com/watch?v=l9niaFJh8Gs&index=3&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
+4. [Navigation: footer anchor pattern](https://www.youtube.com/watch?v=iExUQXBvars&index=4&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
+5. [Navigation: grid pattern](https://www.youtube.com/watch?v=WLrC4toQ4cE&index=5&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
+6. [Navigation: toggle navigation](https://www.youtube.com/watch?v=02K9uz0wJLE&index=6&list=PLWjCJDeWfDdfJ3cSUNe_XiUWGpJj1tEAr)
 
 ## Links
 
