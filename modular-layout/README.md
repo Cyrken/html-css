@@ -2,9 +2,9 @@
 
 Combining all of the modular web design lessons together to create a complete layout.
 
-### [▶ Video playlist for modular layouts](https://www.youtube.com/playlist?list=PLWjCJDeWfDdf2mx4t-HMV6L5ojOqBNany)
+### [▶ Video playlist for the modular website layout](https://www.youtube.com/playlist?list=PLWjCJDeWfDdf2mx4t-HMV6L5ojOqBNany)
 
-### [☛ See the final layout](http://algonquindesign.github.io/html-css/modular-layouts/)
+### [☛ See the final layout](http://algonquindesign.github.io/html-css/modular-layout/)
 
 ---
 
