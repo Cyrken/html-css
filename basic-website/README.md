@@ -8,7 +8,7 @@ Video playlist walking you through creating a basic small-screen website using a
 
 ---
 
-- [References Lessons](#referenced-lessons)
+- [Referenced Lessons](#referenced-lessons)
 - [Videos](#videos)
 
 ---
