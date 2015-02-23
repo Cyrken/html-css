@@ -64,7 +64,7 @@ Here’s what an empty HTML document looks like:
 
 ```html
 <!DOCTYPE html>
-<html lang="en-ca">
+<html lang="en-ca"> <!-- Sets the language to Canadian English -->
 <head>
   <meta charset="utf-8">
   <title></title>
@@ -171,7 +171,7 @@ An outline of your document with headings might look like this:
 			<h4>Cairo</h4>
 				<h5>Cairo</h5>
 		<h3>Nigeria</h3>
-		<h3>Keynya</h3>
+		<h3>Kenya</h3>
 ```
 
 *The indentation above is to denote the headings are sub-headings of the one above.*
