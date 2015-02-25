@@ -311,5 +311,7 @@ p {
 ## Links
 
 - **[MDN: float](https://developer.mozilla.org/en-US/docs/Web/CSS/float)**
-- [Codrops: Float](http://tympanus.net/codrops/css_reference/float/)
+- **[MDN: clear](https://developer.mozilla.org/en-US/docs/Web/CSS/clear)**
+- [Codrops: float](http://tympanus.net/codrops/css_reference/float/)
+- [Codrops: clear](http://tympanus.net/codrops/css_reference/clear/)
 - [Positioning with float](http://learn.shayhowe.com/html-css/positioning-content/#floats)
