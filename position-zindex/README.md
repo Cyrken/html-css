@@ -8,16 +8,16 @@ Position allows us to move elements around on the screen and bypass the browserâ
 
 ---
 
-- [Position](#)
-	- [Absolute](#)
-		- [Width collapsing](#)
-		- [Coordinate system](#)
-		- [Changing the coordinate system with relative](#)
-	- [Relative](#)
-	- [Fixed](#)
-- [Z-index](#)
-- [Videos](#)
-- [Links](#)
+- [Position](#position)
+	- [Absolute](#absolute)
+		- [Width collapsing](#width-collapsing)
+		- [Coordinate system](#coordinate-system)
+		- [Changing the coordinate system with relative](#changing-the-coordinate-system-with-relative)
+	- [Relative](#relative)
+	- [Fixed](#fixed)
+- [Z-index](#z-index)
+- [Videos](#videos)
+- [Links](#links)
 
 ---
 
