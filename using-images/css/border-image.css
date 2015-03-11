@@ -1,0 +1,4 @@
+header {
+	border: 36px solid #4f9ad4;
+	border-image: url("../images/border-image.svg") 36 repeat;
+}

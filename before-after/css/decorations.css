@@ -1,0 +1,30 @@
+h1 {
+  text-align: center;
+  background-color: #bcff15;
+  position: relative;
+  margin: 3rem 0;
+  padding: 0.5em 0;
+  border-radius: 4px;
+}
+
+h1::before {
+  content: " ";
+  width: 100px;
+  height: 50px;
+  background: url("../images/decoration-top.svg") no-repeat center top / contain;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -50px;
+}
+
+h1::after {
+  content: " ";
+  width: 100px;
+  height: 50px;
+  background: url("../images/decoration-bottom.svg") no-repeat center bottom / contain;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -50px;
+}

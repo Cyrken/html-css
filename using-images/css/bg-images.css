@@ -1,0 +1,15 @@
+body {
+	background-image: url("../images/mars.jpg");
+	background-attachment: fixed;
+}
+
+h1 {
+	margin: 75vh 0;
+	padding: 3em 0;
+	background-image: url("../images/planet.png");
+	background-size: 64px auto;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	background: url("../images/planet.png") no-repeat center center / 64px auto transparent;
+}

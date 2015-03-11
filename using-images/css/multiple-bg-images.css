@@ -1,0 +1,7 @@
+body {
+	background:
+		url("../images/leaves/leaf-1.svg") repeat-x center top / 75px auto,
+		url("../images/leaves/leaf-2.svg") repeat-x left top / 150px auto,
+		url("../images/leaves/leaf-3.svg") repeat-x right top / 100px auto limegreen
+	;
+}

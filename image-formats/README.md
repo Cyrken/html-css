@@ -80,6 +80,7 @@ You can open them up in your text editor—because they are just XML—and edit 
 - Press the `More Options` button and fill in a couple more options
 	- “CSS Properties” — `Style Elements`
 	- “Decimal Places” — 1
+	- Make sure “Responsive” is checked
 
 ![](images-svg.jpg)
 
