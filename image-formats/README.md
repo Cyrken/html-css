@@ -11,6 +11,8 @@ There are a few types of images that can be used on the web: JPGs, PNGs, SVGs, f
 - [JPG](#jpg)
 - [PNG](#png)
 - [Favicons](#favicons)
+	- [Dimensions](#dimensions)
+	- [Platform specific meta tags](platform-specific-meta-tags)
 - [GIF](#gif)
 - [Speed of images](#speed-of-images)
 	- [Image smushing](#image-smushing)
@@ -138,7 +140,6 @@ If, for some reason, you can’t put it there you can use the `<link>` tag to in
 - [X Icon Editor](http://xiconeditor.com/)
 - Apple Touch Icons: <http://mathiasbynens.be/notes/touch-icons>
 - Windows 8 Tile Icons: <http://hicksdesign.co.uk/journal/pinned-sites-in-windows-8>
-- Opera Speed Dial Icons: <http://dev.opera.com/articles/view/opera-speed-dial-enhancements/>
 
 ---
 
