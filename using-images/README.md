@@ -1,5 +1,7 @@
 # Using images
 
+### [▶ Video playlist for using images](https://www.youtube.com/watch?v=xVv3SHU_l1o&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
+
 ---
 
 ## Foreground vs. background images
@@ -13,7 +15,7 @@ The HTML `<img>` tag is for inserting images that are part of the content. The i
 
 Background images are for decorative purposes. If the image is purely there for decoration—to make your site pretty—then it should be a background image using CSS.
 
-### Alt attributes
+## Alt attributes
 
 All images inserted with the `<img>` tag must have an alt attribute:
 
@@ -34,10 +36,6 @@ When describing the image you should think about what content is most helpful fo
 - Is the graphic a chart? Describe the purpose of the chart, e.g. “A bar graph representing the orbital periods of planets in the Solar System”
 - Does the graphic not add any relevant information? Then is should be in your CSS. If that’s not possible, leave the alt empty, `<img alt="">`
 
-**Videos**
-
-- [Images: alt attributes](https://www.youtube.com/watch?v=xcWwcTRS79s&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=1)
-
 **Links**
 
 - [Simply Accessible: Images in Context](http://simplyaccessible.com/article/images-in-context/)
@@ -46,7 +44,7 @@ When describing the image you should think about what content is most helpful fo
 - [When is an image ‘purely decorative’?](http://www.4syllables.com.au/2014/04/decorative-images/)
 - [Longdesc Links, History, Future](http://www.webaxe.org/longdesc-links-history-future/)
 
-### Figures & captions
+## Figures & captions
 
 Often you’ll need to provide a caption for your image, that’s where the `<figure>` element comes in handy.
 
@@ -61,11 +59,7 @@ Using the `<figure>` and `<figcaption>` elements we can associate a caption with
 
 You’ll notice that the alt attribute is empty in this situation. Often it’s not needed because the content of the caption would be no different than the alt attribute so we don’t want the information repeated.
 
-**Videos**
-
-- [Images: figures](https://www.youtube.com/watch?v=X-uIMl8V6kg&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=2)
-
-### Image replacement
+## Image replacement
 
 Image replacement is a technique to replace text on the page with an image in an accessible manner.
 The technique is useful when you cannot produce the text style you’d like in CSS.
@@ -89,21 +83,13 @@ The technique is useful when you cannot produce the text style you’d like in C
 }
 ```
 
-**Videos**
-
-- [Images: image replacement](https://www.youtube.com/watch?v=U7B9-UtEK7w&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=5)
-
-**Code samples**
-
-- [Image replacement](image-replacement.html)
-
 **Links**
 
 - [Zeldman: New Image Replacement](http://www.zeldman.com/2012/03/01/replacing-the-9999px-hack-new-image-replacement/)
 
 ---
 
-### CSS sprites
+## CSS sprites
 
 Combine your images into a single file in Photoshop and using `background-position` show only a single part of the image at a time.
 
@@ -111,7 +97,16 @@ Combine your images into a single file in Photoshop and using `background-positi
 
 ## Videos
 
-3. [Images: image replacement](https://www.youtube.com/watch?v=U7B9-UtEK7w&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=5)
-4. [Images: multi-resolution PNGs](https://www.youtube.com/watch?v=Q91vXeF0mpU&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=6)
-5. [Images: compressive JPEGs](https://www.youtube.com/watch?v=3SzWx4_mL7A&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=7)
-6. [Images: CSS sprites](https://www.youtube.com/watch?v=nm8D1tTs5bY&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=8)
+1. [Using images: HTML image tags](https://www.youtube.com/watch?v=xVv3SHU_l1o&index=1&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
+2. [Using images: alt attributes](https://www.youtube.com/watch?v=xcWwcTRS79s&index=2&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
+3. [Using images: figures](https://www.youtube.com/watch?v=X-uIMl8V6kg&index=3&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
+4. [Using images: background images](https://www.youtube.com/watch?v=pF-AeeBIvzo&index=4&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
+5. [Using images: multiple background images](https://www.youtube.com/watch?v=dt6Af0V-Xxw&index=5&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
+6. [Using images: gradients](https://www.youtube.com/watch?v=d6cYf6qXHBQ&index=6&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
+7. [Using images: CSS sprites](https://www.youtube.com/watch?v=nm8D1tTs5bY&index=7&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
+8. [Using images: image replacement](https://www.youtube.com/watch?v=U7B9-UtEK7w&index=8&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
+9. [Using images: patterns](https://www.youtube.com/watch?v=M4M1HT-Tlxs&index=9&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
+10. [Using images: border images](https://www.youtube.com/watch?v=Adfa4xqYmik&index=10&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
+11. [Using images: creating a button](https://www.youtube.com/watch?v=pIDLkglb_WE&index=11&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
+12. [Using images: hero banner with background images](https://www.youtube.com/watch?v=RBxtA5ZM1MY&index=12&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
+13. [Using images: improving the toggle nav](https://www.youtube.com/watch?v=B15cheIlUZ0&index=13&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
