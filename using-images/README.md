@@ -89,7 +89,6 @@ When describing the image you should think about what content is most helpful fo
 - [Simply Accessible: Descriptive Alt Attributes](http://simplyaccessible.com/bpow/descriptive-alt-attributes/)
 - [W3: Techniques for providing useful text alternatives](http://dev.w3.org/html5/alt-techniques/)
 - [When is an image ‘purely decorative’?](http://www.4syllables.com.au/2014/04/decorative-images/)
-- [Longdesc Links, History, Future](http://www.webaxe.org/longdesc-links-history-future/)
 
 ### Figures & captions
 
@@ -144,6 +143,8 @@ The `url()` function requires you to specify the page in relation to the CSS doc
 
 By default the background image will try to form a pattern by repeating itself both horizontally and vertically.
 
+![](readme-screenshots/repeat.png)
+
 To control the patterning effect of the background image you can use `background-repeat`:
 
 - `no-repeat` — shut off repeating, showing the image only once
@@ -171,6 +172,8 @@ h1 {
 
 The `background-position` allows us to control where in the element the image is located. We can use keywords, percents, or fixed measurements.
 
+![](readme-screenshots/position.png)
+
 *When defining `background-position` we must always specify the horizontal & vertical positions—***horizontal first, vertical second.**
 
 - `keywords` — move the the element to specific set points: `top`, `bottom`, `left`, `right`, `center`
@@ -197,6 +200,8 @@ div {
 
 If you want to move the background image a fixed measurement from the bottom or right you can use `calc()`:
 
+![](readme-screenshots/position-calc.png)
+
 ```css
 div {
 	/* Centered horizontally, 10px up from the bottom */
@@ -214,6 +219,8 @@ div {
 ### Background size
 
 The CSS `background-size` property allows us to scale the image.
+
+![](readme-screenshots/size.png)
 
 - `cover` — scale the image to fill the whole element
 - `contain` — scale the image so all of it is visible in the element
@@ -303,7 +310,9 @@ body {
 
 ##### Direction
 
-The gradient direction is specified similarly to `background-position`:
+The gradient direction is specified similarly to `background-position`.
+
+![](readme-screenshots/gradients.png)
 
 - `to left` — completely flat, starting at the right and moving to the left
 - `to right bottom` — starting in the left-top corner and moving to the right-bottom
