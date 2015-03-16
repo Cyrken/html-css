@@ -493,7 +493,45 @@ body {
 
 ## Sprites
 
-Combine your images into a single file in Photoshop and using `background-position` show only a single part of the image at a time.
+Sprites allow us to combine your images into a single file in Photoshop and using `background-position` show only a single part of the image at a time.
+
+```html
+<div class="icon icon-circle"></div>
+<div class="icon icon-hex"></div>
+<div class="icon icon-star"></div>
+```
+
+![](readme-screenshots/sprites.png)
+
+```css
+.icon {
+	width: 100px;
+	height: 100px;
+	background-image: url("icons.png");
+	background-repeat: no-repeat;
+}
+
+.icon-circle {
+	background-position: 0 0;
+}
+
+.icon-hex {
+	background-position: 0 -100px;
+}
+
+.icon-star {
+	background-position: 0 -200px;
+}
+```
+
+We adjust the position of the background image to only show a portion of it in the element—kind of like a clipping mask.
+
+*When doing sprites with SVG, you’ll likely need to add `background-size` to the SVG to force it scale properly.*
+
+**Links**
+
+- [CSS-Tricks: CSS Sprites](https://css-tricks.com/css-sprites/)
+- [CSS-Tricks: Icon System with SVG Sprites](https://css-tricks.com/svg-sprites-use-better-icon-fonts/)
 
 ---
 
