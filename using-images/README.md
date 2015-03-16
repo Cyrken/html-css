@@ -34,10 +34,10 @@ Refer to the below flow chart describing how to insert an image into your websit
 
 ![](readme-screenshots/image-choice-flow-chart.png)
 
-1. **Does the image require a caption?**
+1. **Does the image require a caption?**<br>
 	*Yes*: Use a `<figure>` & `<figcaption>`.
-2. **Is the image an important part of the content?**
-	*Yes*: Use an `<img>` tag with an appropriate `alt` attribute.
+2. **Is the image an important part of the content?**<br>
+	*Yes*: Use an `<img>` tag with an appropriate `alt` attribute.<br>
 	*No*: Use a CSS `background-image`.
 
 *Any image that is purely decoration should be in CSS. If that can’t accomplish what you want an `<img>` tag with an empty `alt` attribute will suffice.*
