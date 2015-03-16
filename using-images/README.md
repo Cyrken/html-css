@@ -32,8 +32,6 @@
 
 ## Choosing the right way to insert an image
 
-Refer to the below flow chart describing how to insert an image into your website.
-
 ![](readme-screenshots/image-choice-flow-chart.png)
 
 1. **Does the image require a caption?**<br>
@@ -50,9 +48,9 @@ Refer to the below flow chart describing how to insert an image into your websit
 
 Foreground images, or images inserted into HTML, use the HTML `<img>` tag.
 
-**Use the `<img>` tag when the image is an important part of the content.**
+**Use the `<img>` tag when the image is an important part of the content—when the content would be confusing without the image.**
 
-```
+```html
 <img src="images/logo.jpg">
 <img src="images/icons/planet.jpg">
 <img src="../images/photo.jpg">
@@ -75,7 +73,7 @@ All images inserted with the `<img>` tag must have an alt attribute:
 The alt attribute has two purposes:
 
 1. To describe the photo if it doesn’t download in the browser
-2. To describe the photo to someone who cannot see the image, someone using a screen reader
+2. To describe the photo to someone who cannot see the image, maybe someone using a screen reader
 
 When describing the image you should think about what content is most helpful for a user who cannot see the image. Describe what is important about the image.
 
@@ -83,7 +81,7 @@ When describing the image you should think about what content is most helpful fo
 - Is it a photo of a planet taken by a telescope? Write something like “Photo of Pluto taken with Hubble”
 - Is the photo meant to highlight a point? Write just the point, e.g. “Classic painting showing the triangle composition”
 - Is the graphic a chart? Describe the purpose of the chart, e.g. “A bar graph representing the orbital periods of planets in the Solar System”
-- Does the graphic not add any relevant information? Then it should be in your CSS. If that’s not possible, leave the alt empty, `<img alt="">`
+- Does the graphic not add any relevant information? Then it should be in your CSS. If that’s not possible, leave the `alt` empty, `<img alt="">`
 
 **Links**
 
@@ -118,9 +116,7 @@ You’ll notice that the alt attribute is empty in this situation. Often it’s 
 
 ## Background images
 
-Background images are inserted in CSS and do not use the HTML image tag.
-
-**Use background images when the image is purely for decoration.**
+Background images are inserted in CSS and do not use the HTML image tag. **Use background images when the image is purely for decoration.**
 
 Background images can be inserted onto absolutely any HTML element, using the CSS property `background-image`:
 
@@ -131,7 +127,7 @@ body {
 }
 ```
 
-The `url()` function requires you to specify the page in relation to the CSS document. If you CSS file is inside a folder the path will need to exit that folder using `../`.
+The `url()` function requires you to specify the image in relation to the CSS document. If your CSS file is inside a folder the path will need to exit that folder using `../`.
 
 #### [☛ Refer to the tutorial on paths]()
 
@@ -184,11 +180,9 @@ We could solve this problem in a few ways:
 
 #### Maintaining aspect ratio
 
-If we want the element that has a background image to maintain the aspect ratio of the image we can use `padding-top` in percents.
+If we want the element that has a background image to maintain the aspect ratio of the image we can use `padding-top` in percents. This is a great solution for banner graphics and responsive sites, especially used together with `position: absolute` and `background-size`.
 
-This is a great solution for banner graphics and responsive sites, especially used together with `position: absolute` and `background-size`.
-
-First we have to figure out what percentage the aspect ratio of our image is. Here’s the formula to do that:
+First we have to figure out the percentage for the aspect ratio of our image. Here’s the formula to do that:
 
 ```
 (image height ÷ image width) × 100
@@ -370,7 +364,7 @@ The browser can generate background images for us in the form of gradients: line
 
 #### Linear gradients
 
-Linear gradients are a gradient build on a single direction, we can specify the direction in our gradient as well as many colour stops.
+Linear gradients are a gradient built in a single direction, we can specify the direction of our gradient as well as many colour stops.
 
 ```css
 body {
@@ -493,7 +487,7 @@ body {
 
 ## Sprites
 
-Sprites allow us to combine your images into a single file in Photoshop and using `background-position` show only a single part of the image at a time.
+Sprites allow us to combine our images into a single file in Photoshop and using `background-position` show only a single part of the image at a time.
 
 ```html
 <div class="icon icon-circle"></div>
@@ -568,11 +562,12 @@ The technique is useful when you cannot produce the text style you’d like in C
 
 ## Patterns
 
-Patterns are simple to use in CSS because of the `background-repeat` pattern, but not always the easiest to set up. [Check out the video where I debug a pattern](https://www.youtube.com/watch?v=M4M1HT-Tlxs&index=9&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7).
+Patterns are simple to use in CSS because of the `background-repeat` property, but not always the easiest to set up. [Check out the video where I debug a pattern](https://www.youtube.com/watch?v=M4M1HT-Tlxs&index=9&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7).
 
 **Links**
 
 - [Subtle Patterns](http://subtlepatterns.com/)
+- [Patternify](http://www.patternify.com/)
 
 ---
 
