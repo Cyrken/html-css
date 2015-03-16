@@ -4,18 +4,65 @@
 
 ---
 
-## Foreground vs. background images
+- [Choosing the right way to insert an image](#choosing-the-right-way-to-insert-an-image)
+- [Foreground images](#foreground-images)
+	- [Alt attributes](#alt-attributes)
+	- [Figures & captions](#figures--captions)
+- [Background images](#background-images)
+	- [Background repeat](#background-repeat)
+	- [Background position](#background-position)
+	- [Background size](#background-size)
+	- [Background attachment](#background-attachment)
+	- [Multiple background images](#multiple-background-images)
+	- [Gradients](#gradients)
+		- [Linear gradients](#linear-gradients)
+			- [Direction](#direction)
+			- [Colour stops](#colour-stops)
+		- [Radial gradients](#radial-gradients)
+		- [Repeating gradients](#repeating-gradients)
+	- [Shorthand](#shorthand)
+- [Sprites](#sprites)
+- [Image replacement](#image-replacement)
+- [Patterns](#patterns)
+- [Border images](#border-images)
 
-There are two ways to insert images into a website, each with a specific purpose:
+---
 
-1. As a foreground content-based image using the HTML `<img>` tag
-2. As a background decorative-based image using the CSS property `background-image`
+## Choosing the right way to insert an image
 
-The HTML `<img>` tag is for inserting images that are part of the content. The information inside the image is relevant and important for understanding the content of the page.
+Refer to the below flow chart describing how to insert an image into your website.
 
-Background images are for decorative purposes. If the image is purely there for decoration—to make your site pretty—then it should be a background image using CSS.
+![](readme-screenshots/image-choice-flow-chart.png)
 
-## Alt attributes
+1. **Does the image require a caption?**
+	*Yes*: Use a `<figure>` & `<figcaption>`.
+2. **Is the image an important part of the content?**
+	*Yes*: Use an `<img>` tag with an appropriate `alt` attribute.
+	*No*: Use a CSS `background-image`.
+
+*Any image that is purely decoration should be in CSS. If that can’t accomplish what you want an `<img>` tag with an empty `alt` attribute will suffice.*
+
+---
+
+## Foreground images
+
+Foreground images, or images inserted into HTML, use the HTML `<img>` tag.
+
+**Use the `<img>` tag when the image is an important part of the content.**
+
+```
+<img src="images/logo.jpg">
+<img src="images/icons/planet.jpg">
+<img src="../images/photo.jpg">
+```
+
+#### [☛ Refer to the tutorial on paths]()
+
+**Links**
+
+- [MDN: img](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
+
+### Alt attributes
 
 All images inserted with the `<img>` tag must have an alt attribute:
 
@@ -34,7 +81,7 @@ When describing the image you should think about what content is most helpful fo
 - Is it a photo of a planet taken by a telescope? Write something like “Photo of Pluto taken with Hubble”
 - Is the photo meant to highlight a point? Write just the point, e.g. “Classic painting showing the triangle composition”
 - Is the graphic a chart? Describe the purpose of the chart, e.g. “A bar graph representing the orbital periods of planets in the Solar System”
-- Does the graphic not add any relevant information? Then is should be in your CSS. If that’s not possible, leave the alt empty, `<img alt="">`
+- Does the graphic not add any relevant information? Then it should be in your CSS. If that’s not possible, leave the alt empty, `<img alt="">`
 
 **Links**
 
@@ -44,7 +91,7 @@ When describing the image you should think about what content is most helpful fo
 - [When is an image ‘purely decorative’?](http://www.4syllables.com.au/2014/04/decorative-images/)
 - [Longdesc Links, History, Future](http://www.webaxe.org/longdesc-links-history-future/)
 
-## Figures & captions
+### Figures & captions
 
 Often you’ll need to provide a caption for your image, that’s where the `<figure>` element comes in handy.
 
@@ -59,9 +106,321 @@ Using the `<figure>` and `<figcaption>` elements we can associate a caption with
 
 You’ll notice that the alt attribute is empty in this situation. Often it’s not needed because the content of the caption would be no different than the alt attribute so we don’t want the information repeated.
 
+*Only use the figure element if your image needs a caption, if you don’t need a caption, don’t use the figure.*
+
+**Links**
+
+- [MDN: figure](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figure)
+- [MDN: figcaption](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption)
+
+---
+
+## Background images
+
+Background images are inserted in CSS and do not use the HTML image tag.
+
+**Use background images when the image is purely for decoration.**
+
+Background images can be inserted onto absolutely any HTML element, using the CSS property `background-image`:
+
+```css
+body {
+	/* Will add a background to the whole page */
+	background-image: url("../images/grey-box.png");
+}
+```
+
+The `url()` function requires you to specify the page in relation to the CSS document. If you CSS file is inside a folder the path will need to exit that folder using `../`.
+
+#### [☛ Refer to the tutorial on paths]()
+
+**Links**
+
+- [MDN: background-image](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image)
+- [CSS-Tricks: background-image](https://css-tricks.com/almanac/properties/b/background-image/)
+- [Codrops: background-image](http://tympanus.net/codrops/css_reference/background-image/)
+
+### Background repeat
+
+By default the background image will try to form a pattern by repeating itself both horizontally and vertically.
+
+To control the patterning effect of the background image you can use `background-repeat`:
+
+- `no-repeat` — shut off repeating, showing the image only once
+- `repeat-x` — pattern only horizontally
+- `repeat-y` — pattern only vertically
+- `repeat` — the default, pattern both horizontally and verticallly
+
+```css
+body {
+	background-repeat: no-repeat;
+}
+
+h1 {
+	background-repeat: repeat-x;
+}
+```
+
+**Links**
+
+- [MDN: background-repeat](https://developer.mozilla.org/en-US/docs/Web/CSS/background-repeat)
+- [CSS-Tricks: background-repeat](https://css-tricks.com/almanac/properties/b/background-repeat/)
+- [Codrops: background-repeat](http://tympanus.net/codrops/css_reference/background-repeat/)
+
+### Background position
+
+The `background-position` allows us to control where in the element the image is located. We can use keywords, percents, or fixed measurements.
+
+*When defining `background-position` we must always specify the horizontal & vertical positions—***horizontal first, vertical second.**
+
+- `keywords` — move the the element to specific set points: `top`, `bottom`, `left`, `right`, `center`
+- `%` — align the images point at that percentage to the element’s point at that percentage—`keywords` just map to percentages
+- `px`, `em`, `rem` — always start in the top-left corner of the image and the element
+
+```css
+body {
+	background-position: right bottom;
+	/* Same as: */
+	background-position: 100% 100%;
+}
+
+h1 {
+	background-position: center top;
+	/* Same as: */
+	background-position: 50% 0;
+}
+
+div {
+	background-position: 10px 10px;
+}
+```
+
+If you want to move the background image a fixed measurement from the bottom or right you can use `calc()`:
+
+```css
+div {
+	/* Centered horizontally, 10px up from the bottom */
+	background-position: center calc(100% - 10px);
+}
+```
+
+**Links**
+
+- **[CSS-Tricks: I like how percentage background-position works](https://css-tricks.com/i-like-how-percentage-background-position-works/)**
+- [MDN: background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
+- [CSS-Tricks: background-position](https://css-tricks.com/almanac/properties/b/background-position/)
+- [Codrops: background-position](http://tympanus.net/codrops/css_reference/background-position/)
+
+### Background size
+
+The CSS `background-size` property allows us to scale the image.
+
+- `cover` — scale the image to fill the whole element
+- `contain` — scale the image so all of it is visible in the element
+- `auto` — maintain the aspect ratio when scaling
+- `%` — scale the image based on the element its inside
+- `px`, `em`, `rem` — scale the image to a fixed measurement
+
+**Just like background position we must style first the horizontal size then the vertical size.** Or we can use a couple keywords for scaling.
+
+```css
+body {
+	/* Scale the image to be 70% the width of the container, figure out the correct height */
+	background-size: 70% auto;
+}
+
+h1 {
+	/* Fill the whole element with the image */
+	background-size: cover;
+}
+
+div {
+	/* Figure out the width, set the height to 200 pixels */
+	background-size: auto 200px;
+}
+```
+
+**Links**
+
+- [MDN: background-size](https://developer.mozilla.org/en-US/docs/Web/CSS/background-size)
+- [CSS-Tricks: background-size](https://css-tricks.com/almanac/properties/b/background-size/)
+- [Codrops: background-size](http://tympanus.net/codrops/css_reference/background-size/)
+
+### Background attachment
+
+Background attachment allows us to control how the image scrolls: either it scrolls with the page, or stays in place:
+
+- `fixed` — image doesn’t move when scrolling the page
+- `scroll` — default, the image moves with the element its inside
+
+```css
+body {
+	background-attachment: fixed;
+}
+```
+
+**Links**
+
+- [MDN: background-attachment](https://developer.mozilla.org/en-US/docs/Web/CSS/background-attachment)
+- [CSS-Tricks: background-attachment](https://css-tricks.com/almanac/properties/b/background-attachment/)
+- [Codrops: background-attachment](http://tympanus.net/codrops/css_reference/background-attachment/)
+
+### Multiple background images
+
+An element can has as many background images as you’d like, just separate each image with a comma:
+
+```css
+body {
+	background-image: url("grey-box.png"), url("dark-grey-box.png");
+}
+```
+
+After specifying multiple background images all the other properties can then have commas to control the other images:
+
+```css
+body {
+	background-size: 100px auto, 75px auto;
+	background-position: left top, right top;
+	/* One value will apply to all images */
+	background-repeat: no-repeat;
+}
+```
+
+### Gradients
+
+The browser can generate background images for us in the form of gradients: linear, radial, and repeating variants.
+
+#### Linear gradients
+
+Linear gradients are a gradient build on a single direction, we can specify the direction in our gradient as well as many colour stops.
+
+```css
+body {
+	/* linear-gradient(direction, colour stops…) */
+	background-image: linear-gradient(to right, purple, darkpurple);
+}
+```
+
+##### Direction
+
+The gradient direction is specified similarly to `background-position`:
+
+- `to left` — completely flat, starting at the right and moving to the left
+- `to right bottom` — starting in the left-top corner and moving to the right-bottom
+- `to bottom` — straight up and down
+
+The direction can also be written using degrees
+
+- `45deg` — a 45° angled gradient
+- `-12deg` — a -13° angled gradient
+
+```css
+body {
+	background-image: linear-gradient(to left, purple, darkpurple);
+	background-image: linear-gradient(to right bottom, purple, darkpurple);
+	background-image: linear-gradient(45deg, purple, darkpurple);
+}
+```
+
+##### Colour stops
+
+With gradients we can specify as many colour stops as we’d like, with of course, a minimum of 2.
+
+Here’s a rainbow gradient:
+
+```css
+body {
+	background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+```
+
+With colour stops we can also specify their position using a value:
+
+```css
+body {
+	/* This gradient will create a sharp line between red & blue at 40% */
+	background-image: linear-gradient(to bottom, red, red 40%, blue 41%, blue);
+}
+```
+
+#### Radial gradients
+
+Radial gradients are based around an `ellipse` or `circle`, which are the first argument.
+
+```css
+body {
+	background-image: radial-gradient(circle, green, darkgreen);
+}
+```
+
+#### Repeating gradients
+
+Repeating gradients both `linear` and `radial` allow us to create simple patterns.
+
+```css
+div {
+	/* Warning stripes */
+	background-image: repeating-linear-gradient(45deg, yellow, yellow 10%, black 10%, black 20%);
+}
+```
+
+**Links**
+
+- **[Ultimate CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)**
+- [MDN: linear-gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient)
+- [MDN: radial-gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/radial-gradient)
+- [MDN: repeating-linear-gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/repeating-linear-gradient)
+- [MDN: repeating-radial-gradient](https://developer.mozilla.org/en-US/docs/Web/CSS/repeating-radial-gradient)
+- [Codrops: linear-gradient](http://tympanus.net/codrops/css_reference/linear-gradient/)
+- [Codrops: radial-gradient](http://tympanus.net/codrops/css_reference/radial-gradient/)
+- [Codrops: repeating-linear-gradient](http://tympanus.net/codrops/css_reference/repeating-linear-gradient/)
+- [Codrops: repeating-radial-gradient](http://tympanus.net/codrops/css_reference/repeating-radial-gradient/)
+
+### Shorthand
+
+All of the above background properties can be combined together into a shorthand notation, similar to `font`.
+
+- `background`: `background-image` `background-position` / `background-size` `background-repeat` `background-color`
+
+```css
+body {
+	background: url("bg.jpg") left top / 100px auto repeat-y red;
+}
+```
+
+It can even be used with multiple background images:
+
+```css
+body {
+	background:
+		url("grey-box.png") left top / 100px auto no-repeat,
+		url("dark-grey-box.png") right top / 75px auto no-repeat,
+		linear-gradient(to bottom, transparent, rgba(0,0,0,0,5))
+	;
+}
+```
+
+*It’s sometimes nice to add each image on its own line for clarity.*
+
+**Links**
+
+- **[Six Revisions: CSS Background Shorthand Property](http://sixrevisions.com/css/background-css-shorthand/)**
+- [MDN: background](https://developer.mozilla.org/en-US/docs/Web/CSS/background)
+- [CSS-Tricks: background](https://css-tricks.com/almanac/properties/b/background/)
+- [Codrops: background](http://tympanus.net/codrops/css_reference/background/)
+
+---
+
+## Sprites
+
+Combine your images into a single file in Photoshop and using `background-position` show only a single part of the image at a time.
+
+---
+
 ## Image replacement
 
 Image replacement is a technique to replace text on the page with an image in an accessible manner.
+
 The technique is useful when you cannot produce the text style you’d like in CSS.
 
 ```html
@@ -77,7 +436,7 @@ The technique is useful when you cannot produce the text style you’d like in C
 }
 
 .masthead {
-	background: transparent url("rainbow.jpg") no-repeat left top;
+	background: url("rainbow.jpg") left top no-repeat transparent;
 	/* Put a min-height on the element equal to the image’s height */
 	min-height: 100px;
 }
@@ -89,9 +448,26 @@ The technique is useful when you cannot produce the text style you’d like in C
 
 ---
 
-## CSS sprites
+## Patterns
 
-Combine your images into a single file in Photoshop and using `background-position` show only a single part of the image at a time.
+Patterns are simple to use in CSS because of the `background-repeat` pattern, but not always the easiest to set up. [Check out the video where I debug a pattern](https://www.youtube.com/watch?v=M4M1HT-Tlxs&index=9&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7).
+
+**Links**
+
+- [Subtle Patterns](http://subtlepatterns.com/)
+
+---
+
+## Border images
+
+Border images allow us to slice an image into 9 pieces and use those pieces on a border instead of the built-in border styles.
+
+**Links**
+
+- **[CSS-Tricks: Understanding border-image](https://css-tricks.com/understanding-border-image/)**
+- [Border image generator](https://developer.mozilla.org/en-US/docs/Web/CSS/Tools/Border-image_generator)
+- [MDN: border-image](https://developer.mozilla.org/en-US/docs/Web/CSS/border-image)
+- [Code It Down: Border image](http://codeitdown.com/css/css-border-image/)
 
 ---
 

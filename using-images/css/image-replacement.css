@@ -8,5 +8,5 @@
 .rainbows {
 	min-height: 100px;
 
-	background: transparent url("../images/rainbows.png") no-repeat left top;
+	background: url("../images/rainbows.png") left top no-repeat transparent;
 }
