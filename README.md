@@ -17,23 +17,22 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 10. [Navigation](navigation)
 11. [★ Small screen layout](small-screen-layout)
 12. [Website file organization](organization)
-13. Images
-	1. [Image formats for the web](image-formats)
-	2. Using images
-	3. Images for retina screens
+13. [Images for the web](image-formats)
+	1. [Using images](using-images)
+	2. [Images for retina screens](images-for-retina)
 14. ★ From mockup to website
-15. [All devices setup](all-devices-setup)
-16. [Media queries](media-queries)
-17. ★ Media query layout
-18. [Modular typography](modular-typography)
-19. [Grids](grids)
-20. [★ Interactive wireframes & prototypes](interactive-wireframes-and-prototypes)
-21. [Modules](modules)
-22. [★ Modular website layout](modular-layout)
-23. [Tables](tables)
-24. [Forms](forms)
-27. [Accessibility](accessibility)
-28. [Performance](performance)
+15. [Performance](performance)
+16. [All devices setup](all-devices-setup)
+17. [Media queries](media-queries)
+18. ★ Media query layout
+19. [Modular typography](modular-typography)
+20. [Grids](grids)
+21. [★ Interactive wireframes & prototypes](interactive-wireframes-and-prototypes)
+22. [Modules](modules)
+23. [★ Modular website layout](modular-layout)
+24. [Tables](tables)
+25. [Forms](forms)
+28. [Accessibility](accessibility)
 29. [Animations & effects](animations-effects)<br>
 	[☛ After these tutorials, jump to **Javascript** to continue.](https://github.com/algonquindesign/javascript)
 30. ★ Responsive animated info graphic<br>
