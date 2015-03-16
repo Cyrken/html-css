@@ -20,29 +20,30 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 13. [Images for the web](image-formats)
 	1. [Using images](using-images)
 	2. [Images for retina screens](images-for-retina)
-14. ★ From mockup to website
-15. [Performance](performance)
-16. [All devices setup](all-devices-setup)
-17. [Media queries](media-queries)
-18. ★ Media query layout
-19. [Modular typography](modular-typography)
-20. [Grids](grids)
-21. [★ Interactive wireframes & prototypes](interactive-wireframes-and-prototypes)
-22. [Modules](modules)
-23. [★ Modular website layout](modular-layout)
-24. [Tables](tables)
-25. [Forms](forms)
-28. [Accessibility](accessibility)
-29. [Animations & effects](animations-effects)<br>
+14. Before & after pseudo elements
+15. ★ From mockup to website
+16. [Performance](performance)
+17. [All devices setup](all-devices-setup)
+18. [Media queries](media-queries)
+19. ★ Media query layout
+20. [Modular typography](modular-typography)
+21. [Grids](grids)
+22. [★ Interactive wireframes & prototypes](interactive-wireframes-and-prototypes)
+23. [Modules](modules)
+24. [★ Modular website layout](modular-layout)
+25. [Tables](tables)
+26. [Forms](forms)
+29. [Accessibility](accessibility)
+30. [Animations & effects](animations-effects)<br>
 	[☛ After these tutorials, jump to **Javascript** to continue.](https://github.com/algonquindesign/javascript)
-30. ★ Responsive animated info graphic<br>
+31. ★ Responsive animated info graphic<br>
 	*Uses a bunch of Javascript to complete.*
-30. [Search engine optimization](search-engine-optimization)
-31. [Metadata & enhanced semantics](metadata-enhanced-semantics)
-32. [What ifs: progressive enhancement & graceful degradation](what-ifs)
-33. [404 pages](404-pages)
-34. [Analytics & monitoring](analytics)
-35. [Stylus](stylus)
+31. [Search engine optimization](search-engine-optimization)
+32. [Metadata & enhanced semantics](metadata-enhanced-semantics)
+33. [What ifs: progressive enhancement & graceful degradation](what-ifs)
+34. [404 pages](404-pages)
+35. [Analytics & monitoring](analytics)
+36. [Stylus](stylus)
 
 ---
 
