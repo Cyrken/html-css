@@ -9,6 +9,8 @@
 	- [Alt attributes](#alt-attributes)
 	- [Figures & captions](#figures--captions)
 - [Background images](#background-images)
+	- [I can’t see the background image](#i-cant-see-the-background-image)
+		- [Maintianing aspect ratio](#maintaining-aspect-ratio)
 	- [Background repeat](#background-repeat)
 	- [Background position](#background-position)
 	- [Background size](#background-size)
@@ -138,6 +140,75 @@ The `url()` function requires you to specify the page in relation to the CSS doc
 - [MDN: background-image](https://developer.mozilla.org/en-US/docs/Web/CSS/background-image)
 - [CSS-Tricks: background-image](https://css-tricks.com/almanac/properties/b/background-image/)
 - [Codrops: background-image](http://tympanus.net/codrops/css_reference/background-image/)
+
+### I can’t see the background image
+
+First, double check that you’ve spelled the file name properly and that the path is correct. *Use the developer tools to confirm the image is loaded by the browser.*
+
+*You will only be able to see the background image if the containing element takes up space on the screen—either by having content or having a height.*
+
+```html
+<div></div>
+```
+
+```css
+div {
+	background-image: url("../images/pic.jpg");
+}
+```
+
+In the scenario above, we wouldn’t see the background image because the `<div>` has no content inside it. Elements that have no content collapse to 0 pixels tall.
+
+We could solve this problem in a few ways:
+
+1. Put something inside the `<div>`
+	```html
+	<div>
+		<h1>Dinosaurs!</h1>
+	</div>
+	```
+
+2. Add a height to the `<div>`—not a very good solution
+	```css
+	div {
+		height: 14em;
+	}
+	```
+
+3. Add `padding-top` to the `<div>` to expand it’s dimensions—a good solution for maintaining aspect ratio
+	```css
+	div {
+		padding-top: 4em;
+	}
+	```
+
+#### Maintaining aspect ratio
+
+If we want the element that has a background image to maintain the aspect ratio of the image we can use `padding-top` in percents.
+
+This is a great solution for banner graphics and responsive sites, especially used together with `position: absolute` and `background-size`.
+
+First we have to figure out what percentage the aspect ratio of our image is. Here’s the formula to do that:
+
+```
+(image height ÷ image width) × 100
+```
+
+As an example, an image with these dimensions: 1920 × 1080
+
+```
+(1080 ÷ 1920) × 100 = 56.25
+```
+
+So, our CSS would look like this:
+
+```css
+div {
+	padding-top: 56.25%;
+}
+```
+
+When used with `background-size` we can scale the element to fit the same aspect ratio of the image.
 
 ### Background repeat
 
