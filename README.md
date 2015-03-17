@@ -34,16 +34,17 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 25. [Tables](tables)
 26. [Forms](forms)
 29. [Accessibility](accessibility)
-30. [Animations & effects](animations-effects)<br>
+30. [Animations & effects](animations-effects)
+31. Advanced SVG<br>
 	[☛ After these tutorials, jump to **Javascript** to continue.](https://github.com/algonquindesign/javascript)
-31. ★ Responsive animated info graphic<br>
+32. ★ Responsive animated info graphic<br>
 	*Uses a bunch of Javascript to complete.*
-31. [Search engine optimization](search-engine-optimization)
-32. [Metadata & enhanced semantics](metadata-enhanced-semantics)
-33. [What ifs: progressive enhancement & graceful degradation](what-ifs)
-34. [404 pages](404-pages)
-35. [Analytics & monitoring](analytics)
-36. [Stylus](stylus)
+32. [Search engine optimization](search-engine-optimization)
+33. [Metadata & enhanced semantics](metadata-enhanced-semantics)
+34. [What ifs: progressive enhancement & graceful degradation](what-ifs)
+35. [404 pages](404-pages)
+36. [Analytics & monitoring](analytics)
+37. [Stylus](stylus)
 
 ---
 
