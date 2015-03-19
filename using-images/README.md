@@ -27,6 +27,7 @@
 - [Image replacement](#image-replacement)
 - [Patterns](#patterns)
 - [Border images](#border-images)
+- [Videos](#videos)
 
 ---
 
