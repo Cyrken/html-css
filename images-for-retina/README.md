@@ -23,22 +23,23 @@ With many screens now becoming high resolution it’s time to start preparing ou
 
 There are a few techniques we can use for hi-res screens.
 
+![](readme-screenshots/flow-chart.png)
+
 1. **Can the look be accomplished practically in CSS?**<br>
 	*Yes:* Use CSS.
 2. **Is it a simple vector-like graphic (logo, icon, illustration)?**<br>
 	1. *Yes*: **Can the look be accomplished with SVG?**<br>
 		*Yes*: Use SVG.<br>
-		*No*: Use a double-size PNG.
-		*Or*: Try: `<img srcset="">`, `<picture>`, or `@media` to provide different versions of the image.
-3. **Is it photo?**<br>
+		*No*: Use a double-size PNG and scale it down.
+3. **Is it a photo that’s always cropped the same?**<br>
 	*Yes:* Use compressive JPGs.
-	*Or:* Try: `<img srcset="">`, `<picture>`, or `@media` to provide different versions of the image.
+	*No*: Try: `<img srcset="">`, `<picture>`, `image-set()`, or `@media` to provide different versions of the image.
 
 ---
 
 ## CSS
 
-Anything done in CSS is naturally retina friendly. So, if you can accomplish the style in CSS alone, do it with CSS.
+Anything done in CSS is naturally retina friendly. So, if you can accomplish the look in CSS alone, do it with CSS.
 
 Some *good* examples of when CSS works well:
 
@@ -127,6 +128,7 @@ There’s a new HTML element for managing and targeting different graphics to di
 
 **Links**
 
+- **[Picturefill](http://scottjehl.github.io/picturefill/)** (Good for `srcset` too!)
 - [Can I use: picture](http://caniuse.com/#feat=picture)
 
 ---
@@ -162,6 +164,7 @@ We can use a media query for detecting hi-res screens and supply two different i
 
 - Retina media queries: <https://gist.github.com/3855791>
 - [Media Query Asset Downloading Results](http://timkadlec.com/2012/04/media-query-asset-downloading-results/)
+- [Can I use: resolution media query](http://caniuse.com/#feat=css-media-resolution)
 - [Can I use: image-set](http://caniuse.com/#feat=css-image-set)
 - [Background image-set](http://dev.w3.org/csswg/css-images-3/#image-set-notation)
 
