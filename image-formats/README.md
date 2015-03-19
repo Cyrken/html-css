@@ -16,6 +16,7 @@ There are a few types of images that can be used on the web: JPGs, PNGs, SVGs, f
 - [GIF](#gif)
 - [Speed of images](#speed-of-images)
 	- [Image smushing](#image-smushing)
+	- [JPG optimization techniques](#jpg-optimization-techniques)
 - [Videos](#videos)
 - [Links](#links)
 
@@ -60,7 +61,7 @@ You can open them up in your text editor—because they are just XML—and edit 
 
 ## JPG
 
-JPG images should be used for photos and other complex graphics. They don’t work particularly well for text.
+JPG images should be used for photos and other complex graphics with many colours. They don’t work particularly well for text.
 
 When preparing JPGs to use on your website save them from Photoshop with the “Save for Web” tool. This allows you to control the quality and monitor the file size.
 
@@ -88,7 +89,7 @@ Portable Network Graphics, PNGs, should be used for logos, icons, and text. In m
 
 When preparing PNGs to use on your website save them from Photoshop with the “Save for Web” tool. This allows you to control the quality and monitor the file size.
 
-*You almost always want to use `PNG-24` because Photoshop’s implementation of PNG-8 is incorrect.*
+*You almost always want to use `PNG-24` because Photoshop’s implementation of PNG-8 is incorrect—but it’s always worth trying PNG-8 to see if it produces a good result.*
 
 ![](readme-screenshots/images-png.jpg)
 
@@ -178,6 +179,11 @@ Smushing will reduce the size of images without reducing their quality.
 - [Smush.it](http://www.smushit.com/)
 - [ImageAlpha](http://pngmini.com/) — compresses PNGs by allowing you to reduce the number of colours in the image
 
+### JPG optimization techniques
+
+- Reduce the noise and complexity of the image
+- Blur unimportant areas
+
 ---
 
 ## Videos
@@ -191,4 +197,5 @@ Smushing will reduce the size of images without reducing their quality.
 
 ## Links
 
+- **[Image Formats: The Nerdy Parts](http://larahogan.me/images/)**
 - [The Mysterious Save For Web Color Shift](http://viget.com/inspire/the-mysterious-save-for-web-color-shift)
