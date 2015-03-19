@@ -20,7 +20,7 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 13. [Images for the web](image-formats)
 	1. [Using images](using-images)
 	2. [Images for retina screens](images-for-retina)
-14. Before & after pseudo elements
+14. [Before & after pseudo elements](before-after)
 15. ★ From mockup to website
 16. [Performance](performance)
 17. [All devices setup](all-devices-setup)
@@ -35,7 +35,7 @@ Code samples, documentation, tutorials, & videos for the [Algonquin College Grap
 26. [Forms](forms)
 29. [Accessibility](accessibility)
 30. [Animations & effects](animations-effects)
-31. Advanced SVG<br>
+31. [Advanced SVG](advanced-svg)<br>
 	[☛ After these tutorials, jump to **Javascript** to continue.](https://github.com/algonquindesign/javascript)
 32. ★ Responsive animated info graphic<br>
 	*Uses a bunch of Javascript to complete.*
