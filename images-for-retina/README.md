@@ -32,7 +32,7 @@ There are a few techniques we can use for hi-res screens.
 		*Yes*: Use SVG.<br>
 		*No*: Use a double-size PNG and scale it down.
 3. **Is it a photo that’s always cropped the same?**<br>
-	*Yes:* Use compressive JPGs.
+	*Yes:* Use compressive JPGs.<br>
 	*No*: Try: `<img srcset="">`, `<picture>`, `image-set()`, or `@media` to provide different versions of the image.
 
 ---
@@ -143,6 +143,7 @@ We can use a media query for detecting hi-res screens and supply two different i
 
 ```css
 .icon {
+	display: inline-block;
 	width: 32px;
 	height: 32px;
 	background-image: url("../images/icon.png");
