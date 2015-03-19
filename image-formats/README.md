@@ -172,17 +172,17 @@ Smushing will reduce the size of images without reducing their quality.
 - `PNGs` & `JPGs` — should be run through ImageOptim
 - `SVGs` — should be run through SVGO-GUI
 
+### JPG optimization techniques
+
+- Reduce the noise and complexity of the image
+- Blur unimportant areas
+
 **Links**
 
 - **[ImageOptim](http://imageoptim.com/)** — compresses all raster images without compromising quality
 - **[SVGO-GUI](https://github.com/svg/svgo-gui)** — removes extraneous code and whitespace from SVGs to save on filesize
 - [Smush.it](http://www.smushit.com/)
 - [ImageAlpha](http://pngmini.com/) — compresses PNGs by allowing you to reduce the number of colours in the image
-
-### JPG optimization techniques
-
-- Reduce the noise and complexity of the image
-- Blur unimportant areas
 
 ---
 
