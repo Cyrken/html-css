@@ -188,8 +188,8 @@ Smushing will reduce the size of images without reducing their quality.
 
 ## Videos
 
-1. [Image formats: creating SVGs](https://www.youtube.com/watch?v=W3o5CE4AUnc&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=1)
-2. [Image formats: exporting SVGs using artboards](https://www.youtube.com/watch?v=IKonBvbgVaw&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=2)
+1. [Image formats: creating SVGs](https://www.youtube.com/watch?v=ypvpdYhnEy4&index=1&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph)
+2. [Image formats: exporting SVGs using artboards](https://www.youtube.com/watch?v=UMUZ2n7TmIk&index=2&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph)
 3. [Image formats: saving JPGs](https://www.youtube.com/watch?v=xTAgM3tZ72A&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=3)
 4. [Image formats: saving PNGs](https://www.youtube.com/watch?v=NOduAdEq3-8&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=4)
 5. [Image formats: smushing](https://www.youtube.com/watch?v=O9_L2jIr_nA&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph&index=5)
