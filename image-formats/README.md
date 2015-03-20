@@ -2,7 +2,7 @@
 
 There are a few types of images that can be used on the web: JPGs, PNGs, SVGs, favicons, and GIFs.
 
-### [▶ Video playlist for image formats](https://www.youtube.com/watch?v=G407yUWeU40&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph)
+### [▶ Video playlist for image formats](https://www.youtube.com/watch?v=W3o5CE4AUnc&index=1&list=PLWjCJDeWfDdcK0q3kJyY12Wjrq0A9Ljph)
 
 ---
 
