@@ -40,7 +40,7 @@ SVG graphics can be created in many vector applications, like [Illustrator](http
 	- “CSS Properties” — `Style Elements`
 	- Un-check “Include Unused Graphic Styles”
 	- “Decimal Places” — 1
-	- Make sure “Responsive” is checked
+	- Make sure “Responsive” is **not** checked (for better browser support)
 
 **[Don’t forget to smush your SVGs afterwards.](#image-smushing)**
 
