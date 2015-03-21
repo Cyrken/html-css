@@ -449,7 +449,7 @@ The trick to the effect is to use CSS 3D Transforms and perspective.
 
 For the HTML setup, we need this:
 
-```
+```html
 <div class="parallax-group">
 	<!-- The image will move slower because it’s in the "back" -->
 	<img class="back" src="images/mars-2.jpg" alt="">
