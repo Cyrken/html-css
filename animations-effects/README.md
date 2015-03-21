@@ -23,6 +23,9 @@ Different interaction methods for websites (without Javascript) and triggering a
 	- [Step-based animations](#step-based-animations)
 - [Vendor prefixes](#vendor-prefixes)
 - [Parallax](#parallax)
+	- [Moving a different speeds](#moving-a-different-speeds)
+	- [Browser support](#browser-support)
+	- [Mobile devices](#mobile-devices)
 - [Videos](#videos)
 
 ---
@@ -436,12 +439,138 @@ Or for animations, they would need to be written like this:
 
 ## Parallax
 
-(Tutorial incoming…)
+One really trendy effect that many websites have been using is parallax: when certain elements on the screen move at different speeds than other elements.
+
+*I recommend using this effect sparingly—as will all effects.*
+
+Often this effect is created using Javascript—and Javascript does have the benefit of more control. But we can actually create the effect using just CSS in modern browsers.
+
+The trick to the effect is to use CSS 3D Transforms and perspective.
+
+For the HTML setup, we need this:
+
+```
+<div class="parallax-group">
+	<!-- The image will move slower because it’s in the "back" -->
+	<img class="back" src="images/mars-2.jpg" alt="">
+	<header class="front">
+		<h1>Parallax</h1>
+	</header>
+</div>
+```
+
+Then, we have to do a bunch of changes in the CSS to make this function.
+
+By default the `html` element is the element that has scroll bars, so we need to remove the scroll bars from it and add them to the `body`:
+
+```css
+html {
+	/* Remove scroll bars from `html` */
+	overflow: hidden;
+}
+
+body {
+	height: 100vh;
+	/* Add scroll bars to `body` */
+	overflow-y: auto;
+	overflow-x: hidden;
+	/* Will make the scrolling performant on iOS devices */
+	-webkit-overflow-scrolling: touch;
+}
+```
+
+Next we need to add the 3D Transforms CSS properties to add perspective, allowing elements to move a different speeds and in three-dimensional space.
+
+```css
+body {
+	⋮
+	-webkit-perspective: 1px;
+	perspective: 1px;
+}
+
+.parallax-group {
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+```
+
+Then we just need to move the `.back` element backwards in space, causing it to move at a slower pace:
+
+```css
+.back {
+	/* Move it backwards in space and scale it again to make it the original size */
+	-webkit-transform: translateZ(-1px) scale(2);
+	transform: translateZ(-1px) scale(2);
+}
+```
+
+Finally, we just need to give back a push upwards to fit it into the right location. To do this we need to calculate the aspect ratio of the element.
+
+In the HTML example above we’re using an `<img>` but the technique would work just as well on a `<div>`—or any element.
+
+Here’s the formula to calculate the aspect ratio:
+
+```
+(element height ÷ element width) × 100
+```
+
+As an example, an image with these dimensions: 2560 × 1440
+
+```
+(1440 ÷ 2560) × 100 = 56.25
+```
+
+Now we can plug that into our `.back` to move it to the right location:
+
+```css
+.back {
+	⋮
+	position: relative;
+	/* Swap our aspect ratio into this formula */
+	top: calc(((100vh - 56.25vw) / 4) * -2);
+}
+```
+
+The very last thing is just to force `.front` to the front with `z-index`:
+
+```css
+.front {
+	position: relative;
+	z-index: 2;
+}
+```
+
+### Moving a different speeds
+
+The speed at which elements move is controlled by `translateZ()`. In the `.back` element above we gave `translateZ(-1px)`. If we wanted something to move a little faster, but slower than `.front` we can just make the number a little closer to 0: `translateZ(-0.5px)`.
+
+### Browser support
+
+Browser support is pretty good, but not amazing. It doesn’t work Internet Explorer 11 and below and it doesn’t work so well on mobile devices.
+
+#### Mobile devices
+
+You may want to wrap the CSS for parallax in a media query and only present it to larger screen browsers. Many mobile devices don’t allow scroll effects to trigger anyways so it won’t work.
+
+Specifically these properties would be good to move into a media query:
+
+- `perspective: 1px;`
+- `transform-style: preserve-3d`
+- and all the movement/calculations for `.back` and `.front`
+
+#### [☛ There are a few changes when using it with Javascript Waypoints](https://github.com/algonquindesign/javascript/tree/master/effects#waypoints-and-parallax)
 
 **Links**
 
-- [CSS-Tricks: Tour of a Performant and Responsive CSS Only Site](https://css-tricks.com/tour-performant-responsive-css-site/)
+- **[CSS-Tricks: Tour of a Performant and Responsive CSS Only Site](https://css-tricks.com/tour-performant-responsive-css-site/)**
 - [Pure CSS Parallax Websites](http://keithclark.co.uk/articles/pure-css-parallax-websites/)
+
+**Javascript libraries**
+
+- [jQuery ScrollPath](http://joelb.me/scrollpath/)
+- [jQuery-Parallax](https://github.com/IanLunn/jQuery-Parallax)
+- [Stellary.js](http://markdalgleish.com/projects/stellar.js/)
+- [Scrollorama](http://johnpolacek.github.io/scrollorama/)
 
 ---
 
