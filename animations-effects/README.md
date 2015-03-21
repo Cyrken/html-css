@@ -546,7 +546,7 @@ The speed at which elements move is controlled by `translateZ()`. In the `.back`
 
 ### Browser support
 
-Browser support is pretty good, but not amazing. It doesn’t work Internet Explorer 11 and below and it doesn’t work so well on mobile devices.
+Browser support is pretty good, but not amazing. It doesn’t work Internet Explorer 10 and below and it doesn’t work so well on mobile devices.
 
 #### Mobile devices
 
@@ -564,6 +564,7 @@ Specifically these properties would be good to move into a media query:
 
 - **[CSS-Tricks: Tour of a Performant and Responsive CSS Only Site](https://css-tricks.com/tour-performant-responsive-css-site/)**
 - [Pure CSS Parallax Websites](http://keithclark.co.uk/articles/pure-css-parallax-websites/)
+- [Can I Use: 3D transforms](http://caniuse.com/#feat=transforms3d)
 
 **Javascript libraries**
 
