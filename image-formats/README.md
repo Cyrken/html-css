@@ -6,10 +6,13 @@ There are a few types of images that can be used on the web: JPGs, PNGs, SVGs, f
 
 ---
 
+- [Choosing an image format](#choosing-an-image-format)
 - [SVG](#svg)
 	- [SVGs are code](#svgs-are-code)
 - [JPG](#jpg)
+	- [JPGs and transparency](#jpgs-and-transparency)
 - [PNG](#png)
+	- [PNG-24 vs. PNG-8](#png-24-vs-png-8)
 - [Favicons](#favicons)
 	- [Dimensions](#dimensions)
 	- [Platform specific meta tags](platform-specific-meta-tags)
@@ -19,6 +22,21 @@ There are a few types of images that can be used on the web: JPGs, PNGs, SVGs, f
 	- [JPG optimization techniques](#jpg-optimization-techniques)
 - [Videos](#videos)
 - [Links](#links)
+
+---
+
+## Choosing an image format
+
+![](readme-screenshots/flow-chart.png)
+
+1. **Is it a photo or really complex?**<br>
+	*Yes:* JPG
+2. **Does it need to be animated?**<br>
+	*Yes:* SVGs with CSS animations
+	*Or:* GIF
+3. **Does SVG produce good results?**<br>
+	*Yes:* SVG
+	*No:* PNG-24 or PNG-8 if there’s very few colours
 
 ---
 
@@ -50,7 +68,7 @@ You can open them up in your text editor—because they are just XML—and edit 
 
 ![](readme-screenshots/svg-code.jpg)
 
-#### [☛ Check out the tutorials on SVG effects]()
+#### [☛ Check out the tutorials on SVG effects](https://github.com/algonquindesign/html-css/blob/gh-pages/advanced-svg)
 
 **Links**
 
@@ -73,6 +91,7 @@ Our goal when using “Save for Web” is to increase the compression as much as
 
 There are a few other options to watch out for in the “Save for Web” dialogue:
 
+- Put the “Quality” as low as possible without sacrificing too much, start around 65%
 - Check “Progressive”
 - Un-check “Embed Color Profile”
 - Check “Convert to sRGB”
@@ -80,6 +99,25 @@ There are a few other options to watch out for in the “Save for Web” dialogu
 - Set “Metadata” to “None”
 
 **[Don’t forget to smush your JPGs afterwards.](#image-smushing)**
+
+### JPGs and transparency
+
+JPG graphics don’t have transparency built in, but we can use SVG Masks and two images to create a transparent JPG. This technique is helpful if the transparent PNG version creates too large of file size.
+
+```xml
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
+  <defs>
+    <mask id="mask">
+      <image width="500" height="500" xlink:href="img/mask.png" />
+    </mask>
+  </defs>
+  <image mask="url(#mask)" width="500" height="500" xlink:href="img/image-needs-mask.jpg" />
+</svg>
+```
+
+**Links**
+
+- [Need transparency with your JPGs? Try SVG Masks.](http://peterhrynkow.com/how-to-compress-a-png-like-a-jpeg/)
 
 ---
 
@@ -102,6 +140,15 @@ There are a few other options to watch out for in the “Save for Web” dialogu
 - Set “Metadata” to “None”
 
 **[Don’t forget to smush your PNGs afterwards.](#image-smushing)**
+
+### PNG-24 vs. PNG-8
+
+There are two kinds of PNGs, 24-bit and 8-bit, each with pros and cons.
+
+- *PNG-24 graphics* have a practically unlimited colour palette and 256 levels of transparency, but they can get really big.
+- *PNG-8 graphics* only have 256 possible colours and can be much smaller than PNG-24, but in images with lots of colours they can get messy.
+
+Photoshop’s implementation of PNG-8 is incorrect. If you want to use a PNG-8, save it as a PNG-24 from Photoshop and use [ImageAlpha](http://pngmini.com/) to convert it properly to PNG-8.
 
 ---
 
@@ -146,7 +193,11 @@ If, for some reason, you can’t put it there you can use the `<link>` tag to in
 
 ## GIF
 
-The Graphics Interchange Format, or GIF, is an older image format for the web. For many static images SVG or PNG are much better suited—**but GIFs can be animated.**
+The Graphics Interchange Format, or GIF, is an older image format for the web. For many static images SVG or PNG are much better suited—but GIFs can be animated.
+
+Animation alone isn’t generally a good reason to use a GIF, [try using CSS animations and SVGs](https://github.com/algonquindesign/html-css/blob/gh-pages/advanced-svg) to see if you can get the results you want.
+
+GIF animations shine for complex, traditional, frame-by-frame animations, while SVG & CSS animations are much more straight-forward.
 
 Photoshop has the ability to animate GIFs using the “Timeline” window.
 
