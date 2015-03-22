@@ -28,6 +28,7 @@
 - [Patterns](#patterns)
 - [Border images](#border-images)
 - [Videos](#videos)
+- [Sources](#sources)
 
 ---
 
@@ -600,3 +601,15 @@ Border images allow us to slice an image into 9 pieces and use those pieces on a
 11. [Using images: creating a button](https://www.youtube.com/watch?v=pIDLkglb_WE&index=11&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
 12. [Using images: hero banner with background images](https://www.youtube.com/watch?v=RBxtA5ZM1MY&index=12&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
 13. [Using images: improving the toggle nav](https://www.youtube.com/watch?v=B15cheIlUZ0&index=13&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
+
+---
+
+## Sources
+
+Graphics used when creating the videos, tutorials & downloadable assets.
+
+† [Leaf](http://thenounproject.com/term/leaf/13894/) from The Noun Project; ©  Gemma Garner, CC BY 3.0
+
+† [Nature](http://thenounproject.com/term/nature/7898/) from The Noun Project; © Dmitry Baranovskiy, CC BY 3.0
+
+† [Plant](http://thenounproject.com/term/plant/10317/) from The Noun Project; © Rémy Médard, CC BY 3.0
