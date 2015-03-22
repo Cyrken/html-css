@@ -32,10 +32,10 @@ There are a few types of images that can be used on the web: JPGs, PNGs, SVGs, f
 1. **Is it a photo or really complex?**<br>
 	*Yes:* JPG
 2. **Does it need to be animated?**<br>
-	*Yes:* SVGs with CSS animations
+	*Yes:* SVGs with CSS animations<br>
 	*Or:* GIF
 3. **Does SVG produce good results?**<br>
-	*Yes:* SVG
+	*Yes:* SVG<br>
 	*No:* PNG-24 or PNG-8 if there’s very few colours
 
 ---
