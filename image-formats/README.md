@@ -20,6 +20,7 @@ There are a few types of images that can be used on the web: JPGs, PNGs, SVGs, f
 - [Speed of images](#speed-of-images)
 	- [Image smushing](#image-smushing)
 	- [JPG optimization techniques](#jpg-optimization-techniques)
+	- [PNG optimization techniques](#png-optimization-techniques)
 - [Videos](#videos)
 - [Links](#links)
 
