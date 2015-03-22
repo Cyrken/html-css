@@ -68,7 +68,7 @@ You can open them up in your text editor—because they are just XML—and edit 
 
 ![](readme-screenshots/svg-code.jpg)
 
-#### [☛ Check out the tutorials on SVG effects](https://github.com/algonquindesign/html-css/blob/gh-pages/advanced-svg)
+#### [☛ Check out the tutorials on advanced SVG](https://github.com/algonquindesign/html-css/blob/gh-pages/advanced-svg)
 
 **Links**
 
@@ -117,7 +117,7 @@ JPG graphics don’t have transparency built in, but we can use SVG Masks and tw
 
 **Links**
 
-- [Need transparency with your JPGs? Try SVG Masks.](http://peterhrynkow.com/how-to-compress-a-png-like-a-jpeg/)
+- [Using SVG to shrink your PNGs](http://peterhrynkow.com/how-to-compress-a-png-like-a-jpeg/)
 
 ---
 
@@ -228,11 +228,15 @@ Smushing will reduce the size of images without reducing their quality.
 - Reduce the noise and complexity of the image
 - Blur unimportant areas
 
+### PNG optimization techniques
+
+- Try PNG-8 instead of PNG-24
+- Try saving as PNG-24 then using [ImageAlpha](http://pngmini.com/) to convert to PNG-8 (produces better results than Photoshop)
+
 **Links**
 
 - **[ImageOptim](http://imageoptim.com/)** — compresses all raster images without compromising quality
 - **[SVGO-GUI](https://github.com/svg/svgo-gui)** — removes extraneous code and whitespace from SVGs to save on filesize
-- [Smush.it](http://www.smushit.com/)
 - [ImageAlpha](http://pngmini.com/) — compresses PNGs by allowing you to reduce the number of colours in the image
 
 ---
