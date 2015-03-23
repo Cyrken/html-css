@@ -25,12 +25,12 @@ Design and production files should not go inside the GitHub repository, but inst
 - The Creative Suite files should always be kept in-case they need to be changed at a later time
 - The files used in a website should be [compressed and smushed for the best performance](../performance/)—and therefore cannot be edited
 
-![](readme-screenshots/root.png)
-![](readme-screenshots/assets.png)
-![](readme-screenshots/design.png)
-![](readme-screenshots/production.png)
-![](readme-screenshots/www.png)
-![](readme-screenshots/www-images.png)
+![](readme-screenshots/root.jpg)
+![](readme-screenshots/assets.jpg)
+![](readme-screenshots/design.jpg)
+![](readme-screenshots/production.jpg)
+![](readme-screenshots/www.jpg)
+![](readme-screenshots/www-images.jpg)
 
 1. Create a folder for the project, named descriptively
 2. Create the following folders within it:
