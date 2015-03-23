@@ -1,8 +1,8 @@
-# Images for retina
+# Images for retina screens
 
 With many screens now becoming high resolution it’s time to start preparing our images to support the new technology.
 
-### [▶ Video playlist for images for retina screen](https://www.youtube.com/playlist?list=PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f)
+### [▶ Video playlist for images for retina screens](https://www.youtube.com/playlist?list=PLWjCJDeWfDdcuLc0AjtdeuNSXyDiv_7-f)
 
 ---
 
