@@ -28,7 +28,7 @@ Design and production files should not go inside the GitHub repository, but inst
 ![](readme-screenshots/root.jpg)
 ![](readme-screenshots/assets.jpg)
 ![](readme-screenshots/design.jpg)
-![](readme-screenshots/production.jpg)
+![](readme-screenshots/prod.jpg)
 ![](readme-screenshots/www.jpg)
 ![](readme-screenshots/www-images.jpg)
 
