@@ -68,7 +68,7 @@ Compressive JPGs are a technique for supplying hi-resolution photos while reduci
 The major downside of this technique is that the images can become very memory intensive.
 
 1. Go to your website and determine the maximum width your image will be displayed at,
-2. Open the original source file in Photoshop make its width double the size you determined for your website,
+2. Open the original source file in Photoshop and make its width double the size you determined for your website,
 3. Use `Save For Web` to compress the image to a JPG with a quality of somewhere around 25%–35%.
 
 Then, when sizing your JPG to the appropriate dimensions in the your website, it will actually be double the pixel width and shrunken down by the browser, therefore displayed crisply.
