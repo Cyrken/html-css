@@ -2,13 +2,20 @@
 
 Below is a way to organize your website & production files in a logical manner that’s appropriate for GitHub.
 
-### [▶ Video playlist for organization](https://www.youtube.com/watch?v=V3xDoXeq0ic&list=PLWjCJDeWfDdfJhlnFDLwCu4GZ_2lfuMMx)
+### [▶ Video playlist for organization](https://www.youtube.com/watch?v=_bn7bYpuNcQ&list=PLWjCJDeWfDdfJhlnFDLwCu4GZ_2lfuMMx)
 
 ---
 
-- [File organization](#file-organization)
-	- [What goes on/off GitHub](#what-goes-onoff-github)
+- [File & folder organization](#file--folder-organization)
+	- [assets](#assets)
+	- [design](#design)
+	- [production](#production)
+	- [www](#www)
+		- [www/images](#www-images)
+- [What goes on/off GitHub](#what-goes-onoff-github)
+- [Version control for design & production files](#version-control-for-design--production-files)
 	- [Benefits of Dropbox](#benefits-of-dropbox)
+	- [Benefits of InVision](#benefits-of-invision)
 - [Tips for production files](#tips-for-production-files)
 - [Videos](#videos)
 
@@ -21,7 +28,7 @@ It’s best to separate the production and design files from the compressed outp
 Design and production files should not go inside the GitHub repository, but instead it’s best to put them in Dropbox.
 
 - Git & GitHub don’t support large binary files so we can’t put any Creative Suite files there
-- Putting the Creative Suite files into [Dropbox has lots of benefits](#benefits-of-dropbox)
+- Putting the Creative Suite files into [Dropbox](#benefits-of-dropbox) & [InVision](#benefits-of-invision) have lots of benefits
 - The Creative Suite files should always be kept in-case they need to be changed at a later time
 - The files used in a website should be [compressed and smushed for the best performance](../performance/)—and therefore cannot be edited
 
@@ -45,7 +52,9 @@ The website code and image files can be put in a few different places:
 
 *Putting the Git repository in Dropbox has nice backup potential (but not necessary if the Git repo is synced to a service like GitHub)—but Dropbox and Git can sometimes conflict.*
 
-### What goes on/off GitHub
+---
+
+## What goes on/off GitHub
 
 **Files ON GitHub:**
 
@@ -58,6 +67,10 @@ The website code and image files can be put in a few different places:
 - Font files: OTF, TTF, WOFF
 - Compressed files: ZIP, GZ
 - Video & audio: MP4, OGV, M4A, MP3, OGG
+
+---
+
+## Version control for design & production files
 
 ### Benefits of Dropbox
 
@@ -72,7 +85,7 @@ Storing your mockups, design files, and production files in Dropbox has a few be
 ## Tips for production files
 
 - Make patterns as minimal as possible: only one of the repeated pieces is necessary
-- If there are lots of images that are nearly identical, specifically dimension and theme-wise, put them in on PSD
+- If there are lots of images that are nearly identical, specifically dimension and theme-wise, put them in one PSD
 - SVGs should be saved as AI files; PNGs and JPGs as PSD files
 - Make border-image files as small as possible
 - [Don’t forget to compress and smush your images](../image-formats/#image-smushing)
@@ -81,10 +94,4 @@ Storing your mockups, design files, and production files in Dropbox has a few be
 
 ## Videos
 
-- [Organization & slicing: folder setup](https://www.youtube.com/watch?v=V3xDoXeq0ic&list=PLWjCJDeWfDdfJhlnFDLwCu4GZ_2lfuMMx&index=1)
-- [Organization & slicing: simple SVG](https://www.youtube.com/watch?v=f_5DAiemrCA&list=PLWjCJDeWfDdfJhlnFDLwCu4GZ_2lfuMMx&index=2)
-- [Organization & slicing: repeating PNG](https://www.youtube.com/watch?v=UG3dTYGPmrA&list=PLWjCJDeWfDdfJhlnFDLwCu4GZ_2lfuMMx&index=3)
-- [Organization & slicing: similar JPGs](https://www.youtube.com/watch?v=R0wMJlBkWFo&list=PLWjCJDeWfDdfJhlnFDLwCu4GZ_2lfuMMx&index=4)
-- [Organization & slicing: multiple background images ](https://www.youtube.com/watch?v=7O0qbOHMCns&list=PLWjCJDeWfDdfJhlnFDLwCu4GZ_2lfuMMx&index=5)
-- [Organization & slicing: border images](https://www.youtube.com/watch?v=KLfbdwlsFaY&list=PLWjCJDeWfDdfJhlnFDLwCu4GZ_2lfuMMx&index=6)
-- [Organization & slicing: smushing web files](https://www.youtube.com/watch?v=aU61Qcf_2io&list=PLWjCJDeWfDdfJhlnFDLwCu4GZ_2lfuMMx&index=7)
+- [Organizing web files](https://www.youtube.com/watch?v=V3xDoXeq0ic&list=PLWjCJDeWfDdfJhlnFDLwCu4GZ_2lfuMMx&index=1)
