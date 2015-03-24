@@ -23,7 +23,7 @@ Different interaction methods for websites (without Javascript) and triggering a
 	- [Step-based animations](#step-based-animations)
 - [Vendor prefixes](#vendor-prefixes)
 - [Parallax](#parallax)
-	- [Moving a different speeds](#moving-a-different-speeds)
+	- [Moving at different speeds](#moving-at-different-speeds)
 	- [Browser support](#browser-support)
 	- [Mobile devices](#mobile-devices)
 - [Videos](#videos)
@@ -540,7 +540,7 @@ The very last thing is just to force `.front` to the front with `z-index`:
 }
 ```
 
-### Moving a different speeds
+### Moving at different speeds
 
 The speed at which elements move is controlled by `translateZ()`. In the `.back` element above we gave `translateZ(-1px)`. If we wanted something to move a little faster, but slower than `.front` we can just make the number a little closer to 0: `translateZ(-0.5px)`.
 
