@@ -8,8 +8,6 @@ There are many styles for small screen navigation depending on the amount of ite
 
 - [Basic navigation](#basic-navigation)
 	- [Linking multiple pages](#linking-multiple-pages)
-		- [Path examples](#path-examples)
-		- [Path syntax](#path-syntax)
 	- [Highlighting the current page](#highlighting-the-current-page)
 - [Inline-list pattern](#inline-list-pattern)
 - [Footer-anchor pattern](#footer-anchor-pattern)
@@ -38,14 +36,9 @@ If the navigation is in the masthead of your website it should also be inside a 
 
 ### Linking multiple pages
 
-When we’re linking to multiple pages there’s a few rules to follow.
+When we’re linking to multiple pages we just need to specify the location of the other HTML file. **[Following the paths syntax.](https://github.com/algonquindesign/resources/tree/master/paths-folders)**
 
 ![](readme-screenshots/link-paths.jpg)
-
-1. To link directly to another page, just type its filename, e.g. `mammals.html`
-2. To link to a page inside a folder, type the folder, a slash, and then the filename, e.g. `dinosaurs/apatosaurus.html`
-3. If that folder has an `index.html` inside it you can leave it off, e.g. `dinosaurs/`
-4. When inside a folder, to link to page outside a folder use `../`, e.g. `../plesiosaurs.html`
 
 Here’s what our links would look like with the above folder structure.
 
@@ -82,51 +75,7 @@ From the `dinosaurs/` folder, we would have to write the below navigation, using
 </nav>
 ```
 
-#### Path examples
-
-![](readme-screenshots/folder-images.jpg)
-
-Here are a bunch of examples of paths for the folder structure above.
-
-*From inside index.html*:
-
-- logo.svg — `images/logo.svg`
-- main.css — `css/main.css`
-- dinosaurs/index.html — `dinosaurs/`
-- apatosaurus.html — `dinosaurs/apatosaurus.html`
-- plesiosaurs.html — `plesiosaurs.html`
-
-*From inside dinosaurs/index.html*:
-
-- logo.svg — `../images/logo.svg`
-- main.css — `../css/main.css`
-- dinosaurs/index.html — `index.html`
-- apatosaurus.html — `apatosaurus.html`
-- plesiosaurs.html — `../plesiosaurs.html`
-
-#### Path syntax
-
-Here’s the different syntax you need to know for dealing with paths:
-
-- `./` — single dot + slash
-	Start in the same location as this file and work from there.
-	Implicit, if you reference a filename that doesn’t start with a slash, e.g. `index.html` is the same as `./index.html`
-- `../` — double dot + slash
-	Start in the same location as this file, go out a folder, and work from there.
-	Can be combined: `../../` — goes out two folders
-- `/` — slash at the beginning
-	Start at the root domain and work from there.
-- `//` — double slash at the beginning
-	Start immediately after the protocol, replacing all domains, and work from there.
-
-*Some examples:*
-
-Say the above website, in the image, is located on GitHub, at the following URL: `https://algonquindesign.gitub.io/prehistoric/`.
-
-- `/preshistoric` — links to `https://algonquindesign.github.io/prehistoric/index.html`
-- `/` — links to `https://algonquindesign.gitub.io/`
-- `//github.com` — links to `https://github.com/`
-- `../index.html` — from the homepage, links to `https://algonquindesign.gitub.io/index.html`
+#### [☛ Refer to the tutorial on paths](https://github.com/algonquindesign/resources/tree/master/paths-folders)
 
 ### Highlighting the current page
 
