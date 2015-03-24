@@ -1,5 +1,7 @@
 # Using images
 
+Images are a very critical part of modern web design—and there’s lots of different way to use and generate images on websites.
+
 ### [▶ Video playlist for using images](https://www.youtube.com/watch?v=xVv3SHU_l1o&list=PLWjCJDeWfDdewUQe57s3Tuktg_8eT0yA7)
 
 ---
