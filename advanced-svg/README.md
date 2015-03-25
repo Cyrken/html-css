@@ -8,7 +8,7 @@ Scalable vector graphics are amazing for creating graphics on the web because th
 
 - [SVGs are code](#svgs-are-code)
 	- [Writing SVG](#writing-svg)
-	- [Embedding SVG into HTML](#embedding-SVG-into-HTML)
+	- [Embedding SVG into HTML](#embedding-svg-into-HTML)
 	- [Cleaning generated SVG](#cleaning-generated-svg)
 - [SVG effects](#svg-effects)
 	- [Adding a hover state](#adding-a-hover-state)
