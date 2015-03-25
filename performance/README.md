@@ -2,7 +2,7 @@
 
 Making your website fast is extremely important for usability and probably one of *the* most important design considerations for the web.
 
-> “Good performance *is* good design”
+> “Good performance *is* good design”<br>
 > — Brad Frost
 
 ### [▶ Video playlist for performance]()
