@@ -187,8 +187,8 @@ If, for some reason, you can’t put it there you can use the `<link>` tag to in
 - **[Favicon Cheat Sheet](https://github.com/audreyr/favicon-cheat-sheet)**
 - [Treehouse: How to Make a Favicon](http://blog.teamtreehouse.com/how-to-make-a-favicon)
 - [X Icon Editor](http://xiconeditor.com/)
-- Apple Touch Icons: <http://mathiasbynens.be/notes/touch-icons>
-- Windows 8 Tile Icons: <http://hicksdesign.co.uk/journal/pinned-sites-in-windows-8>
+- [Apple Touch Icons](http://mathiasbynens.be/notes/touch-icons)
+- [Windows 8 Tile Icons](http://hicksdesign.co.uk/journal/pinned-sites-in-windows-8)
 - [Favico.js](http://lab.ejci.net/favico.js/) — Manipulate favicons with Javascript
 
 ---
