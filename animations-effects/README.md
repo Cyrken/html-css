@@ -539,6 +539,10 @@ The very last thing is just to force `.front` to the front with `z-index`:
 .front {
 	position: relative;
 	z-index: 2;
+
+	/* Can sometimes help with forcing it to the front */
+	-webkit-transform: translateZ(0);
+	transform: translateZ(0);
 }
 ```
 
