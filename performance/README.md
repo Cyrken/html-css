@@ -13,6 +13,7 @@ Making your website fast is extremely important for usability and probably one o
 - [Performance budgets](#performance-budgets)
 - [Checking performance](#checking-performance)
 	- [Browser developer tools](#browser-developer-tools)
+		- [Simulating slow Internet](#simulating-slow-internet)
 	- [Testing tools](#testing-tools)
 - [Basic performance checklist](#basic-performance-checklist)
 	- [Things in the design](#things-in-the-design)
@@ -44,6 +45,8 @@ Making your website fast is extremely important for usability and probably one o
 ## Checking performance
 
 ### Browser developer tools
+
+#### Simulating slow Internet
 
 ### Testing tools
 
