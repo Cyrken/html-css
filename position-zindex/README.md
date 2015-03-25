@@ -196,3 +196,4 @@ The `z-index` is a number, with no unit, that controls the layer. The higher the
 - [MDN: position](https://developer.mozilla.org/en-US/docs/Web/CSS/position)
 - [MDN: z-index](https://developer.mozilla.org/en-US/docs/Web/CSS/z-index)
 - [Learn Layout](http://learnlayout.com/)
+- [What You May Not Know About the Z-Index Property](http://webdesign.tutsplus.com/tutorials/what-you-may-not-know-about-the-z-index-property--webdesign-16892)
