@@ -108,6 +108,7 @@ The syntax for multiple transitions is the same, just separate each new transiti
 - [Can I Use: Transitions](http://caniuse.com/#feat=css-transitions)
 - [CSS Tricks: Transition](http://css-tricks.com/almanac/properties/t/transition/)
 - [All you need to know about CSS Transitions](http://blog.alexmaccaw.com/css-transitions)
+- [Hover.css](https://ianlunn.github.io/Hover/)
 
 ---
 
@@ -391,6 +392,7 @@ Maybe though we want the animation to only fade using 5 different shades of oran
 - [CSS Tricks: Animation Tricks](http://css-tricks.com/css-animation-tricks/)
 - [24 Ways: CSS Animations](http://24ways.org/2009/css-animations/)
 - [24 Ways: Flashless Animations](http://24ways.org/2012/flashless-animation/)
+- [CSS Animation for Beginners](https://robots.thoughtbot.com/css-animation-for-beginners)
 - [Animate.css](https://daneden.github.io/animate.css/)
 
 ---

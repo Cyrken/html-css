@@ -189,6 +189,7 @@ If, for some reason, you can’t put it there you can use the `<link>` tag to in
 - [X Icon Editor](http://xiconeditor.com/)
 - Apple Touch Icons: <http://mathiasbynens.be/notes/touch-icons>
 - Windows 8 Tile Icons: <http://hicksdesign.co.uk/journal/pinned-sites-in-windows-8>
+- [Favico.js](http://lab.ejci.net/favico.js/) — Manipulate favicons with Javascript
 
 ---
 
