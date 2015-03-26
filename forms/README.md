@@ -95,6 +95,10 @@ The placeholder attribute can be used to put example text into an element—but 
 
 - [Forms: input types](https://www.youtube.com/watch?v=8pITd2_bgso&index=4&list=PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY)
 
+**Links**
+
+- [CSS-Tricks: Numeric Inputs – A Comparison of Browser Defaults](https://css-tricks.com/numeric-inputs-a-comparison-of-browser-defaults/)
+
 ---
 
 ## Other input types

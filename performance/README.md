@@ -90,6 +90,8 @@ Another popular tool is [Google’s Page Speed](https://developers.google.com/sp
 - [What Does My Site Cost?](http://whatdoesmysitecost.com/)
 - [Speedgun.io](http://speedgun.io/)
 - [CSS Stats](http://cssstats.com/)
+- [SpeedCurve](https://speedcurve.com/)
+- [Calibre](https://calibreapp.com/)
 
 ---
 
