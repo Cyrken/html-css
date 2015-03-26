@@ -109,23 +109,6 @@ Relationships can be defined in HTML using the `rel` attribute. These relationsh
 - [XFN Creator](http://gmpg.org/xfn/creator)
 - [Marking Up Relationships](http://maban.co.uk/49)
 
-#### Authorship
-
-In Google you can define whom the author of a website is by connecting your Google+ profile.
-
-```html
-<head>
-	⋮
-	<link href="https://plus.google.com/{{YOUR PERSONAL GOOGLE+ PROFILE HERE}}" rel="author">
-	⋮
-</head>
-```
-
-**Links**
-
-- **[Setting Up Google Authorship for Your Website](http://blog.teamtreehouse.com/setting-google-authorship-website)**
-- [Google Profile Authorship](https://support.google.com/webmasters/answer/2539557?hl=en)
-
 ### Facebook Open Graph
 
 [⬇ Download sample Facebook Open Graph](facebook-open-graph.html)
