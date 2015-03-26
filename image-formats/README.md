@@ -237,11 +237,12 @@ Smushing will reduce the size of images without reducing their quality.
 
 **Links**
 
-- **[ImageOptim](http://imageoptim.com/)** — compresses all raster images without compromising quality
-- **[SVGO-GUI](https://github.com/svg/svgo-gui)** — removes extraneous code and whitespace from SVGs to save on filesize
-- [ImageAlpha](http://pngmini.com/) — compresses PNGs by allowing you to reduce the number of colours in the image
+- **[ImageOptim](http://imageoptim.com/)** — compresses all raster images without compromising quality (Mac)
+- **[SVGO-GUI](https://github.com/svg/svgo-gui)** — removes extraneous code and whitespace from SVGs to save on filesize (Mac, Windows)
+- [ImageAlpha](http://pngmini.com/) — compresses PNGs by allowing you to reduce the number of colours in the image (Mac)
 - [PNGGauntlet](http://pnggauntlet.com/) — compresses PNGs ony (Windows)
 - [RIOT: Radical Image Optimization Tool](http://luci.criosweb.ro/riot/) — compresses raster graphics (Windows)
+- [JpegMini](http://www.jpegmini.com/) — paid (Mac, Windows)
 
 ---
 
