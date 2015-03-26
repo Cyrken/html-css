@@ -6,6 +6,7 @@ Different interaction methods for websites (without Javascript) and triggering a
 
 ---
 
+- [Choosing transitions or animations](#choosing-transitions-or-animations)
 - [Transitions](#transitions)
 	- [A basic transition example](#a-basic-transition-example)
 	- [Transition syntax](#transition-syntax)
@@ -30,9 +31,23 @@ Different interaction methods for websites (without Javascript) and triggering a
 
 ---
 
+## Choosing transitions or animations
+
+![](readme-screenshots/effect-flow-chart.png)
+
+1. **Does it start automatically, without user interaction?**<br>
+	*Yes:* `animation`
+2. **More states and keyframes that just start & end?**<br>
+	*Yes:* `animation`
+	*No:* `transition`
+
+---
+
 ## Transitions
 
 Transitions are simple animations that have a start and an end style that the browser seamlessly animates between, e.g. fading between colours, animating the motion of a box, etc.
+
+*Think of a transition as, “making a property change over a period of time instead of instantly.”*
 
 - Just about any CSS number (font-size, width, height, top, colours, etc.) can be animated—with one major exception: linear-gradients.
 - The transition CSS should always be added to the default CSS state, or there will be weird flashing when it’s triggered.
@@ -302,7 +317,7 @@ animation: animation-name length timing-function;
 	- `ease-in` — the animation starts slowly and speeds up over time
 	- `ease-out` — the animation starts quickly and slows down over time
 	- `ease-in-out` — the animation starts slowly, speeds up, and slows down
-	- `steps()` — choose how many frames—[look below for using steps]()
+	- `steps()` — choose how many frames—[look below for using steps](#step-based-animations)
 	- *refer to the links below for more timing functions*
 - `fill-mode` — (optional) what the animation should do before or after executing: `forwards` will make the animation stay on its last keyframe
 - `direction` — (optional) direction order of the animation: `reverse` will go from “100%” back to “0%” keyframes, `alternate` will go forwards then reverse
