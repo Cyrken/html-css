@@ -38,7 +38,7 @@ Different interaction methods for websites (without Javascript) and triggering a
 1. **Does it start automatically, without user interaction?**<br>
 	*Yes:* `animation`
 2. **More states and keyframes that just start & end?**<br>
-	*Yes:* `animation`
+	*Yes:* `animation`<br>
 	*No:* `transition`
 
 ---
