@@ -201,6 +201,7 @@ They even provide a bunch of security features like DDOS protection and free SSL
 - [Advanced Image Optimization](http://sixrevisions.com/web-development/advanced-image-optimization/)
 - [Tips For Optimising SVG Delivery For The Web](http://calendar.perfplanet.com/2014/tips-for-optimising-svg-delivery-for-the-web/)
 - [Let’s Do A Bunch of Simple Stuff to Make Websites Faster](https://speakerdeck.com/chriscoyier/lets-do-a-bunch-of-simple-stuff-to-make-websites-faster)
+- [Rendering Performance](https://developers.google.com/web/fundamentals/performance/rendering/)
 - [Performance Calendar](http://calendar.perfplanet.com/)
 - [Hacker News broke our site – how Nginx and PageSpeed fixed the problem](https://www.airport-parking-shop.co.uk/blog/hacker-news-broke-site-nginx-pagespeed-fixed-problem/)
 - [Caching Tutorial for Web Authors and Webmasters](https://www.mnot.net/cache_docs/)
