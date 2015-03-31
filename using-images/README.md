@@ -284,6 +284,7 @@ div {
 - [MDN: background-position](https://developer.mozilla.org/en-US/docs/Web/CSS/background-position)
 - [CSS-Tricks: background-position](https://css-tricks.com/almanac/properties/b/background-position/)
 - [Codrops: background-position](http://tympanus.net/codrops/css_reference/background-position/)
+- [Adobe: A Primer To Background Positioning In CSS](http://blogs.adobe.com/dreamweaver/2015/03/a-primer-to-background-positioning-in-css.html)
 
 ### Background size
 
