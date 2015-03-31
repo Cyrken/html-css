@@ -5,7 +5,7 @@ Making your website fast is extremely important for usability and probably one o
 > “Good performance *is* good design”<br>
 > — Brad Frost
 
-### [▶ Video playlist for performance]()
+### [▶ Video playlist for performance](https://www.youtube.com/watch?v=8OGVUvrInWo&list=PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD)
 
 ---
 
@@ -191,9 +191,8 @@ They even provide a bunch of security features like DDOS protection and free SSL
 
 ## Videos
 
-- []()
-- []()
-- []()
+- [Performance: browser developer tools](https://www.youtube.com/watch?v=8OGVUvrInWo&index=1&list=PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD)
+- [Performance: online tools](https://www.youtube.com/watch?v=ifMHChSpZfE&index=2&list=PLWjCJDeWfDddLcBzFUsgF09gHma3q48XD)
 
 ## Links
 
