@@ -2,7 +2,18 @@
 
 Search engine optimization is important for all websites so that they’ll show up in search results.
 
-[⬇ Sample index.html](index.html) · [⬇ Sample inside page](carnivores.html)
+---
+
+- [Create valuable content](#create-valuable-content)
+	- [Things that matter](#things-that-matter)
+	- [Important Tags](#important-tags)
+- [Page title formula](#page-title-formula)
+- [Meta descriptions](#meta-descriptions)
+- [Sitemaps](#sitemaps)
+- [Robots & humans](#robots--humans)
+- [Links](#links)
+	- [Tools](#tools)
+	- [Blogs, books & bodies](#blogs-books--bodies)
 
 ---
 
@@ -24,7 +35,7 @@ The most important thing to remember about search engine optimization is to prov
 - *Visible to search engines without barriers*: public, not behind a sign-in, not hidden by Javascript
 - *Metadata*: enhanced semantics, rich information, [Microformats](http://microformats.org/), [Microdata](http://schema.org/), [RDFa Lite](http://rdfa.info/)
 
-### Important Tags
+### Important tags
 
 - `<title>` — the most important for keywords, also visible as the link on search results
 - `<a>` — search engines look for keywords to apply to your site as well as the site you are linking to
@@ -32,37 +43,6 @@ The most important thing to remember about search engine optimization is to prov
 - `<strong>`, `<em>`
 - `<meta name="description">` — sometimes used for keywords, other times not; also often used as the description in search results, but if the search engine deems it’s inappropriate something else will be used
 - `<img alt="">` — Alt attributes are how search engines classify images
-
-### Helpful resources
-
-- **[Web Developers SEO Cheat Sheet](http://moz.com/blog/the-web-developers-seo-cheat-sheet-2013-edition)**
-- [Google: Search Engine Optimization Starter Guide](https://static.googleusercontent.com/external_content/untrusted_dlcp/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
-- [Common Sense SEO Checklist](http://css-tricks.com/common-sense-seo-checklist/)
-- [SEO Fundamentals for Web Designers](http://webdesign.tutsplus.com/sessions/seo-fundamentals-for-web-designers/)
-- [Designers SEO Checklist](http://webdesign.tutsplus.com/articles/seo-articles/seo-checklist/)
-- [The Beginners Guide to SEO](http://www.seomoz.org/beginners-guide-to-seo)
-- [Thoughts on SEO (39:46)](http://css-tricks.com/video-screencasts/83-thoughts-on-seo/)
-- [New SEO process](http://www.seomoz.org/blog/the-new-seo-process-quit-being-kanye)
-- [Writing useful page titles](http://www.456bereastreet.com/archive/201102/writing_useful_page_titles/)
-- [SEO Strategies for Designers](http://www.sitepoint.com/seo-strategies-designers-part-2/)
-- [Duplicate Content Penalty](http://www.webdesignfromscratch.com/seo/google-duplicate-content-penalty/)
-
-### Tools
-
-- **[HTML5 Outliner](http://gsnedders.html5.org/outliner/)**
-- [HTML5 Outliner Chrome Extension](https://chrome.google.com/webstore/detail/afoibpobokebhgfnknfndkgemglggomo)
-- **[Lynx Viewer](http://www.clickability.co.uk/lynx-viewer.php)** (Also good for checking accessibility)
-- **[Google Search Engine Results Previewer](http://seo-website-designer.com/Google-SERP-Emulator)**
-- [Keyword Frequency Counter](http://www.yellowpipe.com/yis/tools/wordcount/index.php)
-- [Keyword Density Analyzer](http://tools.seobook.com/general/keyword-density/)
-- [Complete List of Best SEO-Tools by Smashing Magazine](http://www.smashingmagazine.com/2006/09/22/complete-list-of-best-seo-tools/)
-
-### Blogs, books & bodies
-
-- [Building Findable Websites](http://www.amazon.ca/dp/0321526287/) by Aarron Walter
-- [SEOmoz](http://www.seomoz.org/)
-- [Search Engine Land](http://searchengineland.com/)
-- [Matt Cutts](http://www.mattcutts.com/blog/) · [@mattcutts](https://twitter.com/mattcutts) · [The Short Cutts: The Short Answers To Every Matt Cutts Video](http://www.theshortcutts.com/)
 
 ---
 
@@ -72,7 +52,7 @@ Page titles are the most important piece of content on your site. We always want
 
 Here’s a common formula for the `<title>` tag on your website.
 
-**Homepage**
+### Homepage
 
 ```html
 <title>Site/Company Name · Small keyword rich, catchy phrase · City, Country</title>
@@ -82,7 +62,7 @@ Here’s a common formula for the `<title>` tag on your website.
 2. A small keyword rich and catchy phrase or tagline; 4–7 words
 3. The city and country, if it’s appropriate to the website, like a small business
 
-**Inside pages**
+### Inside pages
 
 ```html
 <title>Page Title · Site/Company Name</title>
@@ -121,12 +101,9 @@ Search engines will determine whether the content of the meta description or the
 
 ## Sitemaps
 
-[⬇ Download sample sitemap.xml](sitemap.xml)
-
 Providing a sitemap specifically for search engines is a great way to suggest what pages exist and how important they are.
 
 The `sitemap.xml` file is specifically formatted and targeted at search engines.
-
 
 **The sitemap.xml file should be at the root of your domain:**
 
@@ -134,15 +111,13 @@ The `sitemap.xml` file is specifically formatted and targeted at search engines.
 http://domain.com/sitemap.xml
 ```
 
-### Links
+**Links**
 
 - [Sitemaps.org](http://www.sitemaps.org/)
 
 ---
 
 ## Robots & humans
-
-[⬇ Download sample robots.txt](robots.txt) • [⬇ Download sample humans.txt](humans.txt)
 
 Two other files that are very useful are targeted at robots (search engines) and humans.
 
@@ -156,14 +131,47 @@ http://domain.com/robots.txt
 http://domain.com/humans.txt
 ```
 
-### Links
+**Links**
 
 - [Robots.txt Spec](http://robotstxt.org/)
 - [Robots Exclusion Standard](http://en.wikipedia.org/wiki/Robots_exclusion_standard)
 - [Humans.txt Spec](http://humanstxt.org/)
 
-### Example humans.txt
+**Example humans.txt files**
 
 - [Disqus](http://disqus.com/humans.txt)
 - [Google](http://www.google.com/humans.txt)
 - [GitHub](https://github.com/humans.txt)
+
+---
+
+## Links
+
+- **[Web Developers SEO Cheat Sheet](http://moz.com/blog/the-web-developers-seo-cheat-sheet-2013-edition)**
+- [Google: Search Engine Optimization Starter Guide](https://static.googleusercontent.com/external_content/untrusted_dlcp/www.google.com/en//webmasters/docs/search-engine-optimization-starter-guide.pdf)
+- [Common Sense SEO Checklist](http://css-tricks.com/common-sense-seo-checklist/)
+- [SEO Fundamentals for Web Designers](http://webdesign.tutsplus.com/sessions/seo-fundamentals-for-web-designers/)
+- [Designers SEO Checklist](http://webdesign.tutsplus.com/articles/seo-articles/seo-checklist/)
+- [The Beginners Guide to SEO](http://www.seomoz.org/beginners-guide-to-seo)
+- [Thoughts on SEO (39:46)](http://css-tricks.com/video-screencasts/83-thoughts-on-seo/)
+- [New SEO process](http://www.seomoz.org/blog/the-new-seo-process-quit-being-kanye)
+- [Writing useful page titles](http://www.456bereastreet.com/archive/201102/writing_useful_page_titles/)
+- [SEO Strategies for Designers](http://www.sitepoint.com/seo-strategies-designers-part-2/)
+- [Duplicate Content Penalty](http://www.webdesignfromscratch.com/seo/google-duplicate-content-penalty/)
+
+### Tools
+
+- **[HTML5 Outliner](http://gsnedders.html5.org/outliner/)**
+- [HTML5 Outliner Chrome Extension](https://chrome.google.com/webstore/detail/afoibpobokebhgfnknfndkgemglggomo)
+- **[Lynx Viewer](http://www.clickability.co.uk/lynx-viewer.php)** (Also good for checking accessibility)
+- **[Google Search Engine Results Previewer](http://seo-website-designer.com/Google-SERP-Emulator)**
+- [Keyword Frequency Counter](http://www.yellowpipe.com/yis/tools/wordcount/index.php)
+- [Keyword Density Analyzer](http://tools.seobook.com/general/keyword-density/)
+- [Complete List of Best SEO-Tools by Smashing Magazine](http://www.smashingmagazine.com/2006/09/22/complete-list-of-best-seo-tools/)
+
+### Blogs, books & bodies
+
+- [Building Findable Websites](http://www.amazon.ca/dp/0321526287/) by Aarron Walter
+- [SEOmoz](http://www.seomoz.org/)
+- [Search Engine Land](http://searchengineland.com/)
+- [Matt Cutts](http://www.mattcutts.com/blog/) · [@mattcutts](https://twitter.com/mattcutts) · [The Short Cutts: The Short Answers To Every Matt Cutts Video](http://www.theshortcutts.com/)

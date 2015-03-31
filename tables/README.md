@@ -6,6 +6,19 @@ Making data tables in HTML that are completely accessible
 
 ---
 
+- [Rows & cells](#rows--cells)
+- [Table headings](#table-headings)
+- [Merging cells](#merging-cells)
+- [Headers, body & footers](#headers-body--footers)
+- [Styling tables](#styling-tables)
+- [Captioning a table](#captioning-a-table)
+- [Elements inside cells](#elements-inside-cells)
+	- [Table in a table](#table-in-a-table)
+- [Videos](#videos)
+- [Links](#links)
+
+---
+
 ## Rows & cells
 
 Tables, like spreadsheets in Excel or Numbers, are made up of rows. Each row is then broken down into cells.
@@ -81,10 +94,6 @@ So, in HTML, a simplified version of the above table would look like this:
 </table>
 ```
 
-*Videos*
-
-- [Tables: rows and columns](https://www.youtube.com/watch?v=XG_RicH7TLY&list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR&index=1)
-
 ---
 
 ## Table headings
@@ -114,10 +123,6 @@ To label the direction, we use the `scope` attribute:
 <th scope="row">Stegosaurus</th>
 ```
 
-*Videos*
-
-- [Tables: headings](https://www.youtube.com/watch?v=6PZAfgb2ApU&list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR&index=2)
-
 ---
 
 ## Merging cells
@@ -133,10 +138,6 @@ We can merge cells in columns and rows and a combination of both. In the table a
 <th scope="col" rowspan="2">Name</th>
 <th scope="col" colspan="2">Size</th>
 ```
-
-*Videos*
-
-- [Tables: merging cells with colspan and rowspan](https://www.youtube.com/watch?v=6TaHiaYzvgc&list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR&index=3)
 
 ---
 
@@ -167,10 +168,6 @@ When we have more than one row representing the headers or rows that represent t
 </table>
 ```
 
-*Videos*
-
-- [Tables: headers, body, footers](https://www.youtube.com/watch?v=e7R3ljHNG8M&list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR&index=4)
-
 ---
 
 ## Styling tables
@@ -192,10 +189,6 @@ th {
 	vertical-align: bottom; /* or middle, top */
 }
 ```
-
-*Videos*
-
-- [Tables: styling](https://www.youtube.com/watch?v=I-UhJyQ7oR4&list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR&index=5)
 
 ---
 
@@ -254,10 +247,6 @@ Inside the `<td>` and `<th>` elements you can put practically any HTML you want,
 	</tr>
 </table>
 ```
-
-*Videos*
-
-- [Tables: other elements in cells](https://www.youtube.com/watch?v=4w-XTc93r8c&list=PLWjCJDeWfDdcu0Zh4Qe_8th4jr6FY5TnR&index=6)
 
 ---
 

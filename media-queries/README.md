@@ -7,6 +7,16 @@ We can change our layouts based on width, height, DPI, orientation, and lots mor
 
 ---
 
+- [Using media queries](#using-media-queries)
+- [Px vs. em based](#px-vs-em-based)
+	- [Calculating em-based media queries](#calculating-em-based-media-queries)
+- [When to add media queries](#when-to-add-media-queries)
+- [Larger screens](#larger-screens)
+- [Videos](#videos)
+- [Links](#links)
+
+---
+
 When creating our media queries it’s always best to use em-based media queries.
 It helps us to not think in device specific widths and concentrate more on our content.
 
@@ -34,8 +44,6 @@ And it’s always beneficial to bump up our font sizes.
 4. [Media queries: statistics](https://www.youtube.com/watch?v=JTjFCQVdUaw&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=4)
 5. [Media queries: footer](https://www.youtube.com/watch?v=666RguQaq2k&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=5)
 5. [Media queries: larger screens](https://www.youtube.com/watch?v=Q-XS4dmQrK4&list=PLWjCJDeWfDdeqVQIGvk_yAd-O_Y3aY-z7&index=6)
-
----
 
 ## Links
 

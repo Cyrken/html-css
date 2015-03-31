@@ -7,9 +7,16 @@ There are a bunch of standards to enhance the semantics of our websites. Search 
 
 ---
 
-## Structured data
+- [Structured data](#structured-data)
+- [Social semantics](#social-semantics)
+	- [Relationships](#relationships)
+	- [Facebook Open Graph](#facebook-open-graph)
+	- [Twitter Cards](#twitter-cards)
+	- [Pinterest Rich Pins](#pinterest-rich-pins)
 
-[⬇ Download sample Microdata person](microdata-person.html) · [⬇ Download sample Microdata recipe](microdata-recipe.html)
+---
+
+## Structured data
 
 There are three major standards for structured data: Microdata, Microformats, and RDFa Lite. Microdata is quickly becoming the most popular and is the format that Google encourages authors to use.
 
@@ -76,8 +83,6 @@ The web is an inherently social place. To encourage finding and understanding so
 - [A List Apart: Spread Your Message with Third-Party Metadata](http://alistapart.com/article/like-able-content-spread-your-message-with-third-party-metadata)
 
 ### Relationships
-
-[⬇ Download example relationships](relationships.html)
 
 Relationships can be defined in HTML using the `rel` attribute. These relationships semantically connect people together on the web.
 
@@ -147,8 +152,6 @@ There are plenty of optional tags for descriptions, author info—and more speci
 - [Facebook Open Graph Validator](https://developers.facebook.com/tools/debug/)
 
 ### Twitter Cards
-
-[⬇ Download sample Twitter Card](twitter-card.html)
 
 Twitter Cards allow designers to attach supplemental information to tweets when people link to your website.
 

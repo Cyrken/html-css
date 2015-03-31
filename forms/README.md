@@ -6,6 +6,25 @@ Making forms in HTML isn’t too complex but without a backend server language l
 
 ---
 
+- [Form setup](#form-setup)
+	- [Inputs and labels](#inputs-and-labels)
+- [Input types](#input-types)
+	- [Other attributes](#other-attributes)
+		- [Placeholders](#placeholders)
+- [Other input types](#other-input-types)
+	- [Textareas](#textareas)
+	- [Select boxes](#select-boxes)
+	- [Checkboxes](#checkboxes)
+	- [Radio buttons](#radio-buttons)
+	- [Fieldsets](#fieldsets)
+- [Buttons](#buttons)
+- [Styling forms and inputs](#styling-forms-and-inputs)
+- [Videos](#videos)
+- [Links](#links)
+	- [Accessibility links](#accessibility-links)
+
+---
+
 ## Form setup
 
 There are a few important things to remember about form tags.
@@ -34,11 +53,6 @@ The input element needs an ID on it, then the label points to the ID using it’
 	<input id="name">
 </form>
 ```
-
-*Videos*
-
-- [Forms: introduction](https://www.youtube.com/watch?v=UoSh5xoz6fg&index=1&list=PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY)
-- [Forms: contact form](https://www.youtube.com/watch?v=GCeKgnALJGs&index=2&list=PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY)
 
 *Links*
 
@@ -90,10 +104,6 @@ The placeholder attribute can be used to put example text into an element—but 
 ```html
 <input type="url" placeholder="http://example.com">
 ```
-
-*Videos*
-
-- [Forms: input types](https://www.youtube.com/watch?v=8pITd2_bgso&index=4&list=PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY)
 
 **Links**
 
@@ -190,10 +200,6 @@ Here’s an example of grouping address inputs together:
 </fieldset>
 ```
 
-*Videos*
-
-- [Forms: checkboxes, radio buttons & fieldsets](https://www.youtube.com/watch?v=GtWZUoGZN4U&index=5&list=PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY)
-
 ---
 
 ## Buttons
@@ -214,10 +220,6 @@ Most often the button’s type should be set to “submit”. But if you don’t
 ## Styling forms and inputs
 
 **When it comes to styling inputs and forms, the most important thing to remember that they are just plain old HTML elements. They can have borders, paddings, margins, colors, fonts, display—anything.**
-
-*Videos*
-
-- [Forms: styling](https://www.youtube.com/watch?v=RYRU0NCWLCk&index=3&list=PLWjCJDeWfDdce0-oAUUdtYeuvXsGYCHNY)
 
 ---
 
@@ -240,7 +242,7 @@ Most often the button’s type should be set to “submit”. But if you don’t
 - [Making Forms Fabulous with HTML5](http://www.html5rocks.com/en/tutorials/forms/html5forms/)
 - [HTML5 Form Validation Examples](http://www.the-art-of-web.com/html/html5-form-validation/)
 
-## Accessibility + forms
+### Accessibility links
 
 - [Simply Accessible: Including error messages in labels](http://simplyaccessible.com/bpow/error-messages-in-labels/)
 - [Simply Accessible: Displaying multiple errors on a form](http://simplyaccessible.com/bpow/error-summary/)

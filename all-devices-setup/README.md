@@ -8,6 +8,13 @@ There are a couple `<meta>` tags and a little bit of CSS to make all devices rec
 
 ---
 
+- [HTML](#html)
+- [CSS](#css)
+- [Videos](#videos)
+- [Links](#links)
+
+---
+
 ## HTML
 
 ```html
@@ -27,6 +34,8 @@ There are a couple `<meta>` tags and a little bit of CSS to make all devices rec
 - **viewport** is for newer smartphones. There are three arguments to specify:
 	- `width=device-width`—our website is formatted for the prime width of the device
 	- `initial-scale=1`—our website shouldn’t be zoomed in or out by default
+
+---
 
 ## CSS
 
@@ -68,11 +77,8 @@ That’s what the `text-size-adjust` property does.
 
 1. [All devices setup](http://www.youtube.com/watch?v=nbqnFZFQxd0)
 
----
-
 ## Links
 
 - [Mozilla Docs: Meta Viewport Tag](https://developer.mozilla.org/en/Mobile/Viewport_meta_tag/)
 - [Opera Dev: An Introduction to Meta Viewport and CSS Viewport](http://dev.opera.com/articles/view/an-introduction-to-meta-viewport-and-viewport/)
 - [Learn the Mobile Web: Mobile Meta Tags](http://learnthemobileweb.com/blog/2009/07/mobile-meta-tags/)
-

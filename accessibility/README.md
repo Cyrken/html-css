@@ -6,6 +6,23 @@ Making websites work better for every human being.
 
 ---
 
+- [Impairments](#impairments)
+	- [Visual](#visual)
+	- [Mobility and dexterity](#mobility-and-dexterity)
+	- [Auditory](#auditory)
+	- [Cognitive](#cognitive)
+- [WAI-ARIA roles](#wai-aria-roles)
+	- [Landmark roles](#landmark-roles)
+- [Focus styles](#focus-styles)
+- [Skip links](#skip-links)
+- [Tools](#tools)
+- [Screen readers](#screen-readers)
+	- [Voice Over](#voice-over)
+- [Videos](#videos)
+- [Links](#links)
+
+---
+
 ## Impairments
 
 There are lots of different impairments that can affect human beings—but the great thing about the web and computers is that they’re empowering to everybody. *It’s our job as designers to help people accomplish what they want.*
@@ -14,7 +31,7 @@ There are lots of different impairments that can affect human beings—but the g
 
 ### Visual
 
-Visual impairments are issues that affect eyes, e.g. blindness, partial or full; colour blindness; cataracts; glaucoma; age; etc. 
+Visual impairments are issues that affect eyes, e.g. blindness, partial or full; colour blindness; cataracts; glaucoma; age; etc.
 
 **Things we can do**
 
@@ -81,13 +98,11 @@ Here’s an example of adding the landmark role to the masthead:
 </header>
 ```
 
-**Videos**
-
-- [Accessibility: ARIA roles](https://www.youtube.com/watch?v=o4xHfi4t9S0&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=1)
-
 **Links**
 
 - [Using WAI-ARIA Landmarks](http://www.paciellogroup.com/blog/2013/02/using-wai-aria-landmarks-2013/)
+
+---
 
 ## Focus styles
 
@@ -101,9 +116,7 @@ a:focus {
 
 *But don’t ever write `outline: none;` on the `:focus` state—it’s an extremely important feature for keyboard users.*
 
-**Videos**
-
-- [Accessibility: focus styles](https://www.youtube.com/watch?v=js9yaVtV04E&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=2)
+---
 
 ## Skip links
 
@@ -132,9 +145,7 @@ Most often designers like to hide them but they must be hidden in an accessible 
 }
 ```
 
-**Videos**
-
-- [Accessibility: skip links](https://www.youtube.com/watch?v=UnEItq289lU&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=3)
+---
 
 ## Tools
 
@@ -149,11 +160,6 @@ There are a few things that you should check on every website—at least—to he
 5. Run your website through one or all of the validators
 6. Check all the pages with a screen reader like [Voice Over](#voiceover)
 
-**Videos**
-
-- [Accessibility: tools to help find issues](https://www.youtube.com/watch?v=xpqPctbDhnc&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=4)
-- [Accessibility: validators](https://www.youtube.com/watch?v=FOVKDAt8-oI&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=5)
-
 **Tools**
 
 - [Web Developer Toolbar](http://chrispederick.com/work/web-developer/)
@@ -165,9 +171,11 @@ There are a few things that you should check on every website—at least—to he
 - [Wave by WebAim](http://wave.webaim.org/)
 - [Chrome Accessibility Developer Tools](https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb)
 
+---
+
 ## Screen readers
 
-Screen readers are accessibility tools to help users with poor vision or complete blindness get the content of a website read out to them. 
+Screen readers are accessibility tools to help users with poor vision or complete blindness get the content of a website read out to them.
 
 ### Voice Over
 
@@ -183,16 +191,12 @@ Here’s some shortcut keys for using Apple’s Voice Over:
 - `Control + Option + Command + G` — Next graphic
 - `Control + Option + Command + X` — Next list
 
-**Videos**
+**Links**
 
-- [Accessibility: Voice Over](https://www.youtube.com/watch?v=G-EsQ_VHtVM&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=6)
-
-**Voice Over links**
-
-- <http://accessibility.psu.edu/voiceover>
-- <http://webaim.org/articles/voiceover/>
-- <http://www.apple.com/accessibility/resources/>
-- <http://axslab.com/articles/ios-voiceover-gestures-and-keyboard-commands.php>
+- [VoiceOver Commands for Web Page Testing](http://accessibility.psu.edu/voiceover)
+- [Using VoiceOver to Evaluate Web Accessibility](http://webaim.org/articles/voiceover/)
+- [Apple Accessibility](http://www.apple.com/accessibility/resources/)
+- [iOS VoiceOver Gesture, Keyboard & Braille Shortcuts](http://axslab.com/articles/ios-voiceover-gestures-and-keyboard-commands.php)
 
 ---
 
@@ -205,8 +209,6 @@ Here’s some shortcut keys for using Apple’s Voice Over:
 5. [Accessibility: validators](https://www.youtube.com/watch?v=FOVKDAt8-oI&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=5)
 6. [Accessibility: Voice Over](https://www.youtube.com/watch?v=G-EsQ_VHtVM&list=PLWjCJDeWfDdcEtSnqq_iGLKGA_H_3o3y7&index=6)
 
----
-
-## Links and resources
+## Links
 
 #### [☛ More links and resources](links-and-resources.md)

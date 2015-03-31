@@ -6,6 +6,15 @@ Making flexible and responsive grids using HTML & CSS.
 
 ---
 
+- [Flexible grids](#flexible-grids)
+- [Responsive grids](#responsive-grids)
+- [Complete grid system](#complete-grid-system)
+- [Grid frameworks](#grid-frameworks)
+- [Videos](#videos)
+- [Links](#links)
+
+---
+
 ## Flexible grids
 
 Flexible grids in CSS are composed of nested `<div>` elements within a row.
@@ -80,10 +89,6 @@ We can also create a column in our grid that takes up ⅔ of the available space
 }
 ```
 
-**Videos**
-
-1. [Grids: flexible grids](https://www.youtube.com/watch?v=KN-KIG3mcxE&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=1)
-
 ---
 
 ## Responsive grids
@@ -138,10 +143,6 @@ In our CSS we would then create these classes and style them within different me
 
 ```
 
-**Videos**
-
-1. [Grids: responsive grids](https://www.youtube.com/watch?v=3Gm785OgJ4E&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=2)
-
 ---
 
 ## Complete grid system
@@ -152,13 +153,6 @@ Grid systems also have a series of other capabilities:
 
 1. `hidden` classes provide the ability to hide & show units in specific screen sizes
 2. `offset` classes provide the ability to push units way from the edge of the screen and other units
-
-**Videos**
-
-1. [Grids: hiding units on different screen sizes](https://www.youtube.com/watch?v=9Y8IyXFqbNU&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=3)
-2. [Grids: simplifying fractions for unit sizes](https://www.youtube.com/watch?v=BNFKLqYl8rU&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=4)
-3. [Grids: pushing units aside using offsets](https://www.youtube.com/watch?v=kVMdNbrHgbQ&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=5)
-4. [Grids: grids inside grids](https://www.youtube.com/watch?v=hpwjNC4Eo-U&list=PLWjCJDeWfDdeUChfM6TV2U7jzQVRjsu60&index=6)
 
 **Tools**
 

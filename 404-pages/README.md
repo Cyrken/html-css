@@ -2,6 +2,21 @@
 
 A 404 error occurs when a page cannot be found on a web server.
 
+---
+
+- [Error pages](#error-pages)
+	- [Why would I see a 404 page?](#why-would-i-see-a-404-page)
+	- [Other common error codes](#other-common-error-codes)
+- [Setup](#setup)
+	- [GitHub](#gitHub)
+	- [Apache web server](#apache-web-server)
+- [Links](#links)
+- [Examples](#examples)
+
+---
+
+## Error pages
+
 To help make our websites more user friendly, 404 pages should be designed to help the lost user. Try to direct your user to somewhere helpful, like home or search.
 
 Use simple language and explain what happened but don’t accuse your user. Most people don’t actually know what a 404 page is, so explain how they got there.
@@ -10,7 +25,7 @@ Try not to use “404” as the primary message on the page, using it subtly is 
 
 Customized and fun 404 pages are great to cheer up your users in a negative situation, but make sure they are still extremely helpful—helpfulness before fun.
 
-**Why would I see a 404 page?**
+### Why would I see a 404 page?
 
 The server will display a 404 error and page whenever a document cannot be found at the specific URL.
 
@@ -20,7 +35,7 @@ Here’s some examples of how that may happen:
 - A search-engine link that’s out-of-date
 - An internal broken link that hasn’t been fixed
 
-**Other common error codes**
+### Other common error codes
 
 - `401 Unauthorized` — the page can only be accessed by authorized users
 - `500 Internal Server Error` — The server is having some issues

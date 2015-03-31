@@ -184,4 +184,4 @@ This isn’t a perfect folder structure, but it works for me.
 
 ## Videos
 
-- [Organizing web files](https://www.youtube.com/watch?v=V3xDoXeq0ic&list=PLWjCJDeWfDdfJhlnFDLwCu4GZ_2lfuMMx&index=1)
+1. [Organizing web files](https://www.youtube.com/watch?v=V3xDoXeq0ic&list=PLWjCJDeWfDdfJhlnFDLwCu4GZ_2lfuMMx&index=1)

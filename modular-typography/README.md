@@ -6,6 +6,19 @@ Creating a modular typography system in CSS creates an extremely reusable font-s
 
 ---
 
+- [Steps to creating a type system](#steps-to-creating-a-type-system)
+- [CSS for modular typography](#cSS-for-modular-typography)
+	- [Re-usable classes](#re-usable-classes)
+	- [Vertical rhythm](#vertical-rhythm)
+		- [Re-usable spacers](#re-usable-spacers)
+	- [Adding branding](#adding-branding)
+	- [Bigger fonts on bigger screens](#bigger-fonts-on-bigger-screens)
+- [Typography style guide](#typography-style-guide)
+- [Videos](#videos)
+- [Links](#links)
+
+---
+
 ## Steps to creating a type system
 
 1. Choose the typeface for the body copy
@@ -46,7 +59,7 @@ To calculate the font-size there’s just some simple multiplication:
 font-size: previous-font-size × type-scale
 ```
 
-So for the `h5`, it would be `1 × 1.125`. 
+So for the `h5`, it would be `1 × 1.125`.
 
 ```css
 h5 {
@@ -69,7 +82,7 @@ Using the formula to calculate the `h1`:
 ```css
 h1 {
 	/* (1 × 1.125 ^ 5) - H1 is 5 steps away from the base font-size */
-	font-size: 1.8020rem; 
+	font-size: 1.8020rem;
 }
 ```
 
