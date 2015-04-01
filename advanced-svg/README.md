@@ -108,6 +108,16 @@ We can even use classes and IDs on elements.
 </svg>
 ```
 
+We can write text inside an SVG using the `<text>` element:
+
+```xml
+<svg width="256" height="256" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg">
+	<text x="10" y="100">Dinosaurs!</text>
+</svg>
+```
+
+With text in the SVG we can do lots of effects to it that we can’t normally do with CSS, like [linear gradients](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/linearGradient) inside the letters. *And if it’s embedded directly in the HTML, using the technique below, it’s fully accessible.*
+
 ### Embedding SVG into HTML
 
 SVG can be embedded directly into HTML, which gives us a bunch of extra control.
