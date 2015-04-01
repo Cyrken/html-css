@@ -180,6 +180,7 @@ The optimization is the same process we use with the [SVGO-GUI](https://github.c
 
 - **[Pocket Guide to Writing SVG](http://svgpocketguide.com/)**
 - **[SVGOMG](https://jakearchibald.github.io/svgomg/)**
+- **[W3: SVG 1.1 Styling](http://www.w3.org/TR/SVG11/styling.html)**
 - [SVG and the preserveAspectRatio Property](http://unmatchedstyle.com/news/svg-and-the-preserveaspectratio-property.php)
 - [SVG NOW for Adobe Illustrator](https://github.com/davidderaedt/SVG-NOW)
 - [SVG Editor](http://petercollingridge.appspot.com/svg-editor)
