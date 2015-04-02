@@ -105,20 +105,7 @@ There are a few other options to watch out for in the “Save for Web” dialogu
 
 JPG graphics don’t have transparency built in, but we can use SVG Masks and two images to create a transparent JPG. This technique is helpful if the transparent PNG version creates too large of file size.
 
-```xml
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 500">
-  <defs>
-    <mask id="mask">
-      <image width="500" height="500" xlink:href="img/mask.png" />
-    </mask>
-  </defs>
-  <image mask="url(#mask)" width="500" height="500" xlink:href="img/image-needs-mask.jpg" />
-</svg>
-```
-
-**Links**
-
-- [Using SVG to shrink your PNGs](http://peterhrynkow.com/how-to-compress-a-png-like-a-jpeg/)
+**[☛ Advanced SVG: masking images](../advanced-svg#masks)**
 
 ---
 
