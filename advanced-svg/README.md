@@ -160,6 +160,10 @@ The optimization is the same process we use with the [SVGO-GUI](https://github.c
 - **[Pocket Guide to Writing SVG](http://svgpocketguide.com/)**
 - **[SVGOMG](https://jakearchibald.github.io/svgomg/)**
 - **[W3: SVG 1.1 Styling](http://www.w3.org/TR/SVG11/styling.html)**
+- [SVG Basics—How To Create Simple Shapes And Lines](http://www.vanseodesign.com/web-design/svg-shapes-lines/)
+- [SVG Basics—Fills And Strokes](http://www.vanseodesign.com/web-design/svg-fill-stroke/)
+- [Sara Soueidan: Understanding SVG Coordinate Systems and Transformations (Part 1) — The viewport, viewBox, and preserveAspectRatio](http://sarasoueidan.com/blog/svg-coordinate-systems/)
+- [Sara Soueidan: Structuring, Grouping, and Referencing in SVG — The <g>, <use>, <defs> and <symbol> Elements](http://sarasoueidan.com/blog/structuring-grouping-referencing-in-svg/)
 - [SVG and the preserveAspectRatio Property](http://unmatchedstyle.com/news/svg-and-the-preserveaspectratio-property.php)
 - [SVG NOW for Adobe Illustrator](https://github.com/davidderaedt/SVG-NOW)
 - [SVG Editor](http://petercollingridge.appspot.com/svg-editor)
